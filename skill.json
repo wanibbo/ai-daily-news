@@ -1,0 +1,68 @@
+{
+  "name": "ai-daily-news",
+  "version": "1.0.0",
+  "description": "AI 日报新闻抓取技能 - 自动从主流媒体获取 AI 相关最新技术/应用进展，生成日报简讯",
+  "author": "小波",
+  "main": "skill.py",
+  "config": {
+    "sources": [
+      {
+        "name": "量子位",
+        "url": "https://www.qbitai.com",
+        "rss": null,
+        "category": "AI 综合",
+        "language": "zh",
+        "selector": "h2 a, .news-item__title a"
+      },
+      {
+        "name": "CSDN AI",
+        "url": "https://www.csdn.net/tags/AiAiAi0g0g0g0g0g0g0g0g.html",
+        "rss": null,
+        "category": "AI 技术",
+        "language": "zh",
+        "selector": ".articleItemBox__title a"
+      }
+    ],
+    "keywords": [
+      "人工智能",
+      "大模型",
+      "LLM",
+      "生成式 AI",
+      "AIGC",
+      "机器学习",
+      "深度学习",
+      "神经网络",
+      "自然语言处理",
+      "计算机视觉",
+      "强化学习",
+      "AI 应用",
+      "AI 产品",
+      "AGI",
+      "transformer",
+      "diffusion",
+      "GPT",
+      "Claude",
+      "Gemini"
+    ],
+    "output": {
+      "daily_limit": 10,
+      "min_importance_score": 5,
+      "summary_max_length": 200,
+      "include_source_link": true,
+      "include_publish_time": true
+    }
+  },
+  "triggers": [
+    "AI 日报",
+    "新闻抓取",
+    "AI 资讯",
+    "技术简报",
+    "daily report",
+    "AI news"
+  ],
+  "commands": {
+    "fetch": "抓取今日 AI 新闻",
+    "generate": "生成日报",
+    "schedule": "设置定时任务"
+  }
+}
