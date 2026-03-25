@@ -1,0 +1,34 @@
+name: Daily AI News Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天 UTC 0 点（北京时间 8 点）
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install aiohttp beautifulsoup4 lxml
+      
+      - name: Generate daily news
+        run: python skill_v12.py
+      
+      - name: Commit and push
+        run: |
+          git config user.name "AI Assistant"
+          git config user.email "ai@example.com"
+          git add -A
+          git commit -m "Daily update $(date +%Y-%m-%d %H:%M)" || echo "No changes"
+          git push
