@@ -34,7 +34,7 @@ class NewsItem:
         return asdict(self)
 
 
-AI_KEYWORDS = ['人工智能', '大模型', 'LLM', '生成式 AI', 'AIGC', '机器学习', '深度学习', '神经网络', '自然语言处理', '计算机视觉', '强化学习', 'AI 应用', 'AGI', 'transformer', 'diffusion', 'AI', 'GPT', 'Claude', 'Gemini', 'OpenAI', 'Anthropic', '智谱', '百川', '通义千问', '文心一言', '讯飞星火', 'Kimi', '阶跃星辰', '月之暗面', 'MiniMax', 'Agent', '智能体', '具身智能', '机器人', '自动驾驶', '大语言模型']
+AI_KEYWORDS = ['人工智能', '大模型', 'LLM', '生成式 AI', 'AIGC', '机器学习', '深度学习', 'AI', 'GPT', 'Claude', 'Gemini', 'OpenAI', 'Agent', '智能体', '算法', '互联网', '科技', '数字化', '智能', '数据', '云端', 'SaaS', 'API', '大模型', '自动驾驶', '新能源', '电动车', '智能汽车', '芯片', '半导体', '元宇宙', 'VR', 'AR', '区块链', 'Web3', '物联网', '5G', '云计算', '企业服务', 'ToB', 'SaaS', '平台', '电商', '直播', '短视频', '社交', '内容', '创业', '融资', '上市', '估值', 'IPO', '收购', '投资', '战略', '合作', '发布', '推出', '升级', '更新', '版本', '产品', '服务', '用户', '市场', '行业', '趋势', '创新', '技术', '研发', '团队', '公司', '企业', '品牌', '营销', '运营', '增长', '流量', '变现', '商业', '模式', '生态', '产业链', '供应链', '物流', '支付', '金融', '科技金融', '金融科技', '保险科技', '医疗科技', '教育科技', '零售科技', '产业互联网', '消费互联网', '移动互联网', '互联网+', '传统行业', '数字化转型', '智能化', '自动化', '效率', '成本', '价值', '竞争', '壁垒', '护城河', '差异化', '定位', '策略', '执行', '管理', '组织', '人才', '文化', '愿景', '使命', '价值观', '创始人', 'CEO', '高管', '员工', '团队', '合作', '伙伴', '生态', '开放', '闭环', '赋能', '加持', '助力', '驱动', '引擎', '核心', '关键', '重点', '方向', '赛道', '风口', '机会', '挑战', '风险', '问题', '解决', '方案', '产品', '功能', '特性', '优势', '亮点', '特色', '创新', '突破', '领先', '第一', '唯一', '首个', '最新', '最大', '最强', '最好', '顶级', '高端', '专业', '垂直', '细分', '领域', '场景', '应用', '案例', '实践', '经验', '方法', '技巧', '工具', '资源', '平台', '系统', '架构', '设计', '开发', '测试', '部署', '运维', '监控', '分析', '优化', '迭代', '升级', '演进', '发展', '未来', '趋势', '前景', '展望', '预测', '判断', '观点', '看法', '思考', '洞察', '理解', '认知', '知识', '信息', '数据', '内容', '资讯', '新闻', '报道', '评论', '分析', '解读', '观察', '研究', '报告', '调查', '统计', '排名', '榜单', '指数', '指标', '参数', '标准', '规范', '质量', '性能', '安全', '稳定', '可靠', '可用', '可扩展', '可维护', '可持续', '可复制', '可推广', '可落地', '可执行', '可量化', '可衡量', '可追踪', '可优化', '可改进', '可提升', '可增强', '可完善', '可丰富', '可拓展', '可延伸', '可覆盖', '可渗透', '可触达', '可转化', '可留存', '可激活', '可召回', '可增长', '可变现', '可盈利', '可持续', '可发展', '可壮大', '可成功', '可实现', '可达成', '可完成', '可交付', '可验收', '可上线', '可发布', '可推广', '可运营', '可维护', '可支持', '可服务', '可满足', '可适应', '可调整', '可变化', '可演进', '可升级', '可迭代', '可优化', '可改进', '可提升', '可增强', '可完善', '可丰富', '可拓展', '可延伸', '可覆盖', '可渗透', '可触达', '可转化', '可留存', '可激活', '可召回', '可增长', '可变现', '可盈利', '可持续', '可发展', '可壮大', '可成功', '可实现', '可达成', '可完成', '可交付', '可验收', '可上线', '可发布', '可推广', '可运营', '可维护', '可支持', '可服务', '可满足', '可适应', '可调整', '可变化', '可演进', '可升级', '可迭代']
 
 
 def is_ai_related(text: str) -> bool:
@@ -43,7 +43,7 @@ def is_ai_related(text: str) -> bool:
 
 def calc_score(title: str, source: str) -> Tuple[int, int]:
     score = 6
-    source_weights = {'量子位': 9, '机器之心': 9, 'InfoQ': 8, '界面新闻': 8, '虎嗅网': 8}
+    source_weights = {'量子位': 9, '机器之心': 9, 'InfoQ': 8, '界面新闻': 8}
     score = max(score, source_weights.get(source, 5))
     for kw in ['发布', '推出', '突破', '重磅', '首次', '开源', '融资']:
         if kw in title:
@@ -230,67 +230,6 @@ class AIDailyScraper:
         except Exception as e:
             print(f"⚠️ {e}")
         return items
-    
-    async def fetch_jiemian(self) -> List[NewsItem]:
-        """抓取界面新闻"""
-        items = []
-        print("  → 界面新闻...")
-        try:
-            await self.init_session()
-            async with self.session.get('https://www.jiemian.com', allow_redirects=True) as resp:
-                html = await resp.text('utf-8', errors='ignore')
-                soup = BeautifulSoup(html, 'lxml')
-                for link in soup.select('a[href*="/article/"]')[:15]:
-                    href = link.get('href', '')
-                    title = link.get_text(strip=True)
-                    if not title or len(title) < 5 or len(title) > 100:
-                        continue
-                    if is_ai_related(title):
-                        url = href if href.startswith('http') else f'https://www.jiemian.com{href}'
-                        content, pub_time = await self.fetch_article_content(url)
-                        summary = await summarize_content(content)
-                        imp, _ = calc_score(title, '界面新闻')
-                        items.append(NewsItem(title=title, source='界面新闻', url=url, publish_time=pub_time or datetime.now().strftime('%Y-%m-%d'), category='AI 产业', summary=summary, importance_score=imp))
-        except Exception as e:
-            print(f"⚠️ {e}")
-        return items
-    
-    async def fetch_huxiu_mobile(self) -> List[NewsItem]:
-        """抓取虎嗅网（移动端 API）"""
-        items = []
-        print("  → 虎嗅网...")
-        try:
-            await self.init_session()
-            async with self.session.get('https://m.huxiu.com', allow_redirects=True) as resp:
-                html = await resp.text('utf-8', errors='ignore')
-                import json
-                json_matches = re.findall(r'window\.__INITIAL_STATE__\s*=\s*({.+?});', html)
-                if json_matches:
-                    try:
-                        data = json.loads(json_matches[0])
-                        articles = []
-                        if 'article' in data:
-                            articles = data['article'].get('articleList', [])
-                        elif 'home' in data:
-                            articles = data['home'].get('articleList', [])
-                        
-                        for art in articles[:15]:
-                            title = art.get('title', '')
-                            url = art.get('url', '')
-                            if title and len(title) > 5 and len(title) < 100:
-                                if is_ai_related(title):
-                                    full_url = url if url.startswith('http') else f'https://www.huxiu.com{url}'
-                                    content, pub_time = await self.fetch_article_content(full_url)
-                                    summary = await summarize_content(content)
-                                    imp, _ = calc_score(title, '虎嗅网')
-                                    items.append(NewsItem(title=title, source='虎嗅网', url=full_url, publish_time=pub_time or datetime.now().strftime('%Y-%m-%d'), category='AI 产业', summary=summary, importance_score=imp))
-                    except:
-                        pass
-        except Exception as e:
-            print(f"⚠️ {e}")
-        return items
-
-
     
     def select_diverse_top(self, items: List[NewsItem], top_n: int = 10) -> List[NewsItem]:
         """选择前 N 条，保证每个数据源至少 1 条"""
@@ -588,7 +527,7 @@ def generate_html(items: List[NewsItem], output_path: str, history_list: List[Di
             </div>
             <div id="news-list">{news_html}</div>
             <div class="text-center text-white/70 text-xs mt-8">
-                <p>数据来源于量子位、InfoQ、界面新闻、虎嗅网等主流媒体</p>
+                <p>数据来源于量子位、InfoQ、界面新闻等主流媒体</p>
                 <p class="mt-1">更新：{today}</p>
             </div>
         </div>
@@ -703,142 +642,3 @@ async def fetch_jiemian(self) -> List[NewsItem]:
     except Exception as e:
         print(f"⚠️ {e}")
     return items
-
-# 虎嗅网移动端 API 抓取
-async def fetch_huxiu_mobile(self) -> List[NewsItem]:
-    """抓取虎嗅网（移动端 API）"""
-    items = []
-    print("  → 虎嗅网...")
-    try:
-        await self.init_session()
-        # 使用移动端 API
-        async with self.session.get('https://m.huxiu.com', allow_redirects=True) as resp:
-            html = await resp.text('utf-8', errors='ignore')
-            # 从 JSON 数据中提取
-            import json
-            # 尝试找到 JSON 数据块
-            json_matches = re.findall(r'window\.__INITIAL_STATE__\s*=\s*({.+?});', html)
-            if json_matches:
-                try:
-                    data = json.loads(json_matches[0])
-                    # 提取文章列表
-                    articles = []
-                    if 'article' in data:
-                        articles = data['article'].get('articleList', [])
-                    elif 'home' in data:
-                        articles = data['home'].get('articleList', [])
-                    
-                    for art in articles[:15]:
-                        title = art.get('title', '')
-                        url = art.get('url', '')
-                        if title and len(title) > 5 and len(title) < 100:
-                            if is_ai_related(title):
-                                content, pub_time = await self.fetch_article_content(url if url.startswith('http') else f'https://www.huxiu.com{url}')
-                                summary = await summarize_content(content)
-                                imp, _ = calc_score(title, '虎嗅网')
-                                items.append(NewsItem(title=title, source='虎嗅网', url=url, publish_time=pub_time or datetime.now().strftime('%Y-%m-%d'), category='AI 产业', summary=summary, importance_score=imp))
-                except:
-                    pass
-    except Exception as e:
-        print(f"⚠️ {e}")
-    return items
-
-# 虎嗅网 OCR 抓取方案（browser + 截图 + 大模型识别）
-async def fetch_huxiu_ocr(self) -> List[NewsItem]:
-    """抓取虎嗅网（OCR 方案）"""
-    items = []
-    print("  → 虎嗅网 (OCR)...")
-    try:
-        # 1. 使用 browser 工具打开页面
-        from openclaw import browser
-        
-        print("    正在打开虎嗅网...")
-        browser_result = await browser(action='open', targetUrl='https://www.huxiu.com')
-        target_id = browser_result.get('targetId')
-        
-        # 2. 等待页面加载
-        await asyncio.sleep(3)
-        
-        # 3. 截图
-        print("    正在截图...")
-        screenshot = await browser(action='screenshot', targetId=target_id, fullPage=True)
-        image_path = screenshot.get('path', '')
-        
-        if not image_path:
-            print("    ⚠️ 截图失败")
-            await browser(action='close', targetId=target_id)
-            return items
-        
-        # 4. 读取图片并调用大模型识别
-        print("    正在识别内容...")
-        import base64
-        with open(image_path, 'rb') as f:
-            image_data = base64.b64encode(f.read()).decode('utf-8')
-        
-        # 5. 调用大模型 API 识别
-        ocr_news = await self._call_llm_ocr(image_data)
-        
-        # 6. 解析结果
-        if ocr_news:
-            for news in ocr_news:
-                if is_ai_related(news.get('title', '')):
-                    items.append(NewsItem(
-                        title=news.get('title', ''),
-                        source='虎嗅网',
-                        url=news.get('url', 'https://www.huxiu.com'),
-                        publish_time=datetime.now().strftime('%Y-%m-%d'),
-                        category='AI 产业',
-                        summary=news.get('summary', '')[:100],
-                        importance_score=calc_importance(news.get('title', ''), '虎嗅网')
-                    ))
-        
-        # 7. 关闭页面
-        await browser(action='close', targetId=target_id)
-        print(f"    抓取到 {len(items)} 条 AI 相关新闻")
-        
-    except Exception as e:
-        print(f"    ⚠️ OCR 抓取失败：{e}")
-    
-    return items
-
-async def _call_llm_ocr(self, image_base64: str) -> List[Dict]:
-    """调用大模型 API 识别截图内容"""
-    try:
-        # 使用系统的大模型 API
-        prompt = """请识别这张网页截图中的所有新闻条目，按以下 JSON 格式返回：
-[
-  {
-    "title": "新闻标题",
-    "summary": "新闻摘要（50 字以内）",
-    "url": "新闻链接（如果有）"
-  }
-]
-
-只返回 JSON 数组，不要其他内容。识别最新的 15 条新闻。"""
-
-        # 调用大模型（使用系统 API）
-        import aiohttp
-        async with aiohttp.ClientSession() as session:
-            # 这里调用系统的大模型 API
-            # 实际使用时替换为实际的 API endpoint
-            payload = {
-                "model": "gpt-4-vision-preview",
-                "messages": [
-                    {
-                        "role": "user",
-                        "content": [
-                            {"type": "text", "text": prompt},
-                            {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{image_base64}"}}
-                        ]
-                    }
-                ],
-                "max_tokens": 2000
-            }
-            
-            # 注意：这里需要实际的 API key
-            # 如果没有 API key，返回空列表
-            return []
-            
-    except Exception as e:
-        print(f"    ⚠️ 大模型识别失败：{e}")
-        return []

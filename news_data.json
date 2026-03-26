@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-03-25T17:16:20.245237",
-  "total_items": 24,
+  "update_time": "2026-03-26T12:06:06.305530",
+  "total_items": 21,
   "top_items": [
     {
       "title": "又一华为天才少年入局具身创业！用视频生成数据训家用机器人，首个模型登顶具身基模榜单",
@@ -21,6 +21,15 @@
       "importance_score": 8
     },
     {
+      "title": "人形机器人何时能从表演炫技走向规模化应用？| 博鳌亚洲论坛",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/14163913.html",
+      "publish_time": "2026-03-26",
+      "category": "AI 产业",
+      "summary": "” 所谓“ChatGPT时刻”，是指人形机器人领域迎来类似ChatGPT那样的颠覆性突破与爆发拐点",
+      "importance_score": 8
+    },
+    {
       "title": "LeCun的世界模型单GPU就能跑了",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/03/391698.html",
@@ -30,12 +39,12 @@
       "importance_score": 9
     },
     {
-      "title": "阿里云JVS Claw 全面开放 新增语音输入、skill开关等实用功能",
+      "title": "第一批“首席龙虾官”，月薪6万",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/391830.html",
+      "url": "https://www.qbitai.com/2026/03/392128.html",
       "publish_time": "2026-03-25",
       "category": "AI 综合",
-      "summary": "在保留7天免费体验的同时，JVS Claw还推出最低39元首月的“匠心版”套餐等，满足不同用户需求 | 同步发布的《JVS养虾宝典》也列举了20多种高阶使用场景，方便用户一键复制，快速获得结果",
+      "summary": "当你以为还是大家伙业余养养的新鲜玩具，已经有公司正经在招「龙虾官」了 | （doge） 随便打开一个招聘网站一搜，你别说，你还真别说，「OpenClaw」标签下的在招岗位真是不少： 不仅「龙虾」已成正式职位名称，还有不少猎头直接打出「养虾你",
       "importance_score": 9
     },
     {
@@ -48,12 +57,12 @@
       "importance_score": 9
     },
     {
-      "title": "OpenAI关停Sora！25个月从封神到退场",
+      "title": "睿尔曼“茶艺机器人”亮相2026中关村论坛",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/391799.html",
+      "url": "https://www.qbitai.com/2026/03/392121.html",
       "publish_time": "2026-03-25",
       "category": "AI 综合",
-      "summary": "消息一出，X上直接炸开了锅，网友一整个大无语： 如果OpenAI推出的面向公众的产品，短短数月后就惨遭叫停，那我们凭什么要信任或投资这类产品",
+      "summary": "操作员在北京人形机器人数据训练中心远程遥操，RealBOT轮式人形机器人在论坛现场实时作业，让非遗大师的制茶技艺得以突破时空限制，在论坛现场为更多人呈现一杯好茶",
       "importance_score": 9
     },
     {
@@ -66,12 +75,12 @@
       "importance_score": 9
     },
     {
-      "title": "首个全品类旅行skill来了！飞猪“flyai”上线ClawHub、GitHub",
+      "title": "它石智航用“吉尼斯纪录”交卷真干活的具身大脑，丁文超：从来没有Plan B",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/391890.html",
-      "publish_time": "2026-03-25",
+      "url": "https://www.qbitai.com/2026/03/392137.html",
+      "publish_time": "2026-03-26",
       "category": "AI 综合",
-      "summary": "“flyai”还正陆续接入华为、小米、OPPO、荣耀等手机厂商 3月24日，飞猪发布首个全品类出行旅游技能插件（skill）“flyai”，该技能插件已上线ClawHub、GitHub等平台 | （图：“flyai”技能插件已登录主流...",
+      "summary": "天使轮融资额刷新纪录，明星创始团队，让它石自创立之初，便一跃成为具身智能赛道炙手可热的名字 | 然而接下来的一年里，它石智航选择了一条截然不同的路：没有参加各种行业大会，没有频繁对外发声，没有出现在春晚或各类展示活动中，一直踏实干活",
       "importance_score": 9
     },
     {
@@ -81,15 +90,6 @@
       "publish_time": "2026-03-25",
       "category": "AI 综合",
       "summary": "想象这样一个场景：你正在擦桌子、削水果，或者插拔一个精密零件 | 这些动作对人类来说轻而易举，然而对于机器人来说，这些看似简单的操作却是一道难以跨越的技术鸿沟 | 近期，它石智航联合新加坡国立大学、复旦大学、中科院自动化所、清华大学、中关村",
-      "importance_score": 9
-    },
-    {
-      "title": "DeepSeek急招Agent方向！一口气放17个岗位，重度Vibe Coding优先",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/392024.html",
-      "publish_time": "2026-03-25",
-      "category": "AI 综合",
-      "summary": "明显从”基础模型研究”向”Agent产品化”倾斜 梦晨 发自 凹非寺量子位 | 公众号 QbitAI DeepSeek，一口气开放17个招聘岗位 | 最核心研发岗聚焦Agent，覆盖算法研究、数据评测、基础设施全链条 | 仔细阅读每个岗位的",
       "importance_score": 9
     }
   ]
