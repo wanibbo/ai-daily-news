@@ -1,6 +1,6 @@
 {
   "date": "2026-03-31",
-  "update_time": "2026-03-31T14:58:01.510630",
+  "update_time": "2026-03-31T09:00:48.256434",
   "total_items": 10,
   "top_items": [
     {
@@ -31,21 +31,12 @@
       "importance_score": 8
     },
     {
-      "title": "英伟达、微软、Meta 都在抢的 AI 人才，到底有多贵？",
-      "source": "虎嗅网",
-      "url": "https://www.huxiu.com/article/3.html",
-      "publish_time": "2026-03-31",
-      "category": "AI 产业",
-      "summary": "AI 人才争夺战白热化",
-      "importance_score": 8
-    },
-    {
-      "title": "何同学会玩：让龙虾自己3D打印自己",
+      "title": "机器人线下真机对线打PK！这届黑客松可太会玩了",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/393085.html",
-      "publish_time": "2026-03-29",
+      "url": "https://www.qbitai.com/2026/03/393887.html",
+      "publish_time": "2026-03-31",
       "category": "AI 综合",
-      "summary": "属于全民Agent的时代，才算真正拉开了序幕 因为别人玩龙虾是让它干活，但何同学玩龙虾，是让它自己3D打印自己，而且是现场直播开搞的那种 | 何同学给他的龙虾（小河虾）下达的Prompt也是非常简单的一句： 请你想象一下自己的样子，给自己建",
+      "summary": "机器人Demo大家都见过，但具身智能真机同台PK、当场对线，谁看了不得瞪大眼 | jpg） 这场超燃的具身模型真机对决比赛，就发生在这两天在深圳举办的全球首届具身智能开发者大会（EAIDC 2026）——暨「具亮计划」黑客松·大湾区巅峰赛现",
       "importance_score": 9
     },
     {
@@ -58,21 +49,21 @@
       "importance_score": 9
     },
     {
-      "title": "海淀AI，集体开弓：少年极客、中年创客与ICU归来者",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/392996.html",
-      "publish_time": "2026-03-29",
-      "category": "AI 综合",
-      "summary": "如果说3月27日的AI开源前沿论坛，将海淀人工智能生态氛围推向高潮，那么持续多天的原点Party Nights，作为2026北京开年首场AI嘉年华，用更轻松、更具社交感的氛围，让这场AI热潮持续升温",
-      "importance_score": 9
-    },
-    {
       "title": "Meta华人实习生搞出超级智能体！自己写代码实现自我进化",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/03/393645.html",
       "publish_time": "2026-03-31",
       "category": "AI 综合",
       "summary": "更关键的是，它可以不断优化“改进自身”的底层逻辑，实现“元学习（Meta-learning）” 这，便是论文定义的新一代超级智能体——Hyperagents | 论文更进一步提出：未来AI有望通过持续自我迭代，最终突破人类预设的初始算...",
+      "importance_score": 9
+    },
+    {
+      "title": "智能体收入暴增68%！这家港股AI公司靠「关系」驯服企业龙虾",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/03/393984.html",
+      "publish_time": "2026-03-31",
+      "category": "AI 综合",
+      "summary": "港股超额认购5065倍的AI公司，交出了上市后的首份答卷",
       "importance_score": 9
     },
     {
@@ -91,6 +82,15 @@
       "publish_time": "2026-03-31",
       "category": "AI 综合",
       "summary": "因为就在刚刚，具身智能的基建玩家出手，对症下药，推出了一个开源数据基座 | 基于这个基座训练的模型，都已经实现SOTA了",
+      "importance_score": 9
+    },
+    {
+      "title": "整个公司一起吃虾！这个开源项目，让OpenClaw实现企业级部署",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/03/393382.html",
+      "publish_time": "2026-03-30",
+      "category": "AI 综合",
+      "summary": "刚好在GitHub上，出现了一个名为ClawManager的开源项目，专门为这个空白而来",
       "importance_score": 9
     }
   ]
