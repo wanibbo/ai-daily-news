@@ -21,6 +21,14 @@
         "category": "AI 技术",
         "language": "zh",
         "selector": ".articleItemBox__title a"
+      },
+      {
+        "name": "虎嗅",
+        "url": "https://www.huxiu.com",
+        "rss": null,
+        "category": "科技商业",
+        "language": "zh",
+        "selector": "h2 a, h3 a, .article-title a"
       }
     ],
     "keywords": [

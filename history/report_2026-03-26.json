@@ -1,15 +1,15 @@
 {
   "date": "2026-03-26",
-  "update_time": "2026-03-26T12:06:06.306030",
+  "update_time": "2026-03-26T15:46:44.813484",
   "total_items": 10,
   "top_items": [
     {
-      "title": "又一华为天才少年入局具身创业！用视频生成数据训家用机器人，首个模型登顶具身基模榜单",
+      "title": "LeCun的世界模型单GPU就能跑了",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/391668.html",
+      "url": "https://www.qbitai.com/2026/03/391698.html",
       "publish_time": "2026-03-24",
       "category": "AI 综合",
-      "summary": "最新模型在Embodied Arena登顶 6G冲浪的量子位最新发现，去年从华为诺亚方舟实验室转入学界的周凯文，在入职港中文不到半年后，悄然更新了个人主页 | 他已加入具身创企诺因智能，担任合伙人兼算法主管 | 顺着周凯文人事变动这条线往下",
+      "summary": "LeCun世界模型最新进展，开源了一套极简训练方案，单GPU就能跑 | 这套方案叫LeWorldModel，它基于JEPA架构，实现像素输入直接预测未来，速度快到离谱，完整规划仅需1秒",
       "importance_score": 9
     },
     {
@@ -31,12 +31,12 @@
       "importance_score": 8
     },
     {
-      "title": "LeCun的世界模型单GPU就能跑了",
+      "title": "马斯克xAI联创11跑10！仅剩特斯拉嫡系独苗留守",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/391698.html",
-      "publish_time": "2026-03-24",
+      "url": "https://www.qbitai.com/2026/03/392245.html",
+      "publish_time": "2026-03-26",
       "category": "AI 综合",
-      "summary": "LeCun世界模型最新进展，开源了一套极简训练方案，单GPU就能跑 | 这套方案叫LeWorldModel，它基于JEPA架构，实现像素输入直接预测未来，速度快到离谱，完整规划仅需1秒",
+      "summary": "据知情人士透露，Manuel Kroiss已告知他将离开公司 | 只剩一根坚守到最后的独苗，是特斯拉嫡系Ross Nordeen",
       "importance_score": 9
     },
     {
