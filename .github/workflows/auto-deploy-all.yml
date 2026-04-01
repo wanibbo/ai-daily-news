@@ -12,8 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: Wait for 1 minute after push
-        run: sleep 60
+      - name: Wait for 2 minutes after push
+        run: sleep 120
         continue-on-error: true
       
       - name: Setup Node

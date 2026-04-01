@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 0 点（北京时间 8 点）
+    - cron: '0 23 * * *'  # 每天 UTC 23 点（北京时间 07:00）
   workflow_dispatch:  # 允许手动触发
 
 jobs:
@@ -33,6 +33,14 @@ jobs:
         run: sleep 120
         continue-on-error: true
       
+      - name: Generate summary
+        run: |
+          echo "## 📊 今日日报摘要" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ 生成时间：$(date +%Y-%m-%d %H:%M)" >> $GITHUB_STEP_SUMMARY
+          echo "📰 新闻数量：$(cat news_data.json | python3 -c 'import sys,json; print(json.load(sys.stdin)["total_items"])')" >> $GITHUB_STEP_SUMMARY
+          echo "🔗 访问链接：https://ai-daily-daily.netlify.app/" >> $GITHUB_STEP_SUMMARY
+      
       - name: Commit and push
         run: |
           git config user.name "AI Assistant"
@@ -49,7 +57,7 @@ jobs:
           STATUS="${{ job.status }}"
           if [ "$STATUS" == "success" ]; then
             TITLE="✅ AI 日报生成成功"
-            TEXT="今日 AI 日报已自动生成并部署！\n\n📊 数据来源：量子位、InfoQ、界面新闻、虎嗅网\n📁 报告：history/report_$(date +%Y-%m-%d).html\n🌐 部署：Netlify 已完成"
+            TEXT="今日 AI 日报已自动生成并部署！\n\n📊 数据来源：量子位、InfoQ、界面新闻、虎嗅网\n📁 报告：history/report_$(date +%Y-%m-%d).html\n🌐 部署：Netlify 已完成\n🔗 查看：https://ai-daily-daily.netlify.app/"
           else
             TITLE="⚠️ AI 日报生成失败"
             TEXT="今日 AI 日报生成失败，请检查 GitHub Actions 日志！\n\n🔗 查看：https://github.com/wanibbo/ai-daily-news/actions"
