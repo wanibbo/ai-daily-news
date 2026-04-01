@@ -12,6 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
+      - name: Wait for 1 minute after push
+        run: sleep 60
+        continue-on-error: true
+      
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
@@ -26,6 +30,7 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 5
 
   # 方案 2: Cloudflare Pages 自动部署
   deploy-cloudflare:

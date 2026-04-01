@@ -27,6 +27,11 @@ jobs:
       
       - name: Generate daily news
         run: python skill_v12.py
+        timeout-minutes: 5
+      
+      - name: Wait for 2 minutes
+        run: sleep 120
+        continue-on-error: true
       
       - name: Commit and push
         run: |
@@ -35,3 +40,4 @@ jobs:
           git add -A
           git commit -m "Daily update $(date +%Y-%m-%d %H:%M)" || echo "No changes"
           git push
+        timeout-minutes: 3
