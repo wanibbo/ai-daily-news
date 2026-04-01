@@ -64,12 +64,61 @@ jobs:
           fi
           
           # 发送钉钉消息
-          curl -X POST '${{ secrets.DINGTALK_WEBHOOK }}' \
-            -H 'Content-Type: application/json' \
-            -d '{
-              "msgtype": "markdown",
-              "markdown": {
-                "title": "'"$TITLE"'",
-                "text": "'"$TITLE"'\n\n'"$TEXT"'\n\n⏰ 时间：$(date +\"%Y-%m-%d %H:%M:%S\")\n🤖 自动发送"
-              }
-            }'
+          if [ -n "${{ secrets.DINGTALK_WEBHOOK }}" ]; then
+            curl -X POST '${{ secrets.DINGTALK_WEBHOOK }}' \
+              -H 'Content-Type: application/json' \
+              -d '{
+                "msgtype": "markdown",
+                "markdown": {
+                  "title": "'"$TITLE"'",
+                  "text": "'"$TITLE"'\n\n'"$TEXT"'\n\n⏰ 时间：$(date +\"%Y-%m-%d %H:%M:%S\")\n🤖 自动发送"
+                }
+              }'
+          fi
+      
+      - name: Send WeChat notification
+        if: always()
+        run: |
+          STATUS="${{ job.status }}"
+          
+          # 企业微信机器人通知
+          if [ -n "${{ secrets.WECHAT_WORK_WEBHOOK }}" ]; then
+            if [ "$STATUS" == "success" ]; then
+              curl -X POST '${{ secrets.WECHAT_WORK_WEBHOOK }}' \
+                -H 'Content-Type: application/json' \
+                -d '{
+                  "msgtype": "markdown",
+                  "markdown": {
+                    "content": "## ✅ AI 日报生成成功\n\n> 今日 AI 日报已自动生成并部署！\n\n**📊 数据来源**：量子位、InfoQ、界面新闻、虎嗅网\n**📁 报告**：history/report_'"$(date +%Y-%m-%d)"'.html\n**🌐 部署**：Netlify 已完成\n**🔗 查看**：https://ai-daily-daily.netlify.app/\n\n_⏰ 时间：'"$(date +%Y-%m-%d %H:%M:%S)"'_\n_🤖 自动发送_"
+                  }
+                }'
+            else
+              curl -X POST '${{ secrets.WECHAT_WORK_WEBHOOK }}' \
+                -H 'Content-Type: application/json' \
+                -d '{
+                  "msgtype": "markdown",
+                  "markdown": {
+                    "content": "## ⚠️ AI 日报生成失败\n\n> 今日 AI 日报生成失败，请检查 GitHub Actions 日志！\n\n**🔗 查看**：https://github.com/wanibbo/ai-daily-news/actions\n\n_⏰ 时间：'"$(date +%Y-%m-%d %H:%M:%S)"'_\n_🤖 自动发送_"
+                  }
+                }'
+            fi
+          fi
+          
+          # Server 酱微信推送（可选）
+          if [ "$STATUS" == "success" ] && [ -n "${{ secrets.SERVERCHAN_SENDKEY }}" ]; then
+            curl -X POST 'https://sctapi.ftqq.com/${{ secrets.SERVERCHAN_SENDKEY }}.send' \
+              -d 'title=✅ AI 日报生成成功' \
+              -d 'desp=# AI 日报已生成%0A%0A**时间**：'"$(date +%Y-%m-%d %H:%M:%S)"'%0A%0A**来源**：量子位、InfoQ、界面新闻、虎嗅网%0A%0A**查看**：https://ai-daily-daily.netlify.app/'
+          fi
+          
+          # PushPlus 微信推送（可选）
+          if [ "$STATUS" == "success" ] && [ -n "${{ secrets.PUSHPLUS_TOKEN }}" ]; then
+            curl -X POST 'http://www.pushplus.plus/send' \
+              -H 'Content-Type: application/json' \
+              -d '{
+                "token": "${{ secrets.PUSHPLUS_TOKEN }}",
+                "title": "✅ AI 日报生成成功",
+                "content": "# AI 日报已生成\n\n**时间**：'"$(date +%Y-%m-%d %H:%M:%S)"'\n\n**来源**：量子位、InfoQ、界面新闻、虎嗅网\n\n**查看**：https://ai-daily-daily.netlify.app/",
+                "template": "markdown"
+              }'
+          fi
