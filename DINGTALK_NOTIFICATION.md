@@ -1,6 +1,6 @@
 # 🔔 钉钉通知配置指南
 
-**更新时间**: 2026-04-01 10:45
+**更新时间**: 2026-04-01 10:57
 
 ---
 
@@ -25,18 +25,19 @@
 2. **添加机器人**
    - 选择「智能群助手」
    - 点击「添加机器人」
-   - 选择「自定义」机器人
+   - 选择「自定义」（通过 Webhook 接入）
 
 3. **配置机器人**
    - **机器人名字**: `AI Daily News`
    - **头像**: 可选
    - **安全设置**: 选择「自定义关键词」
      - 添加关键词：`AI 日报`、`生成成功`、`生成失败`
+     - ⚠️ **必须设置关键词**，否则消息无法发送
 
-4. **获取 Access Token**
-   - 复制 Webhook 地址
+4. **复制 Webhook 地址**
+   - 完成后会显示 Webhook 地址
    - 格式：`https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxx`
-   - 提取 `access_token` 参数值（`xxxxxxxx` 部分）
+   - **复制完整的 Webhook URL**（包含 access_token 参数）
 
 ---
 
@@ -47,8 +48,8 @@
 
 2. **添加 Secret**
    - 点击 "New repository secret"
-   - Name: `DINGTALK_ACCESS_TOKEN`
-   - Value: 步骤 1 获取的 Token
+   - Name: `DINGTALK_WEBHOOK`
+   - Value: 步骤 1 复制的**完整 Webhook URL**
    - 点击 "Add secret"
 
 ---
@@ -75,6 +76,33 @@
      ⏰ 时间：2026-04-01 08:05:30
      🤖 自动发送
      ```
+
+---
+
+## 🔧 工作流配置
+
+**文件**: `.github/workflows/daily-update.yml`
+
+**新增步骤**:
+
+```yaml
+- name: Send DingTalk notification
+  if: always()  # 无论成功失败都发送
+  run: |
+    STATUS="${{ job.status }}"
+    if [ "$STATUS" == "success" ]; then
+      # 成功消息
+    else
+      # 失败消息
+    fi
+    
+    # 使用完整的 Webhook URL
+    curl -X POST '${{ secrets.DINGTALK_WEBHOOK }}' \
+      -H 'Content-Type: application/json' \
+      -d '{...}'
+```
+
+**Secret 名称**: `DINGTALK_WEBHOOK`（不是 ACCESS_TOKEN）
 
 ---
 
@@ -164,8 +192,8 @@
 - [ ] 钉钉群已创建
 - [ ] 机器人已添加到群
 - [ ] 安全设置已配置（关键词）
-- [ ] Access Token 已复制
-- [ ] GitHub Secret 已添加（`DINGTALK_ACCESS_TOKEN`）
+- [ ] **完整 Webhook URL** 已复制
+- [ ] GitHub Secret 已添加（`DINGTALK_WEBHOOK`）
 - [ ] 工作流文件已推送
 - [ ] 手动测试通知成功
 
@@ -179,6 +207,7 @@
 | **工作流文件** | https://github.com/wanibbo/ai-daily-news/blob/main/.github/workflows/daily-update.yml |
 | **钉钉机器人文档** | https://open.dingtalk.com/document/robots/custom-robot-access |
 | **Actions 运行历史** | https://github.com/wanibbo/ai-daily-news/actions |
+| **钉钉开放平台** | https://open.dingtalk.com/ |
 
 ---
 
@@ -205,9 +234,9 @@
 
 **检查**:
 1. 机器人是否在群中
-2. 关键词设置是否正确
-3. Token 是否正确
-4. GitHub Secret 是否已添加
+2. 关键词设置是否正确（必须匹配消息内容）
+3. Webhook URL 是否正确
+4. GitHub Secret 是否已添加（`DINGTALK_WEBHOOK`）
 
 ### Q: 消息格式错误？
 
@@ -219,8 +248,8 @@
 ### Q: 想发送到多个群？
 
 **方案**:
-1. 创建多个机器人
-2. 添加多个 Secrets（如 `DINGTALK_TOKEN_1`, `DINGTALK_TOKEN_2`）
+1. 创建多个机器人（每个群一个）
+2. 添加多个 Secrets（如 `DINGTALK_WEBHOOK_1`, `DINGTALK_WEBHOOK_2`）
 3. 在工作流中发送多次
 
 ---
