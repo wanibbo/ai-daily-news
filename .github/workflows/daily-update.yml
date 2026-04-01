@@ -41,3 +41,29 @@ jobs:
           git commit -m "Daily update $(date +%Y-%m-%d %H:%M)" || echo "No changes"
           git push
         timeout-minutes: 3
+      
+      - name: Send DingTalk notification
+        if: always()
+        run: |
+          # 获取工作流运行状态
+          STATUS="${{ job.status }}"
+          if [ "$STATUS" == "success" ]; then
+            MSG_TYPE="success"
+            TITLE="✅ AI 日报生成成功"
+            TEXT="今日 AI 日报已自动生成并部署！\n\n📊 数据来源：量子位、InfoQ、界面新闻、虎嗅网\n📁 报告：history/report_$(date +%Y-%m-%d).html\n🌐 部署：Netlify 已完成"
+          else
+            MSG_TYPE="warning"
+            TITLE="⚠️ AI 日报生成失败"
+            TEXT="今日 AI 日报生成失败，请检查 GitHub Actions 日志！\n\n🔗 查看：https://github.com/wanibbo/ai-daily-news/actions"
+          fi
+          
+          # 发送钉钉消息
+          curl -X POST 'https://oapi.dingtalk.com/robot/send?access_token=${{ secrets.DINGTALK_ACCESS_TOKEN }}' \
+            -H 'Content-Type: application/json' \
+            -d '{
+              "msgtype": "markdown",
+              "markdown": {
+                "title": "'"$TITLE"'",
+                "text": "'"$TITLE"'\n\n'"$TEXT"'\n\n⏰ 时间：$(date +\"%Y-%m-%d %H:%M:%S\")\n🤖 自动发送"
+              }
+            }'
