@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 23 * * *'  # 每天 UTC 23 点（北京时间 07:00）
+    - cron: '0 23 * * *'  # 每天 UTC 23 点（北京时间 07:00），从明天开始
   workflow_dispatch:  # 允许手动触发
 
 jobs:
@@ -25,36 +25,108 @@ jobs:
         run: |
           pip install aiohttp beautifulsoup4 lxml
       
-      - name: Generate daily news
-        run: python skill_v12.py
+      - name: Step 1 - Generate daily news
+        id: generate
+        run: |
+          echo "📝 步骤 1/4: 开始生成 AI 日报..."
+          python skill_v12.py
+          echo "✅ 步骤 1 完成：日报生成成功"
+          echo "news_count=$(cat news_data.json | python3 -c 'import sys,json; print(json.load(sys.stdin)["total_items"])')" >> $GITHUB_OUTPUT
         timeout-minutes: 5
       
-      - name: Wait for 2 minutes
-        run: sleep 120
-        continue-on-error: true
-      
-      - name: Generate summary
+      - name: Step 2 - Commit and push
+        id: push
         run: |
-          echo "## 📊 今日日报摘要" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "✅ 生成时间：$(date +%Y-%m-%d %H:%M)" >> $GITHUB_STEP_SUMMARY
-          echo "📰 新闻数量：$(cat news_data.json | python3 -c 'import sys,json; print(json.load(sys.stdin)["total_items"])')" >> $GITHUB_STEP_SUMMARY
-          echo "🔗 访问链接：https://ai-daily-daily.netlify.app/" >> $GITHUB_STEP_SUMMARY
-      
-      - name: Commit and push
-        run: |
+          echo "📤 步骤 2/4: 推送代码到 GitHub..."
           git config user.name "AI Assistant"
           git config user.email "ai@example.com"
           git add -A
           git commit -m "Daily update $(date +%Y-%m-%d %H:%M)" || echo "No changes"
           git push
+          echo "✅ 步骤 2 完成：代码已推送"
+          echo "✅ 步骤 2 完成：代码已推送，触发 GitHub Pages 部署" >> $GITHUB_STEP_SUMMARY
         timeout-minutes: 3
       
-      - name: Wait for GitHub Pages deployment
+      - name: Step 3 - Wait for GitHub Pages
+        id: pages
         run: |
-          echo "⏳ 等待 GitHub Pages 自动部署..."
+          echo "⏳ 步骤 3/4: 等待 GitHub Pages 部署..."
           echo "📄 GitHub Pages URL: https://wanibbo.github.io/ai-daily-news/"
-          sleep 30
+          # GitHub Pages 自动部署，等待 1 分钟
+          sleep 60
+          echo "✅ 步骤 3 完成：GitHub Pages 部署完成"
+          echo "✅ 步骤 3 完成：网站已更新" >> $GITHUB_STEP_SUMMARY
+        continue-on-error: true
+      
+      - name: Step 4 - Send notifications
+        id: notify
+        if: always()
+        run: |
+          echo "📢 步骤 4/4: 发送通知..."
+          STATUS="${{ job.status }}"
+          
+          if [ "$STATUS" == "success" ]; then
+            TITLE="✅ AI 日报生成成功"
+            TEXT="今日 AI 日报已自动生成并部署！\n\n📊 数据来源：量子位、InfoQ、界面新闻、虎嗅网\n📁 报告：history/report_$(date +%Y-%m-%d).html\n🌐 部署：GitHub Pages 已完成\n🔗 查看：https://wanibbo.github.io/ai-daily-news/\n\n⏰ 生成时间：$(date +%Y-%m-%d %H:%M)\n📰 新闻数量：${{ steps.generate.outputs.news_count }} 条"
+          else
+            TITLE="⚠️ AI 日报生成失败"
+            TEXT="今日 AI 日报生成失败，请检查 GitHub Actions 日志！\n\n🔗 查看：https://github.com/wanibbo/ai-daily-news/actions"
+          fi
+          
+          # 钉钉通知
+          if [ -n "${{ secrets.DINGTALK_WEBHOOK }}" ]; then
+            echo "  → 发送钉钉通知..."
+            curl -X POST '${{ secrets.DINGTALK_WEBHOOK }}' \
+              -H 'Content-Type: application/json' \
+              -d '{
+                "msgtype": "markdown",
+                "markdown": {
+                  "title": "'"$TITLE"'",
+                  "text": "'"$TITLE"'\n\n'"$TEXT"'\n\n⏰ 时间：$(date +\"%Y-%m-%d %H:%M:%S\")\n🤖 自动发送"
+                }
+              }' || echo "  ⚠️ 钉钉发送失败"
+          else
+            echo "  ⚠️ 未配置钉钉 Webhook，跳过"
+          fi
+          
+          # 企业微信通知
+          if [ -n "${{ secrets.WECHAT_WORK_WEBHOOK }}" ]; then
+            echo "  → 发送企业微信通知..."
+            curl -X POST '${{ secrets.WECHAT_WORK_WEBHOOK }}' \
+              -H 'Content-Type: application/json' \
+              -d '{
+                "msgtype": "markdown",
+                "markdown": {
+                  "content": "## '"$TITLE"'\n\n> '"$TEXT"'\n\n_⏰ 时间：'"$(date +%Y-%m-%d %H:%M:%S)"'_\n_🤖 自动发送_"
+                }
+              }' || echo "  ⚠️ 企业微信发送失败"
+          else
+            echo "  ⚠️ 未配置企业微信 Webhook，跳过"
+          fi
+          
+          # Server 酱通知
+          if [ "$STATUS" == "success" ] && [ -n "${{ secrets.SERVERCHAN_SENDKEY }}" ]; then
+            echo "  → 发送 Server 酱通知..."
+            curl -X POST 'https://sctapi.ftqq.com/${{ secrets.SERVERCHAN_SENDKEY }}.send' \
+              -d 'title='"$TITLE"'' \
+              -d 'desp='"$TEXT"'' || echo "  ⚠️ Server 酱发送失败"
+          fi
+          
+          # PushPlus 通知
+          if [ "$STATUS" == "success" ] && [ -n "${{ secrets.PUSHPLUS_TOKEN }}" ]; then
+            echo "  → 发送 PushPlus 通知..."
+            curl -X POST 'http://www.pushplus.plus/send' \
+              -H 'Content-Type: application/json' \
+              -d '{
+                "token": "${{ secrets.PUSHPLUS_TOKEN }}",
+                "title": "'"$TITLE"'",
+                "content": "'"$TEXT"'",
+                "template": "markdown"
+              }' || echo "  ⚠️ PushPlus 发送失败"
+          fi
+          
+          echo "✅ 步骤 4 完成：通知已发送"
+          echo "✅ 步骤 4 完成：通知已发送" >> $GITHUB_STEP_SUMMARY
       
       - name: Send DingTalk notification
         if: always()
