@@ -22,9 +22,10 @@ jobs:
       - name: Deploy to Vercel
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
         run: |
-          # 直接部署（个人账户简化版）
+          # 完整部署（需要 Org ID）
           vercel deploy --prod --token=$VERCEL_TOKEN
       
       - name: Print Deployment URL
