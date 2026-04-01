@@ -1,14 +1,14 @@
 {
-  "update_time": "2026-03-31T09:00:48.255946",
-  "total_items": 19,
+  "update_time": "2026-04-01T03:03:05.856756",
+  "total_items": 17,
   "top_items": [
     {
-      "title": "玻色量子完成10亿元B轮融资，“十五五”规划专用量子计算机赛道唯一代表！",
+      "title": "1220亿美元！OpenAI创下史上最大单笔融资纪录",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/393856.html",
-      "publish_time": "2026-03-31",
+      "url": "https://www.qbitai.com/2026/04/394169.html",
+      "publish_time": "2026-04-01",
       "category": "AI 综合",
-      "summary": "2026年3月31日，“十五五”规划专用量子计算机赛道唯一代表企业——北京玻色量子科技有限公司（以下简称“玻色量子”）完成10亿元B轮融资 | 本轮融资由北京金控、工银资本、朝阳顺禧、招银国际、深投控和毅达资本联合领投，图灵资管、鼎兴...",
+      "summary": "本轮融资过后，市场对OpenAI的IPO期待值，越来越高了 | 本次融资的投资方包括亚马逊、英伟达、软银等机构联合领投 | 此外相较于此前几轮的融资，这次融资还有亿点点新变动，那就是OpenAI第一次向个人投资者开放窗口，额外吸纳了超...",
       "importance_score": 9
     },
     {
@@ -21,39 +21,12 @@
       "importance_score": 8
     },
     {
-      "title": "DeepSeek崩溃近12小时后恢复正常，创单次服务中断最长纪录",
-      "source": "界面新闻",
-      "url": "https://www.jiemian.com/article/14182244.html",
-      "publish_time": "2026-03-31",
-      "category": "AI 产业",
-      "summary": "DeepSeek崩溃近12小时后恢复正常，创单次服务中断最长纪录 在过去的15个月内，DeepSeek已发生至少7次较为显著的服务中断 | 3月29日夜间至30日上午，AI大模型服务商DeepSeek突发大规模服务中断，其网页端、手机App",
-      "importance_score": 8
-    },
-    {
       "title": "机器人线下真机对线打PK！这届黑客松可太会玩了",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/03/393887.html",
       "publish_time": "2026-03-31",
       "category": "AI 综合",
       "summary": "机器人Demo大家都见过，但具身智能真机同台PK、当场对线，谁看了不得瞪大眼 | jpg） 这场超燃的具身模型真机对决比赛，就发生在这两天在深圳举办的全球首届具身智能开发者大会（EAIDC 2026）——暨「具亮计划」黑客松·大湾区巅峰赛现",
-      "importance_score": 9
-    },
-    {
-      "title": "别再让AI只干零活了！AI工具正在接管投放全链路",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/393471.html",
-      "publish_time": "2026-03-31",
-      "category": "AI 综合",
-      "summary": "克雷西 发自 凹非寺量子位 | 公众号 QbitAI 艾瑞咨询报告显示，去年中国AI营销市场规模达669亿元，年复合增长率26 | 这个增速背后，是整个行业链条——从内容生产到投放决策——的集中押注",
-      "importance_score": 9
-    },
-    {
-      "title": "Meta华人实习生搞出超级智能体！自己写代码实现自我进化",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/393645.html",
-      "publish_time": "2026-03-31",
-      "category": "AI 综合",
-      "summary": "更关键的是，它可以不断优化“改进自身”的底层逻辑，实现“元学习（Meta-learning）” 这，便是论文定义的新一代超级智能体——Hyperagents | 论文更进一步提出：未来AI有望通过持续自我迭代，最终突破人类预设的初始算...",
       "importance_score": 9
     },
     {
@@ -84,12 +57,39 @@
       "importance_score": 9
     },
     {
-      "title": "整个公司一起吃虾！这个开源项目，让OpenClaw实现企业级部署",
+      "title": "公司注册10天，估值逾10亿美元！理想智驾大牛刷出具身创投新热度",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/393382.html",
-      "publish_time": "2026-03-30",
+      "url": "https://www.qbitai.com/2026/03/394149.html",
+      "publish_time": "2026-03-31",
       "category": "AI 综合",
-      "summary": "刚好在GitHub上，出现了一个名为ClawManager的开源项目，专门为这个空白而来",
+      "summary": "量子位获悉，昆仑行已以迅雷不及掩耳盗铃之势，连续完成三轮融资，跻身独角兽行列，成为开春以来最受资本追捧的具身智能新势力",
+      "importance_score": 9
+    },
+    {
+      "title": "刚刚，TRAE SOLO上线独立端：已经不满足写代码，还要跨界干活！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/03/394014.html",
+      "publish_time": "2026-03-31",
+      "category": "AI 综合",
+      "summary": "TRAE，你这么玩，我是万万没有想到的—— 新发的TRAE SOLO独立端（PC端和Web端齐发），直接可以跨界干活了 | 例如我手上有一堆不同格式的文件：一份会议速记、一堆没清洗的原始数据、几张手绘的原型草图…… 然后我现在只需要一股脑地",
+      "importance_score": 9
+    },
+    {
+      "title": "ClawTip来了！ 京东科技首发推出AI智能体的“专属自主零钱包”",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/03/394011.html",
+      "publish_time": "2026-03-31",
+      "category": "AI 综合",
+      "summary": "换言之，充分适配ClawTip后，AI智能体即可实现自主决策，包括AI智能体自主询价、决策、支付并获取产品或服务的全流程 | 此次京东科技首发推出的ClawTip，正是为解决上述核心痛点而生 | 它专为AI智能体之间的交易场景设计，基...",
+      "importance_score": 9
+    },
+    {
+      "title": "智谱上市后首份财报：超7.24亿元！国内收入最高大模型公司，MaaS发力了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/03/394135.html",
+      "publish_time": "2026-03-31",
+      "category": "AI 综合",
+      "summary": "最最最让人眼前一亮的数据，莫过于智谱的营收了—— 全年收入7 | 24亿元，同比增长132%，登顶国内收入规模最大的大模型公司 | 当整个大模型行业深陷价格战泥潭、靠烧钱换规模时，刚上市的智谱用这份首份财报，可以说是走出了一条完全相反的路",
       "importance_score": 9
     }
   ]
