@@ -1,0 +1,54 @@
+name: Daily Health Check
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天 UTC 0 点 = 北京时间 08:00（检查 07:00 是否已生成）
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check if today's report exists
+        id: check
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          echo "🔍 检查今日日报：$TODAY"
+          
+          if [ -f "history/report_${TODAY}.html" ]; then
+            echo "✅ 今日日报已生成"
+            echo "status=success" >> $GITHUB_OUTPUT
+          else
+            echo "❌ 今日日报未生成！"
+            echo "status=failure" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+      
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "⚠️ 检测到今日日报未生成，请检查自动任务！"
+          
+          # 如果配置了钉钉通知，发送告警
+          if [ -n "${{ secrets.DINGTALK_WEBHOOK }}" ]; then
+            curl -X POST '${{ secrets.DINGTALK_WEBHOOK }}' \
+              -H 'Content-Type: application/json' \
+              -d '{
+                "msgtype": "markdown",
+                "markdown": {
+                  "title": "⚠️ AI 日报生成告警",
+                  "text": "## ⚠️ AI 日报生成告警\n\n> 今日日报未自动生成，请检查！\n\n**检查时间**：'"$(date +%Y-%m-%d %H:%M:%S)"'\n**建议操作**：手动触发 daily-update 工作流\n\n🔗 查看：https://github.com/wanibbo/ai-daily-news/actions/workflows/daily-update.yml"
+                }
+              }'
+          fi
+      
+      - name: Print status
+        run: |
+          echo "======================================"
+          echo "📊 健康检查结果"
+          echo "======================================"
+          echo "检查时间：$(date +%Y-%m-%d %H:%M:%S)"
+          echo "检查结果：${{ steps.check.outputs.status }}"
+          echo "======================================"

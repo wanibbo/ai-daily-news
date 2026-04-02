@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 23 * * *'  # 每天 UTC 23 点（北京时间 07:00），从明天开始
+    - cron: '0 23 * * *'  # 每天 UTC 23 点 = 北京时间 07:00（时区：Asia/Shanghai）
   workflow_dispatch:  # 允许手动触发
 
 jobs:
