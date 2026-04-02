@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-04-02T00:01:31.158471",
-  "total_items": 22,
+  "update_time": "2026-04-02T13:49:29.410602",
+  "total_items": 27,
   "top_items": [
     {
       "title": "1220亿美元！OpenAI创下史上最大单笔融资纪录",
@@ -21,6 +21,33 @@
       "importance_score": 9
     },
     {
+      "title": "A股午评：创业板指半日跌1.78%，全市场超4200只个股飘绿，液态金属、玻纤、AI应用等概念走弱",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/14200987.html",
+      "publish_time": "2026-04-02",
+      "category": "AI 产业",
+      "summary": "4月2日，A股三大指数早盘集体下跌，截至午间收盘，上证指数跌0",
+      "importance_score": 8
+    },
+    {
+      "title": "英伟达、微软、Meta 都在抢的 AI 人才，到底有多贵？",
+      "source": "虎嗅网",
+      "url": "https://www.huxiu.com/article/3.html",
+      "publish_time": "2026-04-02",
+      "category": "AI 产业",
+      "summary": "AI 人才争夺战白热化",
+      "importance_score": 8
+    },
+    {
+      "title": "盯着还没注册公司的顶尖天才，DigClaw 获天使轮融资，中科创星、中关村资本联合投资",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/394602.html",
+      "publish_time": "2026-04-02",
+      "category": "AI 综合",
+      "summary": "” AI驱动的新一代科创意图雷达DigClaw（北京孤勇众行科技有限公司）近日宣布完成天使轮融资，由中科创星、中关村资本联合投资 | 当一家公司出现在工商信息或融资简报中时，抢夺人才与案子的窗口期往往已经关闭",
+      "importance_score": 9
+    },
+    {
       "title": "为啥武汉无人车也“呆”了一次",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/04/394554.html",
@@ -30,48 +57,21 @@
       "importance_score": 9
     },
     {
-      "title": "跟美图RoboNeo说句话，AI帮你复刻爆款",
+      "title": "千问AI眼镜首次OTA，AI硬件也可以“把事办成”",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/394547.html",
-      "publish_time": "2026-04-01",
+      "url": "https://www.qbitai.com/2026/04/394620.html",
+      "publish_time": "2026-04-02",
       "category": "AI 综合",
-      "summary": "近日，一位巴西用户在 TikTok 平台发布的创意短视频引发全网热议 | 数据显示，在 TikTok 平台 #RoboNeo 话题浏览量已突破 2660 万次 | 而在国内市场，深圳一位跨境电商卖家借助 RoboNeo 实现了运营效率...",
+      "summary": "4月2日，千问AI眼镜发布后首次进行OTA升级，上线首批“AI办事”能力 | 在出行场景中，千问AI眼镜可调用支付宝完成单车解锁、停车场缴费，并支持话费充值，实现“说句话充话费”等高频操作；在外卖场景中，依托淘宝闪购打通选品、下单、支...",
       "importance_score": 9
     },
     {
-      "title": "国内最强生图模型Wan2.7-Image来了",
+      "title": "龙虾成本狂降58%！清华人大面壁等最新开源“智能调度员”",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/394530.html",
-      "publish_time": "2026-04-01",
+      "url": "https://www.qbitai.com/2026/04/394606.html",
+      "publish_time": "2026-04-02",
       "category": "AI 综合",
-      "summary": "具备文生图、图生组图、图像指令编辑和交互式编辑等全链路能力 Wan2 | 7-Image具备文生图、图生组图、图像指令编辑和交互式编辑等全链路能力 | 在人类偏好盲测中，“文生图”能力超过GPT-Image1",
-      "importance_score": 9
-    },
-    {
-      "title": "公司注册10天，估值逾10亿美元！理想智驾大牛刷出具身创投新热度",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/394149.html",
-      "publish_time": "2026-03-31",
-      "category": "AI 综合",
-      "summary": "量子位获悉，昆仑行已以迅雷不及掩耳盗铃之势，连续完成三轮融资，跻身独角兽行列，成为开春以来最受资本追捧的具身智能新势力",
-      "importance_score": 9
-    },
-    {
-      "title": "刚刚，TRAE SOLO上线独立端：已经不满足写代码，还要跨界干活！",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/03/394014.html",
-      "publish_time": "2026-03-31",
-      "category": "AI 综合",
-      "summary": "TRAE，你这么玩，我是万万没有想到的—— 新发的TRAE SOLO独立端（PC端和Web端齐发），直接可以跨界干活了 | 例如我手上有一堆不同格式的文件：一份会议速记、一堆没清洗的原始数据、几张手绘的原型草图…… 然后我现在只需要一股脑地",
-      "importance_score": 9
-    },
-    {
-      "title": "Claude终于承认乱扣费！最高多收你20倍，一句「你好」干掉13%额度",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/394177.html",
-      "publish_time": "2026-04-01",
-      "category": "AI 综合",
-      "summary": "这两天的Claude Code，已经接近“不可用”的状态 | Claude Code不耐用这事，还真不是你一个人「用太狠」 | 继Reddit网友轰炸式吐槽Claude Code乱扣费后，Anthropic终于回应了： 我们已经注意到，大家",
+      "summary": "作为一个开源的端云协同AI智能体路由插件，它可以轻松适配OpenClaw生态",
       "importance_score": 9
     },
     {
@@ -84,12 +84,12 @@
       "importance_score": 9
     },
     {
-      "title": "Anthropic被逼急了！亲生龙虾意外曝光，Karpathy：这就是Claude Claw",
+      "title": "封不住！Claude Code爆改Python版加冕最快10万星，且clone且珍惜",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/394516.html",
-      "publish_time": "2026-04-01",
+      "url": "https://www.qbitai.com/2026/04/394570.html",
+      "publish_time": "2026-04-02",
       "category": "AI 综合",
-      "summary": "当全网为Claude Code「开源」而狂欢之时，Karpathy也在围观这次乌龙",
+      "summary": "在Anthropic那边法律大炮无差别火力全开的攻势下，这个发布2小时就冲破5万星的项目，居然还能坚挺到现在 | 原因嘛……全靠Sigrid Jin全网在「开源狂欢」那晚，神来之笔地祭出了一招「金蝉脱壳」",
       "importance_score": 9
     }
   ]
