@@ -1,0 +1,33 @@
+name: Keep Scheduler Alive
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # 每 6 小时执行一次（UTC 时间）
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Create ping commit
+        run: |
+          echo "# Scheduler Ping" > .scheduler-ping
+          echo "Last ping: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> .scheduler-ping
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add .scheduler-ping
+          git commit -m "chore: scheduler ping $(date -u '+%Y-%m-%d %H:%M:%S')" || echo "No changes"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Print status
+        run: |
+          echo "======================================"
+          echo "✅ Scheduler Ping Completed"
+          echo "======================================"
+          echo "Time: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "Next ping: in 6 hours"
+          echo "======================================"
