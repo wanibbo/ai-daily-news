@@ -1,0 +1,96 @@
+{
+  "update_time": "2026-04-03T05:52:18.557417",
+  "total_items": 13,
+  "top_items": [
+    {
+      "title": "警惕 AI 写作：别让思考与信任在指尖溜走",
+      "source": "InfoQ",
+      "url": "https://xie.infoq.cn/article/017dcadf6aa893c09c7028d4c",
+      "publish_time": "2026-04-03",
+      "category": "AI 技术",
+      "summary": "在技术与创作的交织领域，当我们着手撰写一份技术方案或设计文档时，实则开启了一场提问与解答的思维旅程 | 就像产品需求文档（PRD）致力于阐明 “我们要做什么",
+      "importance_score": 8
+    },
+    {
+      "title": "前网易副总裁下场，要做“Agent 时代的iPhone”",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/jURmq5J0lm5Py5bkJbZ4",
+      "publish_time": "2026-04-03",
+      "category": "AI 技术",
+      "summary": "\"基于这个思考，3 月 31 日，汪源创办的 remio 在北京发布全球首个 AgenticOS — rOS | 产品在 25 年上线后，拿下了 ProductHunt 日榜第一，并入选 TAAFT 2025 年度 Top 30 AI 产品",
+      "importance_score": 8
+    },
+    {
+      "title": "告别“语义黑盒”：当 Agent 走进生产环境，我们如何驯服它的“不可预测”？",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/NuNH2aN2qGfdm2s2TlMd",
+      "publish_time": "2026-04-01",
+      "category": "AI 技术",
+      "summary": "随着大模型 Agent 从实验原型迈向核心业务生产，工程化的重心正经历从“验证可行性”向“追求确定性”的本质跃迁 | Agent 的本质是“自主”、“涌现”、“不可预测”——这些词本身就和“确定性”对着干",
+      "importance_score": 8
+    },
+    {
+      "title": "当数据库的主要用户不再是人类：我们在 AI Agent 场景下的架构实践与思考",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/9OKvpT7uHXxYJBkKYyrf",
+      "publish_time": "2026-03-27",
+      "category": "AI 技术",
+      "summary": "过去一年，我们在 TiDB Cloud 上观察到一个趋势性变化：每天新创建的数据库集群中，超过 90% 不是由人类创建的，而是由 AI Agent 自动发起的 | 这不是某个极端客户的个例，而是正在成为常态 | Agent 创建数据库、生成",
+      "importance_score": 8
+    },
+    {
+      "title": "Agent in Practice：从支付迁移落地到评测驱动进化｜QCon北京",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/jLxZ76Mge0cKdEIwKaIZ",
+      "publish_time": "2026-04-03",
+      "category": "AI 技术",
+      "summary": "从「AI For What」到「Value From AI」，100+可落地实践案例打通 AI 实战最后一公里 | 4 月 16 日-4 月 18 日，QCon 全球软件开发大会将在北京举办 | 本届大会锚定 Agentic AI 时代的软",
+      "importance_score": 8
+    },
+    {
+      "title": "微软推出 Azure Copilot Migration Agent，加速云迁移规划",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/ZQsEz5TXqUWGcbk2FWDL",
+      "publish_time": "2026-04-03",
+      "category": "AI 技术",
+      "summary": "微软最近宣布Azure Copilot Migration Agent正式公开可用 | 这是一个内置在 Azure 门户中的 AI 助手，目标是简化并加速云迁移中的规划和评估阶段 | 该 Agent 基于现有的 Azure Migrate ",
+      "importance_score": 8
+    },
+    {
+      "title": "从数据留底到隐身进开源，Claude Code 泄露的代码里，处处写着：这家公司人品不行",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/oyztKc9IQUguMOOx6imT",
+      "publish_time": "2026-04-02",
+      "category": "AI 技术",
+      "summary": "从去年 Claude Code 发布以来，我们其实也写过不少肯定它的文章 | 这篇文章的重点，并不在于简单评价 Claude Code“好”或“不好”，而是基于这次泄露的源码，去看它在权限边界、数据处理以及开源参与方式上的一些具体实现...",
+      "importance_score": 8
+    },
+    {
+      "title": "Claude Code 已经过度设计？OpenClaw 背后的 Pi 给出了一个极简答案",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/KyLqAEKpkvrH3tJwMgiw",
+      "publish_time": "2026-04-01",
+      "category": "AI 技术",
+      "summary": "OpenClaw 火了，支撑它运行的底层引擎 Pi 也随之进入了更多人的视野 | 它的作者是 libGDX 的创建者 Mario Zechner | 一个写了 30 年代码的人，在被 Claude Code 越来越复杂、越来越不可控的体验折",
+      "importance_score": 8
+    },
+    {
+      "title": "从数据留底到隐身进开源，Claude Code 泄露的代码里，处处写着：这家公司人品不行",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/oyztKc9IQUguMOOx6imT",
+      "publish_time": "2026-04-02",
+      "category": "AI 技术",
+      "summary": "从去年 Claude Code 发布以来，我们其实也写过不少肯定它的文章 | 这篇文章的重点，并不在于简单评价 Claude Code“好”或“不好”，而是基于这次泄露的源码，去看它在权限边界、数据处理以及开源参与方式上的一些具体实现...",
+      "importance_score": 8
+    },
+    {
+      "title": "全行业都狂卷 Harness，Anthropic 还在加码，Codex 负责人却说它正在退场",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/vblM3MlOEs86dmVdH8d1",
+      "publish_time": "2026-04-02",
+      "category": "AI 技术",
+      "summary": "今年年初，OpenAI 的架构师 Bill Chen 和 Brian Fioca 在一期演讲里详细介绍了 Codex 构建过程中克服的挑战，以及 Coding Agent 本身一些新兴的使用模式 | 谈及 Coding Agent 的构成时",
+      "importance_score": 8
+    }
+  ]
+}

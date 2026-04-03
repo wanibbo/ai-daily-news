@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 日报简讯 - 2026-04-02</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+            padding: 10px;
+        }
+        .container { max-width: 1100px; margin: 0 auto; display: flex; gap: 16px; }
+        .main-content { flex: 1; }
+        .sidebar {
+            width: 220px;
+            flex-shrink: 0;
+        }
+        .header-card {
+            background: rgba(255,255,255,0.98);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        .header-title {
+            font-size: 26px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 6px;
+        }
+        .history-card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            position: sticky;
+            top: 10px;
+        }
+        .history-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #1e3a5f;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e0e7ff;
+        }
+        .history-link {
+            display: block;
+            padding: 8px 12px;
+            margin-bottom: 6px;
+            background: #f8fafc;
+            border-radius: 6px;
+            color: #2d5a87;
+            text-decoration: none;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .history-link:hover {
+            background: #e0e7ff;
+            transform: translateX(4px);
+        }
+        .news-item {
+            background: rgba(255,255,255,0.98);
+            border-radius: 10px;
+            padding: 14px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+            display: flex;
+            gap: 14px;
+        }
+        .news-number {
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            color: white;
+            width: 70px;
+            min-width: 70px;
+            height: 100%;
+            min-height: 120px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 36px;
+            flex-shrink: 0;
+        }
+        .news-content { flex: 1; }
+        .news-title-row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .news-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1e293b;
+            line-height: 1.4;
+            flex: 1;
+        }
+        .news-title a { color: #1e3a5f; text-decoration: none; }
+        .news-title a:hover { text-decoration: underline; }
+        .read-more {
+            color: #2d5a87;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+        .news-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+        .news-badge { padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+        .news-source { background: #e0e7ff; color: #3730a3; padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 500; }
+        .news-time { color: #94a3b8; font-size: 12px; margin-left: auto; }
+        .news-summary {
+            color: #475569;
+            line-height: 1.6;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 6px;
+            border-left: 3px solid #3a7ca5;
+            font-size: 14px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        @media (max-width: 900px) {
+            .container { flex-direction: column; }
+            .sidebar { width: 100%; }
+            .history-card { position: static; }
+        }
+        @media (max-width: 640px) {
+            body { padding: 6px; }
+            .header-card { padding: 16px; }
+            .header-title { font-size: 22px; }
+            .news-item { padding: 10px; gap: 10px; }
+            .news-number { width: 55px; min-width: 55px; min-height: 90px; font-size: 28px; }
+            .news-title { font-size: 15px; }
+            .news-title-row { flex-direction: column; }
+            .read-more { margin-top: 6px; }
+            .news-summary { font-size: 13px; }
+            .news-time { width: 100%; margin-top: 4px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="header-card">
+                <h1 class="header-title">🤖 AI 日报简讯</h1>
+                <p class="text-slate-600 text-sm">2026-04-02 13:49:29</p>
+            </div>
+            <div id="news-list">
+        <div class="news-item">
+            <div class="news-number">1</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/394169.html" target="_blank">1220亿美元！OpenAI创下史上最大单笔融资纪录</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/394169.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-01</span>
+                </div>
+                <p class="news-summary">本轮融资过后，市场对OpenAI的IPO期待值，越来越高了 | 本次融资的投资方包括亚马逊、英伟达、软银等机构联合领投 | 此外相较于此前几轮的融资，这次融资还有亿点点新变动，那就是OpenAI第一次向个人投资者开放窗口，额外吸纳了超...</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">2</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/0gETwo2o5fFsUQxotf1J" target="_blank">1220亿美金！OpenAI 完成史上最大规模融资，微软“退居二线”，首次提及“超级应用”</a></h3>
+                    <a href="https://www.infoq.cn/article/0gETwo2o5fFsUQxotf1J" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-04-01</span>
+                </div>
+                <p class="news-summary">在生成式 AI 竞争持续升温的背景下，OpenAI 宣布完成新一轮超大规模融资：本轮募资金额达 1220 亿美元，公司投后估值升至 8520 亿美元 | 这一数字刷新了 AI 公司融资纪录，也是其迄今为止规模最大的一轮融资 | 此次融...</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">3</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.jiemian.com/article/14200987.html" target="_blank">A股午评：创业板指半日跌1.78%，全市场超4200只个股飘绿，液态金属、玻纤、AI应用等概念走弱</a></h3>
+                    <a href="https://www.jiemian.com/article/14200987.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">界面新闻</span>
+                    <span class="news-time">📅 2026-04-02</span>
+                </div>
+                <p class="news-summary">4月2日，A股三大指数早盘集体下跌，截至午间收盘，上证指数跌0</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">4</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.huxiu.com/article/3.html" target="_blank">英伟达、微软、Meta 都在抢的 AI 人才，到底有多贵？</a></h3>
+                    <a href="https://www.huxiu.com/article/3.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">虎嗅网</span>
+                    <span class="news-time">📅 2026-04-02</span>
+                </div>
+                <p class="news-summary">AI 人才争夺战白热化</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">5</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/394602.html" target="_blank">盯着还没注册公司的顶尖天才，DigClaw 获天使轮融资，中科创星、中关村资本联合投资</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/394602.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-02</span>
+                </div>
+                <p class="news-summary">” AI驱动的新一代科创意图雷达DigClaw（北京孤勇众行科技有限公司）近日宣布完成天使轮融资，由中科创星、中关村资本联合投资 | 当一家公司出现在工商信息或融资简报中时，抢夺人才与案子的窗口期往往已经关闭</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">6</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/394554.html" target="_blank">为啥武汉无人车也“呆”了一次</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/394554.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-01</span>
+                </div>
+                <p class="news-summary">3月31日晚，在武汉市区内，有市民发现部分“萝卜快跑”无人驾驶车在路上停摆 | 好在交管部门和萝卜快跑的工作人员火速赶到，乘客安全下车，没有人员伤亡，交通路段也及时恢复了正常秩序 | 不过，关于这次事件的讨论，却仍在网上持续发酵</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">7</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/394620.html" target="_blank">千问AI眼镜首次OTA，AI硬件也可以“把事办成”</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/394620.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-02</span>
+                </div>
+                <p class="news-summary">4月2日，千问AI眼镜发布后首次进行OTA升级，上线首批“AI办事”能力 | 在出行场景中，千问AI眼镜可调用支付宝完成单车解锁、停车场缴费，并支持话费充值，实现“说句话充话费”等高频操作；在外卖场景中，依托淘宝闪购打通选品、下单、支...</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">8</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/394606.html" target="_blank">龙虾成本狂降58%！清华人大面壁等最新开源“智能调度员”</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/394606.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-02</span>
+                </div>
+                <p class="news-summary">作为一个开源的端云协同AI智能体路由插件，它可以轻松适配OpenClaw生态</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">9</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/03/394135.html" target="_blank">智谱上市后首份财报：超7.24亿元！国内收入最高大模型公司，MaaS发力了</a></h3>
+                    <a href="https://www.qbitai.com/2026/03/394135.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-03-31</span>
+                </div>
+                <p class="news-summary">最最最让人眼前一亮的数据，莫过于智谱的营收了—— 全年收入7 | 24亿元，同比增长132%，登顶国内收入规模最大的大模型公司 | 当整个大模型行业深陷价格战泥潭、靠烧钱换规模时，刚上市的智谱用这份首份财报，可以说是走出了一条完全相反的路</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">10</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/394570.html" target="_blank">封不住！Claude Code爆改Python版加冕最快10万星，且clone且珍惜</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/394570.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-02</span>
+                </div>
+                <p class="news-summary">在Anthropic那边法律大炮无差别火力全开的攻势下，这个发布2小时就冲破5万星的项目，居然还能坚挺到现在 | 原因嘛……全靠Sigrid Jin全网在「开源狂欢」那晚，神来之笔地祭出了一招「金蝉脱壳」</p>
+            </div>
+        </div>
+        </div>
+            <div class="text-center text-white/70 text-xs mt-8">
+                <p>数据来源于量子位、InfoQ、界面新闻、虎嗅网等主流媒体</p>
+                <p class="mt-1">更新：2026-04-02 13:49:29</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="history-card">
+                <h2 class="history-title">📁 历史日报</h2>
+                <div class="history-list">
+                    <a href="history/report_2026-04-02.html" class="history-link">📅 2026-04-02</a><a href="history/report_2026-04-01.html" class="history-link">📅 2026-04-01</a><a href="history/report_2026-03-31.html" class="history-link">📅 2026-03-31</a><a href="history/report_2026-03-30.html" class="history-link">📅 2026-03-30</a><a href="history/report_2026-03-26.html" class="history-link">📅 2026-03-26</a><a href="history/report_2026-03-25.html" class="history-link">📅 2026-03-25</a><a href="history/report_2026-03-24.html" class="history-link">📅 2026-03-24</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

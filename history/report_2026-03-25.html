@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 日报简讯 - 2026-03-25</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+            padding: 10px;
+        }
+        .container { max-width: 1100px; margin: 0 auto; display: flex; gap: 16px; }
+        .main-content { flex: 1; }
+        .sidebar {
+            width: 220px;
+            flex-shrink: 0;
+        }
+        .header-card {
+            background: rgba(255,255,255,0.98);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        .header-title {
+            font-size: 26px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 6px;
+        }
+        .history-card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            position: sticky;
+            top: 10px;
+        }
+        .history-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #1e3a5f;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e0e7ff;
+        }
+        .history-link {
+            display: block;
+            padding: 8px 12px;
+            margin-bottom: 6px;
+            background: #f8fafc;
+            border-radius: 6px;
+            color: #2d5a87;
+            text-decoration: none;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .history-link:hover {
+            background: #e0e7ff;
+            transform: translateX(4px);
+        }
+        .news-item {
+            background: rgba(255,255,255,0.98);
+            border-radius: 10px;
+            padding: 14px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+            display: flex;
+            gap: 14px;
+        }
+        .news-number {
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            color: white;
+            width: 70px;
+            min-width: 70px;
+            height: 100%;
+            min-height: 120px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 36px;
+            flex-shrink: 0;
+        }
+        .news-content { flex: 1; }
+        .news-title-row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .news-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1e293b;
+            line-height: 1.4;
+            flex: 1;
+        }
+        .news-title a { color: #1e3a5f; text-decoration: none; }
+        .news-title a:hover { text-decoration: underline; }
+        .read-more {
+            color: #2d5a87;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+        .news-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+        .news-badge { padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+        .news-source { background: #e0e7ff; color: #3730a3; padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 500; }
+        .news-time { color: #94a3b8; font-size: 12px; margin-left: auto; }
+        .news-summary {
+            color: #475569;
+            line-height: 1.6;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 6px;
+            border-left: 3px solid #3a7ca5;
+            font-size: 14px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        @media (max-width: 900px) {
+            .container { flex-direction: column; }
+            .sidebar { width: 100%; }
+            .history-card { position: static; }
+        }
+        @media (max-width: 640px) {
+            body { padding: 6px; }
+            .header-card { padding: 16px; }
+            .header-title { font-size: 22px; }
+            .news-item { padding: 10px; gap: 10px; }
+            .news-number { width: 55px; min-width: 55px; min-height: 90px; font-size: 28px; }
+            .news-title { font-size: 15px; }
+            .news-title-row { flex-direction: column; }
+            .read-more { margin-top: 6px; }
+            .news-summary { font-size: 13px; }
+            .news-time { width: 100%; margin-top: 4px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="header-card">
+                <h1 class="header-title">🤖 AI 日报简讯</h1>
+                <p class="text-slate-600 text-sm">2026-03-25 17:49:19</p>
+            </div>
+            <div id="news-list">
+        <div class="news-item">
+            <div class="news-number">1</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/03/391668.html" target="_blank">又一华为天才少年入局具身创业！用视频生成数据训家用机器人，首个模型登顶具身基模榜单</a></h3>
+                    <a href="https://www.qbitai.com/2026/03/391668.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-03-24</span>
+                </div>
+                <p class="news-summary">最新模型在Embodied Arena登顶 6G冲浪的量子位最新发现，去年从华为诺亚方舟实验室转入学界的周凯文，在入职港中文不到半年后，悄然更新了个人主页 | 他已加入具身创企诺因智能，担任合伙人兼算法主管 | 顺着周凯文人事变动这条线往下</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">2</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/RrUxZpVIe44S0slaHvr5" target="_blank">神秘爆款模型被小米认领！雷军直言超过马斯克 xAI Grok，罗福莉透露MiMo-V2-Pro将开源</a></h3>
+                    <a href="https://www.infoq.cn/article/RrUxZpVIe44S0slaHvr5" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-03-19</span>
+                </div>
+                <p class="news-summary">今天，小米正式发布 MiMo-V2 家族三款新模型：MiMo-V2-Pro、MiMo-V2-Omni 和 MiMo-V2-TTS | “一周前，代号为 Hunter Alpha 的匿名模型上线全球最大的 API 聚合平台 OpenRo...</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">3</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.jiemian.com/article/14161832.html" target="_blank">A股收评：创业板指放量上涨逾2%，全市场超4800只个股上涨，福建国资、CPO、电力等概念走强</a></h3>
+                    <a href="https://www.jiemian.com/article/14161832.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">界面新闻</span>
+                    <span class="news-time">📅 2026-03-25</span>
+                </div>
+                <p class="news-summary">3月25日，A股三大指数集体上涨，截至收盘，上证指数涨1</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">4</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/03/391698.html" target="_blank">LeCun的世界模型单GPU就能跑了</a></h3>
+                    <a href="https://www.qbitai.com/2026/03/391698.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-03-24</span>
+                </div>
+                <p class="news-summary">LeCun世界模型最新进展，开源了一套极简训练方案，单GPU就能跑 | 这套方案叫LeWorldModel，它基于JEPA架构，实现像素输入直接预测未来，速度快到离谱，完整规划仅需1秒</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">5</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/03/391830.html" target="_blank">阿里云JVS Claw 全面开放 新增语音输入、skill开关等实用功能</a></h3>
+                    <a href="https://www.qbitai.com/2026/03/391830.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-03-25</span>
+                </div>
+                <p class="news-summary">在保留7天免费体验的同时，JVS Claw还推出最低39元首月的“匠心版”套餐等，满足不同用户需求 | 同步发布的《JVS养虾宝典》也列举了20多种高阶使用场景，方便用户一键复制，快速获得结果</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">6</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/03/391839.html" target="_blank">中国AI音乐，悄悄把全球第一拿走了</a></h3>
+                    <a href="https://www.qbitai.com/2026/03/391839.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-03-25</span>
+                </div>
+                <p class="news-summary">昆仑万维Mureka V8，最新登顶Artificial Analysis音乐模型榜，一举超越Suno V4</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">7</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/03/391799.html" target="_blank">OpenAI关停Sora！25个月从封神到退场</a></h3>
+                    <a href="https://www.qbitai.com/2026/03/391799.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-03-25</span>
+                </div>
+                <p class="news-summary">消息一出，X上直接炸开了锅，网友一整个大无语： 如果OpenAI推出的面向公众的产品，短短数月后就惨遭叫停，那我们凭什么要信任或投资这类产品</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">8</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/03/391894.html" target="_blank">WorkBuddy杀疯了？一群AI专家帮我打工，我在微信里当赛博虾工头！</a></h3>
+                    <a href="https://www.qbitai.com/2026/03/391894.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-03-25</span>
+                </div>
+                <p class="news-summary">梦瑶 发自 凹非寺量子位 | 公众号 QbitAI 到底是谁说，给老板打工自己就当不成老板的 | 毕竟现在的我，已经转头当起了「虾工头」，指挥N个龙虾专家，跑起一整套自媒体内容生产流水线了 | 起号我确实一窍不通，但架不住我随身带运营策略军</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">9</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/03/391890.html" target="_blank">首个全品类旅行skill来了！飞猪“flyai”上线ClawHub、GitHub</a></h3>
+                    <a href="https://www.qbitai.com/2026/03/391890.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-03-25</span>
+                </div>
+                <p class="news-summary">“flyai”还正陆续接入华为、小米、OPPO、荣耀等手机厂商 3月24日，飞猪发布首个全品类出行旅游技能插件（skill）“flyai”，该技能插件已上线ClawHub、GitHub等平台 | （图：“flyai”技能插件已登录主流...</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">10</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/03/392105.html" target="_blank">从“被动感知”到“理解接触”，它石智航联合六大机构发布OmniVTA视触觉世界模型</a></h3>
+                    <a href="https://www.qbitai.com/2026/03/392105.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-03-25</span>
+                </div>
+                <p class="news-summary">想象这样一个场景：你正在擦桌子、削水果，或者插拔一个精密零件 | 这些动作对人类来说轻而易举，然而对于机器人来说，这些看似简单的操作却是一道难以跨越的技术鸿沟 | 近期，它石智航联合新加坡国立大学、复旦大学、中科院自动化所、清华大学、中关村</p>
+            </div>
+        </div>
+        </div>
+            <div class="text-center text-white/70 text-xs mt-8">
+                <p>数据来源于量子位、InfoQ、界面新闻、虎嗅网等主流媒体</p>
+                <p class="mt-1">更新：2026-03-25 17:49:19</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="history-card">
+                <h2 class="history-title">📁 历史日报</h2>
+                <div class="history-list">
+                    <a href="history/report_2026-03-25.html" class="history-link">📅 2026-03-25</a><a href="history/report_2026-03-24.html" class="history-link">📅 2026-03-24</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
