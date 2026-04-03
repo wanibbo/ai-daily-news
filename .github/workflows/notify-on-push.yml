@@ -98,6 +98,29 @@ jobs:
             exit 1
           fi
       
+      - name: Send ServerChan notification
+        if: always()
+        run: |
+          if [ -n '${{ secrets.SERVERCHAN_SENDKEY }}' ]; then
+            echo "📤 发送 Server 酱微信通知..."
+            
+            TITLE="✅ AI 日报生成成功"
+            NEWS_COUNT="${{ steps.news.outputs.count }}"
+            TODAY=$(date +%Y-%m-%d)
+            
+            curl -X POST 'https://sctapi.ftqq.com/${{ secrets.SERVERCHAN_SENDKEY }}.send' \
+              -d "title=$TITLE" \
+              -d "desp=# AI 日报已生成%0A%0A**时间**：$(date +'%Y-%m-%d %H:%M:%S')%0A%0A**来源**：量子位、InfoQ、界面新闻、虎嗅网%0A%0A**查看**：https://wanibbo.github.io/ai-daily-news/%0A%0A**新闻数量**：${NEWS_COUNT} 条" || echo "⚠️ Server 酱发送失败"
+            
+            if [ $? -eq 0 ]; then
+              echo "✅ Server 酱通知发送成功"
+            else
+              echo "❌ Server 酱通知发送失败"
+            fi
+          else
+            echo "⚠️ SERVERCHAN_SENDKEY 未配置，跳过"
+          fi
+      
       - name: Print status
         run: |
           echo "======================================"
