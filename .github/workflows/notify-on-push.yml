@@ -36,9 +36,15 @@ jobs:
           fi
       
       - name: Send DingTalk notification
-        if: ${{ secrets.DINGTALK_WEBHOOK != '' }}
+        if: always()
         run: |
           echo "📤 发送钉钉通知..."
+          
+          # 检查是否配置了 Webhook
+          if [ -z '${{ secrets.DINGTALK_WEBHOOK }}' ] || [ '${{ secrets.DINGTALK_WEBHOOK }}' = '' ]; then
+            echo "⚠️ DINGTALK_WEBHOOK 未配置，跳过"
+            exit 0
+          fi
           
           TITLE="✅ AI 日报生成成功"
           NEWS_COUNT="${{ steps.news.outputs.count }}"
@@ -62,9 +68,15 @@ jobs:
           fi
       
       - name: Send WeChat Work notification
-        if: ${{ secrets.WECHAT_WORK_WEBHOOK != '' }}
+        if: always()
         run: |
           echo "📤 发送企业微信通知..."
+          
+          # 检查是否配置了 Webhook
+          if [ -z '${{ secrets.WECHAT_WORK_WEBHOOK }}' ] || [ '${{ secrets.WECHAT_WORK_WEBHOOK }}' = '' ]; then
+            echo "⚠️ WECHAT_WORK_WEBHOOK 未配置，跳过"
+            exit 0
+          fi
           
           TITLE="✅ AI 日报生成成功"
           NEWS_COUNT="${{ steps.news.outputs.count }}"
