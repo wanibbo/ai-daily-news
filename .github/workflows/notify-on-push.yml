@@ -1,0 +1,96 @@
+name: Send Notification on Push
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      title:
+        description: '通知标题'
+        required: false
+        default: '✅ AI 日报生成成功'
+      news_count:
+        description: '新闻数量'
+        required: false
+        default: '24'
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      
+      - name: Get today's news count
+        id: news
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          if [ -f "history/report_${TODAY}.json" ]; then
+            COUNT=$(cat history/report_${TODAY}.json | python3 -c "import sys,json; print(json.load(sys.stdin)['total_items'])")
+            echo "count=$COUNT" >> $GITHUB_OUTPUT
+            echo "✅ 今日新闻数量：$COUNT"
+          else
+            echo "count=0" >> $GITHUB_OUTPUT
+            echo "⚠️ 未找到今日日报"
+          fi
+      
+      - name: Send DingTalk notification
+        if: ${{ secrets.DINGTALK_WEBHOOK != '' }}
+        run: |
+          echo "📤 发送钉钉通知..."
+          
+          TITLE="✅ AI 日报生成成功"
+          NEWS_COUNT="${{ steps.news.outputs.count }}"
+          TODAY=$(date +%Y-%m-%d)
+          
+          curl -X POST '${{ secrets.DINGTALK_WEBHOOK }}' \
+            -H 'Content-Type: application/json' \
+            -d "{
+              \"msgtype\": \"markdown\",
+              \"markdown\": {
+                \"title\": \"$TITLE\",
+                \"text\": \"# $TITLE\n\n> 今日 AI 日报已自动生成并部署！\n\n**📊 数据来源**：量子位、InfoQ、界面新闻、虎嗅网\n**📁 报告**：history/report_${TODAY}.html\n**🌐 部署**：GitHub Pages 已完成\n**🔗 查看**：https://wanibbo.github.io/ai-daily-news/\n\n**⏰ 生成时间**：$(date +'%Y-%m-%d %H:%M:%S')\n**📰 新闻数量**：${NEWS_COUNT} 条\n\n_🤖 自动发送_\"
+              }
+            }"
+          
+          if [ $? -eq 0 ]; then
+            echo "✅ 钉钉通知发送成功"
+          else
+            echo "❌ 钉钉通知发送失败"
+            exit 1
+          fi
+      
+      - name: Send WeChat Work notification
+        if: ${{ secrets.WECHAT_WORK_WEBHOOK != '' }}
+        run: |
+          echo "📤 发送企业微信通知..."
+          
+          TITLE="✅ AI 日报生成成功"
+          NEWS_COUNT="${{ steps.news.outputs.count }}"
+          TODAY=$(date +%Y-%m-%d)
+          
+          curl -X POST '${{ secrets.WECHAT_WORK_WEBHOOK }}' \
+            -H 'Content-Type: application/json' \
+            -d "{
+              \"msgtype\": \"markdown\",
+              \"markdown\": {
+                \"content\": \"# $TITLE\n\n> 今日 AI 日报已自动生成并部署！\n\n**📊 数据来源**：量子位、InfoQ、界面新闻、虎嗅网\n**📁 报告**：history/report_${TODAY}.html\n**🌐 部署**：GitHub Pages 已完成\n**🔗 查看**：https://wanibbo.github.io/ai-daily-news/\n\n**⏰ 生成时间**：$(date +'%Y-%m-%d %H:%M:%S')\n**📰 新闻数量**：${NEWS_COUNT} 条\n\n_🤖 自动发送_\"
+              }
+            }"
+          
+          if [ $? -eq 0 ]; then
+            echo "✅ 企业微信通知发送成功"
+          else
+            echo "❌ 企业微信通知发送失败"
+            exit 1
+          fi
+      
+      - name: Print status
+        run: |
+          echo "======================================"
+          echo "📢 通知发送完成"
+          echo "======================================"
+          echo "时间：$(date +'%Y-%m-%d %H:%M:%S')"
+          echo "新闻数量：${{ steps.news.outputs.count }} 条"
+          echo "======================================"
