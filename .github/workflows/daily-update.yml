@@ -12,12 +12,12 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
       
@@ -41,7 +41,7 @@ jobs:
           git config user.name "AI Assistant"
           git config user.email "ai@example.com"
           git add -A
-          git commit -m "Daily update $(date +%Y-%m-%d %H:%M)" || echo "No changes"
+          git commit -m "Daily update $(date +\%Y-\%m-\%d)" || echo "No changes"
           git push
           echo "✅ 步骤 2 完成：代码已推送"
           echo "✅ 步骤 2 完成：代码已推送，触发 GitHub Pages 部署" >> $GITHUB_STEP_SUMMARY
@@ -52,7 +52,6 @@ jobs:
         run: |
           echo "⏳ 步骤 3/4: 等待 GitHub Pages 部署..."
           echo "📄 GitHub Pages URL: https://wanibbo.github.io/ai-daily-news/"
-          # GitHub Pages 自动部署，等待 1 分钟
           sleep 60
           echo "✅ 步骤 3 完成：GitHub Pages 部署完成"
           echo "✅ 步骤 3 完成：网站已更新" >> $GITHUB_STEP_SUMMARY
@@ -104,7 +103,7 @@ jobs:
             echo "  ⚠️ 未配置企业微信 Webhook，跳过"
           fi
           
-          # Server 酱通知
+          # Server 酱通知（可选）
           if [ "$STATUS" == "success" ] && [ -n "${{ secrets.SERVERCHAN_SENDKEY }}" ]; then
             echo "  → 发送 Server 酱通知..."
             curl -X POST 'https://sctapi.ftqq.com/${{ secrets.SERVERCHAN_SENDKEY }}.send' \
@@ -112,7 +111,7 @@ jobs:
               -d 'desp='"$TEXT"'' || echo "  ⚠️ Server 酱发送失败"
           fi
           
-          # PushPlus 通知
+          # PushPlus 通知（可选）
           if [ "$STATUS" == "success" ] && [ -n "${{ secrets.PUSHPLUS_TOKEN }}" ]; then
             echo "  → 发送 PushPlus 通知..."
             curl -X POST 'http://www.pushplus.plus/send' \
@@ -127,76 +126,3 @@ jobs:
           
           echo "✅ 步骤 4 完成：通知已发送"
           echo "✅ 步骤 4 完成：通知已发送" >> $GITHUB_STEP_SUMMARY
-      
-      - name: Send DingTalk notification
-        if: always()
-        run: |
-          # 获取工作流运行状态
-          STATUS="${{ job.status }}"
-          if [ "$STATUS" == "success" ]; then
-            TITLE="✅ AI 日报生成成功"
-            TEXT="今日 AI 日报已自动生成并部署！\n\n📊 数据来源：量子位、InfoQ、界面新闻、虎嗅网\n📁 报告：history/report_$(date +%Y-%m-%d).html\n🌐 部署：GitHub Pages 已完成\n🔗 查看：https://wanibbo.github.io/ai-daily-news/"
-          else
-            TITLE="⚠️ AI 日报生成失败"
-            TEXT="今日 AI 日报生成失败，请检查 GitHub Actions 日志！\n\n🔗 查看：https://github.com/wanibbo/ai-daily-news/actions"
-          fi
-          
-          # 发送钉钉消息
-          if [ -n "${{ secrets.DINGTALK_WEBHOOK }}" ]; then
-            curl -X POST '${{ secrets.DINGTALK_WEBHOOK }}' \
-              -H 'Content-Type: application/json' \
-              -d '{
-                "msgtype": "markdown",
-                "markdown": {
-                  "title": "'"$TITLE"'",
-                  "text": "'"$TITLE"'\n\n'"$TEXT"'\n\n⏰ 时间：$(date +\"%Y-%m-%d %H:%M:%S\")\n🤖 自动发送"
-                }
-              }'
-          fi
-      
-      - name: Send WeChat notification
-        if: always()
-        run: |
-          STATUS="${{ job.status }}"
-          
-          # 企业微信机器人通知
-          if [ -n "${{ secrets.WECHAT_WORK_WEBHOOK }}" ]; then
-            if [ "$STATUS" == "success" ]; then
-              curl -X POST '${{ secrets.WECHAT_WORK_WEBHOOK }}' \
-                -H 'Content-Type: application/json' \
-                -d '{
-                  "msgtype": "markdown",
-                  "markdown": {
-                    "content": "## ✅ AI 日报生成成功\n\n> 今日 AI 日报已自动生成并部署！\n\n**📊 数据来源**：量子位、InfoQ、界面新闻、虎嗅网\n**📁 报告**：history/report_'"$(date +%Y-%m-%d)"'.html\n**🌐 部署**：GitHub Pages 已完成\n**🔗 查看**：https://wanibbo.github.io/ai-daily-news/\n\n_⏰ 时间：'"$(date +%Y-%m-%d %H:%M:%S)"'_\n_🤖 自动发送_"
-                  }
-                }'
-            else
-              curl -X POST '${{ secrets.WECHAT_WORK_WEBHOOK }}' \
-                -H 'Content-Type: application/json' \
-                -d '{
-                  "msgtype": "markdown",
-                  "markdown": {
-                    "content": "## ⚠️ AI 日报生成失败\n\n> 今日 AI 日报生成失败，请检查 GitHub Actions 日志！\n\n**🔗 查看**：https://github.com/wanibbo/ai-daily-news/actions\n\n_⏰ 时间：'"$(date +%Y-%m-%d %H:%M:%S)"'_\n_🤖 自动发送_"
-                  }
-                }'
-            fi
-          fi
-          
-          # Server 酱微信推送（可选）
-          if [ "$STATUS" == "success" ] && [ -n "${{ secrets.SERVERCHAN_SENDKEY }}" ]; then
-            curl -X POST 'https://sctapi.ftqq.com/${{ secrets.SERVERCHAN_SENDKEY }}.send' \
-              -d 'title=✅ AI 日报生成成功' \
-              -d 'desp=# AI 日报已生成%0A%0A**时间**：'"$(date +%Y-%m-%d %H:%M:%S)"'%0A%0A**来源**：量子位、InfoQ、界面新闻、虎嗅网%0A%0A**查看**：https://wanibbo.github.io/ai-daily-news/'
-          fi
-          
-          # PushPlus 微信推送（可选）
-          if [ "$STATUS" == "success" ] && [ -n "${{ secrets.PUSHPLUS_TOKEN }}" ]; then
-            curl -X POST 'http://www.pushplus.plus/send' \
-              -H 'Content-Type: application/json' \
-              -d '{
-                "token": "${{ secrets.PUSHPLUS_TOKEN }}",
-                "title": "✅ AI 日报生成成功",
-                "content": "# AI 日报已生成\n\n**时间**：'"$(date +%Y-%m-%d %H:%M:%S)"'\n\n**来源**：量子位、InfoQ、界面新闻、虎嗅网\n\n**查看**：https://wanibbo.github.io/ai-daily-news/",
-                "template": "markdown"
-              }'
-          fi
