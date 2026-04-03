@@ -81,7 +81,7 @@ jobs:
                 "msgtype": "markdown",
                 "markdown": {
                   "title": "'"$TITLE"'",
-                  "text": "'"$TITLE"'\n\n'"$TEXT"'\n\n⏰ 时间：$(date +\%Y-\%m-\%d \%H:\%M:\%S)\n🤖 自动发送"
+                  "text": "'"$TITLE"'\n\n'"$TEXT"'\n\n⏰ 时间：$(date +\"%Y-%m-%d %H:%M:%S\")\n🤖 自动发送"
                 }
               }' || echo "  ⚠️ 钉钉发送失败"
           else
@@ -96,7 +96,7 @@ jobs:
               -d '{
                 "msgtype": "markdown",
                 "markdown": {
-                  "content": "## '"$TITLE"'\n\n> '"$TEXT"'\n\n_⏰ 时间：'"$(date +\%Y-\%m-\%d \%H:\%M:\%S)"'_\n_🤖 自动发送_"
+                  "content": "## '"$TITLE"'\n\n> '"$TEXT"'\n\n_⏰ 时间：'"$(date +\"%Y-%m-%d %H:%M:%S\")"'_\n_🤖 自动发送_"
                 }
               }' || echo "  ⚠️ 企业微信发送失败"
           else

@@ -50,7 +50,7 @@ jobs:
               \"msgtype\": \"markdown\",
               \"markdown\": {
                 \"title\": \"$TITLE\",
-                \"text\": \"# $TITLE\n\n> 今日 AI 日报已自动生成并部署！\n\n**📊 数据来源**：量子位、InfoQ、界面新闻、虎嗅网\n**📁 报告**：history/report_${TODAY}.html\n**🌐 部署**：GitHub Pages 已完成\n**🔗 查看**：https://wanibbo.github.io/ai-daily-news/\n\n**⏰ 生成时间**：$(date +'%Y-%m-%d %H:%M:%S')\n**📰 新闻数量**：${NEWS_COUNT} 条\n\n_🤖 自动发送_\"
+                \"text\": \"# $TITLE\n\n> 今日 AI 日报已自动生成并部署！\n\n**📊 数据来源**：量子位、InfoQ、界面新闻、虎嗅网\n**📁 报告**：history/report_${TODAY}.html\n**🌐 部署**：GitHub Pages 已完成\n**🔗 查看**：https://wanibbo.github.io/ai-daily-news/\n\n**⏰ 生成时间**：$(date +\\\"%Y-%m-%d %H:%M:%S\\\")\n**📰 新闻数量**：${NEWS_COUNT} 条\n\n_🤖 自动发送_\"
               }
             }"
           
