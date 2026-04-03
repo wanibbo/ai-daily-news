@@ -67,7 +67,7 @@ jobs:
           
           if [ "$STATUS" == "success" ]; then
             TITLE="✅ AI 日报生成成功"
-            TEXT="今日 AI 日报已自动生成并部署！\n\n📊 数据来源：量子位、InfoQ、界面新闻、虎嗅网\n📁 报告：history/report_$(date +%Y-%m-%d).html\n🌐 部署：GitHub Pages 已完成\n🔗 查看：https://wanibbo.github.io/ai-daily-news/\n\n⏰ 生成时间：$(date +%Y-%m-%d %H:%M)\n📰 新闻数量：${{ steps.generate.outputs.news_count }} 条"
+            TEXT="今日 AI 日报已自动生成并部署！\n\n📊 数据来源：量子位、InfoQ、界面新闻、虎嗅网\n📁 报告：history/report_$(date +\%Y-\%m-\%d).html\n🌐 部署：GitHub Pages 已完成\n🔗 查看：https://wanibbo.github.io/ai-daily-news/\n\n⏰ 生成时间：$(date +\%Y-\%m-\%d \%H:\%M)\n📰 新闻数量：${{ steps.generate.outputs.news_count }} 条"
           else
             TITLE="⚠️ AI 日报生成失败"
             TEXT="今日 AI 日报生成失败，请检查 GitHub Actions 日志！\n\n🔗 查看：https://github.com/wanibbo/ai-daily-news/actions"
@@ -82,7 +82,7 @@ jobs:
                 "msgtype": "markdown",
                 "markdown": {
                   "title": "'"$TITLE"'",
-                  "text": "'"$TITLE"'\n\n'"$TEXT"'\n\n⏰ 时间：$(date +\"%Y-%m-%d %H:%M:%S\")\n🤖 自动发送"
+                  "text": "'"$TITLE"'\n\n'"$TEXT"'\n\n⏰ 时间：$(date +\%Y-\%m-\%d \%H:\%M:\%S)\n🤖 自动发送"
                 }
               }' || echo "  ⚠️ 钉钉发送失败"
           else
@@ -97,7 +97,7 @@ jobs:
               -d '{
                 "msgtype": "markdown",
                 "markdown": {
-                  "content": "## '"$TITLE"'\n\n> '"$TEXT"'\n\n_⏰ 时间：'"$(date +%Y-%m-%d %H:%M:%S)"'_\n_🤖 自动发送_"
+                  "content": "## '"$TITLE"'\n\n> '"$TEXT"'\n\n_⏰ 时间：'"$(date +\%Y-\%m-\%d \%H:\%M:\%S)"'_\n_🤖 自动发送_"
                 }
               }' || echo "  ⚠️ 企业微信发送失败"
           else

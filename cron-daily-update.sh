@@ -27,7 +27,7 @@ echo "✅ 日报生成成功"
 # 推送代码
 echo "📤 步骤 2/3: 推送代码到 GitHub..."
 git add -A
-git commit -m "Daily update $(date +%Y-%m-%d) [auto]" || echo "No changes"
+git commit -m "Daily update $(date +\%Y-\%m-\%d) [auto]" || echo "No changes"
 git push
 
 if [ $? -eq 0 ]; then
