@@ -1,6 +1,7 @@
 {
-  "update_time": "2026-04-06T06:19:09.007790",
-  "total_items": 23,
+  "date": "2026-04-07",
+  "update_time": "2026-04-07T00:00:17.758521",
+  "total_items": 10,
   "top_items": [
     {
       "title": "AI创业，已经没有“出海”这个词了丨量子位沙龙",
@@ -12,39 +13,21 @@
       "importance_score": 9
     },
     {
-      "title": "AI 时代的架构治理",
+      "title": "AI 资本大转向：OpenAI 凉、Anthropic 火、马斯克赢",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/VFRyL5oDK269xIcp8SDi",
-      "publish_time": "2026-04-06",
+      "url": "https://www.infoq.cn/article/jTBOKdUUCdR86YYD1cBF",
+      "publish_time": "2026-04-02",
       "category": "AI 技术",
-      "summary": "本文由 InfoQ 认证架构师在线课程的学员撰写，是其学习成果的集大成之作，反映了学员群体在 AI 与现代软件架构交叉领域的集体学习心得 | 生成式 AI 大幅降低了编写代码所需的工作量，快速原型设计也变得越来越普遍 | 因此，如今软件开发",
+      "summary": "“SpaceX IPO，意味着资本正在押注一种由实体基础设施护城河构成的优势；OpenAI 的二级份额开始流向 Anthropic，说明市场其实在用真金白银下注：前沿实验室里，开发者到底真正信谁",
       "importance_score": 8
     },
     {
-      "title": "具身龙虾，上车理想",
+      "title": "日调用量超万亿破纪录！阿里千问3.6Plus登顶全球模型调用量榜首",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396704.html",
-      "publish_time": "2026-04-06",
+      "url": "https://www.qbitai.com/2026/04/396346.html",
+      "publish_time": "2026-04-04",
       "category": "AI 综合",
-      "summary": "就怎么说呢，和前脚刚拿到千亿融资以及GPT-6传出新进展相比，这反转也来得太快了吧 | 关于OpenAI身上正在发生的事，这第一件就很耐人寻味： 就在它拿下1220亿美元创纪录融资、全力冲刺IPO的节骨眼上，几位核心高管却要么换岗、要...",
-      "importance_score": 9
-    },
-    {
-      "title": "具身龙虾，上车理想",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396517.html",
-      "publish_time": "2026-04-05",
-      "category": "AI 综合",
-      "summary": "最近，理想发布了全新的流式视频理解与具身智能统一的Agent框架—— 在保持与OpenClaw框架完全兼容的基础上，StreamingClaw原生支持实时的多模态流式交互 | 依托主-从代理的紧密协同，它不仅能自主完成复杂的任务规划与...",
-      "importance_score": 9
-    },
-    {
-      "title": "GPT-6，曝光了",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396841.html",
-      "publish_time": "2026-04-06",
-      "category": "AI 综合",
-      "summary": "就在大家都急头白脸地等待DeepSeek-V4的时候，冷不丁一篇新论文引起了网友们的注意—— 提出新稀疏注意力机制HISA（分层索引稀疏注意力），突破64K上下文的索引瓶颈，相比DeepSeek正在用的DSA（DeepSeek Sparse",
+      "summary": "4月4日消息，发布仅1天的阿里千问新模型Qwen3 | 4月2日上午，阿里发布国产最强编程模型Qwen3",
       "importance_score": 9
     },
     {
@@ -54,6 +37,15 @@
       "publish_time": "2026-04-06",
       "category": "AI 综合",
       "summary": "就怎么说呢，和前脚刚拿到千亿融资以及GPT-6传出新进展相比，这反转也来得太快了吧 | 关于OpenAI身上正在发生的事，这第一件就很耐人寻味： 就在它拿下1220亿美元创纪录融资、全力冲刺IPO的节骨眼上，几位核心高管却要么换岗、要...",
+      "importance_score": 9
+    },
+    {
+      "title": "北大团队改造DeepSeek注意力，速度快四倍还不丢精度",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/396841.html",
+      "publish_time": "2026-04-06",
+      "category": "AI 综合",
+      "summary": "就在大家都急头白脸地等待DeepSeek-V4的时候，冷不丁一篇新论文引起了网友们的注意—— 提出新稀疏注意力机制HISA（分层索引稀疏注意力），突破64K上下文的索引瓶颈，相比DeepSeek正在用的DSA（DeepSeek Sparse",
       "importance_score": 9
     },
     {
