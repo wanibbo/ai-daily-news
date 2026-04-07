@@ -1,33 +1,42 @@
 {
   "date": "2026-04-07",
-  "update_time": "2026-04-07T00:00:17.758521",
+  "update_time": "2026-04-07T05:59:12.646517",
   "total_items": 10,
   "top_items": [
     {
-      "title": "AI创业，已经没有“出海”这个词了丨量子位沙龙",
+      "title": "持续霸榜！阿里千问3.6Plus问鼎全球大模型调用周榜冠军",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396675.html",
-      "publish_time": "2026-04-06",
+      "url": "https://www.qbitai.com/2026/04/396950.html",
+      "publish_time": "2026-04-07",
       "category": "AI 综合",
-      "summary": "你的AI产品，从Day0起就应具备“全球原生基因” 如果你的计划还是“国内卷完再转战海外”，对不起，你可能已经提前出局 | 在这一波AI浪潮里，Day 0即全球化，早已是圈内默认的入场券",
+      "summary": "6-Max也将发布 4月7日，国际知名的大模型API三方调用平台OpenRouter公布了新一期调用量周榜单，阿里千问新模型Qwen3 | 6-Plus是OpenRouter平台上首个单日调用量突破1万亿Token的模型，被OpenR...",
       "importance_score": 9
     },
     {
-      "title": "AI 资本大转向：OpenAI 凉、Anthropic 火、马斯克赢",
+      "title": "AI 时代的架构治理",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/jTBOKdUUCdR86YYD1cBF",
-      "publish_time": "2026-04-02",
+      "url": "https://www.infoq.cn/article/VFRyL5oDK269xIcp8SDi",
+      "publish_time": "2026-04-06",
       "category": "AI 技术",
-      "summary": "“SpaceX IPO，意味着资本正在押注一种由实体基础设施护城河构成的优势；OpenAI 的二级份额开始流向 Anthropic，说明市场其实在用真金白银下注：前沿实验室里，开发者到底真正信谁",
+      "summary": "本文由 InfoQ 认证架构师在线课程的学员撰写，是其学习成果的集大成之作，反映了学员群体在 AI 与现代软件架构交叉领域的集体学习心得 | 生成式 AI 大幅降低了编写代码所需的工作量，快速原型设计也变得越来越普遍 | 因此，如今软件开发",
       "importance_score": 8
     },
     {
-      "title": "日调用量超万亿破纪录！阿里千问3.6Plus登顶全球模型调用量榜首",
+      "title": "下一代OpenClaw来了？“龙虾之父”称将率先支持阿里千问",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396346.html",
-      "publish_time": "2026-04-04",
+      "url": "https://www.qbitai.com/2026/04/396955.html",
+      "publish_time": "2026-04-07",
       "category": "AI 综合",
-      "summary": "4月4日消息，发布仅1天的阿里千问新模型Qwen3 | 4月2日上午，阿里发布国产最强编程模型Qwen3",
+      "summary": "据了解，过去的一周，阿里连续发布Qwen3 | 6Plus在全球最大的大模型API平台OpenRouter上霸榜多日，成为该平台首个单日调用量突破1万亿Token的模型",
+      "importance_score": 9
+    },
+    {
+      "title": "Ilya曝光70页OpenAI绝密文件",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/396880.html",
+      "publish_time": "2026-04-07",
+      "category": "AI 综合",
+      "summary": "Ilya偷拍备份的OpenAI机密文件，刚刚曝光 | 70页内部证据、200+页私人笔记，偷拍视频、绕开公司系统、用阅后即焚的方式传递消息，甚至上来直接一个大暴击： Sam Altman撒谎成性",
       "importance_score": 9
     },
     {
@@ -58,12 +67,12 @@
       "importance_score": 9
     },
     {
-      "title": "太初元碁向员工发放百亿算力token并将共建高校AI科教融合学院",
+      "title": "23天靠AI短片赚100万！非科班出身逆袭影视区，郭帆导演拍手叫好",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396533.html",
-      "publish_time": "2026-04-05",
+      "url": "https://www.qbitai.com/2026/04/396890.html",
+      "publish_time": "2026-04-07",
       "category": "AI 综合",
-      "summary": "此前，太初元碁发布基于河南空港智算中心智算底座的太初龙虾一体机（TecoClaw），以全栈国产化、高安全性的私有化部署方案，为企业智能体应用提供开箱即用的算力基础设施",
+      "summary": "以《牌子》这部7分多钟的视频为例，制作周期23天，在B站上线一周，收获1000多万次播放，80多万点赞，30多万投币",
       "importance_score": 9
     },
     {
@@ -76,21 +85,12 @@
       "importance_score": 9
     },
     {
-      "title": "OpenAI新模型不是GPTX！全新预训练“土豆”曝光，Sora成弃子的原因找到了",
+      "title": "卡帕西没做完的，开源社区48小时搞定了！完全体知识库，token省70倍",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396535.html",
-      "publish_time": "2026-04-05",
+      "url": "https://www.qbitai.com/2026/04/396983.html",
+      "publish_time": "2026-04-07",
       "category": "AI 综合",
-      "summary": "还没完，Greg还聊到了OpenAI今年的大笔融资、和A社家对B端用户的争夺…… 以下为播客实录精校（感谢AI），在不改变原意的基础上做了适当编辑",
-      "importance_score": 9
-    },
-    {
-      "title": "具身Scaling Law押对了！独角兽新品1小时学会新任务，重复1800次成功率99%",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396694.html",
-      "publish_time": "2026-04-06",
-      "category": "AI 综合",
-      "summary": "具身智能独角兽Generalist，刚刚推出了最新的研究成果——新模型Gen-1",
+      "summary": "Graphify，一款零配置、全模态、本地跑、还特能省token的知识图谱工具，GitHub开源狂揽2k+ Star | 不仅能自动构建可导航知识图谱、自带反向链接和关系溯源，更实现71",
       "importance_score": 9
     }
   ]
