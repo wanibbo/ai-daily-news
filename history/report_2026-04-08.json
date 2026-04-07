@@ -1,0 +1,97 @@
+{
+  "date": "2026-04-08",
+  "update_time": "2026-04-08T00:00:06.211384",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "下一代OpenClaw来了？“龙虾之父”称将率先支持阿里千问",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/396955.html",
+      "publish_time": "2026-04-07",
+      "category": "AI 综合",
+      "summary": "据了解，过去的一周，阿里连续发布Qwen3 | 6Plus在全球最大的大模型API平台OpenRouter上霸榜多日，成为该平台首个单日调用量突破1万亿Token的模型",
+      "importance_score": 9
+    },
+    {
+      "title": "一场机器人黑客松，让具身智能的差距与机会同时显形",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/0T9Kw9O0obj0wV2NizC7",
+      "publish_time": "2026-04-07",
+      "category": "AI 技术",
+      "summary": "前一晚九点抵达时，我原本以为自己会是少数还在工作的那一批人 | 走进场地才发现，灯还亮着，地上已经支起一排排帐篷 | 机械臂没有停，选手们围在工位前采数据、训模型、盯评测结果",
+      "importance_score": 8
+    },
+    {
+      "title": "哈萨比斯传记里讲了好多八卦啊",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/397553.html",
+      "publish_time": "2026-04-07",
+      "category": "AI 综合",
+      "summary": "怒肝三天，啃完哈萨比斯的最新官方传记，发现了这位谷歌AI一号位许多不为人知的一面 | 辛顿初创公司拍卖夜，DeepMind也出了1000万美元 | 可惜辛顿实在太抢手，发现没戏后，哈萨比斯给辛顿打了个电话： 扎克伯格请哈萨比斯来家里吃饭，谁",
+      "importance_score": 9
+    },
+    {
+      "title": "Ilya曝光70页OpenAI绝密文件",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/396880.html",
+      "publish_time": "2026-04-07",
+      "category": "AI 综合",
+      "summary": "Ilya偷拍备份的OpenAI机密文件，刚刚曝光 | 70页内部证据、200+页私人笔记，偷拍视频、绕开公司系统、用阅后即焚的方式传递消息，甚至上来直接一个大暴击： Sam Altman撒谎成性",
+      "importance_score": 9
+    },
+    {
+      "title": "像素蛋糕9.0：一场关于AI与修图的颠覆革命",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/397517.html",
+      "publish_time": "2026-04-07",
+      "category": "AI 综合",
+      "summary": "3月30日，2026像素系列春季发布会如约而至",
+      "importance_score": 9
+    },
+    {
+      "title": "Claude爆火研究漏引华人团队成果，已挨打立正道歉",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/397576.html",
+      "publish_time": "2026-04-07",
+      "category": "AI 综合",
+      "summary": "MBZUAI研究生Chenxi Wang发现，这篇论文的引用列表里，是不是忘了些什么…… 4月2日，Anthropic发布了一篇新论文，研究了Claude内部的“情绪机制”，在Sonnet 4",
+      "importance_score": 9
+    },
+    {
+      "title": "印奇带队千里首个完整年：营收近百亿，智驾毛利率达30.8%",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/397523.html",
+      "publish_time": "2026-04-07",
+      "category": "AI 综合",
+      "summary": "转向“AI+车”后，由印奇带队、赵明刚刚加盟的千里科技，最新战果是—— 特别是在新开拓的智能驾驶业务方面，相关毛利率高达30",
+      "importance_score": 9
+    },
+    {
+      "title": "Linux内核维护者崩溃了！AI每天狂塞10份漏洞报告，想摸会鱼都难",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/396358.html",
+      "publish_time": "2026-04-05",
+      "category": "AI 综合",
+      "summary": "现在AI找Bug的速度，比他们修Bug还快 | 从今年开始，每天雷打不动收到5到10份报告，周二周五尤其多 | 最搞心态的是，这些AI生成的报告，竟然大部分都还是对的，想摸鱼都没借口，何况这提交者还是一个不用睡觉的“赛博监工”",
+      "importance_score": 9
+    },
+    {
+      "title": "Meta员工空转AI只为浪费token！烧的多挣的多，日均消耗2万亿",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/397610.html",
+      "publish_time": "2026-04-07",
+      "category": "AI 综合",
+      "summary": "不过，亚历山大王这每天两万亿也没白烧，Meta第一个由他主导的模型，即将以“半开源”的形式揭晓",
+      "importance_score": 9
+    },
+    {
+      "title": "卡帕西没做完的，开源社区48小时搞定了！完全体知识库，token省70倍",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/396983.html",
+      "publish_time": "2026-04-07",
+      "category": "AI 综合",
+      "summary": "Graphify，一款零配置、全模态、本地跑、还特能省token的知识图谱工具，GitHub开源狂揽2k+ Star | 不仅能自动构建可导航知识图谱、自带反向链接和关系溯源，更实现71",
+      "importance_score": 9
+    }
+  ]
+}

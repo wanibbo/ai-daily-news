@@ -12,12 +12,12 @@
       "importance_score": 9
     },
     {
-      "title": "AI 时代的架构治理",
+      "title": "一场机器人黑客松，让具身智能的差距与机会同时显形",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/VFRyL5oDK269xIcp8SDi",
-      "publish_time": "2026-04-06",
+      "url": "https://www.infoq.cn/article/0T9Kw9O0obj0wV2NizC7",
+      "publish_time": "2026-04-07",
       "category": "AI 技术",
-      "summary": "本文由 InfoQ 认证架构师在线课程的学员撰写，是其学习成果的集大成之作，反映了学员群体在 AI 与现代软件架构交叉领域的集体学习心得 | 生成式 AI 大幅降低了编写代码所需的工作量，快速原型设计也变得越来越普遍 | 因此，如今软件开发",
+      "summary": "前一晚九点抵达时，我原本以为自己会是少数还在工作的那一批人 | 走进场地才发现，灯还亮着，地上已经支起一排排帐篷 | 机械臂没有停，选手们围在工位前采数据、训模型、盯评测结果",
       "importance_score": 8
     },
     {
@@ -39,12 +39,12 @@
       "importance_score": 9
     },
     {
-      "title": "OpenAI又曝出内讧了！IPO前夜高层大换血",
+      "title": "Claude爆火研究漏引华人团队成果，已挨打立正道歉",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396704.html",
-      "publish_time": "2026-04-06",
+      "url": "https://www.qbitai.com/2026/04/397576.html",
+      "publish_time": "2026-04-07",
       "category": "AI 综合",
-      "summary": "就怎么说呢，和前脚刚拿到千亿融资以及GPT-6传出新进展相比，这反转也来得太快了吧 | 关于OpenAI身上正在发生的事，这第一件就很耐人寻味： 就在它拿下1220亿美元创纪录融资、全力冲刺IPO的节骨眼上，几位核心高管却要么换岗、要...",
+      "summary": "MBZUAI研究生Chenxi Wang发现，这篇论文的引用列表里，是不是忘了些什么…… 4月2日，Anthropic发布了一篇新论文，研究了Claude内部的“情绪机制”，在Sonnet 4",
       "importance_score": 9
     },
     {
@@ -59,8 +59,8 @@
     {
       "title": "让离线强化学习从「局部描摹」变「全局布局」丨ICLR’26",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396738.html",
-      "publish_time": "2026-04-06",
+      "url": "https://www.qbitai.com/2026/04/397523.html",
+      "publish_time": "2026-04-07",
       "category": "AI 综合",
       "summary": "这就好比画一幅素描，你不会一上来就描绘眼睛的睫毛，而是先画出整体的身体轮廓（宏观规划），再逐步细化五官和表情 为了直观展示现有模型的缺陷，研究团队设计了一个迷宫吃金币小实验",
       "importance_score": 9
