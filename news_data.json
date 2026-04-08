@@ -1,33 +1,33 @@
 {
-  "update_time": "2026-04-07T05:59:12.645973",
-  "total_items": 21,
+  "update_time": "2026-04-08T06:03:43.242713",
+  "total_items": 23,
   "top_items": [
     {
-      "title": "持续霸榜！阿里千问3.6Plus问鼎全球大模型调用周榜冠军",
+      "title": "哈萨比斯传记里讲了好多八卦啊",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396950.html",
+      "url": "https://www.qbitai.com/2026/04/397553.html",
       "publish_time": "2026-04-07",
       "category": "AI 综合",
-      "summary": "6-Max也将发布 4月7日，国际知名的大模型API三方调用平台OpenRouter公布了新一期调用量周榜单，阿里千问新模型Qwen3 | 6-Plus是OpenRouter平台上首个单日调用量突破1万亿Token的模型，被OpenR...",
+      "summary": "怒肝三天，啃完哈萨比斯的最新官方传记，发现了这位谷歌AI一号位许多不为人知的一面 | 辛顿初创公司拍卖夜，DeepMind也出了1000万美元 | 可惜辛顿实在太抢手，发现没戏后，哈萨比斯给辛顿打了个电话： 扎克伯格请哈萨比斯来家里吃饭，谁",
       "importance_score": 9
     },
     {
-      "title": "一场机器人黑客松，让具身智能的差距与机会同时显形",
+      "title": "地瓜机器人再获1.5亿美元投资！B轮累计融资2.7亿美元，出货量同比大幅增长180%",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/0T9Kw9O0obj0wV2NizC7",
-      "publish_time": "2026-04-07",
+      "url": "https://www.infoq.cn/article/vqsCNCHUBPoiwxeydL0b",
+      "publish_time": "2026-04-08",
       "category": "AI 技术",
-      "summary": "前一晚九点抵达时，我原本以为自己会是少数还在工作的那一批人 | 走进场地才发现，灯还亮着，地上已经支起一排排帐篷 | 机械臂没有停，选手们围在工位前采数据、训模型、盯评测结果",
+      "summary": "5 亿美元 B2 轮融资，B 轮累计融资额达 2 | 地瓜机器人与地平线始终保持技术同源、战略协同，共同打造“具身智能大脑基座”，推动机器人核心软硬件技术的革新与突破",
       "importance_score": 8
     },
     {
-      "title": "下一代OpenClaw来了？“龙虾之父”称将率先支持阿里千问",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396955.html",
-      "publish_time": "2026-04-07",
-      "category": "AI 综合",
-      "summary": "据了解，过去的一周，阿里连续发布Qwen3 | 6Plus在全球最大的大模型API平台OpenRouter上霸榜多日，成为该平台首个单日调用量突破1万亿Token的模型",
-      "importance_score": 9
+      "title": "又一家“理想系”具身智能公司创办，理想汽车参投",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/14220562.html",
+      "publish_time": "2026-04-08",
+      "category": "AI 产业",
+      "summary": "公司成立于2026年2月，首轮融资由元璟资本和理想汽车共同投资，近期会完成工商变更",
+      "importance_score": 8
     },
     {
       "title": "Ilya曝光70页OpenAI绝密文件",
@@ -36,6 +36,24 @@
       "publish_time": "2026-04-07",
       "category": "AI 综合",
       "summary": "Ilya偷拍备份的OpenAI机密文件，刚刚曝光 | 70页内部证据、200+页私人笔记，偷拍视频、绕开公司系统、用阅后即焚的方式传递消息，甚至上来直接一个大暴击： Sam Altman撒谎成性",
+      "importance_score": 9
+    },
+    {
+      "title": "Skill vs App：一场入口范式的争夺",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/397799.html",
+      "publish_time": "2026-04-08",
+      "category": "AI 综合",
+      "summary": "中关村科学城国际创新服务集聚区的会议室，座无虚席 | 原定2点开始的沙龙活动，不少观众提前一个小时就到场 | 他们大多是从业多年的产品经理、创业者，也有大学生和刚入行的年轻人",
+      "importance_score": 9
+    },
+    {
+      "title": "DeepSeek深夜更新后自曝：我是V4（？！）",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/397761.html",
+      "publish_time": "2026-04-08",
+      "category": "AI 综合",
+      "summary": "就在刚刚，DeepSeek网页端直接就是一个大更新，推出了「快速模式」和「专家模式」两个功能 | （笑） 我们先来说说DeepSeek刚刚上线的「快速模式」和「专家模式」到底是个啥东西",
       "importance_score": 9
     },
     {
@@ -48,33 +66,6 @@
       "importance_score": 9
     },
     {
-      "title": "北大团队改造DeepSeek注意力，速度快四倍还不丢精度",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396841.html",
-      "publish_time": "2026-04-06",
-      "category": "AI 综合",
-      "summary": "就在大家都急头白脸地等待DeepSeek-V4的时候，冷不丁一篇新论文引起了网友们的注意—— 提出新稀疏注意力机制HISA（分层索引稀疏注意力），突破64K上下文的索引瓶颈，相比DeepSeek正在用的DSA（DeepSeek Sparse",
-      "importance_score": 9
-    },
-    {
-      "title": "让离线强化学习从「局部描摹」变「全局布局」丨ICLR’26",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/397523.html",
-      "publish_time": "2026-04-07",
-      "category": "AI 综合",
-      "summary": "这就好比画一幅素描，你不会一上来就描绘眼睛的睫毛，而是先画出整体的身体轮廓（宏观规划），再逐步细化五官和表情 为了直观展示现有模型的缺陷，研究团队设计了一个迷宫吃金币小实验",
-      "importance_score": 9
-    },
-    {
-      "title": "23天靠AI短片赚100万！非科班出身逆袭影视区，郭帆导演拍手叫好",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396890.html",
-      "publish_time": "2026-04-07",
-      "category": "AI 综合",
-      "summary": "以《牌子》这部7分多钟的视频为例，制作周期23天，在B站上线一周，收获1000多万次播放，80多万点赞，30多万投币",
-      "importance_score": 9
-    },
-    {
       "title": "Linux内核维护者崩溃了！AI每天狂塞10份漏洞报告，想摸会鱼都难",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/04/396358.html",
@@ -84,12 +75,21 @@
       "importance_score": 9
     },
     {
-      "title": "卡帕西没做完的，开源社区48小时搞定了！完全体知识库，token省70倍",
+      "title": "Meta员工空转AI只为浪费token！烧的多挣的多，日均消耗2万亿",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/396983.html",
+      "url": "https://www.qbitai.com/2026/04/397610.html",
       "publish_time": "2026-04-07",
       "category": "AI 综合",
-      "summary": "Graphify，一款零配置、全模态、本地跑、还特能省token的知识图谱工具，GitHub开源狂揽2k+ Star | 不仅能自动构建可导航知识图谱、自带反向链接和关系溯源，更实现71",
+      "summary": "不过，亚历山大王这每天两万亿也没白烧，Meta第一个由他主导的模型，即将以“半开源”的形式揭晓",
+      "importance_score": 9
+    },
+    {
+      "title": "省token神器3天狂揽4.1k星！19岁小哥开发，信息无损最高省87%",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/397733.html",
+      "publish_time": "2026-04-08",
+      "category": "AI 综合",
+      "summary": "信息无损Token最高节省87%，一款省Token神器正在GitHub蹿红 | 短短3天，纯靠口口相传，GitHub总揽星4 | 1K，增长曲线更是堪比“旱地拔葱”： 连开发这个项目的19岁外国小哥也懵了，直呼属实没想到",
       "importance_score": 9
     }
   ]
