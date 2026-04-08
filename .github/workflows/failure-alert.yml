@@ -1,0 +1,60 @@
+name: Daily Failure Alert
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 每天北京时间 10:00 检查
+  workflow_dispatch:
+
+jobs:
+  check-failure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Check if today's report exists
+        id: check
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          echo "🔍 检查今日日报：$TODAY"
+          
+          if [ -f "history/report_${TODAY}.html" ]; then
+            echo "✅ 今日日报已生成"
+            echo "status=success" >> $GITHUB_OUTPUT
+          else
+            echo "❌ 今日日报未生成！"
+            echo "status=failure" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Send failure alert
+        if: steps.check.outputs.status == 'failure'
+        run: |
+          echo "⚠️ 检测到今日日报未生成，请检查！"
+          
+          # 钉钉告警
+          if [ -n "${{ secrets.DINGTALK_WEBHOOK }}" ]; then
+            curl -X POST '${{ secrets.DINGTALK_WEBHOOK }}' \
+              -H 'Content-Type: application/json' \
+              -d '{
+                "msgtype": "markdown",
+                "markdown": {
+                  "title": "⚠️ AI 日报生成失败告警",
+                  "text": "## ⚠️ AI 日报生成失败告警\n\n> 今日日报未自动生成，请检查！\n\n**检查时间**：'"$(date +'%Y-%m-%d %H:%M:%S')"'  \n**建议操作**：\n1. 检查 GitHub Actions 日志\n2. 手动触发工作流\n3. 检查 Secrets 配置\n\n🔗 查看：https://github.com/wanibbo/ai-daily-news/actions"
+                }
+              }'
+          fi
+          
+          # Server 酱告警
+          if [ -n "${{ secrets.SERVERCHAN_SENDKEY }}" ]; then
+            curl -X POST 'https://sctapi.ftqq.com/${{ secrets.SERVERCHAN_SENDKEY }}.send' \
+              -d 'title=⚠️ AI 日报生成失败告警' \
+              -d 'desp=今日日报未自动生成，请检查 GitHub Actions 日志！%0A%0A**检查时间**：'"$(date +'%Y-%m-%d %H:%M:%S')"'%0A%0A**建议操作**：%0A1. 检查 GitHub Actions 日志%0A2. 手动触发工作流%0A3. 检查 Secrets 配置'
+          fi
+          
+          exit 1
+      
+      - name: Print status
+        if: steps.check.outputs.status == 'success'
+        run: |
+          echo "======================================"
+          echo "✅ 今日日报已生成，无需告警"
+          echo "======================================"

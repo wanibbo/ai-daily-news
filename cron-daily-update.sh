@@ -27,13 +27,29 @@ echo "✅ 日报生成成功"
 # 推送代码
 echo "📤 步骤 2/3: 推送代码到 GitHub..."
 
-# 先拉取远程变更，防止冲突
+# 清理未提交的更改
+echo "  清理工作区..."
+git reset --hard HEAD
+git clean -fd
+
+# 拉取远程变更
 echo "  拉取远程变更..."
-git pull --rebase || true
+if ! git pull --rebase; then
+    echo "❌ Git pull 失败，跳过今日推送"
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - Git pull failed" >> /tmp/ai-daily-cron.log
+    exit 0
+fi
 
 git add -A
 git commit -m "Daily update $(date +\%Y-\%m-\%d) [auto]" || echo "No changes"
-git push
+
+if ! git push; then
+    echo "❌ Git push 失败，将重试明天"
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - Git push failed" >> /tmp/ai-daily-cron.log
+    exit 0
+fi
+
+echo "✅ 推送成功"
 
 if [ $? -eq 0 ]; then
     echo "✅ 代码推送成功"
