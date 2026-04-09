@@ -31,7 +31,6 @@ jobs:
         run: |
           echo "⚠️ 检测到今日日报未生成，请检查自动任务！"
           
-          # 如果配置了钉钉通知，发送告警
           if [ -n "${{ secrets.DINGTALK_WEBHOOK }}" ]; then
             curl -X POST '${{ secrets.DINGTALK_WEBHOOK }}' \
               -H 'Content-Type: application/json' \
