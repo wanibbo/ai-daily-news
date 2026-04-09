@@ -1,14 +1,14 @@
 {
-  "update_time": "2026-04-09T10:07:18.314928",
-  "total_items": 24,
+  "update_time": "2026-04-09T06:01:44.702386",
+  "total_items": 23,
   "top_items": [
     {
-      "title": "理想破例投资具身创业公司，L9功臣创办，阿里CEO也跟了",
+      "title": "马斯克死磕奥特曼：赔款我不要，但他必须离开OpenAI董事会",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/397930.html",
-      "publish_time": "2026-04-08",
+      "url": "https://www.qbitai.com/2026/04/398071.html",
+      "publish_time": "2026-04-09",
       "category": "AI 综合",
-      "summary": "两人联合创办的新公司成立2个月左右，目前已获得首轮融资",
+      "summary": "Greg Brockman也被要求交出所有股权收益 马斯克连赔偿款都不要了，现在状告OpenAI只有一个核心诉求： 把奥特曼从OpenAI非营利母公司董事会除名 | 老马刚刚对OpenAI诉讼作出修订，提出如果胜诉，所有赔偿一分不要，全部捐",
       "importance_score": 9
     },
     {
@@ -27,15 +27,6 @@
       "publish_time": "2026-04-09",
       "category": "AI 产业",
       "summary": "公司成立于2026年2月，首轮融资由元璟资本和理想汽车共同投资，近期会完成工商变更",
-      "importance_score": 8
-    },
-    {
-      "title": "英伟达、微软、Meta 都在抢的 AI 人才，到底有多贵？",
-      "source": "虎嗅网",
-      "url": "https://www.huxiu.com/article/3.html",
-      "publish_time": "2026-04-09",
-      "category": "AI 产业",
-      "summary": "AI 人才争夺战白热化",
       "importance_score": 8
     },
     {
@@ -63,6 +54,15 @@
       "publish_time": "2026-04-08",
       "category": "AI 综合",
       "summary": "刚融资数亿元的面壁又发新模型，让歪果仁直呼Amazing 终于，郭德纲最难的贯口——《莽撞人》，被免费的2B国产AI给复刻出来了",
+      "importance_score": 9
+    },
+    {
+      "title": "爆火GitHub！《生化危机》女主打造免费“AI记忆系统”",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/398090.html",
+      "publish_time": "2026-04-09",
+      "category": "AI 综合",
+      "summary": "而且发布即开源，所有人免费可用（注意还是本地可跑）",
       "importance_score": 9
     },
     {
