@@ -27,10 +27,21 @@ echo "✅ 日报生成成功"
 # 推送代码
 echo "📤 步骤 2/3: 推送代码到 GitHub..."
 
+# 保存生成的日报文件（防止被清理）
+echo "  保存日报文件..."
+REPORT_DATE=$(date +%Y-%m-%d)
+cp history/report_${REPORT_DATE}.html /tmp/ 2>/dev/null || true
+cp history/report_${REPORT_DATE}.json /tmp/ 2>/dev/null || true
+
 # 清理未提交的更改
 echo "  清理工作区..."
 git reset --hard HEAD
 git clean -fd
+
+# 恢复日报文件
+echo "  恢复日报文件..."
+cp /tmp/report_${REPORT_DATE}.html history/ 2>/dev/null || true
+cp /tmp/report_${REPORT_DATE}.json history/ 2>/dev/null || true
 
 # 拉取远程变更
 echo "  拉取远程变更..."
