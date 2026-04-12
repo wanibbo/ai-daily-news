@@ -1,0 +1,97 @@
+{
+  "date": "2026-04-13",
+  "update_time": "2026-04-13T00:00:05.443032",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "养虾人看哭了！字节扣子2.5出生即满级，手机对话就能Vibe Coding",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/400197.html",
+      "publish_time": "2026-04-12",
+      "category": "AI 综合",
+      "summary": "5做的运势抽签小程序，直接就是一个大吉大利 | 扣子这次直接给Agent全套武装到了牙齿： 不光塞了云电脑、云手机让它自己能操作设备；还整了长期记忆、专属邮箱搞起了数字身份；视频创作、编程开发这些技能也一并解锁",
+      "importance_score": 9
+    },
+    {
+      "title": "谷歌重磅开源Gemma 4！手机离线跑 Agent、还降内存，Qwen 被拉进正面对决",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/X1c6ZllztrQhGEIoYrBR",
+      "publish_time": "2026-04-03",
+      "category": "AI 技术",
+      "summary": "今天凌晨，谷歌正式发布 Gemma 4，称“这是其迄今为止最智能的开放模型系列”",
+      "importance_score": 9
+    },
+    {
+      "title": "奥特曼遭遇死亡威胁：凌晨家中被投燃烧瓶",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/399473.html",
+      "publish_time": "2026-04-11",
+      "category": "AI 综合",
+      "summary": "当地时间夜晚凌晨3:45，奥特曼在家中遭到了燃烧瓶袭击 | 根据通报，一名20岁的男子向这位OpenAI CEO的住宅投掷了简易燃烧瓶",
+      "importance_score": 9
+    },
+    {
+      "title": "Claude复活30年前传奇游戏，仅用一个周末",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/399903.html",
+      "publish_time": "2026-04-12",
+      "category": "AI 综合",
+      "summary": "仅凭一点线索，Claude就复活了一个30年前的传奇游戏 | 目前评论已经盖到了一百多楼，网友的共识是：这篇帖子堪称传奇 | 发帖人是游戏开发商Beamable的CEOJon Radoff，他用Claude复活了自己19岁时开发的MUD（多",
+      "importance_score": 9
+    },
+    {
+      "title": "「Claude Code之父」其实是野路子来的……",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/400306.html",
+      "publish_time": "2026-04-12",
+      "category": "AI 综合",
+      "summary": "谁能想到，用Claude Code砸了程序员饭碗的人，还是个自学成才的野路子 | 这下真是端起碗吃饭，放下碗砸锅（bushi） 说起「Claude Code之父」Boris Cherny，职业生涯主打的就是浪～ 经济学专业出身，从零开始自学",
+      "importance_score": 9
+    },
+    {
+      "title": "中国具身模型狂揽全球第一！机器人的人类数据时代来了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/399417.html",
+      "publish_time": "2026-04-11",
+      "category": "AI 综合",
+      "summary": "灵初这次直接上了个新台阶，10万+数据，其中1000小时还开源 | com/s/Dfj0Z1JiMoTjzSCBassL2Q 而且发布形式也够潮——直播show time～",
+      "importance_score": 9
+    },
+    {
+      "title": "超越人手！中国第一家脑机接口独角兽，要把仿生手带给机器人",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/399681.html",
+      "publish_time": "2026-04-12",
+      "category": "AI 综合",
+      "summary": "还能使用剪刀整齐地剪开纸张，双手配合拼魔方",
+      "importance_score": 9
+    },
+    {
+      "title": "滴滴自动驾驶张博：聚焦安全和体验 推动自动驾驶全球化落地",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/399675.html",
+      "publish_time": "2026-04-11",
+      "category": "AI 综合",
+      "summary": "张博介绍，滴滴自动驾驶以安全和体验为核心，经过十年积累，在AI核心技术、车规级硬件体系、海量真实场景三大层面实现了关键突破与深度融合 | 在技术研发上，滴滴自动驾驶已实现L4级全栈核心技术的自主可控，并持续强化AI技术攻关和创新投入",
+      "importance_score": 9
+    },
+    {
+      "title": "刘壮陈丹琦新作：开源通用视觉推理RL框架，0思考数据刷新SOTA",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/399393.html",
+      "publish_time": "2026-04-11",
+      "category": "AI 综合",
+      "summary": "广泛的数据是视觉推理强化学习Scaling的主要驱动力 适用于通用视觉推理的强化学习（RL）框架，终于有开源版本了 | 在此之前，尽管GPT、Gemini等最强大模型们已经把视觉推理玩出了花，但其背后的强化学习方案还是各大厂商的“独门...",
+      "importance_score": 9
+    },
+    {
+      "title": "HTML-in-Canvas引爆前端！AI时代互联网视觉效果完全不一样了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/399996.html",
+      "publish_time": "2026-04-12",
+      "category": "AI 综合",
+      "summary": "小手轻轻一指，被选中的区域就立马出现了碎片效果，炫酷感一整个扑面而来 | 渲染真人还不算，设计游戏更是一把好手，同款射击破碎效果这就上桌 | 还有高手，直接将网页设计成鱼眼效果，还是想怎么调就怎么调那种",
+      "importance_score": 9
+    }
+  ]
+}
