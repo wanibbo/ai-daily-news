@@ -1,0 +1,97 @@
+{
+  "date": "2026-04-16",
+  "update_time": "2026-04-16T00:00:05.977147",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "黄仁勋率先开源量子AI大模型",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401351.html",
+      "publish_time": "2026-04-15",
+      "category": "AI 综合",
+      "summary": "推出全球首个开源量子AI模型家族——NVIDIA Ising | 说到量子计算的实用化，大家总开玩笑说存在“5年魔咒”：总是说下一个5年就能规模化，实则5年又5年，预期仍未实现",
+      "importance_score": 9
+    },
+    {
+      "title": "Agent 下一战，决胜“记忆”之巅——AICon 深度专题前瞻",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/BFfOpHfuRzyMGE4ZL7lU",
+      "publish_time": "2026-04-15",
+      "category": "AI 技术",
+      "summary": "当 AI 的发展浪潮从“聊天写诗”的通用大模型涌向“干活办事”的自主智能体，我们正站在一个全新的技术分水岭 | Agent 的落地深水区，不在于一次惊艳的推理，而在于长期的稳定运行、持续的自我演进以及对用户意图的终极对齐 | 这一切的核心底",
+      "importance_score": 8
+    },
+    {
+      "title": "Claude复活30年前传奇游戏，仅用一个周末",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/399903.html",
+      "publish_time": "2026-04-12",
+      "category": "AI 综合",
+      "summary": "仅凭一点线索，Claude就复活了一个30年前的传奇游戏 | 目前评论已经盖到了一百多楼，网友的共识是：这篇帖子堪称传奇 | 发帖人是游戏开发商Beamable的CEOJon Radoff，他用Claude复活了自己19岁时开发的MUD（多",
+      "importance_score": 9
+    },
+    {
+      "title": "不只是卖服务器，中兴通讯想做AI时代的基础设施商",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401047.html",
+      "publish_time": "2026-04-14",
+      "category": "AI 综合",
+      "summary": "一方面，Co-Claw AI一体机等全栈新品正式发布，把技术能力落地成可用的场景化产品",
+      "importance_score": 9
+    },
+    {
+      "title": "「Claude Code之父」其实是野路子来的……",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/400306.html",
+      "publish_time": "2026-04-12",
+      "category": "AI 综合",
+      "summary": "谁能想到，用Claude Code砸了程序员饭碗的人，还是个自学成才的野路子 | 这下真是端起碗吃饭，放下碗砸锅（bushi） 说起「Claude Code之父」Boris Cherny，职业生涯主打的就是浪～ 经济学专业出身，从零开始自学",
+      "importance_score": 9
+    },
+    {
+      "title": "全球首创16cm极致外扩超级机械臂，MOVA扫地机开启清洁新纪元",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401512.html",
+      "publish_time": "2026-04-15",
+      "category": "AI 综合",
+      "summary": "都2026年了，当我们谈论起扫地机器人时，讨论的是什么 | 是扫得干净、不闲置、续航时间长的基础性能，还是接入AI、足够智能的交互体验 | 答案可能出乎意料：扫地机器人最重要的不是机器人，而是“扫地”这个基本功",
+      "importance_score": 9
+    },
+    {
+      "title": "浏览器原地变龙虾！Chrome上线Skills，技能一键复用帮你干活",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401389.html",
+      "publish_time": "2026-04-15",
+      "category": "AI 综合",
+      "summary": "梦晨 发自 凹非寺量子位 | 公众号 QbitAI 谷歌Chrome推出Gemini Skills，一键生成可复用的技能 | 举个栗子：你在刷到一个食谱，想让AI分析营养价值 | 以前每次都要手动复制一长串prompt，现在保存一次就行，以",
+      "importance_score": 9
+    },
+    {
+      "title": "百度Create大会官宣三大核心看点，国内最大AI开发者嘉年华5月北京揭幕",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401507.html",
+      "publish_time": "2026-04-15",
+      "category": "AI 综合",
+      "summary": "看点一：百度智能云AI Infra 与 Agent Infra 重大突破，多款全新产品重磅亮相 对于将大模型落地生产的企业与开发者来说，算力成本与系统稳定性是绕不开的核心命题 | 本次大会上，百度智能云将集中发布在 AI Infra ...",
+      "importance_score": 9
+    },
+    {
+      "title": "CAAI携手中国人民大学高瓴人工智能学院、英博数科启动高校学院算力支持计划",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401479.html",
+      "publish_time": "2026-04-15",
+      "category": "AI 综合",
+      "summary": "4月9日，在中国人工智能学会（CAAI）牵头推动下，中国人民大学高瓴人工智能学院与英博数科共同参与的“高校学院算力支持计划”项目签约仪式在中国人民大学举行 | 该项目旨在深入贯彻国家深化拓展“人工智能+”行动战略部署，推进高校智能算力基础设",
+      "importance_score": 9
+    },
+    {
+      "title": "新Vidu Q3参考生，这是冲着「剧」来的！万物皆可参考：特效音效场景都备好了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401367.html",
+      "publish_time": "2026-04-15",
+      "category": "AI 综合",
+      "summary": "这就是生数科技Vidu Q3正式发布的参考生视频，主打的就是一个为剧而生，万物可参，声画同出 | （早在Vidu Q3在今年1月发布的时候，它就登顶了国际权威AI基准测试机构Artificial Analysis榜单",
+      "importance_score": 9
+    }
+  ]
+}
