@@ -1,15 +1,15 @@
 {
   "date": "2026-04-15",
-  "update_time": "2026-04-15T00:00:05.785600",
+  "update_time": "2026-04-15T06:20:47.855279",
   "total_items": 10,
   "top_items": [
     {
-      "title": "养虾人看哭了！字节扣子2.5出生即满级，手机对话就能Vibe Coding",
+      "title": "黄仁勋率先开源量子AI大模型",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/400197.html",
-      "publish_time": "2026-04-12",
+      "url": "https://www.qbitai.com/2026/04/401351.html",
+      "publish_time": "2026-04-15",
       "category": "AI 综合",
-      "summary": "5做的运势抽签小程序，直接就是一个大吉大利 | 扣子这次直接给Agent全套武装到了牙齿： 不光塞了云电脑、云手机让它自己能操作设备；还整了长期记忆、专属邮箱搞起了数字身份；视频创作、编程开发这些技能也一并解锁",
+      "summary": "推出全球首个开源量子AI模型家族——NVIDIA Ising | 说到量子计算的实用化，大家总开玩笑说存在“5年魔咒”：总是说下一个5年就能规模化，实则5年又5年，预期仍未实现",
       "importance_score": 9
     },
     {
@@ -22,21 +22,12 @@
       "importance_score": 8
     },
     {
-      "title": "李开复陆奇重仓同一家Harness智能体公司，李笛带队，4个月2轮融资3-5年粮草",
+      "title": "养虾人看哭了！字节扣子2.5出生即满级，手机对话就能Vibe Coding",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401065.html",
-      "publish_time": "2026-04-14",
+      "url": "https://www.qbitai.com/2026/04/400197.html",
+      "publish_time": "2026-04-12",
       "category": "AI 综合",
-      "summary": "刚刚，成立仅四个多月的AI初创公司明日新程（Nextie），宣布连续完成两轮融资",
-      "importance_score": 9
-    },
-    {
-      "title": "斯坦福年度结论：中美大模型已没差距",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401094.html",
-      "publish_time": "2026-04-14",
-      "category": "AI 综合",
-      "summary": "仔细一看才知道，这竟然还是斯坦福HAI最新发布的《2026年AI指数报告》给出的结论",
+      "summary": "5做的运势抽签小程序，直接就是一个大吉大利 | 扣子这次直接给Agent全套武装到了牙齿： 不光塞了云电脑、云手机让它自己能操作设备；还整了长期记忆、专属邮箱搞起了数字身份；视频创作、编程开发这些技能也一并解锁",
       "importance_score": 9
     },
     {
@@ -46,15 +37,6 @@
       "publish_time": "2026-04-12",
       "category": "AI 综合",
       "summary": "仅凭一点线索，Claude就复活了一个30年前的传奇游戏 | 目前评论已经盖到了一百多楼，网友的共识是：这篇帖子堪称传奇 | 发帖人是游戏开发商Beamable的CEOJon Radoff，他用Claude复活了自己19岁时开发的MUD（多",
-      "importance_score": 9
-    },
-    {
-      "title": "什么Excel这函数那公式，我千问永远一步搞定",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401127.html",
-      "publish_time": "2026-04-14",
-      "category": "AI 综合",
-      "summary": "AI做PPT倒是得心应手、形式也五花八门了—— But谁来救救表格人 | 做Excel简直是当代酷刑…… 说实话，Office三件套里，AI搞定Word和PPT倒是见怪不怪，但现在市面上能直接交付Excel表格的AI助手实在太少",
       "importance_score": 9
     },
     {
@@ -91,6 +73,24 @@
       "publish_time": "2026-04-14",
       "category": "AI 综合",
       "summary": "近日，教育部、国家发展改革委、工业和信息化部、科技部、国家数据局联合印发《“人工智能+教育”行动计划》（以下简称《行动计划》） | 《行动计划》提出推进“十五五”期间“人工智能+教育”四大重点任务： 这份政策对普通人意味着什么",
+      "importance_score": 9
+    },
+    {
+      "title": "浏览器原地变龙虾！Chrome上线Skills，技能一键复用帮你干活",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401389.html",
+      "publish_time": "2026-04-15",
+      "category": "AI 综合",
+      "summary": "梦晨 发自 凹非寺量子位 | 公众号 QbitAI 谷歌Chrome推出Gemini Skills，一键生成可复用的技能 | 举个栗子：你在刷到一个食谱，想让AI分析营养价值 | 以前每次都要手动复制一长串prompt，现在保存一次就行，以",
+      "importance_score": 9
+    },
+    {
+      "title": "死敌爆料是狠！OpenAI内部信阴阳Claude营收注水80亿，然后泄露了…",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401333.html",
+      "publish_time": "2026-04-15",
+      "category": "AI 综合",
+      "summary": "OpenAI的首席营收官Denise Dresser，周末给员工发了一封本该保密的内部信，结果被The Verge拿出来发了 | 信里透露了OpenAI Q2的企业业务方向，但更引人注目的，是信中用相当大的篇幅把竞争对手Anthropic从",
       "importance_score": 9
     }
   ]
