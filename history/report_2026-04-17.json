@@ -1,0 +1,97 @@
+{
+  "date": "2026-04-17",
+  "update_time": "2026-04-17T00:00:06.696356",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "我用1分钟开发了个上线应用，有阿里Meoo谁还学编程啊",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401553.html",
+      "publish_time": "2026-04-16",
+      "category": "AI 综合",
+      "summary": "全程没写一行代码、不用配环境、不用买服务器、不用建数据库—— 只通过说话提需求，1分钟就直接拿到了这个可上线、可分享、可交互的完整应用",
+      "importance_score": 9
+    },
+    {
+      "title": "3分钟，这个AI帮我手搓出带货视频！前钉钉副总裁创业：有人第一个月卖了10万美元",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/aabRtNR5WreQuo4Kt4h9",
+      "publish_time": "2026-04-16",
+      "category": "AI 技术",
+      "summary": "原本要商家、运营、内容团队一起配合的活，现在被一个 AI 包揽了：从选品、写脚本、做视频，到发布、运营，甚至后台数据分析，一条链路基本全让 AI 干 | 对用户而言，你哪怕从 0 开始、没有任何带货经验，也能把卖货这件事跑起来，甚至能...",
+      "importance_score": 8
+    },
+    {
+      "title": "Claude复活30年前传奇游戏，仅用一个周末",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/399903.html",
+      "publish_time": "2026-04-12",
+      "category": "AI 综合",
+      "summary": "仅凭一点线索，Claude就复活了一个30年前的传奇游戏 | 目前评论已经盖到了一百多楼，网友的共识是：这篇帖子堪称传奇 | 发帖人是游戏开发商Beamable的CEOJon Radoff，他用Claude复活了自己19岁时开发的MUD（多",
+      "importance_score": 9
+    },
+    {
+      "title": "全球首创16cm极致外扩超级机械臂，MOVA扫地机开启清洁新纪元",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401512.html",
+      "publish_time": "2026-04-15",
+      "category": "AI 综合",
+      "summary": "都2026年了，当我们谈论起扫地机器人时，讨论的是什么 | 是扫得干净、不闲置、续航时间长的基础性能，还是接入AI、足够智能的交互体验 | 答案可能出乎意料：扫地机器人最重要的不是机器人，而是“扫地”这个基本功",
+      "importance_score": 9
+    },
+    {
+      "title": "宁王飘了！日赚2.3亿，回应比亚迪“闪充”：跟我学的，构不成挑战",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401719.html",
+      "publish_time": "2026-04-16",
+      "category": "AI 综合",
+      "summary": "要知道，宁德时代2025年全年净利润722亿，而到2026年仅仅一个季度就干了近207亿——这还是在原材料价格上涨的背景下实现的 | 财报发布后，宁德时代今日股价一度涨超6%，市值一度超过2 | 但奇怪的是，明明公司账上躺着超3200...",
+      "importance_score": 9
+    },
+    {
+      "title": "72天，从0到千万小时产能，这个具身「新锐派」凭什么接管数据赛道？",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401741.html",
+      "publish_time": "2026-04-16",
+      "category": "AI 综合",
+      "summary": "如果高质量的物理数据无法实现规模化供给，具身智能就永远只能留在实验室的“襁褓”里 | 另外还同步发布物理AI数据服务平台、MEgo Engine数据治理引擎，并联合权威机构启动蜂巢数据共创行动，与京东云、百度云、阿里云等多家头部企业达...",
+      "importance_score": 9
+    },
+    {
+      "title": "刚刚，机器人练成了宁次的「白眼」：∞帧画面边看边3D重建我们的世界！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401743.html",
+      "publish_time": "2026-04-16",
+      "category": "AI 综合",
+      "summary": "因为现在，一个新模型已经实现了无尽流：看∞帧视频可以稳定实时3D重建 | ） 这，就是蚂蚁灵波最新开源的LingBot-Map，一个专为纯自回归的流式3D重建而打造的基础模型",
+      "importance_score": 9
+    },
+    {
+      "title": "扔掉你的Token账单吧，荣耀YOYO Claw技术把养虾成本打下来了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401682.html",
+      "publish_time": "2026-04-16",
+      "category": "AI 综合",
+      "summary": "荣耀YOYO Claw技术在配置上不仅实现开机即用，还通过独创的智能路由算法大大降低了Tokens成本，并且基于独有的设备级安全防护体系和独立安全虾，从根源保护隐私安全",
+      "importance_score": 9
+    },
+    {
+      "title": "PPIO上线PPHermes：云端沙箱一键部署Hermes Agent",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/402085.html",
+      "publish_time": "2026-04-16",
+      "category": "AI 综合",
+      "summary": "4月16日，PPIO 发布 PPHermes，这是首个专为国内用户设计的 Hermes Agent 云端沙箱部署方案",
+      "importance_score": 9
+    },
+    {
+      "title": "世界客商排队体验讯飞AI眼镜，科大讯飞把多语种AI能力带进广交会第一现场",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401994.html",
+      "publish_time": "2026-04-16",
+      "category": "AI 综合",
+      "summary": "互动环节中，一位讲阿拉伯语的客商佩戴眼镜，与使用普通话的讯飞AI眼镜业务线负责人林会杰“面对面”实时畅聊，现场展示了产品的实时跨语言交流能力",
+      "importance_score": 9
+    }
+  ]
+}
