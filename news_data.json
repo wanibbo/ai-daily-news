@@ -1,32 +1,41 @@
 {
-  "update_time": "2026-04-15T06:20:47.854797",
-  "total_items": 20,
+  "update_time": "2026-04-16T06:23:08.704226",
+  "total_items": 19,
   "top_items": [
     {
-      "title": "黄仁勋率先开源量子AI大模型",
+      "title": "我用1分钟开发了个上线应用，有阿里Meoo谁还学编程啊",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401351.html",
-      "publish_time": "2026-04-15",
+      "url": "https://www.qbitai.com/2026/04/401553.html",
+      "publish_time": "2026-04-16",
       "category": "AI 综合",
-      "summary": "推出全球首个开源量子AI模型家族——NVIDIA Ising | 说到量子计算的实用化，大家总开玩笑说存在“5年魔咒”：总是说下一个5年就能规模化，实则5年又5年，预期仍未实现",
+      "summary": "全程没写一行代码、不用配环境、不用买服务器、不用建数据库—— 只通过说话提需求，1分钟就直接拿到了这个可上线、可分享、可交互的完整应用",
       "importance_score": 9
     },
     {
-      "title": "Anthropic 那个“强到不敢发”的模型，终于来了！",
+      "title": "卖鞋厂转型做AI股价暴涨582%，华尔街最不缺这种荒诞闹剧",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/2Sy6GlLvKgbPcwoCGDjx",
-      "publish_time": "2026-04-08",
+      "url": "https://www.infoq.cn/article/fhE72Luzde6WYlVolp4T",
+      "publish_time": "2026-04-16",
       "category": "AI 技术",
-      "summary": "今天凌晨，Anthropic 正式宣告了新模型 Claude Mythos Preview，那个曾被曝光称“强到不敢发布”的模型 | 但该系统卡的重点不只是展示模型能力有多强，更重要的是解释在能力大幅提升之后，Anthropic 为什...",
+      "summary": "4 月初，一家以“舒适、环保、极简”著称的鞋履品牌，还在认真发布新品——帆布巡航鞋，并宣布与色彩机构合作，试图在时尚与设计领域继续讲述自己的品牌故事；一周之后，这家公司却突然宣布，将“业务重心转向人工智能计算基础设施”，计划打造 GPU 即",
       "importance_score": 8
     },
     {
-      "title": "养虾人看哭了！字节扣子2.5出生即满级，手机对话就能Vibe Coding",
+      "title": "继HappyHorse后，阿里又有一款模型登顶权威评测榜单",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/400197.html",
-      "publish_time": "2026-04-12",
+      "url": "https://www.qbitai.com/2026/04/401554.html",
+      "publish_time": "2026-04-16",
       "category": "AI 综合",
-      "summary": "5做的运势抽签小程序，直接就是一个大吉大利 | 扣子这次直接给Agent全套武装到了牙齿： 不光塞了云电脑、云手机让它自己能操作设备；还整了长期记忆、专属邮箱搞起了数字身份；视频创作、编程开发这些技能也一并解锁",
+      "summary": "阿里巴巴旗下一款名为ABot-PhysWorld的世界模型登顶世界模型领域的权威评测WorldArena | 不到半个月内，阿里巴巴已先后有两个全新模型登顶世界级评测榜单 | 4月初，来自阿里巴巴的HappyHorse横空出世，一举登顶权威",
+      "importance_score": 9
+    },
+    {
+      "title": "炸奥特曼的人被扒出来了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401523.html",
+      "publish_time": "2026-04-16",
+      "category": "AI 综合",
+      "summary": "手捏多位科技公司CEO及投资者“死亡名单” Daniel Moreno-Gama，一个号称要阻止AI灭绝人类的20岁青年 | 随着庭审进一步公开，人们知晓了更多事件细节和Daniel的个人画像 | 在科技媒体Futurism的描述中，他被视",
       "importance_score": 9
     },
     {
@@ -39,57 +48,48 @@
       "importance_score": 9
     },
     {
-      "title": "不只是卖服务器，中兴通讯想做AI时代的基础设施商",
+      "title": "短短3个月，高德已拿下具身智能领域15项世界第一",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401047.html",
-      "publish_time": "2026-04-14",
+      "url": "https://www.qbitai.com/2026/04/401649.html",
+      "publish_time": "2026-04-16",
       "category": "AI 综合",
-      "summary": "一方面，Co-Claw AI一体机等全栈新品正式发布，把技术能力落地成可用的场景化产品",
+      "summary": "此外今年2月，高德发布两款ABot系列基座模型，分别是具身操作基座模型ABot-M0与具身导航基座模型ABot-N0",
       "importance_score": 9
     },
     {
-      "title": "「Claude Code之父」其实是野路子来的……",
+      "title": "具身智能为什么还没真正落地？问题卡在这｜沙龙报名",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/400306.html",
-      "publish_time": "2026-04-12",
+      "url": "https://www.qbitai.com/2026/04/401541.html",
+      "publish_time": "2026-04-16",
       "category": "AI 综合",
-      "summary": "谁能想到，用Claude Code砸了程序员饭碗的人，还是个自学成才的野路子 | 这下真是端起碗吃饭，放下碗砸锅（bushi） 说起「Claude Code之父」Boris Cherny，职业生涯主打的就是浪～ 经济学专业出身，从零开始自学",
+      "summary": "Aurelia 发自 凹非寺公众号｜量子位 QbitAI 当下，具身智能正在进入加速期，产业规模已突破万亿级 | 但从Demo走向真实世界的稳定运行，这条路径远比想象中更复杂 | 技术路线尚未收敛，真实世界高质量数据匮乏，依赖特定场景的小模",
       "importance_score": 9
     },
     {
-      "title": "荣耀PC家族大爆发！荣耀“打洲本”“养虾本”集中亮相",
+      "title": "Claude实名认证引众怒！强制验证是为了更精准封号",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401202.html",
-      "publish_time": "2026-04-14",
+      "url": "https://www.qbitai.com/2026/04/401655.html",
+      "publish_time": "2026-04-16",
       "category": "AI 综合",
-      "summary": "通过一系列技术创新，荣耀WIN游戏本实现风扇马达小型化突破，将马达尺寸缩小至10mm，并保持超20000RPM转速 | 除了硬核散热，荣耀WIN游戏本搭载的Gaming Turbo X技术助其实现游戏与生产力双提速，进一步升维用户体验",
+      "summary": "梦晨 发自 凹非寺量子位 | 公众号 QbitAI 用AI吃着火锅写着代码，突然被要求实名认证了",
       "importance_score": 9
     },
     {
-      "title": "教育部等五部门关于印发《“人工智能+教育”行动计划》的通知",
+      "title": "全球首创16cm极致外扩超级机械臂，MOVA扫地机开启清洁新纪元",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401190.html",
-      "publish_time": "2026-04-14",
-      "category": "AI 综合",
-      "summary": "近日，教育部、国家发展改革委、工业和信息化部、科技部、国家数据局联合印发《“人工智能+教育”行动计划》（以下简称《行动计划》） | 《行动计划》提出推进“十五五”期间“人工智能+教育”四大重点任务： 这份政策对普通人意味着什么",
-      "importance_score": 9
-    },
-    {
-      "title": "浏览器原地变龙虾！Chrome上线Skills，技能一键复用帮你干活",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401389.html",
+      "url": "https://www.qbitai.com/2026/04/401512.html",
       "publish_time": "2026-04-15",
       "category": "AI 综合",
-      "summary": "梦晨 发自 凹非寺量子位 | 公众号 QbitAI 谷歌Chrome推出Gemini Skills，一键生成可复用的技能 | 举个栗子：你在刷到一个食谱，想让AI分析营养价值 | 以前每次都要手动复制一长串prompt，现在保存一次就行，以",
+      "summary": "都2026年了，当我们谈论起扫地机器人时，讨论的是什么 | 是扫得干净、不闲置、续航时间长的基础性能，还是接入AI、足够智能的交互体验 | 答案可能出乎意料：扫地机器人最重要的不是机器人，而是“扫地”这个基本功",
       "importance_score": 9
     },
     {
-      "title": "死敌爆料是狠！OpenAI内部信阴阳Claude营收注水80亿，然后泄露了…",
+      "title": "扔掉你的Token账单吧，荣耀YOYO Claw技术把养虾成本打下来了",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401333.html",
-      "publish_time": "2026-04-15",
+      "url": "https://www.qbitai.com/2026/04/401682.html",
+      "publish_time": "2026-04-16",
       "category": "AI 综合",
-      "summary": "OpenAI的首席营收官Denise Dresser，周末给员工发了一封本该保密的内部信，结果被The Verge拿出来发了 | 信里透露了OpenAI Q2的企业业务方向，但更引人注目的，是信中用相当大的篇幅把竞争对手Anthropic从",
+      "summary": "荣耀YOYO Claw技术在配置上不仅实现开机即用，还通过独创的智能路由算法大大降低了Tokens成本，并且基于独有的设备级安全防护体系和独立安全虾，从根源保护隐私安全",
       "importance_score": 9
     }
   ]
