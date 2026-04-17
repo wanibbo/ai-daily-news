@@ -1,43 +1,7 @@
 {
-  "update_time": "2026-04-16T06:23:08.704226",
-  "total_items": 19,
+  "update_time": "2026-04-17T06:23:54.002578",
+  "total_items": 23,
   "top_items": [
-    {
-      "title": "我用1分钟开发了个上线应用，有阿里Meoo谁还学编程啊",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401553.html",
-      "publish_time": "2026-04-16",
-      "category": "AI 综合",
-      "summary": "全程没写一行代码、不用配环境、不用买服务器、不用建数据库—— 只通过说话提需求，1分钟就直接拿到了这个可上线、可分享、可交互的完整应用",
-      "importance_score": 9
-    },
-    {
-      "title": "卖鞋厂转型做AI股价暴涨582%，华尔街最不缺这种荒诞闹剧",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/fhE72Luzde6WYlVolp4T",
-      "publish_time": "2026-04-16",
-      "category": "AI 技术",
-      "summary": "4 月初，一家以“舒适、环保、极简”著称的鞋履品牌，还在认真发布新品——帆布巡航鞋，并宣布与色彩机构合作，试图在时尚与设计领域继续讲述自己的品牌故事；一周之后，这家公司却突然宣布，将“业务重心转向人工智能计算基础设施”，计划打造 GPU 即",
-      "importance_score": 8
-    },
-    {
-      "title": "继HappyHorse后，阿里又有一款模型登顶权威评测榜单",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401554.html",
-      "publish_time": "2026-04-16",
-      "category": "AI 综合",
-      "summary": "阿里巴巴旗下一款名为ABot-PhysWorld的世界模型登顶世界模型领域的权威评测WorldArena | 不到半个月内，阿里巴巴已先后有两个全新模型登顶世界级评测榜单 | 4月初，来自阿里巴巴的HappyHorse横空出世，一举登顶权威",
-      "importance_score": 9
-    },
-    {
-      "title": "炸奥特曼的人被扒出来了",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401523.html",
-      "publish_time": "2026-04-16",
-      "category": "AI 综合",
-      "summary": "手捏多位科技公司CEO及投资者“死亡名单” Daniel Moreno-Gama，一个号称要阻止AI灭绝人类的20岁青年 | 随着庭审进一步公开，人们知晓了更多事件细节和Daniel的个人画像 | 在科技媒体Futurism的描述中，他被视",
-      "importance_score": 9
-    },
     {
       "title": "Claude复活30年前传奇游戏，仅用一个周末",
       "source": "量子位",
@@ -48,39 +12,39 @@
       "importance_score": 9
     },
     {
-      "title": "短短3个月，高德已拿下具身智能领域15项世界第一",
+      "title": "3分钟，这个AI帮我手搓出带货视频！前钉钉副总裁创业：有人第一个月卖了10万美元",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/aabRtNR5WreQuo4Kt4h9",
+      "publish_time": "2026-04-16",
+      "category": "AI 技术",
+      "summary": "原本要商家、运营、内容团队一起配合的活，现在被一个 AI 包揽了：从选品、写脚本、做视频，到发布、运营，甚至后台数据分析，一条链路基本全让 AI 干 | 对用户而言，你哪怕从 0 开始、没有任何带货经验，也能把卖货这件事跑起来，甚至能...",
+      "importance_score": 8
+    },
+    {
+      "title": "国家发改委：今年将重点在“人工智能+”基础设施等领域，开展一系列扩大有效投资行动",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/14267087.html",
+      "publish_time": "2026-04-17",
+      "category": "AI 产业",
+      "summary": "国新办4月17日上午举行“开局起步‘十五五’”系列主题新闻发布会，国家发展改革委副主任王昌林表示，今年将重点在“人工智能+”基础设施、城市更新、国家水网、新型能源体系等领域，开展一系列扩大有效投资行动，促进供给结构优化、市场需求扩容 | 体",
+      "importance_score": 8
+    },
+    {
+      "title": "72天，从0到千万小时产能，这个具身「新锐派」凭什么接管数据赛道？",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401649.html",
+      "url": "https://www.qbitai.com/2026/04/401741.html",
       "publish_time": "2026-04-16",
       "category": "AI 综合",
-      "summary": "此外今年2月，高德发布两款ABot系列基座模型，分别是具身操作基座模型ABot-M0与具身导航基座模型ABot-N0",
+      "summary": "如果高质量的物理数据无法实现规模化供给，具身智能就永远只能留在实验室的“襁褓”里 | 另外还同步发布物理AI数据服务平台、MEgo Engine数据治理引擎，并联合权威机构启动蜂巢数据共创行动，与京东云、百度云、阿里云等多家头部企业达...",
       "importance_score": 9
     },
     {
-      "title": "具身智能为什么还没真正落地？问题卡在这｜沙龙报名",
+      "title": "刚刚，机器人练成了宁次的「白眼」：∞帧画面边看边3D重建我们的世界！",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401541.html",
+      "url": "https://www.qbitai.com/2026/04/401743.html",
       "publish_time": "2026-04-16",
       "category": "AI 综合",
-      "summary": "Aurelia 发自 凹非寺公众号｜量子位 QbitAI 当下，具身智能正在进入加速期，产业规模已突破万亿级 | 但从Demo走向真实世界的稳定运行，这条路径远比想象中更复杂 | 技术路线尚未收敛，真实世界高质量数据匮乏，依赖特定场景的小模",
-      "importance_score": 9
-    },
-    {
-      "title": "Claude实名认证引众怒！强制验证是为了更精准封号",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401655.html",
-      "publish_time": "2026-04-16",
-      "category": "AI 综合",
-      "summary": "梦晨 发自 凹非寺量子位 | 公众号 QbitAI 用AI吃着火锅写着代码，突然被要求实名认证了",
-      "importance_score": 9
-    },
-    {
-      "title": "全球首创16cm极致外扩超级机械臂，MOVA扫地机开启清洁新纪元",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401512.html",
-      "publish_time": "2026-04-15",
-      "category": "AI 综合",
-      "summary": "都2026年了，当我们谈论起扫地机器人时，讨论的是什么 | 是扫得干净、不闲置、续航时间长的基础性能，还是接入AI、足够智能的交互体验 | 答案可能出乎意料：扫地机器人最重要的不是机器人，而是“扫地”这个基本功",
+      "summary": "因为现在，一个新模型已经实现了无尽流：看∞帧视频可以稳定实时3D重建 | ） 这，就是蚂蚁灵波最新开源的LingBot-Map，一个专为纯自回归的流式3D重建而打造的基础模型",
       "importance_score": 9
     },
     {
@@ -90,6 +54,42 @@
       "publish_time": "2026-04-16",
       "category": "AI 综合",
       "summary": "荣耀YOYO Claw技术在配置上不仅实现开机即用，还通过独创的智能路由算法大大降低了Tokens成本，并且基于独有的设备级安全防护体系和独立安全虾，从根源保护隐私安全",
+      "importance_score": 9
+    },
+    {
+      "title": "PPIO上线PPHermes：云端沙箱一键部署Hermes Agent",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/402085.html",
+      "publish_time": "2026-04-16",
+      "category": "AI 综合",
+      "summary": "4月16日，PPIO 发布 PPHermes，这是首个专为国内用户设计的 Hermes Agent 云端沙箱部署方案",
+      "importance_score": 9
+    },
+    {
+      "title": "空间智能第一股，开盘暴涨171%！李飞飞押注的赛道，杭州六小龙之一跑通了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/402158.html",
+      "publish_time": "2026-04-17",
+      "category": "AI 综合",
+      "summary": "对，也是「杭州六小龙」里率先冲线的那一家。 今日，群核科技（00068.HK）正式挂牌上市，报20.70港元，较发行价上涨171.65%。 昨天的暗盘也是热闹非凡，一度涨超195%。 15年前，群核科技以GPU上云为起点，秉持着「让每一个空",
+      "importance_score": 9
+    },
+    {
+      "title": "世界客商排队体验讯飞AI眼镜，科大讯飞把多语种AI能力带进广交会第一现场",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/401994.html",
+      "publish_time": "2026-04-16",
+      "category": "AI 综合",
+      "summary": "互动环节中，一位讲阿拉伯语的客商佩戴眼镜，与使用普通话的讯飞AI眼镜业务线负责人林会杰“面对面”实时畅聊，现场展示了产品的实时跨语言交流能力",
+      "importance_score": 9
+    },
+    {
+      "title": "打造全球领先“具身智能超级供应链”，京东发布行业首个具身数据全链路基础设施",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/402063.html",
+      "publish_time": "2026-04-16",
+      "category": "AI 综合",
+      "summary": "” 依托京东在算力基础设施、大模型技术及产业场景上的积累，京东云推出全球首个全链路具身智能数据基础设施，打通从数据采集到模型测试的全流程闭环，将原始杂乱数据精炼为驱动模型进化的高价值“数据燃料”",
       "importance_score": 9
     }
   ]
