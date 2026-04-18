@@ -1,14 +1,14 @@
 {
-  "update_time": "2026-04-17T06:23:54.002578",
-  "total_items": 23,
+  "update_time": "2026-04-18T05:52:23.847924",
+  "total_items": 22,
   "top_items": [
     {
-      "title": "Claude复活30年前传奇游戏，仅用一个周末",
+      "title": "4.55亿美金！中国具身智能最大单笔融资诞生，高瓴红杉联手押注具身大脑",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/399903.html",
-      "publish_time": "2026-04-12",
+      "url": "https://www.qbitai.com/2026/04/402388.html",
+      "publish_time": "2026-04-17",
       "category": "AI 综合",
-      "summary": "仅凭一点线索，Claude就复活了一个30年前的传奇游戏 | 目前评论已经盖到了一百多楼，网友的共识是：这篇帖子堪称传奇 | 发帖人是游戏开发商Beamable的CEOJon Radoff，他用Claude复活了自己19岁时开发的MUD（多",
+      "summary": "全栈大脑会成为具身智能下一阶段竞赛的胜负手 近日，中国具身智能史上最高单轮融资纪录，诞生了 | 4月16日，成立仅一年的它石智航，宣布完成Pre-A轮融资，金额4 | 一年前，它石斩获了行业最大天使轮融资的标签； 一年后，这家公司的P...",
       "importance_score": 9
     },
     {
@@ -21,48 +21,39 @@
       "importance_score": 8
     },
     {
-      "title": "国家发改委：今年将重点在“人工智能+”基础设施等领域，开展一系列扩大有效投资行动",
-      "source": "界面新闻",
-      "url": "https://www.jiemian.com/article/14267087.html",
+      "title": "Claude复活30年前传奇游戏，仅用一个周末",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/399903.html",
+      "publish_time": "2026-04-12",
+      "category": "AI 综合",
+      "summary": "仅凭一点线索，Claude就复活了一个30年前的传奇游戏 | 目前评论已经盖到了一百多楼，网友的共识是：这篇帖子堪称传奇 | 发帖人是游戏开发商Beamable的CEOJon Radoff，他用Claude复活了自己19岁时开发的MUD（多",
+      "importance_score": 9
+    },
+    {
+      "title": "谷歌最强具身大脑发布！波士顿机器狗瞬间人模人样",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/402329.html",
       "publish_time": "2026-04-17",
-      "category": "AI 产业",
-      "summary": "国新办4月17日上午举行“开局起步‘十五五’”系列主题新闻发布会，国家发展改革委副主任王昌林表示，今年将重点在“人工智能+”基础设施、城市更新、国家水网、新型能源体系等领域，开展一系列扩大有效投资行动，促进供给结构优化、市场需求扩容 | 体",
-      "importance_score": 8
-    },
-    {
-      "title": "72天，从0到千万小时产能，这个具身「新锐派」凭什么接管数据赛道？",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401741.html",
-      "publish_time": "2026-04-16",
       "category": "AI 综合",
-      "summary": "如果高质量的物理数据无法实现规模化供给，具身智能就永远只能留在实验室的“襁褓”里 | 另外还同步发布物理AI数据服务平台、MEgo Engine数据治理引擎，并联合权威机构启动蜂巢数据共创行动，与京东云、百度云、阿里云等多家头部企业达...",
+      "summary": "刚刚，Google DeepMind发布了最新的机器人推理模型—— Gemini Robotics-ER 1",
       "importance_score": 9
     },
     {
-      "title": "刚刚，机器人练成了宁次的「白眼」：∞帧画面边看边3D重建我们的世界！",
+      "title": "π0.7发布，VLA押出了机器人的GPT-3时刻",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401743.html",
-      "publish_time": "2026-04-16",
+      "url": "https://www.qbitai.com/2026/04/402189.html",
+      "publish_time": "2026-04-17",
       "category": "AI 综合",
-      "summary": "因为现在，一个新模型已经实现了无尽流：看∞帧视频可以稳定实时3D重建 | ） 这，就是蚂蚁灵波最新开源的LingBot-Map，一个专为纯自回归的流式3D重建而打造的基础模型",
+      "summary": "今天凌晨，Physical Intelligence发布了全新的VLA模型π0",
       "importance_score": 9
     },
     {
-      "title": "扔掉你的Token账单吧，荣耀YOYO Claw技术把养虾成本打下来了",
+      "title": "魏建军发布会开炮：专属电动车平台纯粹伪命题，友商回去立马向我们学习",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401682.html",
-      "publish_time": "2026-04-16",
+      "url": "https://www.qbitai.com/2026/04/402636.html",
+      "publish_time": "2026-04-18",
       "category": "AI 综合",
-      "summary": "荣耀YOYO Claw技术在配置上不仅实现开机即用，还通过独创的智能路由算法大大降低了Tokens成本，并且基于独有的设备级安全防护体系和独立安全虾，从根源保护隐私安全",
-      "importance_score": 9
-    },
-    {
-      "title": "PPIO上线PPHermes：云端沙箱一键部署Hermes Agent",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/402085.html",
-      "publish_time": "2026-04-16",
-      "category": "AI 综合",
-      "summary": "4月16日，PPIO 发布 PPHermes，这是首个专为国内用户设计的 Hermes Agent 云端沙箱部署方案",
+      "summary": "” 好家伙，发布会现场魏建军依旧“耿直”，没有寒暄，没有套路，上来就是对行业现状“开炮” | 能在发布会上说出这种话，说明手里确实有东西",
       "importance_score": 9
     },
     {
@@ -75,21 +66,30 @@
       "importance_score": 9
     },
     {
-      "title": "世界客商排队体验讯飞AI眼镜，科大讯飞把多语种AI能力带进广交会第一现场",
+      "title": "11.58万，全系Lidar+L4同源算法，广汽文远把城区NOA打成白菜价",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/401994.html",
-      "publish_time": "2026-04-16",
+      "url": "https://www.qbitai.com/2026/04/402440.html",
+      "publish_time": "2026-04-17",
       "category": "AI 综合",
-      "summary": "互动环节中，一位讲阿拉伯语的客商佩戴眼镜，与使用普通话的讯飞AI眼镜业务线负责人林会杰“面对面”实时畅聊，现场展示了产品的实时跨语言交流能力",
+      "summary": "最近，广汽埃安在长沙正式开启埃安N60预售——预售价11 | 居然全系标配激光雷达，用上了文远知行供应的L4同源算法",
       "importance_score": 9
     },
     {
-      "title": "打造全球领先“具身智能超级供应链”，京东发布行业首个具身数据全链路基础设施",
+      "title": "18家具身顶尖势力集结，RoboChallenge 打造全球最大具身模型竞技场",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/402063.html",
-      "publish_time": "2026-04-16",
+      "url": "https://www.qbitai.com/2026/04/402186.html",
+      "publish_time": "2026-04-17",
       "category": "AI 综合",
-      "summary": "” 依托京东在算力基础设施、大模型技术及产业场景上的积累，京东云推出全球首个全链路具身智能数据基础设施，打通从数据采集到模型测试的全流程闭环，将原始杂乱数据精炼为驱动模型进化的高价值“数据燃料”",
+      "summary": "具身智能的真正突破，不只来自单点模型能力的提升，更来自评测标准、数据基准与真实本体的共同成熟",
+      "importance_score": 9
+    },
+    {
+      "title": "ImageNet作者苏昊回国任教复旦！李飞飞高徒，具身第一高引，出任通用物理AI院长",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/402088.html",
+      "publish_time": "2026-04-17",
+      "category": "AI 综合",
+      "summary": "具身智能领域论文被引次数最高的华人学者，带着十七年海外积淀，回来了 | 刚刚，在第五届中国三维视觉大会（China3DV 2026）上，李飞飞弟子、ImageNet作者苏昊正式被复旦官宣加盟 | 加盟复旦后，苏昊将担任浩清特聘教授，领衔建设",
       "importance_score": 9
     }
   ]
