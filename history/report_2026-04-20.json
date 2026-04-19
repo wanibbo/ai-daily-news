@@ -1,0 +1,97 @@
+{
+  "date": "2026-04-20",
+  "update_time": "2026-04-20T00:00:05.967347",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "马斯克来抖音卖老干妈了？？",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/403308.html",
+      "publish_time": "2026-04-19",
+      "category": "AI 综合",
+      "summary": "这还没完，一转眼，老马竟然又和预计年末发布的《GTA-6》有梦幻联动",
+      "importance_score": 9
+    },
+    {
+      "title": "Cursor 3 推出智能体优先界面，突破传统 IDE 模式",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/G6hkU9pDHzwd6GCWQ0BH",
+      "publish_time": "2026-04-19",
+      "category": "AI 技术",
+      "summary": "Anysphere 最近发布了Cursor 3，对其 AI 编程工具进行了全面重构 | 新界面会在侧边栏中展示所有正在运行的智能体，包括本地智能体与云端智能体",
+      "importance_score": 9
+    },
+    {
+      "title": "黄仁勋都被问毛了：顶级AI厂商在去CUDA？“你的前提就是错的”",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/403210.html",
+      "publish_time": "2026-04-19",
+      "category": "AI 综合",
+      "summary": "视频发布半天，单在油管上的观看量已经超过10万+",
+      "importance_score": 9
+    },
+    {
+      "title": "大模型架构的下半场",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/403515.html",
+      "publish_time": "2026-04-19",
+      "category": "AI 综合",
+      "summary": "面向大模型深度扩展的Flash Depth Attention与混合深度注意力 研究者们花了十年去扩展层内的计算能力，却忘了扩展层间的通信能力 | 过去十年，深度学习领域取得进展的方式出奇地一致：什么都往大了整",
+      "importance_score": 9
+    },
+    {
+      "title": "OpenClaw的风，已经吹进了奶茶圈",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/402965.html",
+      "publish_time": "2026-04-18",
+      "category": "AI 综合",
+      "summary": "养龙虾（OpenClaw）的风，终于也是吹进了奶茶圈 | 在新茶饮行业，高峰期的订单峰值监控、多区域门店的运营数据汇总、跨系统的业务异常排查，一直是茶饮品牌技术团队的日常高频工作 | 而古茗在测试使用OpenClaw的过程中发现，技术团队只",
+      "importance_score": 9
+    },
+    {
+      "title": "Kimi新论文：把KVCache玩成新商业模式了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/403528.html",
+      "publish_time": "2026-04-19",
+      "category": "AI 综合",
+      "summary": "其核心突破是让KV Cache可以跨数据中心传输，把Prefill和Decode彻底解耦到不同的异构集群 | 这项工作由月之暗面和清华大学清华大学郑纬民院士、武永卫教授团队联合推出",
+      "importance_score": 9
+    },
+    {
+      "title": "王濛代言的方盒子19万开卖，头顶激光雷达，底盘能“预瞄”路况",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/403126.html",
+      "publish_time": "2026-04-19",
+      "category": "AI 综合",
+      "summary": "长城20万级新能源越野SUV利器——哈弗猛龙，2025年夺得了新能源方盒子SUV市场销冠 | 毕竟，新能源越野SUV市场已从蓝海变为红海，还有方程豹、北京BJ40增程版这样的实力车型在“虎视眈眈” | 另外，早期方盒子用户更看重越野性能，但",
+      "importance_score": 9
+    },
+    {
+      "title": "横扫全球15项SOTA！高德首个面向AGI的全栈具身技术体系大公开",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/403226.html",
+      "publish_time": "2026-04-19",
+      "category": "AI 综合",
+      "summary": "大多数行业玩家还在卷单点突破的时候，高德却率先把数据、模型、Agent从下到上全打通了",
+      "importance_score": 9
+    },
+    {
+      "title": "教龙虾玩手机！打通GUI智能体训练-评测-部署全流程，训练、真机、评测一站解决",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/403214.html",
+      "publish_time": "2026-04-19",
+      "category": "AI 综合",
+      "summary": "今天，来自ZJU-REAL的团队带来了ClawGUI，一个覆盖GUI智能体在线RL训练、标准化评测、真机部署完整生命周期的开源框架",
+      "importance_score": 9
+    },
+    {
+      "title": "AI开始接管实验室了！玻尔·跃迁实验室：试剂、设备、数据一个入口搞定，1800+设备即插即用",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/402988.html",
+      "publish_time": "2026-04-18",
+      "category": "AI 综合",
+      "summary": "深势科技这次推出的玻尔·跃迁实验室，就是冲着打通这条全链路来的",
+      "importance_score": 9
+    }
+  ]
+}
