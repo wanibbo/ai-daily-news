@@ -1,0 +1,97 @@
+{
+  "date": "2026-04-22",
+  "update_time": "2026-04-22T00:00:06.046413",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "都让让！赛博女娲蒸馏一切，让乔布斯马斯克集体给你打工",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/403871.html",
+      "publish_time": "2026-04-21",
+      "category": "AI 综合",
+      "summary": "暂无详细内容，请点击阅读原文查看。",
+      "importance_score": 9
+    },
+    {
+      "title": "中国具身智能最高单轮融资出炉！前华为、百度高管联手创业，打造真干活、真量产的机器人",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/aqYPpJBPlvaJDQDCNlrJ",
+      "publish_time": "2026-04-21",
+      "category": "AI 技术",
+      "summary": "55 亿美元 Pre-A 轮融资，创下中国具身智能有史以来最高单轮融资纪录 | 值得注意的是，这已经是它石智航第二次刷新行业融资纪录 | 42 亿美金完成中国具身智能有史以来最大天使轮融资",
+      "importance_score": 8
+    },
+    {
+      "title": "大模型架构的下半场",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/403515.html",
+      "publish_time": "2026-04-19",
+      "category": "AI 综合",
+      "summary": "面向大模型深度扩展的Flash Depth Attention与混合深度注意力 研究者们花了十年去扩展层内的计算能力，却忘了扩展层间的通信能力 | 过去十年，深度学习领域取得进展的方式出奇地一致：什么都往大了整",
+      "importance_score": 9
+    },
+    {
+      "title": "Kimi新论文：把KVCache玩成新商业模式了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/403528.html",
+      "publish_time": "2026-04-19",
+      "category": "AI 综合",
+      "summary": "其核心突破是让KV Cache可以跨数据中心传输，把Prefill和Decode彻底解耦到不同的异构集群 | 这项工作由月之暗面和清华大学清华大学郑纬民院士、武永卫教授团队联合推出",
+      "importance_score": 9
+    },
+    {
+      "title": "把人类驾驶员赶出机场，复旦大牛校友要港股IPO了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/403872.html",
+      "publish_time": "2026-04-21",
+      "category": "AI 综合",
+      "summary": "不做Robotaxi，专攻机场的L4公司要IPO了 4月19日，驭势科技通过港交所聆讯 | 上一次敲门是2025年5月28日递表，6个月期满失效",
+      "importance_score": 9
+    },
+    {
+      "title": "前小鹏汽车自动驾驶一号位李力耘出任众擎CTO，加速打造具身大脑",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404124.html",
+      "publish_time": "2026-04-21",
+      "category": "AI 综合",
+      "summary": "通过将自动驾驶领域成熟的“工业化AI”打法、高效的数据飞轮与极强的工程部署能力引入具身赛道，众擎加速打造原生多模态驱动、大小脑与神经末梢协同的全集成架构 | ”4月21日，众擎创始人兼CEO赵同阳在朋友圈庆祝自己喜得悍将，并配上了他和前小鹏",
+      "importance_score": 9
+    },
+    {
+      "title": "横扫全球15项SOTA！高德首个面向AGI的全栈具身技术体系大公开",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/403226.html",
+      "publish_time": "2026-04-19",
+      "category": "AI 综合",
+      "summary": "大多数行业玩家还在卷单点突破的时候，高德却率先把数据、模型、Agent从下到上全打通了",
+      "importance_score": 9
+    },
+    {
+      "title": "5月20日，马上AI起来！中国AIGC产业峰会报名已启动｜首波嘉宾官宣",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404096.html",
+      "publish_time": "2026-04-21",
+      "category": "AI 综合",
+      "summary": "组委会 发自 凹非寺公众号｜量子位 QbitAI “龙虾”、“爱马仕”接连爆火，你用上了吗 | 可以看到，AI正在从少数人的工具，变成所有人的日常 | 今年5月20日，我们将在北京金茂万丽酒店举办一年一度的中国AIGC产业峰会",
+      "importance_score": 9
+    },
+    {
+      "title": "ISC.AI 2026创新独角兽沙盒大赛在京启动 聚焦智能体 共筑AI创新生态",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404082.html",
+      "publish_time": "2026-04-21",
+      "category": "AI 综合",
+      "summary": "AI 2026创新独角兽沙盒大赛启动仪式于北京举办 | 本届大赛以智能体创新实践为核心，面向全球开启数字安全创新、AI应用创新、高校创新新星三大赛道招募，覆盖AI安全、安全智能体等前沿领域，致力于搭建起技术、产业、资本、人才共生共融的创新生",
+      "importance_score": 9
+    },
+    {
+      "title": "物理优先+VLA闭环进化：高德ABot-World世界模型，破解具身智能零样本泛化难题",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404086.html",
+      "publish_time": "2026-04-21",
+      "category": "AI 综合",
+      "summary": "该模型实现了具身智能底层训练范式完成了从“传统视觉渲染”向“可微分物理引擎”的根本性迁移，为机器人从仿真走向真实物理世界提供了统一且可进化的操作系统 | ABot-World 创新性采用双引擎架构，在物理合规性、动作可控性与零样本泛化...",
+      "importance_score": 9
+    }
+  ]
+}

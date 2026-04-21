@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 日报简讯 - 2026-04-22</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+            padding: 10px;
+        }
+        .container { max-width: 1100px; margin: 0 auto; display: flex; gap: 16px; }
+        .main-content { flex: 1; }
+        .sidebar {
+            width: 220px;
+            flex-shrink: 0;
+        }
+        .header-card {
+            background: rgba(255,255,255,0.98);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        .header-title {
+            font-size: 26px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 6px;
+        }
+        .history-card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            position: sticky;
+            top: 10px;
+        }
+        .history-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #1e3a5f;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e0e7ff;
+        }
+        .history-link {
+            display: block;
+            padding: 8px 12px;
+            margin-bottom: 6px;
+            background: #f8fafc;
+            border-radius: 6px;
+            color: #2d5a87;
+            text-decoration: none;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .history-link:hover {
+            background: #e0e7ff;
+            transform: translateX(4px);
+        }
+        .news-item {
+            background: rgba(255,255,255,0.98);
+            border-radius: 10px;
+            padding: 14px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+            display: flex;
+            gap: 14px;
+        }
+        .news-number {
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            color: white;
+            width: 70px;
+            min-width: 70px;
+            height: 100%;
+            min-height: 120px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 36px;
+            flex-shrink: 0;
+        }
+        .news-content { flex: 1; }
+        .news-title-row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .news-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1e293b;
+            line-height: 1.4;
+            flex: 1;
+        }
+        .news-title a { color: #1e3a5f; text-decoration: none; }
+        .news-title a:hover { text-decoration: underline; }
+        .read-more {
+            color: #2d5a87;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+        .news-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+        .news-badge { padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+        .news-source { background: #e0e7ff; color: #3730a3; padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 500; }
+        .news-time { color: #94a3b8; font-size: 12px; margin-left: auto; }
+        .news-summary {
+            color: #475569;
+            line-height: 1.6;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 6px;
+            border-left: 3px solid #3a7ca5;
+            font-size: 14px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        @media (max-width: 900px) {
+            .container { flex-direction: column; }
+            .sidebar { width: 100%; }
+            .history-card { position: static; }
+        }
+        @media (max-width: 640px) {
+            body { padding: 6px; }
+            .header-card { padding: 16px; }
+            .header-title { font-size: 22px; }
+            .news-item { padding: 10px; gap: 10px; }
+            .news-number { width: 55px; min-width: 55px; min-height: 90px; font-size: 28px; }
+            .news-title { font-size: 15px; }
+            .news-title-row { flex-direction: column; }
+            .read-more { margin-top: 6px; }
+            .news-summary { font-size: 13px; }
+            .news-time { width: 100%; margin-top: 4px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="header-card">
+                <h1 class="header-title">🤖 AI 日报简讯</h1>
+                <p class="text-slate-600 text-sm">2026-04-22 00:00:06</p>
+            </div>
+            <div id="news-list">
+        <div class="news-item">
+            <div class="news-number">1</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/403871.html" target="_blank">都让让！赛博女娲蒸馏一切，让乔布斯马斯克集体给你打工</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/403871.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-21</span>
+                </div>
+                <p class="news-summary">暂无详细内容，请点击阅读原文查看。</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">2</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/aqYPpJBPlvaJDQDCNlrJ" target="_blank">中国具身智能最高单轮融资出炉！前华为、百度高管联手创业，打造真干活、真量产的机器人</a></h3>
+                    <a href="https://www.infoq.cn/article/aqYPpJBPlvaJDQDCNlrJ" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-04-21</span>
+                </div>
+                <p class="news-summary">55 亿美元 Pre-A 轮融资，创下中国具身智能有史以来最高单轮融资纪录 | 值得注意的是，这已经是它石智航第二次刷新行业融资纪录 | 42 亿美金完成中国具身智能有史以来最大天使轮融资</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">3</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/403515.html" target="_blank">大模型架构的下半场</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/403515.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-19</span>
+                </div>
+                <p class="news-summary">面向大模型深度扩展的Flash Depth Attention与混合深度注意力 研究者们花了十年去扩展层内的计算能力，却忘了扩展层间的通信能力 | 过去十年，深度学习领域取得进展的方式出奇地一致：什么都往大了整</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">4</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/403528.html" target="_blank">Kimi新论文：把KVCache玩成新商业模式了</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/403528.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-19</span>
+                </div>
+                <p class="news-summary">其核心突破是让KV Cache可以跨数据中心传输，把Prefill和Decode彻底解耦到不同的异构集群 | 这项工作由月之暗面和清华大学清华大学郑纬民院士、武永卫教授团队联合推出</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">5</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/403872.html" target="_blank">把人类驾驶员赶出机场，复旦大牛校友要港股IPO了</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/403872.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-21</span>
+                </div>
+                <p class="news-summary">不做Robotaxi，专攻机场的L4公司要IPO了 4月19日，驭势科技通过港交所聆讯 | 上一次敲门是2025年5月28日递表，6个月期满失效</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">6</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/404124.html" target="_blank">前小鹏汽车自动驾驶一号位李力耘出任众擎CTO，加速打造具身大脑</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/404124.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-21</span>
+                </div>
+                <p class="news-summary">通过将自动驾驶领域成熟的“工业化AI”打法、高效的数据飞轮与极强的工程部署能力引入具身赛道，众擎加速打造原生多模态驱动、大小脑与神经末梢协同的全集成架构 | ”4月21日，众擎创始人兼CEO赵同阳在朋友圈庆祝自己喜得悍将，并配上了他和前小鹏</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">7</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/403226.html" target="_blank">横扫全球15项SOTA！高德首个面向AGI的全栈具身技术体系大公开</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/403226.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-19</span>
+                </div>
+                <p class="news-summary">大多数行业玩家还在卷单点突破的时候，高德却率先把数据、模型、Agent从下到上全打通了</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">8</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/404096.html" target="_blank">5月20日，马上AI起来！中国AIGC产业峰会报名已启动｜首波嘉宾官宣</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/404096.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-21</span>
+                </div>
+                <p class="news-summary">组委会 发自 凹非寺公众号｜量子位 QbitAI “龙虾”、“爱马仕”接连爆火，你用上了吗 | 可以看到，AI正在从少数人的工具，变成所有人的日常 | 今年5月20日，我们将在北京金茂万丽酒店举办一年一度的中国AIGC产业峰会</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">9</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/404082.html" target="_blank">ISC.AI 2026创新独角兽沙盒大赛在京启动 聚焦智能体 共筑AI创新生态</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/404082.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-21</span>
+                </div>
+                <p class="news-summary">AI 2026创新独角兽沙盒大赛启动仪式于北京举办 | 本届大赛以智能体创新实践为核心，面向全球开启数字安全创新、AI应用创新、高校创新新星三大赛道招募，覆盖AI安全、安全智能体等前沿领域，致力于搭建起技术、产业、资本、人才共生共融的创新生</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">10</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/404086.html" target="_blank">物理优先+VLA闭环进化：高德ABot-World世界模型，破解具身智能零样本泛化难题</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/404086.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-21</span>
+                </div>
+                <p class="news-summary">该模型实现了具身智能底层训练范式完成了从“传统视觉渲染”向“可微分物理引擎”的根本性迁移，为机器人从仿真走向真实物理世界提供了统一且可进化的操作系统 | ABot-World 创新性采用双引擎架构，在物理合规性、动作可控性与零样本泛化...</p>
+            </div>
+        </div>
+        </div>
+            <div class="text-center text-white/70 text-xs mt-8">
+                <p>数据来源于量子位、InfoQ、界面新闻、虎嗅网等主流媒体</p>
+                <p class="mt-1">更新：2026-04-22 00:00:06</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="history-card">
+                <h2 class="history-title">📁 历史日报</h2>
+                <div class="history-list">
+                    <a href="history/report_2026-04-22.html" class="history-link">📅 2026-04-22</a><a href="history/report_2026-04-21.html" class="history-link">📅 2026-04-21</a><a href="history/report_2026-04-20.html" class="history-link">📅 2026-04-20</a><a href="history/report_2026-04-19.html" class="history-link">📅 2026-04-19</a><a href="history/report_2026-04-18.html" class="history-link">📅 2026-04-18</a><a href="history/report_2026-04-17.html" class="history-link">📅 2026-04-17</a><a href="history/report_2026-04-16.html" class="history-link">📅 2026-04-16</a><a href="history/report_2026-04-15.html" class="history-link">📅 2026-04-15</a><a href="history/report_2026-04-14.html" class="history-link">📅 2026-04-14</a><a href="history/report_2026-04-13.html" class="history-link">📅 2026-04-13</a><a href="history/report_2026-04-12.html" class="history-link">📅 2026-04-12</a><a href="history/report_2026-04-11.html" class="history-link">📅 2026-04-11</a><a href="history/report_2026-04-10.html" class="history-link">📅 2026-04-10</a><a href="history/report_2026-04-09.html" class="history-link">📅 2026-04-09</a><a href="history/report_2026-04-08.html" class="history-link">📅 2026-04-08</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
