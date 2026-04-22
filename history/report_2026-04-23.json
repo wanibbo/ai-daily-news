@@ -1,0 +1,97 @@
+{
+  "date": "2026-04-23",
+  "update_time": "2026-04-23T00:00:05.627268",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "大厂AI抢人大战，从实习生开始",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404470.html",
+      "publish_time": "2026-04-22",
+      "category": "AI 综合",
+      "summary": "量子位了解到，即便是实习生，国内头部厂开出的年薪也已突破百万大关 | 但这一次，我们在京东前不久开源的240亿参数图像编辑模型JoyAI-Image-Edit的贡献者名单中发现，除了技术大咖，还出现了许多新名字 | 量子位辗转联系到其...",
+      "importance_score": 9
+    },
+    {
+      "title": "在AK大神爆火的任务里，摸清国产AI真实水平",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/IPZaVe2hAKCougHa1zAm",
+      "publish_time": "2026-04-22",
+      "category": "AI 技术",
+      "summary": "它最值得被探讨的，并非又赢了几个 Benchmark，跑分逼平乃至反超海外三巨头",
+      "importance_score": 8
+    },
+    {
+      "title": "单Agent时代结束，AI们开始组团上班",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404130.html",
+      "publish_time": "2026-04-22",
+      "category": "AI 综合",
+      "summary": "昨晚，月之暗面发布并开源了旗下最新模型——K2 | 6在Artificial Analysis上取得了全球开源第一的成绩，仅次于闭源的全球“御三家” | 咱就是说，在御三家新模型轮流上线的这张梗图里，也是能有Kimi的一个位置了",
+      "importance_score": 9
+    },
+    {
+      "title": "全球首个世界统一模型发布，机器人家庭成员来了！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404446.html",
+      "publish_time": "2026-04-22",
+      "category": "AI 综合",
+      "summary": "jpg） 就在刚刚，自变量机器人发布了全球首个世界统一模型架构的具身智能基础模型：WALL-B",
+      "importance_score": 9
+    },
+    {
+      "title": "Kimi新论文：把KVCache玩成新商业模式了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/403528.html",
+      "publish_time": "2026-04-19",
+      "category": "AI 综合",
+      "summary": "其核心突破是让KV Cache可以跨数据中心传输，把Prefill和Decode彻底解耦到不同的异构集群 | 这项工作由月之暗面和清华大学清华大学郑纬民院士、武永卫教授团队联合推出",
+      "importance_score": 9
+    },
+    {
+      "title": "香港科创标杆奖项！商汤首席科学家林达华荣获中银香港科创奖",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404631.html",
+      "publish_time": "2026-04-22",
+      "category": "AI 综合",
+      "summary": "感谢香港良好的科研创新环境及社会各界对人工智能前沿研究的支持，我将继续与商汤团队并肩推动人工智能的突破，让人工智能赋能百业，为香港和国家的高质量发展作出贡献 | 他早期提出TSN、ST-GCN等代表性方法，突破了时序建模与动作理解中的...",
+      "importance_score": 9
+    },
+    {
+      "title": "科大讯飞发布燎原N30m笔记本，重塑全栈国产AIPC新标杆",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404713.html",
+      "publish_time": "2026-04-22",
+      "category": "AI 综合",
+      "summary": "4月21日，科大讯飞正式发布讯飞星火· 燎原N30m笔记本",
+      "importance_score": 9
+    },
+    {
+      "title": "神秘模型「大象」：仅100B拿下SOTA，Token效率超高！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404645.html",
+      "publish_time": "2026-04-22",
+      "category": "AI 综合",
+      "summary": "神秘模型Elephant的面纱，终于被揭开了 | 前一阵子OpenRouters在自家官方上提到了一个神秘模型Elephant Alpha，并且给到的评价是这样的： 仅100B大小，在同规模模型里是SOTA，还巨省Token | 话题一出，",
+      "importance_score": 9
+    },
+    {
+      "title": "RGB-Mini LED电视普及风暴，海信正式发布小墨E5S Pro",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404798.html",
+      "publish_time": "2026-04-22",
+      "category": "AI 综合",
+      "summary": "不同于传统QD-Mini LED等需要通过量子点二次转换呈现色彩，小墨E5S Pro搭载的RGB-Mini LED技术实现了红、绿、蓝三原色的纯净直出，让电视画面的色彩保真度迎来了真正的质变 | 同时，从发光源头降低42%的有害蓝光波...",
+      "importance_score": 9
+    },
+    {
+      "title": "国产多模态Agent拿下医学分割SOTA！不用改模型、不加token",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404604.html",
+      "publish_time": "2026-04-22",
+      "category": "AI 综合",
+      "summary": "这个生物医学视觉推理框架，被CVPR 2026接收了 | 人类专家在标注医学图像时，从不是“看一眼就画出来” | 他们会先扫视全图、锁定可疑区域，随后在分割工具上反复点击正负样本，根据每一步生成的mask形态重新判断，不断调整策略—— 这是",
+      "importance_score": 9
+    }
+  ]
+}

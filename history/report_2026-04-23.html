@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 日报简讯 - 2026-04-23</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+            padding: 10px;
+        }
+        .container { max-width: 1100px; margin: 0 auto; display: flex; gap: 16px; }
+        .main-content { flex: 1; }
+        .sidebar {
+            width: 220px;
+            flex-shrink: 0;
+        }
+        .header-card {
+            background: rgba(255,255,255,0.98);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        .header-title {
+            font-size: 26px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 6px;
+        }
+        .history-card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            position: sticky;
+            top: 10px;
+        }
+        .history-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #1e3a5f;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e0e7ff;
+        }
+        .history-link {
+            display: block;
+            padding: 8px 12px;
+            margin-bottom: 6px;
+            background: #f8fafc;
+            border-radius: 6px;
+            color: #2d5a87;
+            text-decoration: none;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .history-link:hover {
+            background: #e0e7ff;
+            transform: translateX(4px);
+        }
+        .news-item {
+            background: rgba(255,255,255,0.98);
+            border-radius: 10px;
+            padding: 14px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+            display: flex;
+            gap: 14px;
+        }
+        .news-number {
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            color: white;
+            width: 70px;
+            min-width: 70px;
+            height: 100%;
+            min-height: 120px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 36px;
+            flex-shrink: 0;
+        }
+        .news-content { flex: 1; }
+        .news-title-row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .news-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1e293b;
+            line-height: 1.4;
+            flex: 1;
+        }
+        .news-title a { color: #1e3a5f; text-decoration: none; }
+        .news-title a:hover { text-decoration: underline; }
+        .read-more {
+            color: #2d5a87;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+        .news-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+        .news-badge { padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+        .news-source { background: #e0e7ff; color: #3730a3; padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 500; }
+        .news-time { color: #94a3b8; font-size: 12px; margin-left: auto; }
+        .news-summary {
+            color: #475569;
+            line-height: 1.6;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 6px;
+            border-left: 3px solid #3a7ca5;
+            font-size: 14px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        @media (max-width: 900px) {
+            .container { flex-direction: column; }
+            .sidebar { width: 100%; }
+            .history-card { position: static; }
+        }
+        @media (max-width: 640px) {
+            body { padding: 6px; }
+            .header-card { padding: 16px; }
+            .header-title { font-size: 22px; }
+            .news-item { padding: 10px; gap: 10px; }
+            .news-number { width: 55px; min-width: 55px; min-height: 90px; font-size: 28px; }
+            .news-title { font-size: 15px; }
+            .news-title-row { flex-direction: column; }
+            .read-more { margin-top: 6px; }
+            .news-summary { font-size: 13px; }
+            .news-time { width: 100%; margin-top: 4px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="header-card">
+                <h1 class="header-title">🤖 AI 日报简讯</h1>
+                <p class="text-slate-600 text-sm">2026-04-23 00:00:05</p>
+            </div>
+            <div id="news-list">
+        <div class="news-item">
+            <div class="news-number">1</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/404470.html" target="_blank">大厂AI抢人大战，从实习生开始</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/404470.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-22</span>
+                </div>
+                <p class="news-summary">量子位了解到，即便是实习生，国内头部厂开出的年薪也已突破百万大关 | 但这一次，我们在京东前不久开源的240亿参数图像编辑模型JoyAI-Image-Edit的贡献者名单中发现，除了技术大咖，还出现了许多新名字 | 量子位辗转联系到其...</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">2</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/IPZaVe2hAKCougHa1zAm" target="_blank">在AK大神爆火的任务里，摸清国产AI真实水平</a></h3>
+                    <a href="https://www.infoq.cn/article/IPZaVe2hAKCougHa1zAm" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-04-22</span>
+                </div>
+                <p class="news-summary">它最值得被探讨的，并非又赢了几个 Benchmark，跑分逼平乃至反超海外三巨头</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">3</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/404130.html" target="_blank">单Agent时代结束，AI们开始组团上班</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/404130.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-22</span>
+                </div>
+                <p class="news-summary">昨晚，月之暗面发布并开源了旗下最新模型——K2 | 6在Artificial Analysis上取得了全球开源第一的成绩，仅次于闭源的全球“御三家” | 咱就是说，在御三家新模型轮流上线的这张梗图里，也是能有Kimi的一个位置了</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">4</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/404446.html" target="_blank">全球首个世界统一模型发布，机器人家庭成员来了！</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/404446.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-22</span>
+                </div>
+                <p class="news-summary">jpg） 就在刚刚，自变量机器人发布了全球首个世界统一模型架构的具身智能基础模型：WALL-B</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">5</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/403528.html" target="_blank">Kimi新论文：把KVCache玩成新商业模式了</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/403528.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-19</span>
+                </div>
+                <p class="news-summary">其核心突破是让KV Cache可以跨数据中心传输，把Prefill和Decode彻底解耦到不同的异构集群 | 这项工作由月之暗面和清华大学清华大学郑纬民院士、武永卫教授团队联合推出</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">6</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/404631.html" target="_blank">香港科创标杆奖项！商汤首席科学家林达华荣获中银香港科创奖</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/404631.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-22</span>
+                </div>
+                <p class="news-summary">感谢香港良好的科研创新环境及社会各界对人工智能前沿研究的支持，我将继续与商汤团队并肩推动人工智能的突破，让人工智能赋能百业，为香港和国家的高质量发展作出贡献 | 他早期提出TSN、ST-GCN等代表性方法，突破了时序建模与动作理解中的...</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">7</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/404713.html" target="_blank">科大讯飞发布燎原N30m笔记本，重塑全栈国产AIPC新标杆</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/404713.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-22</span>
+                </div>
+                <p class="news-summary">4月21日，科大讯飞正式发布讯飞星火· 燎原N30m笔记本</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">8</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/404645.html" target="_blank">神秘模型「大象」：仅100B拿下SOTA，Token效率超高！</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/404645.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-22</span>
+                </div>
+                <p class="news-summary">神秘模型Elephant的面纱，终于被揭开了 | 前一阵子OpenRouters在自家官方上提到了一个神秘模型Elephant Alpha，并且给到的评价是这样的： 仅100B大小，在同规模模型里是SOTA，还巨省Token | 话题一出，</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">9</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/404798.html" target="_blank">RGB-Mini LED电视普及风暴，海信正式发布小墨E5S Pro</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/404798.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-22</span>
+                </div>
+                <p class="news-summary">不同于传统QD-Mini LED等需要通过量子点二次转换呈现色彩，小墨E5S Pro搭载的RGB-Mini LED技术实现了红、绿、蓝三原色的纯净直出，让电视画面的色彩保真度迎来了真正的质变 | 同时，从发光源头降低42%的有害蓝光波...</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">10</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/04/404604.html" target="_blank">国产多模态Agent拿下医学分割SOTA！不用改模型、不加token</a></h3>
+                    <a href="https://www.qbitai.com/2026/04/404604.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-04-22</span>
+                </div>
+                <p class="news-summary">这个生物医学视觉推理框架，被CVPR 2026接收了 | 人类专家在标注医学图像时，从不是“看一眼就画出来” | 他们会先扫视全图、锁定可疑区域，随后在分割工具上反复点击正负样本，根据每一步生成的mask形态重新判断，不断调整策略—— 这是</p>
+            </div>
+        </div>
+        </div>
+            <div class="text-center text-white/70 text-xs mt-8">
+                <p>数据来源于量子位、InfoQ、界面新闻、虎嗅网等主流媒体</p>
+                <p class="mt-1">更新：2026-04-23 00:00:05</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="history-card">
+                <h2 class="history-title">📁 历史日报</h2>
+                <div class="history-list">
+                    <a href="history/report_2026-04-23.html" class="history-link">📅 2026-04-23</a><a href="history/report_2026-04-22.html" class="history-link">📅 2026-04-22</a><a href="history/report_2026-04-21.html" class="history-link">📅 2026-04-21</a><a href="history/report_2026-04-20.html" class="history-link">📅 2026-04-20</a><a href="history/report_2026-04-19.html" class="history-link">📅 2026-04-19</a><a href="history/report_2026-04-18.html" class="history-link">📅 2026-04-18</a><a href="history/report_2026-04-17.html" class="history-link">📅 2026-04-17</a><a href="history/report_2026-04-16.html" class="history-link">📅 2026-04-16</a><a href="history/report_2026-04-15.html" class="history-link">📅 2026-04-15</a><a href="history/report_2026-04-14.html" class="history-link">📅 2026-04-14</a><a href="history/report_2026-04-13.html" class="history-link">📅 2026-04-13</a><a href="history/report_2026-04-12.html" class="history-link">📅 2026-04-12</a><a href="history/report_2026-04-11.html" class="history-link">📅 2026-04-11</a><a href="history/report_2026-04-10.html" class="history-link">📅 2026-04-10</a><a href="history/report_2026-04-09.html" class="history-link">📅 2026-04-09</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
