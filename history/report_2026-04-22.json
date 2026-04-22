@@ -1,6 +1,6 @@
 {
   "date": "2026-04-22",
-  "update_time": "2026-04-22T00:00:06.046413",
+  "update_time": "2026-04-22T06:23:36.912989",
   "total_items": 10,
   "top_items": [
     {
@@ -22,12 +22,30 @@
       "importance_score": 8
     },
     {
-      "title": "大模型架构的下半场",
+      "title": "单Agent时代结束，AI们开始组团上班",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/403515.html",
-      "publish_time": "2026-04-19",
+      "url": "https://www.qbitai.com/2026/04/404130.html",
+      "publish_time": "2026-04-22",
       "category": "AI 综合",
-      "summary": "面向大模型深度扩展的Flash Depth Attention与混合深度注意力 研究者们花了十年去扩展层内的计算能力，却忘了扩展层间的通信能力 | 过去十年，深度学习领域取得进展的方式出奇地一致：什么都往大了整",
+      "summary": "昨晚，月之暗面发布并开源了旗下最新模型——K2 | 6在Artificial Analysis上取得了全球开源第一的成绩，仅次于闭源的全球“御三家” | 咱就是说，在御三家新模型轮流上线的这张梗图里，也是能有Kimi的一个位置了",
+      "importance_score": 9
+    },
+    {
+      "title": "全球首个世界统一模型发布，机器人家庭成员来了！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404446.html",
+      "publish_time": "2026-04-22",
+      "category": "AI 综合",
+      "summary": "jpg） 就在刚刚，自变量机器人发布了全球首个世界统一模型架构的具身智能基础模型：WALL-B",
+      "importance_score": 9
+    },
+    {
+      "title": "从GPU到Token：AI基础设施竞争逻辑重构",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/404440.html",
+      "publish_time": "2026-04-22",
+      "category": "AI 综合",
+      "summary": "近日，全球权威市场研究机构Omdia发布《2026全球AI工厂市场格局》报告",
       "importance_score": 9
     },
     {
@@ -40,12 +58,12 @@
       "importance_score": 9
     },
     {
-      "title": "把人类驾驶员赶出机场，复旦大牛校友要港股IPO了",
+      "title": "6分钟满电续航1500公里！宁王一夜终结加油时代",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/403872.html",
-      "publish_time": "2026-04-21",
+      "url": "https://www.qbitai.com/2026/04/404167.html",
+      "publish_time": "2026-04-22",
       "category": "AI 综合",
-      "summary": "不做Robotaxi，专攻机场的L4公司要IPO了 4月19日，驭势科技通过港交所聆讯 | 上一次敲门是2025年5月28日递表，6个月期满失效",
+      "summary": "” 不愧是“宁王”史上技术密度最高的发布会，产品体系全维度升级，每一项几乎都刷新了天花板 | “宁王”的选择是，充换电全都要，而且能同时、同地实现 | 本次发布会，宁德时代发布了公司在动力电池、补能生态领域的最新进展",
       "importance_score": 9
     },
     {
@@ -58,12 +76,12 @@
       "importance_score": 9
     },
     {
-      "title": "横扫全球15项SOTA！高德首个面向AGI的全栈具身技术体系大公开",
+      "title": "2026萤石品牌新品发布会：驭智向前锚定长期主义，AI驱动多点开花",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/403226.html",
-      "publish_time": "2026-04-19",
+      "url": "https://www.qbitai.com/2026/04/404420.html",
+      "publish_time": "2026-04-22",
       "category": "AI 综合",
-      "summary": "大多数行业玩家还在卷单点突破的时候，高德却率先把数据、模型、Agent从下到上全打通了",
+      "summary": "4月21日，全球领先的安全智能生活品牌萤石在杭州正式举办2026品牌新品发布会 | 本次发布会上，萤石正式宣布了全新的品牌使命，从“致力于人人轻松享有安全的智能生活”，升级为“以安全的智能科技共创美好生活”",
       "importance_score": 9
     },
     {
@@ -73,24 +91,6 @@
       "publish_time": "2026-04-21",
       "category": "AI 综合",
       "summary": "组委会 发自 凹非寺公众号｜量子位 QbitAI “龙虾”、“爱马仕”接连爆火，你用上了吗 | 可以看到，AI正在从少数人的工具，变成所有人的日常 | 今年5月20日，我们将在北京金茂万丽酒店举办一年一度的中国AIGC产业峰会",
-      "importance_score": 9
-    },
-    {
-      "title": "ISC.AI 2026创新独角兽沙盒大赛在京启动 聚焦智能体 共筑AI创新生态",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/404082.html",
-      "publish_time": "2026-04-21",
-      "category": "AI 综合",
-      "summary": "AI 2026创新独角兽沙盒大赛启动仪式于北京举办 | 本届大赛以智能体创新实践为核心，面向全球开启数字安全创新、AI应用创新、高校创新新星三大赛道招募，覆盖AI安全、安全智能体等前沿领域，致力于搭建起技术、产业、资本、人才共生共融的创新生",
-      "importance_score": 9
-    },
-    {
-      "title": "物理优先+VLA闭环进化：高德ABot-World世界模型，破解具身智能零样本泛化难题",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/404086.html",
-      "publish_time": "2026-04-21",
-      "category": "AI 综合",
-      "summary": "该模型实现了具身智能底层训练范式完成了从“传统视觉渲染”向“可微分物理引擎”的根本性迁移，为机器人从仿真走向真实物理世界提供了统一且可进化的操作系统 | ABot-World 创新性采用双引擎架构，在物理合规性、动作可控性与零样本泛化...",
       "importance_score": 9
     }
   ]
