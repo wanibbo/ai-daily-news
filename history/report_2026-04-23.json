@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "update_time": "2026-04-23T00:00:05.627268",
+  "update_time": "2026-04-23T06:28:17.878690",
   "total_items": 10,
   "top_items": [
     {
@@ -13,12 +13,12 @@
       "importance_score": 9
     },
     {
-      "title": "在AK大神爆火的任务里，摸清国产AI真实水平",
+      "title": "清华系团队星工聚将完成数千万天使轮融资，轮式机器人拿下头部制造企业亿级大单",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/IPZaVe2hAKCougHa1zAm",
-      "publish_time": "2026-04-22",
+      "url": "https://www.infoq.cn/article/BSZXO0VGFlBkmIke18ht",
+      "publish_time": "2026-04-23",
       "category": "AI 技术",
-      "summary": "它最值得被探讨的，并非又赢了几个 Benchmark，跑分逼平乃至反超海外三巨头",
+      "summary": "近日，工业具身智能领域的新锐力量星工聚将（XGSynBot）正式宣布完成数千万元天使轮融资，本轮融资由天空工场创投基金独家投资 | 星工聚将总经理李梓正表示：\"这轮融资不仅是对我们技术路线的认可，更是对'工业场景优先'战略的肯定 | ...",
       "importance_score": 8
     },
     {
@@ -28,6 +28,15 @@
       "publish_time": "2026-04-22",
       "category": "AI 综合",
       "summary": "昨晚，月之暗面发布并开源了旗下最新模型——K2 | 6在Artificial Analysis上取得了全球开源第一的成绩，仅次于闭源的全球“御三家” | 咱就是说，在御三家新模型轮流上线的这张梗图里，也是能有Kimi的一个位置了",
+      "importance_score": 9
+    },
+    {
+      "title": "挖漏洞何必Mythos，国产智能体早跑通了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/405299.html",
+      "publish_time": "2026-04-23",
+      "category": "AI 综合",
+      "summary": "手握最强大的模型Mythos，Anthropic却把它锁了起来 | 原因是它能自主发现软件漏洞，而且发现得太多、太快，Anthropic觉得不安全，只开放给少数机构测试",
       "importance_score": 9
     },
     {
@@ -49,12 +58,12 @@
       "importance_score": 9
     },
     {
-      "title": "香港科创标杆奖项！商汤首席科学家林达华荣获中银香港科创奖",
+      "title": "特斯拉开源硬件，中国公司回应来了：直接把机器人大脑开源了",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/404631.html",
-      "publish_time": "2026-04-22",
+      "url": "https://www.qbitai.com/2026/04/405325.html",
+      "publish_time": "2026-04-23",
       "category": "AI 综合",
-      "summary": "感谢香港良好的科研创新环境及社会各界对人工智能前沿研究的支持，我将继续与商汤团队并肩推动人工智能的突破，让人工智能赋能百业，为香港和国家的高质量发展作出贡献 | 他早期提出TSN、ST-GCN等代表性方法，突破了时序建模与动作理解中的...",
+      "summary": "特斯拉开源硬件专利后，所有人都在等：中国公司怎么回应 | 现在答案来了——跟风硬件没意思，要开源就找比硬件更值钱的东西 | 4月22日，智平方发布AlphaBrain Platform开源社区",
       "importance_score": 9
     },
     {
@@ -76,21 +85,12 @@
       "importance_score": 9
     },
     {
-      "title": "RGB-Mini LED电视普及风暴，海信正式发布小墨E5S Pro",
+      "title": "PixVerse 成为联合国 2026 AI for Good 全球峰会AI合作伙伴",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/404798.html",
-      "publish_time": "2026-04-22",
+      "url": "https://www.qbitai.com/2026/04/405358.html",
+      "publish_time": "2026-04-23",
       "category": "AI 综合",
-      "summary": "不同于传统QD-Mini LED等需要通过量子点二次转换呈现色彩，小墨E5S Pro搭载的RGB-Mini LED技术实现了红、绿、蓝三原色的纯净直出，让电视画面的色彩保真度迎来了真正的质变 | 同时，从发光源头降低42%的有害蓝光波...",
-      "importance_score": 9
-    },
-    {
-      "title": "国产多模态Agent拿下医学分割SOTA！不用改模型、不加token",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/404604.html",
-      "publish_time": "2026-04-22",
-      "category": "AI 综合",
-      "summary": "这个生物医学视觉推理框架，被CVPR 2026接收了 | 人类专家在标注医学图像时，从不是“看一眼就画出来” | 他们会先扫视全图、锁定可疑区域，随后在分割工具上反复点击正负样本，根据每一步生成的mask形态重新判断，不断调整策略—— 这是",
+      "summary": "在这一框架下举办的AI for Good电影节，聚焦AI时代的影像创作与社会叙事，被视为全球AI创意领域最具影响力的展示舞台之一 | AI for Good 电影节负责人Guillem Martínez Roura表示：“通过 AI ...",
       "importance_score": 9
     }
   ]
