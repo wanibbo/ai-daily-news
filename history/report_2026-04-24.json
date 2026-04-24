@@ -1,6 +1,6 @@
 {
   "date": "2026-04-24",
-  "update_time": "2026-04-24T00:00:05.603720",
+  "update_time": "2026-04-24T06:29:33.858287",
   "total_items": 10,
   "top_items": [
     {
@@ -13,13 +13,22 @@
       "importance_score": 9
     },
     {
-      "title": "清华系团队星工聚将完成数千万天使轮融资，轮式机器人拿下头部制造企业亿级大单",
+      "title": "xAI落后太多，马斯克“开大”重金求购Cursor，100亿美金“分手费”都敢签！",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/BSZXO0VGFlBkmIke18ht",
-      "publish_time": "2026-04-23",
+      "url": "https://www.infoq.cn/article/1kS9ZTikmEsCTJFMBpN9",
+      "publish_time": "2026-04-24",
       "category": "AI 技术",
-      "summary": "近日，工业具身智能领域的新锐力量星工聚将（XGSynBot）正式宣布完成数千万元天使轮融资，本轮融资由天空工场创投基金独家投资 | 星工聚将总经理李梓正表示：\"这轮融资不仅是对我们技术路线的认可，更是对'工业场景优先'战略的肯定 | ...",
+      "summary": "与 OpenAI、Anthropic 一样，Cursor 是硅谷多家利用 AI 实现代码自动化的初创企业之一，吸引了大量开发者，AI 企业在这一领域已取得早期商业突破",
       "importance_score": 8
+    },
+    {
+      "title": "DeepSeek V4终于发布！打破最强闭源垄断，明确携手华为芯片",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/406359.html",
+      "publish_time": "2026-04-24",
+      "category": "AI 综合",
+      "summary": "在Agent能力、世界知识和推理性能上均实现国内与开源领域的领先 | 官方原话是：在Agent能力、世界知识和推理性能上均实现国内与开源领域的领先",
+      "importance_score": 9
     },
     {
       "title": "大厂AI抢人大战，从实习生开始",
@@ -28,15 +37,6 @@
       "publish_time": "2026-04-22",
       "category": "AI 综合",
       "summary": "量子位了解到，即便是实习生，国内头部厂开出的年薪也已突破百万大关 | 但这一次，我们在京东前不久开源的240亿参数图像编辑模型JoyAI-Image-Edit的贡献者名单中发现，除了技术大咖，还出现了许多新名字 | 量子位辗转联系到其...",
-      "importance_score": 9
-    },
-    {
-      "title": "全球首个世界统一模型发布，机器人家庭成员来了！",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/404446.html",
-      "publish_time": "2026-04-22",
-      "category": "AI 综合",
-      "summary": "jpg） 就在刚刚，自变量机器人发布了全球首个世界统一模型架构的具身智能基础模型：WALL-B",
       "importance_score": 9
     },
     {
@@ -55,6 +55,15 @@
       "publish_time": "2026-04-23",
       "category": "AI 综合",
       "summary": "然后往这个扳手上贴上一张飞书生成的二维码，再用手机上的飞书去扫它，就能实现在点巡检现场直接上传数据： 更有意思的来了，一位河南工友，甚至可以把点巡检结果，通过说方言的形式，直接录入结果",
+      "importance_score": 9
+    },
+    {
+      "title": "刚刚，GPT-5.5发布！内测英伟达工程师：失去它像被截肢",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/406221.html",
+      "publish_time": "2026-04-24",
+      "category": "AI 综合",
+      "summary": "4相比，新模型在代码、知识工作、科学研究三个领域全部拉开身位 梦晨 发自 凹非寺量子位 | 公众号 QbitAI 官方定位，“一种面向实际工作和智能体的新型智能 | 这次奥特曼没有自己站出来说“初体验被吓到眩晕瘫坐，那一刻就像看到原子弹爆炸",
       "importance_score": 9
     },
     {
@@ -82,15 +91,6 @@
       "publish_time": "2026-04-23",
       "category": "AI 综合",
       "summary": "梦晨 发自 凹非寺量子位 | 公众号 QbitAI GPT Image2全网刷屏，但效果究竟为什么这么好 | 但他又拒绝回答是否采用扩散模型或自回归技术，只是神秘的将其描述为“通用模型”或“图像领域的GPT”",
-      "importance_score": 9
-    },
-    {
-      "title": "PixVerse 成为联合国 2026 AI for Good 全球峰会AI合作伙伴",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/405358.html",
-      "publish_time": "2026-04-23",
-      "category": "AI 综合",
-      "summary": "在这一框架下举办的AI for Good电影节，聚焦AI时代的影像创作与社会叙事，被视为全球AI创意领域最具影响力的展示舞台之一 | AI for Good 电影节负责人Guillem Martínez Roura表示：“通过 AI ...",
       "importance_score": 9
     }
   ]
