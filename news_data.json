@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-04-26T02:11:53.667447",
-  "total_items": 24,
+  "update_time": "2026-04-27T02:14:07.058902",
+  "total_items": 23,
   "top_items": [
     {
       "title": "华为发布ADS 5！强化世界模型路线，今年投入180亿",
@@ -24,7 +24,7 @@
       "title": "DeepSeek V4终于出场，为大模型国产算力时代做准备",
       "source": "界面新闻",
       "url": "https://www.jiemian.com/article/14315357.html",
-      "publish_time": "2026-04-26",
+      "publish_time": "2026-04-27",
       "category": "AI 产业",
       "summary": "4月24日，DeepSeek-V4的预览版本正式上线并同步开源，官方给出的节点定义是“迈入百万上下文普惠时代”，没有脱离DeepSeek自出圈以来最强势的价格叙事 | 6T（Pro）和284B（Flash）两个版本，拥有百万字超长上下...",
       "importance_score": 8
@@ -39,30 +39,12 @@
       "importance_score": 9
     },
     {
-      "title": "0博士组合拿下ICLR时间检验奖！两个GPT天才本科生+二本逆袭LeCun弟子，十年论文终封神",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/406892.html",
-      "publish_time": "2026-04-25",
-      "category": "AI 综合",
-      "summary": "ICLR 2026时间检验奖新鲜出炉，获奖者—— GPT天才本科生Alec Radford | Alec为人相当低调，其社媒清一水的都是转发推荐他人优秀成果 | 但实则他在OpenAI里是和Ilya齐名的技术大神，也是初代GPT系列奠基者",
-      "importance_score": 9
-    },
-    {
       "title": "真有人做AI小猫啊？！生产力和情绪价值都拉满了",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/04/406560.html",
       "publish_time": "2026-04-24",
       "category": "AI 综合",
       "summary": "上班累了就找她摸摸鱼，真的感觉心都化了…… 这个抱着AI小猫的女孩叫SUSU，她们都来自AI初创公司SentiPulse思维光谱自主研发的AI Agent产品——SentiCat | SentiCat拥有三大核心能力：办公自动化、深度研究、",
-      "importance_score": 9
-    },
-    {
-      "title": "华人再破硅谷天花板！AI黑马新任CTO，中科大80后",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/406934.html",
-      "publish_time": "2026-04-24",
-      "category": "AI 综合",
-      "summary": "毕业于中科大少年班的80后葛小川，将在今年7月1日，任职一家硅谷上市公司的下一任首席技术官 | 公司已正式发布了公告，葛小川的老板、公司创始人&CEOAdam Foroughi都在里面激动发言: 我们很高兴能从内部提拔继任者 | 这次任命充",
       "importance_score": 9
     },
     {
@@ -84,12 +66,30 @@
       "importance_score": 9
     },
     {
-      "title": "硬刚GPT-Image-2！国产AI生图“天花板”又被捅破了？",
+      "title": "Claude终于认了！降智坐实，越聊越傻，3个bug全曝光",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/406994.html",
-      "publish_time": "2026-04-25",
+      "url": "https://www.qbitai.com/2026/04/407502.html",
+      "publish_time": "2026-04-26",
       "category": "AI 综合",
-      "summary": "这两天，大家伙朋友圈是不是被GPT-Image-2刷屏了 | 文字渲染精准、高密度的信息图，复杂布局和美学UI一次到位，真实感爆棚 | 连社交媒体截图、高考试卷都能近乎一比一还原，这完全颠覆了曾经以往的文生图模型，彻底解决了文字、信息图这些",
+      "summary": "暂无详细内容，请点击阅读原文查看。",
+      "importance_score": 9
+    },
+    {
+      "title": "DeepSeek阮翀加盟元戎首秀，详解基座VLA，研发提效10倍",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/407465.html",
+      "publish_time": "2026-04-26",
+      "category": "AI 综合",
+      "summary": "阮翀(chōng），本硕均毕业于北京大学，早年从事NLP研发，2023年加入DeepSeek，参与了DeepSeek VL、V3和R1等工作，是VL2的通讯作者，也是最新发布的V4的作者之一 | 比如，同样是在自动驾驶行业，小马智行最...",
+      "importance_score": 9
+    },
+    {
+      "title": "Momenta曹旭东：规模L4要百亿美元投入，现金流业务是物理AI门票",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/04/407485.html",
+      "publish_time": "2026-04-26",
+      "category": "AI 综合",
+      "summary": "曹旭东认为，实现通用机器人，可能要上升到几百亿甚至千亿美金 | 所以物理AI公司不能只靠融资活着，必须先有一个能产生现金流、能形成数据闭环和商业闭环的业务",
       "importance_score": 9
     }
   ]
