@@ -1,6 +1,6 @@
 {
   "date": "2026-05-01",
-  "update_time": "2026-05-01T00:00:14.500401",
+  "update_time": "2026-05-01T02:36:19.714637",
   "total_items": 10,
   "top_items": [
     {
@@ -13,12 +13,12 @@
       "importance_score": 9
     },
     {
-      "title": "Slack 长时运行多智能体系统的上下文管理方案",
+      "title": "模力工场038周AI应用周榜：工具在消失，工作流在出现",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/v51PWObFB4xuqM2lkMpg",
+      "url": "https://www.infoq.cn/article/qUMVgFNMYqXMFx8CawJ1",
       "publish_time": "2026-04-30",
       "category": "AI 技术",
-      "summary": "为了在长时间运行的智能体系统中保持效率，Slack 工程师放弃了累积聊天记录的做法，转而采用结构化记忆、验证与蒸馏事实的方式来维持长时间运行智能体系统的连贯性与准确性 | 虽然短时间的 LLM 会话通常不需要显式的上下文管理，但在长时间运行",
+      "summary": "极客邦科技模力工场参与北京市朝阳区 OPC 创新发布活动 | 现场发布了“科技百园”建设合作伙伴招募计划，重点面向园区运营及算力、数据、智能体应用等领域机构，支持线上对接参与 | 同时推出支持人工智能 OPC 创新发展的相关措施，聚焦...",
       "importance_score": 8
     },
     {
