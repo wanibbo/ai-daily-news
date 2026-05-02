@@ -1,14 +1,14 @@
 {
-  "update_time": "2026-05-01T02:36:19.714156",
+  "update_time": "2026-05-02T02:12:18.652053",
   "total_items": 21,
   "top_items": [
     {
-      "title": "刚刚，“云计算一哥”版龙虾发布，奥特曼打着官司也要云站台",
+      "title": "太抓马了！马斯克OpenAI开庭，硅谷巨富互揭老底像极了村口吵架",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/410772.html",
-      "publish_time": "2026-04-29",
+      "url": "https://www.qbitai.com/2026/05/412447.html",
+      "publish_time": "2026-05-01",
       "category": "AI 综合",
-      "summary": "云计算一哥，亚马逊云科技的龙虾，刚刚也被端上桌了 | 它就是“活”在你电脑里的那种，直接连接你的本地文件、日历、邮件和各类应用，不需要任何上传文件的动作（需授权） | 但最重要的一点是，Amazon Quick已经做到了打通生态—— 无论你",
+      "summary": "马斯克这边，公开承认xAI蒸馏了OpenAI的模型来训练Grok | 律师Savitt追问捐款：承诺10亿，到账3800万，兑现不足4%",
       "importance_score": 9
     },
     {
@@ -24,10 +24,46 @@
       "title": "寒武纪涨超19%，重夺“股王”宝座",
       "source": "界面新闻",
       "url": "https://www.jiemian.com/article/14370266.html",
-      "publish_time": "2026-05-01",
+      "publish_time": "2026-05-02",
       "category": "AI 产业",
       "summary": "该公司一季度营收实现28.85亿元，同比增长159.56%；实现归母净利润10.13亿元，同比增长185.04%。 4月30日，寒武纪（688256.SH）股价一度大涨19.93%。截至界面新闻发稿前，其股价涨幅为18.94%，报1685元",
       "importance_score": 8
+    },
+    {
+      "title": "突破视觉仿真算力瓶颈！新一代具身智能仿真框架开源：高吞吐并行高保真渲染助力规模化训练",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/05/412577.html",
+      "publish_time": "2026-05-01",
+      "category": "AI 综合",
+      "summary": "作为机器人感知世界时信息密度最高、与自然人机交互最契合的模态，视觉是解锁通用机器人智能、实现仿真到真实无缝迁移的核心密钥",
+      "importance_score": 10
+    },
+    {
+      "title": "华为携手中科大发布灵境造物，openJiuwen首发Coordination Engineering全栈支撑",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/05/412696.html",
+      "publish_time": "2026-05-01",
+      "category": "AI 综合",
+      "summary": "4月25日，中国科学技术大学正式发布“灵境造物”智能科研云平台，该平台面向全球开放使用，这标志着“人工智能驱动的科学研究”正走向工程化、平台化和开放共享",
+      "importance_score": 9
+    },
+    {
+      "title": "他用AI办了个音乐节，主题：别读博",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/05/412597.html",
+      "publish_time": "2026-05-01",
+      "category": "AI 综合",
+      "summary": "一个博士生连续做了6小时实验后，凌晨3点才吃上晚饭—— 听着歌词里的“被抢一作”“延毕”“审稿不通过”“创新点都没有”“科研理想”，他又哭又笑，眼泪止不住地往下流 | 那些他在组会上咽下去、在导师面前没敢说出口的话，无奈、恐惧、焦虑、疲惫…",
+      "importance_score": 9
+    },
+    {
+      "title": "智谱公布“降智”的秘密：Scaling不可避免的痛",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/05/412585.html",
+      "publish_time": "2026-05-01",
+      "category": "AI 综合",
+      "summary": "智谱最新发布的一篇技术博客，画风稍微有点不一样： 没有过去的硬核技术输出，反而大倒苦水从GLM-5以来的各种花式踩坑，官方称之为「Scaling Pain」",
+      "importance_score": 9
     },
     {
       "title": "重塑中国豪华汽车全球旗舰标杆，魏牌V9X重磅登陆北京车展",
@@ -36,24 +72,6 @@
       "publish_time": "2026-04-30",
       "category": "AI 综合",
       "summary": "北京车展发布会上，魏牌CEO赵永坡正式公布了魏牌V9X的出海计划，年内将登陆涵盖欧亚和中东的海外市场，与传统百万级豪车同台竞技，成就中国豪华汽车的第一款全球旗舰 | 截至2026年2月，魏牌的全球累计用户已突破70 万，单车均价也在持...",
-      "importance_score": 9
-    },
-    {
-      "title": "我嘞个豆！中国企业牵头，ICLR这场Workshop被挤爆了",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/410463.html",
-      "publish_time": "2026-04-28",
-      "category": "AI 综合",
-      "summary": "瓜多到一度吃不下的ICLR 2026，这几天终于在巴西开线下了 | 没去不要紧，最热闹最好玩的，咱都已经总结好了： 不过当你以为这就完了的时候，一场主会之外的Workshop，才刚刚登场",
-      "importance_score": 9
-    },
-    {
-      "title": "商汤杨帆谈AI拐点：从人用AI到人机协作，本质是生产关系重构",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/412015.html",
-      "publish_time": "2026-04-30",
-      "category": "AI 综合",
-      "summary": "当AI智能体遇上武汉小龙虾，会碰撞出怎样的火花 | 4月29日，武汉2026“线上搓虾子 线下嘬虾子”系列活动召开，深度串联科技创新与城市消费，推动科创资源与民生场景双向赋能、深度融合，是武汉激活创新动能、释放消费潜力、丰富城市业态的重要实",
       "importance_score": 9
     },
     {
@@ -72,24 +90,6 @@
       "publish_time": "2026-04-30",
       "category": "AI 综合",
       "summary": "知名X博主Deedy，把过去25年间18000名IMO、IOI、IPhO奖牌得主的职业去向全给挖出来了 | 他自己vibe coding了一个爬虫，用Exa抓数据，成功追溯到其中约50%的人 | 结论只有两行字，但每个数字都狠狠戳在我的心巴",
-      "importance_score": 9
-    },
-    {
-      "title": "Stripe 发布 288 项新功能，构建 AI 时代的经济基础设施",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/412018.html",
-      "publish_time": "2026-04-30",
-      "category": "AI 综合",
-      "summary": "这一系列发布旨在帮助AI企业加速增长，助力传统企业适应AI变革，防范token被盗，并推动智能体成为真正的经济参与者 | AI转型需要全新的经济基础设施、底层能力与产品化能力，这正是我们此次发布 288 项全新产品与功能的核心逻辑",
-      "importance_score": 9
-    },
-    {
-      "title": "10.98万元起！主流精品电混SUV首选，吉利银河M7远航家正式上市",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/04/411963.html",
-      "publish_time": "2026-04-30",
-      "category": "AI 综合",
-      "summary": "新车共推出4个版型，分别是225km远航版、225km领航版、225km探索+版和225km星舰版，上市限时指导价为10",
       "importance_score": 9
     }
   ]
