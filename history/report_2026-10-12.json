@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-12",
+  "update_time": "2026-10-12T03:53:11.078520",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "陶哲轩：数学2.0时代已至！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502594.html",
+      "publish_time": "2026-10-11",
+      "category": "AI 综合",
+      "summary": "刚刚，数学界的领军人物、菲尔兹奖得主陶哲轩正式发文： AI正在让数学证明变得泛滥，建立在证明稀缺之上的数学1 | 自打OpenAI宣布解决纳维–斯托克斯千禧年难题以来，AI猛攻之下，陶哲轩为首的数学家又是吐槽OpenAI又是呼吁急踩刹车的",
+      "importance_score": 9
+    },
+    {
+      "title": "阿里巴巴中国电商事业群/飞猪CTO陈烨博士已确认出席QCon上海，分享“从 Coding 到消费：AI 的下一场革命”",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/4hYrs8ShAKPAhyzTGQ92",
+      "publish_time": "2026-10-12",
+      "category": "AI 技术",
+      "summary": "从「构建 AI」到「驾驭 AI」，100+ 实战案例拆解 AI Native 时代的工程新实践 | 2026 年 QCon 全球软件开发大会大会 · 上海站将于10 月 22 日-24 日举办，来自阿里巴巴、腾讯、字节跳动、美团、小红书、蚂",
+      "importance_score": 8
+    },
+    {
+      "title": "字节找到了DeepSeek时强时弱的原因",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502364.html",
+      "publish_time": "2026-10-09",
+      "category": "AI 综合",
+      "summary": "DeepSeek的神鬼二象性被字节Seed团队逮到了 | 同一道题，什么都没改，只在前面多塞几个无关紧要的字符，模型突然就不会了",
+      "importance_score": 9
+    },
+    {
+      "title": "王的猜想，刚刚扩展到四维",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502584.html",
+      "publish_time": "2026-10-11",
+      "category": "AI 综合",
+      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 今年7月，王虹、邓煜在费城国际数学家大会上拿下菲尔兹奖 | 消息刷屏那几天，Anthropic员工Alek Dimitriev在X上发了一句： 这届菲尔兹奖，将是人类最后一次拿到这个奖 | ",
+      "importance_score": 9
+    },
+    {
+      "title": "TRAE终于把Code和Work合并了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502426.html",
+      "publish_time": "2026-10-09",
+      "category": "AI 综合",
+      "summary": "以前的你，如果要改个bug，得打开TraeCode；要是还得出份技术方案，那又得一个“闪身步”，跳到TraeWork…… 因为它俩今天已经正式双端融合，统一升级成了新的TRAE | 新TRAE的一个亮点，就是它有Agent模式和IDE模式两",
+      "importance_score": 9
+    },
+    {
+      "title": "智谱新模型，490 tokens/s！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502649.html",
+      "publish_time": "2026-10-12",
+      "category": "AI 综合",
+      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 智谱上新了一个GLM-5 | 3-Highspeed模型，就在Zcode里 | 据网友@leo114119爆料，这个新模型目前已经在Zcode 3",
+      "importance_score": 9
+    },
+    {
+      "title": "何恺明团队发布多模态Harness框架",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502628.html",
+      "publish_time": "2026-10-11",
+      "category": "AI 综合",
+      "summary": "最近，何恺明团队在最新论文《VISTA: A Visual Harness for Reasoning in an Interactive World》中，提出了一套视觉原生的Harness—— 它让现有的多模态模型直接观察环境、保存原始画",
+      "importance_score": 9
+    },
+    {
+      "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502550.html",
+      "publish_time": "2026-10-11",
+      "category": "AI 综合",
+      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 每一天都在 | 他等待的，是今年2月从ChatGPT退役的GPT-4o",
+      "importance_score": 9
+    },
+    {
+      "title": "真香！做这个邪恶老奶版「GTA 6」，我只花了5元！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502049.html",
+      "publish_time": "2026-10-08",
+      "category": "AI 综合",
+      "summary": "你猜，我做一个下面这样爆火的GTA 6风格《邪恶老奶》，才花了多少钱",
+      "importance_score": 9
+    },
+    {
+      "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502644.html",
+      "publish_time": "2026-10-11",
+      "category": "AI 综合",
+      "summary": "我真求你们了，论文都多得看不过来了，怎么自动写论文的工具还在往外冒 | 最近，GitHub又又又又上新了一个AI论文生成工具—— Open Academic Paper Gen | 除了能自动生成一版带参考文献的初稿以外，Open Acad",
+      "importance_score": 9
+    }
+  ]
+}
