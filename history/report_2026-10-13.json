@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-13",
+  "update_time": "2026-10-13T05:03:35.611619",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "字节找到了DeepSeek时强时弱的原因",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502364.html",
+      "publish_time": "2026-10-09",
+      "category": "AI 综合",
+      "summary": "DeepSeek的神鬼二象性被字节Seed团队逮到了 | 同一道题，什么都没改，只在前面多塞几个无关紧要的字符，模型突然就不会了",
+      "importance_score": 9
+    },
+    {
+      "title": "10 秒视频很惊艳，为什么 AI 做一部短剧还是这么难？",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/8g9tlaqJFUPrb4oGO00A",
+      "publish_time": "2026-10-10",
+      "category": "AI 技术",
+      "summary": "然而，如何在保障数据安全与合规的前提下，实现模型的高效推理与训练",
+      "importance_score": 8
+    },
+    {
+      "title": "库克再访华，看好中国开发者在AI时代的机遇",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15182232.html",
+      "publish_time": "2026-10-13",
+      "category": "AI 产业",
+      "summary": "现场展示的产品覆盖穿搭购物、学习辅导、会议记录和视障辅助等场景，其中，AI购物助手Viba获得2026年度“加速先锋奖”",
+      "importance_score": 8
+    },
+    {
+      "title": "单轮23亿，累计43亿，无问芯穹刷新国产AI Infra赛道融资双重纪录",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502767.html",
+      "publish_time": "2026-10-13",
+      "category": "AI 综合",
+      "summary": "23亿元，AI原生基础设施服务商无问芯穹已完成C轮融资 | 这家公司不训模型、不做应用，它做的是模型和芯片中间那一层，具体来说是把模型和芯片连起来，实现多种模型算法与多种芯片硬件间的极致效率与成本优化",
+      "importance_score": 9
+    },
+    {
+      "title": "TRAE终于把Code和Work合并了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502426.html",
+      "publish_time": "2026-10-09",
+      "category": "AI 综合",
+      "summary": "以前的你，如果要改个bug，得打开TraeCode；要是还得出份技术方案，那又得一个“闪身步”，跳到TraeWork…… 因为它俩今天已经正式双端融合，统一升级成了新的TRAE | 新TRAE的一个亮点，就是它有Agent模式和IDE模式两",
+      "importance_score": 9
+    },
+    {
+      "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502550.html",
+      "publish_time": "2026-10-11",
+      "category": "AI 综合",
+      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 每一天都在 | 他等待的，是今年2月从ChatGPT退役的GPT-4o",
+      "importance_score": 9
+    },
+    {
+      "title": "2026没过完，已有480亿美元投进了物理AI",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502741.html",
+      "publish_time": "2026-10-12",
+      "category": "AI 综合",
+      "summary": "一笔笔十亿美元级融资接连出现，机器人初创企业的估值不断刷新，英伟达、软银、红杉等投资机构纷纷加码 | 顺着今年的融资名单看下去，会发现资本的布局已经覆盖机器人产业的多个环节",
+      "importance_score": 9
+    },
+    {
+      "title": "真香！做这个邪恶老奶版「GTA 6」，我只花了5元！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502049.html",
+      "publish_time": "2026-10-08",
+      "category": "AI 综合",
+      "summary": "你猜，我做一个下面这样爆火的GTA 6风格《邪恶老奶》，才花了多少钱",
+      "importance_score": 9
+    },
+    {
+      "title": "退差价、约保养、订球场、跟客服磨赔偿，千问Go什么都想管",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502849.html",
+      "publish_time": "2026-10-13",
+      "category": "AI 综合",
+      "summary": "过去这一阵，Meta发了Muse，OpenAI亮了Dots……全球最头部的AI公司集中把同一张牌拍到了桌上",
+      "importance_score": 9
+    },
+    {
+      "title": "9大赛道，23份企业真实考卷！上海具身智能大考，邀千队共解题",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502784.html",
+      "publish_time": "2026-10-13",
+      "category": "AI 综合",
+      "summary": "只要拿下名次，千万级意向投资额+全程专业融资辅导直接奉上",
+      "importance_score": 9
+    }
+  ]
+}

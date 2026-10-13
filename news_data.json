@@ -1,25 +1,7 @@
 {
-  "update_time": "2026-10-12T03:53:11.078112",
-  "total_items": 20,
+  "update_time": "2026-10-13T05:03:35.611210",
+  "total_items": 22,
   "top_items": [
-    {
-      "title": "陶哲轩：数学2.0时代已至！",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502594.html",
-      "publish_time": "2026-10-11",
-      "category": "AI 综合",
-      "summary": "刚刚，数学界的领军人物、菲尔兹奖得主陶哲轩正式发文： AI正在让数学证明变得泛滥，建立在证明稀缺之上的数学1 | 自打OpenAI宣布解决纳维–斯托克斯千禧年难题以来，AI猛攻之下，陶哲轩为首的数学家又是吐槽OpenAI又是呼吁急踩刹车的",
-      "importance_score": 9
-    },
-    {
-      "title": "阿里巴巴中国电商事业群/飞猪CTO陈烨博士已确认出席QCon上海，分享“从 Coding 到消费：AI 的下一场革命”",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/4hYrs8ShAKPAhyzTGQ92",
-      "publish_time": "2026-10-12",
-      "category": "AI 技术",
-      "summary": "从「构建 AI」到「驾驭 AI」，100+ 实战案例拆解 AI Native 时代的工程新实践 | 2026 年 QCon 全球软件开发大会大会 · 上海站将于10 月 22 日-24 日举办，来自阿里巴巴、腾讯、字节跳动、美团、小红书、蚂",
-      "importance_score": 8
-    },
     {
       "title": "字节找到了DeepSeek时强时弱的原因",
       "source": "量子位",
@@ -30,12 +12,30 @@
       "importance_score": 9
     },
     {
-      "title": "王的猜想，刚刚扩展到四维",
+      "title": "10 秒视频很惊艳，为什么 AI 做一部短剧还是这么难？",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/8g9tlaqJFUPrb4oGO00A",
+      "publish_time": "2026-10-10",
+      "category": "AI 技术",
+      "summary": "然而，如何在保障数据安全与合规的前提下，实现模型的高效推理与训练",
+      "importance_score": 8
+    },
+    {
+      "title": "库克再访华，看好中国开发者在AI时代的机遇",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15182232.html",
+      "publish_time": "2026-10-13",
+      "category": "AI 产业",
+      "summary": "现场展示的产品覆盖穿搭购物、学习辅导、会议记录和视障辅助等场景，其中，AI购物助手Viba获得2026年度“加速先锋奖”",
+      "importance_score": 8
+    },
+    {
+      "title": "单轮23亿，累计43亿，无问芯穹刷新国产AI Infra赛道融资双重纪录",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502584.html",
-      "publish_time": "2026-10-11",
+      "url": "https://www.qbitai.com/2026/10/502767.html",
+      "publish_time": "2026-10-13",
       "category": "AI 综合",
-      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 今年7月，王虹、邓煜在费城国际数学家大会上拿下菲尔兹奖 | 消息刷屏那几天，Anthropic员工Alek Dimitriev在X上发了一句： 这届菲尔兹奖，将是人类最后一次拿到这个奖 | ",
+      "summary": "23亿元，AI原生基础设施服务商无问芯穹已完成C轮融资 | 这家公司不训模型、不做应用，它做的是模型和芯片中间那一层，具体来说是把模型和芯片连起来，实现多种模型算法与多种芯片硬件间的极致效率与成本优化",
       "importance_score": 9
     },
     {
@@ -48,30 +48,21 @@
       "importance_score": 9
     },
     {
-      "title": "智谱新模型，490 tokens/s！",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502649.html",
-      "publish_time": "2026-10-12",
-      "category": "AI 综合",
-      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 智谱上新了一个GLM-5 | 3-Highspeed模型，就在Zcode里 | 据网友@leo114119爆料，这个新模型目前已经在Zcode 3",
-      "importance_score": 9
-    },
-    {
-      "title": "何恺明团队发布多模态Harness框架",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502628.html",
-      "publish_time": "2026-10-11",
-      "category": "AI 综合",
-      "summary": "最近，何恺明团队在最新论文《VISTA: A Visual Harness for Reasoning in an Interactive World》中，提出了一套视觉原生的Harness—— 它让现有的多模态模型直接观察环境、保存原始画",
-      "importance_score": 9
-    },
-    {
       "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/10/502550.html",
       "publish_time": "2026-10-11",
       "category": "AI 综合",
       "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 每一天都在 | 他等待的，是今年2月从ChatGPT退役的GPT-4o",
+      "importance_score": 9
+    },
+    {
+      "title": "2026没过完，已有480亿美元投进了物理AI",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502741.html",
+      "publish_time": "2026-10-12",
+      "category": "AI 综合",
+      "summary": "一笔笔十亿美元级融资接连出现，机器人初创企业的估值不断刷新，英伟达、软银、红杉等投资机构纷纷加码 | 顺着今年的融资名单看下去，会发现资本的布局已经覆盖机器人产业的多个环节",
       "importance_score": 9
     },
     {
@@ -84,12 +75,21 @@
       "importance_score": 9
     },
     {
-      "title": "用不着Ctrl+F了！全新AI论文工具，帮你在原文献里海里捞针",
+      "title": "退差价、约保养、订球场、跟客服磨赔偿，千问Go什么都想管",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502644.html",
-      "publish_time": "2026-10-11",
+      "url": "https://www.qbitai.com/2026/10/502849.html",
+      "publish_time": "2026-10-13",
       "category": "AI 综合",
-      "summary": "我真求你们了，论文都多得看不过来了，怎么自动写论文的工具还在往外冒 | 最近，GitHub又又又又上新了一个AI论文生成工具—— Open Academic Paper Gen | 除了能自动生成一版带参考文献的初稿以外，Open Acad",
+      "summary": "过去这一阵，Meta发了Muse，OpenAI亮了Dots……全球最头部的AI公司集中把同一张牌拍到了桌上",
+      "importance_score": 9
+    },
+    {
+      "title": "9大赛道，23份企业真实考卷！上海具身智能大考，邀千队共解题",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502784.html",
+      "publish_time": "2026-10-13",
+      "category": "AI 综合",
+      "summary": "只要拿下名次，千万级意向投资额+全程专业融资辅导直接奉上",
       "importance_score": 9
     }
   ]
