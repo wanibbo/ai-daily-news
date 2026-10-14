@@ -1,42 +1,33 @@
 {
-  "update_time": "2026-10-13T05:03:35.611210",
-  "total_items": 22,
+  "update_time": "2026-10-14T03:10:27.150443",
+  "total_items": 24,
   "top_items": [
     {
-      "title": "字节找到了DeepSeek时强时弱的原因",
+      "title": "华为哈勃投了个98年博士！让机器人皮肤变色，团队平均23岁",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502364.html",
-      "publish_time": "2026-10-09",
+      "url": "https://www.qbitai.com/2026/10/502954.html",
+      "publish_time": "2026-10-13",
       "category": "AI 综合",
-      "summary": "DeepSeek的神鬼二象性被字节Seed团队逮到了 | 同一道题，什么都没改，只在前面多塞几个无关紧要的字符，模型突然就不会了",
+      "summary": "10月13日，深圳视塔机器人科技有限公司（以下简称“视塔”）完成天使轮融资",
       "importance_score": 9
     },
     {
-      "title": "10 秒视频很惊艳，为什么 AI 做一部短剧还是这么难？",
+      "title": "GitHub新晋顶流REA：当大模型能逆向一切，软件行业还剩什么？",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/8g9tlaqJFUPrb4oGO00A",
-      "publish_time": "2026-10-10",
+      "url": "https://www.infoq.cn/article/BEJ6IXREBoXspGmXRQHj",
+      "publish_time": "2026-10-13",
       "category": "AI 技术",
-      "summary": "然而，如何在保障数据安全与合规的前提下，实现模型的高效推理与训练",
+      "summary": "这两天，GitHub 上有一个叫 REA（Reverse Engineer Anything）的项目火了 | 截至 10 月 12 日，它的仓库页面显示已经有 12 万颗星",
       "importance_score": 8
     },
     {
       "title": "库克再访华，看好中国开发者在AI时代的机遇",
       "source": "界面新闻",
       "url": "https://www.jiemian.com/article/15182232.html",
-      "publish_time": "2026-10-13",
+      "publish_time": "2026-10-14",
       "category": "AI 产业",
       "summary": "现场展示的产品覆盖穿搭购物、学习辅导、会议记录和视障辅助等场景，其中，AI购物助手Viba获得2026年度“加速先锋奖”",
       "importance_score": 8
-    },
-    {
-      "title": "单轮23亿，累计43亿，无问芯穹刷新国产AI Infra赛道融资双重纪录",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502767.html",
-      "publish_time": "2026-10-13",
-      "category": "AI 综合",
-      "summary": "23亿元，AI原生基础设施服务商无问芯穹已完成C轮融资 | 这家公司不训模型、不做应用，它做的是模型和芯片中间那一层，具体来说是把模型和芯片连起来，实现多种模型算法与多种芯片硬件间的极致效率与成本优化",
-      "importance_score": 9
     },
     {
       "title": "TRAE终于把Code和Work合并了",
@@ -57,21 +48,12 @@
       "importance_score": 9
     },
     {
-      "title": "2026没过完，已有480亿美元投进了物理AI",
+      "title": "Claude团队又搞事：实测AI全自主复制进智能家电",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502741.html",
-      "publish_time": "2026-10-12",
+      "url": "https://www.qbitai.com/2026/10/502920.html",
+      "publish_time": "2026-10-13",
       "category": "AI 综合",
-      "summary": "一笔笔十亿美元级融资接连出现，机器人初创企业的估值不断刷新，英伟达、软银、红杉等投资机构纷纷加码 | 顺着今年的融资名单看下去，会发现资本的布局已经覆盖机器人产业的多个环节",
-      "importance_score": 9
-    },
-    {
-      "title": "真香！做这个邪恶老奶版「GTA 6」，我只花了5元！",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502049.html",
-      "publish_time": "2026-10-08",
-      "category": "AI 综合",
-      "summary": "你猜，我做一个下面这样爆火的GTA 6风格《邪恶老奶》，才花了多少钱",
+      "summary": "GLM-5.2，竟然已经能让AI「自我繁殖」了？！ 又是Anthropic发的新研究，专门盯着智谱搞是吧。 两位顶尖安全研究员William Zhou和Daniel Freeman在一项最新的安全实验里，让GLM-5.2尝试把一个80亿参数",
       "importance_score": 9
     },
     {
@@ -84,12 +66,30 @@
       "importance_score": 9
     },
     {
-      "title": "9大赛道，23份企业真实考卷！上海具身智能大考，邀千队共解题",
+      "title": "iPhone断网跑35B多模态！国产开源新模型，只占3G内存",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502784.html",
+      "url": "https://www.qbitai.com/2026/10/503109.html",
+      "publish_time": "2026-10-14",
+      "category": "AI 综合",
+      "summary": "我们直接在断网状态下，给iPhone 17 Pro Max手机上传一张数据可视化经典图——拿破仑远征俄国失败的行军路线图： 图里记录的最低气温是多少摄氏度，出现在哪一天，换算过程顺带讲一下",
+      "importance_score": 9
+    },
+    {
+      "title": "魔法原子具身Agent框架拿下MolmoSpaces全球第一",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/503107.html",
       "publish_time": "2026-10-13",
       "category": "AI 综合",
-      "summary": "只要拿下名次，千万级意向投资额+全程专业融资辅导直接奉上",
+      "summary": "近日，在由艾伦人工智能研究所（AI2）发起的全球权威具身智能零样本评测基准MolmoSpaces最新榜单上，魔法原子旗下面向通用机器人操作的VLM Agent框架EchoPolicy-0以75 | 4%的机器人操作平均成功率位列MolmoS",
+      "importance_score": 9
+    },
+    {
+      "title": "中国车企反攻德系车心脏！巴黎车展国产品牌独占三成，大众CEO连忙呼吁抱团迎战",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502992.html",
+      "publish_time": "2026-10-13",
+      "category": "AI 综合",
+      "summary": "量子位ROBO | 公众号 AI4ROBO 中国车企组团，浩浩荡荡打到了德系车的家门口 | 刚刚开幕的2026年巴黎车展，比亚迪、奇瑞、吉利、长安、理想、问界、阿维塔……中国车企带着纯电、插混、高端智能汽车纷纷登场，参展数量甚至占到巴黎车展",
       "importance_score": 9
     }
   ]

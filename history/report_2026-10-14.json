@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-14",
+  "update_time": "2026-10-14T03:10:27.150859",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "华为哈勃投了个98年博士！让机器人皮肤变色，团队平均23岁",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502954.html",
+      "publish_time": "2026-10-13",
+      "category": "AI 综合",
+      "summary": "10月13日，深圳视塔机器人科技有限公司（以下简称“视塔”）完成天使轮融资",
+      "importance_score": 9
+    },
+    {
+      "title": "GitHub新晋顶流REA：当大模型能逆向一切，软件行业还剩什么？",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/BEJ6IXREBoXspGmXRQHj",
+      "publish_time": "2026-10-13",
+      "category": "AI 技术",
+      "summary": "这两天，GitHub 上有一个叫 REA（Reverse Engineer Anything）的项目火了 | 截至 10 月 12 日，它的仓库页面显示已经有 12 万颗星",
+      "importance_score": 8
+    },
+    {
+      "title": "库克再访华，看好中国开发者在AI时代的机遇",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15182232.html",
+      "publish_time": "2026-10-14",
+      "category": "AI 产业",
+      "summary": "现场展示的产品覆盖穿搭购物、学习辅导、会议记录和视障辅助等场景，其中，AI购物助手Viba获得2026年度“加速先锋奖”",
+      "importance_score": 8
+    },
+    {
+      "title": "TRAE终于把Code和Work合并了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502426.html",
+      "publish_time": "2026-10-09",
+      "category": "AI 综合",
+      "summary": "以前的你，如果要改个bug，得打开TraeCode；要是还得出份技术方案，那又得一个“闪身步”，跳到TraeWork…… 因为它俩今天已经正式双端融合，统一升级成了新的TRAE | 新TRAE的一个亮点，就是它有Agent模式和IDE模式两",
+      "importance_score": 9
+    },
+    {
+      "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502550.html",
+      "publish_time": "2026-10-11",
+      "category": "AI 综合",
+      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 每一天都在 | 他等待的，是今年2月从ChatGPT退役的GPT-4o",
+      "importance_score": 9
+    },
+    {
+      "title": "Claude团队又搞事：实测AI全自主复制进智能家电",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502920.html",
+      "publish_time": "2026-10-13",
+      "category": "AI 综合",
+      "summary": "GLM-5.2，竟然已经能让AI「自我繁殖」了？！ 又是Anthropic发的新研究，专门盯着智谱搞是吧。 两位顶尖安全研究员William Zhou和Daniel Freeman在一项最新的安全实验里，让GLM-5.2尝试把一个80亿参数",
+      "importance_score": 9
+    },
+    {
+      "title": "退差价、约保养、订球场、跟客服磨赔偿，千问Go什么都想管",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502849.html",
+      "publish_time": "2026-10-13",
+      "category": "AI 综合",
+      "summary": "过去这一阵，Meta发了Muse，OpenAI亮了Dots……全球最头部的AI公司集中把同一张牌拍到了桌上",
+      "importance_score": 9
+    },
+    {
+      "title": "iPhone断网跑35B多模态！国产开源新模型，只占3G内存",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/503109.html",
+      "publish_time": "2026-10-14",
+      "category": "AI 综合",
+      "summary": "我们直接在断网状态下，给iPhone 17 Pro Max手机上传一张数据可视化经典图——拿破仑远征俄国失败的行军路线图： 图里记录的最低气温是多少摄氏度，出现在哪一天，换算过程顺带讲一下",
+      "importance_score": 9
+    },
+    {
+      "title": "魔法原子具身Agent框架拿下MolmoSpaces全球第一",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/503107.html",
+      "publish_time": "2026-10-13",
+      "category": "AI 综合",
+      "summary": "近日，在由艾伦人工智能研究所（AI2）发起的全球权威具身智能零样本评测基准MolmoSpaces最新榜单上，魔法原子旗下面向通用机器人操作的VLM Agent框架EchoPolicy-0以75 | 4%的机器人操作平均成功率位列MolmoS",
+      "importance_score": 9
+    },
+    {
+      "title": "中国车企反攻德系车心脏！巴黎车展国产品牌独占三成，大众CEO连忙呼吁抱团迎战",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/502992.html",
+      "publish_time": "2026-10-13",
+      "category": "AI 综合",
+      "summary": "量子位ROBO | 公众号 AI4ROBO 中国车企组团，浩浩荡荡打到了德系车的家门口 | 刚刚开幕的2026年巴黎车展，比亚迪、奇瑞、吉利、长安、理想、问界、阿维塔……中国车企带着纯电、插混、高端智能汽车纷纷登场，参展数量甚至占到巴黎车展",
+      "importance_score": 9
+    }
+  ]
+}
