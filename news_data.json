@@ -1,34 +1,7 @@
 {
-  "update_time": "2026-10-14T03:10:27.150443",
-  "total_items": 24,
+  "update_time": "2026-10-15T02:49:27.449273",
+  "total_items": 22,
   "top_items": [
-    {
-      "title": "华为哈勃投了个98年博士！让机器人皮肤变色，团队平均23岁",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502954.html",
-      "publish_time": "2026-10-13",
-      "category": "AI 综合",
-      "summary": "10月13日，深圳视塔机器人科技有限公司（以下简称“视塔”）完成天使轮融资",
-      "importance_score": 9
-    },
-    {
-      "title": "GitHub新晋顶流REA：当大模型能逆向一切，软件行业还剩什么？",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/BEJ6IXREBoXspGmXRQHj",
-      "publish_time": "2026-10-13",
-      "category": "AI 技术",
-      "summary": "这两天，GitHub 上有一个叫 REA（Reverse Engineer Anything）的项目火了 | 截至 10 月 12 日，它的仓库页面显示已经有 12 万颗星",
-      "importance_score": 8
-    },
-    {
-      "title": "库克再访华，看好中国开发者在AI时代的机遇",
-      "source": "界面新闻",
-      "url": "https://www.jiemian.com/article/15182232.html",
-      "publish_time": "2026-10-14",
-      "category": "AI 产业",
-      "summary": "现场展示的产品覆盖穿搭购物、学习辅导、会议记录和视障辅助等场景，其中，AI购物助手Viba获得2026年度“加速先锋奖”",
-      "importance_score": 8
-    },
     {
       "title": "TRAE终于把Code和Work合并了",
       "source": "量子位",
@@ -39,21 +12,30 @@
       "importance_score": 9
     },
     {
+      "title": "从 App 到 Agent：字节跳动 Supabase 的 Agent-Native 规模化实践｜QCon上海",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/kvzkXDXpKOXILlfirftW",
+      "publish_time": "2026-10-15",
+      "category": "AI 技术",
+      "summary": "暂无详细内容，请点击阅读原文查看。",
+      "importance_score": 8
+    },
+    {
+      "title": "头部机构正在通过AI工具、课程产品和服务交付寻找新的竞争空间。",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15185801.html",
+      "publish_time": "2026-10-15",
+      "category": "AI 产业",
+      "summary": "10月13日，国家公务员局发布2027年度考试录用公务员公告",
+      "importance_score": 8
+    },
+    {
       "title": "下架8个月，GPT-4o的拯救行动居然还在继续",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/10/502550.html",
       "publish_time": "2026-10-11",
       "category": "AI 综合",
       "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 每一天都在 | 他等待的，是今年2月从ChatGPT退役的GPT-4o",
-      "importance_score": 9
-    },
-    {
-      "title": "Claude团队又搞事：实测AI全自主复制进智能家电",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502920.html",
-      "publish_time": "2026-10-13",
-      "category": "AI 综合",
-      "summary": "GLM-5.2，竟然已经能让AI「自我繁殖」了？！ 又是Anthropic发的新研究，专门盯着智谱搞是吧。 两位顶尖安全研究员William Zhou和Daniel Freeman在一项最新的安全实验里，让GLM-5.2尝试把一个80亿参数",
       "importance_score": 9
     },
     {
@@ -66,6 +48,15 @@
       "importance_score": 9
     },
     {
+      "title": "7天几百元开一家店！用千问办公电商版，立省启动资金5万元",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/503303.html",
+      "publish_time": "2026-10-15",
+      "category": "AI 综合",
+      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 开一家3D打印鞋店，原本需要30天，现在只用7天 | 他是千问办公的第一批用户，把开店前的市场调研和商品详情页制作，都交给了AI协助完成",
+      "importance_score": 9
+    },
+    {
       "title": "iPhone断网跑35B多模态！国产开源新模型，只占3G内存",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/10/503109.html",
@@ -75,21 +66,30 @@
       "importance_score": 9
     },
     {
-      "title": "魔法原子具身Agent框架拿下MolmoSpaces全球第一",
+      "title": "有预言家！A社研究蓝图曝光，Claude Code来自5年前",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/503107.html",
-      "publish_time": "2026-10-13",
+      "url": "https://www.qbitai.com/2026/10/503341.html",
+      "publish_time": "2026-10-15",
       "category": "AI 综合",
-      "summary": "近日，在由艾伦人工智能研究所（AI2）发起的全球权威具身智能零样本评测基准MolmoSpaces最新榜单上，魔法原子旗下面向通用机器人操作的VLM Agent框架EchoPolicy-0以75 | 4%的机器人操作平均成功率位列MolmoS",
+      "summary": "最近因为一起版权官司，Anthropic一份2021年7月的内部研究路线图，意外曝光 | 但把这份当时标着「最高机密」的文件从头读到尾，我瘫软了了 | 今天的Claude Code、工具调用（Tool Use）、AI自我评判（Self-Ju",
       "importance_score": 9
     },
     {
-      "title": "中国车企反攻德系车心脏！巴黎车展国产品牌独占三成，大众CEO连忙呼吁抱团迎战",
+      "title": "DeepSeek服务器全球宕机！神秘Harness账号同时现身",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/502992.html",
-      "publish_time": "2026-10-13",
+      "url": "https://www.qbitai.com/2026/10/503326.html",
+      "publish_time": "2026-10-15",
       "category": "AI 综合",
-      "summary": "量子位ROBO | 公众号 AI4ROBO 中国车企组团，浩浩荡荡打到了德系车的家门口 | 刚刚开幕的2026年巴黎车展，比亚迪、奇瑞、吉利、长安、理想、问界、阿维塔……中国车企带着纯电、插混、高端智能汽车纷纷登场，参展数量甚至占到巴黎车展",
+      "summary": "赶紧去翻官方状态页，好家伙，还真不是我一个人的问题 | DeepSeek官方已经挂出红色故障通知： DeepSeek网页及API目前部分中断，故障原因已经定位，正在实施修复 | 目前受影响的服务包括DeepSeek对话服务、DeepSeek",
+      "importance_score": 9
+    },
+    {
+      "title": "抢先盘点2026全球开发者先锋大会暨国际具身智能技能大赛十大亮点！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/503294.html",
+      "publish_time": "2026-10-14",
+      "category": "AI 综合",
+      "summary": "具身智能有望突破效能瓶颈，成为发展新质生产力的重要载体",
       "importance_score": 9
     }
   ]
