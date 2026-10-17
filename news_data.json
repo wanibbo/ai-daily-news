@@ -1,6 +1,6 @@
 {
-  "update_time": "2026-10-16T02:46:21.281716",
-  "total_items": 25,
+  "update_time": "2026-10-17T02:37:57.035859",
+  "total_items": 24,
   "top_items": [
     {
       "title": "前华为小艺大模型负责人创业，押注“主动式物理AI”",
@@ -12,30 +12,39 @@
       "importance_score": 9
     },
     {
-      "title": "黄仁勋谈中国 AI 公司：算力很缺，但他们就是在拼命把事情做成",
+      "title": "范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/HC8SAgaZmHc6sfwp9gc9",
-      "publish_time": "2026-10-15",
+      "url": "https://www.infoq.cn/article/VZPlIIdGRg062mgwJe5y",
+      "publish_time": "2026-10-16",
       "category": "AI 技术",
-      "summary": "接到这通电话时，黄仁勋办公室外面的员工正在玩第一代 PlayStation，笑声、喊声混成一片 | 而他已经为联系台积电等了很久：翻黄页、查号码，反复拨打美国办公室的电话，留下语音，却始终没有收到回电",
-      "importance_score": 8
+      "summary": "10 月 16 日，北京-范式智能联合北京睿思智联科技有限公司宣布，一站式生产级 AI 部署平台“模域” (ModelSphere)正式上线 | 该平台面向企业用户免费开源，将算力管理、模型部署和运行优化整合在统一平台，帮助企业降低部...",
+      "importance_score": 9
     },
     {
       "title": "人形机器人开始进入汽车产线，但工厂要的不只是会干活",
       "source": "界面新闻",
       "url": "https://www.jiemian.com/article/15195827.html",
-      "publish_time": "2026-10-16",
+      "publish_time": "2026-10-17",
       "category": "AI 产业",
       "summary": "同日，乐聚与兆丰联合发布具身智能汽车零部件上料解决方案，并宣布已有15台机器人投入常态化运行",
       "importance_score": 8
     },
     {
-      "title": "库克：苹果智能接入阿里千问大模型，10月底在中国发布测试版本",
+      "title": "范式智能联合睿思智联推出开源一站式  生产级 AI 部署平台 “模域ModelSphere”",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/503640.html",
-      "publish_time": "2026-10-15",
+      "url": "https://www.qbitai.com/2026/10/503829.html",
+      "publish_time": "2026-10-16",
       "category": "AI 综合",
-      "summary": "“但是我们很高兴，首批核心的苹果智能功能是可以慢慢上线了",
+      "summary": "范式智能技术集团有限公司联合北京睿思智联科技有限公司宣布，一站式生产级 AI 部署平台“模域”正式上线 | HK）联合北京睿思智联科技有限公司（“睿思智联”）宣布，一站式生产级 AI 部署平台“模域” (ModelSphere) 正式...",
+      "importance_score": 10
+    },
+    {
+      "title": "清华特奖得主AI创业再+1：GeoPT一作入局物理世界模型",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/503880.html",
+      "publish_time": "2026-10-16",
+      "category": "AI 综合",
+      "summary": "公司名为物原科技，迄今为止迅速完成了多轮融资，公司估值来到数亿美元，投资方队伍中出现了蚂蚁、美团、达晨财智、星连等一线投资机构的的身影",
       "importance_score": 9
     },
     {
@@ -45,15 +54,6 @@
       "publish_time": "2026-10-15",
       "category": "AI 综合",
       "summary": "我朋友已经崩不住了，天天都在消息轰炸我： 有没有好用的AI打工神器求推荐",
-      "importance_score": 9
-    },
-    {
-      "title": "AI时代，商学院这样培养未来商业领袖",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/503504.html",
-      "publish_time": "2026-10-15",
-      "category": "AI 综合",
-      "summary": "当AI开始重塑产业，一所顶尖商学院正在重新思考：未来究竟需要怎样的商业领袖 | AI能写代码、做分析、生成方案，甚至开始自主执行复杂任务 | 当AI给出了答案，谁来判断这个答案是否值得执行",
       "importance_score": 9
     },
     {
@@ -75,21 +75,21 @@
       "importance_score": 9
     },
     {
-      "title": "2026 TMOT首个AI智能体走进电音现场，让听众成为音乐共创者",
+      "title": "说真话就能拿10万？网易叭哥说重金求“真需求”，不卡专业学历",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/503611.html",
-      "publish_time": "2026-10-15",
+      "url": "https://www.qbitai.com/2026/10/503861.html",
+      "publish_time": "2026-10-16",
       "category": "AI 综合",
-      "summary": "刚于10月13日正式发布的智能体手机STEPX Neo，搭载智能体原生操作系统Step AOS，内置新一代个人智能体阶跃Amoo | STEPX推出旗下首款AI终端原生开发工具（IDE）Step Studio，创客只需使用自然语言，即...",
+      "summary": "网易首个AI原生语音Agent「网易叭哥说」上线 “用户荣誉联创计划”，投入 10 万元征集产品建议 网易有道发起用户共创悬赏 | 网易首个AI原生语音Agent「网易叭哥说」上线 “用户荣誉联创计划”，投入 10 万元征集产品建议，...",
       "importance_score": 9
     },
     {
-      "title": "京东11.11：首日下单用户数同比双位数增长、超百项服务首次全景亮相",
+      "title": "霸榜三大基准！优必选 Thinker-WM：多模态统一表征，单模型实现六大能力",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/503645.html",
-      "publish_time": "2026-10-15",
+      "url": "https://www.qbitai.com/2026/10/503843.html",
+      "publish_time": "2026-10-16",
       "category": "AI 综合",
-      "summary": "11已于10月12日晚8点全面开启，首日下单用户数实现同比双位数增长 | 11已于10月12日晚8点全面开启，首日下单用户数实现同比双位数增长 | 11“又好又便宜”发布会上，更多惊喜与福利相继揭晓",
+      "summary": "得益于表征层面的多模态联合建模，Thinker‑WM 在反映机器人轨迹时空匹配的 nDTW（归一化动态时间规整）、表征运动速度与加速度合理性的 Dyn（动力学一致性）等机器人运动核心指标上实现领先",
       "importance_score": 9
     }
   ]
