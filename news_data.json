@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-18T02:39:23.598436",
+  "update_time": "2026-10-19T02:52:46.130337",
   "total_items": 23,
   "top_items": [
     {
@@ -12,12 +12,21 @@
       "importance_score": 9
     },
     {
-      "title": "生产级大模型平台工程实战手册",
+      "title": "Meta 联手苹果推出全美最强开源模型，编码基测输给智谱、Kimi",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/xQLd004RGWrzFhwqBOyC",
-      "publish_time": "2026-10-16",
+      "url": "https://www.infoq.cn/article/EuYOPRUBAeBgBGBu5ktk",
+      "publish_time": "2026-10-18",
       "category": "AI 技术",
-      "summary": "下文中的这些工程范式正是我当初希望项目上线第一天就能拥有的",
+      "summary": "Meta 将大型智能体模型带到了桌面设备上，但这次的“桌面”，需要两台高配置 Mac Studio | 当地时间 10 月 15 日，Meta 宣布开放 Muse Spark Open 模型权重，将软件工程、长程任务执行和多步推理作为主要应",
+      "importance_score": 9
+    },
+    {
+      "title": "机器人成为本届广交会的“顶流”，已有企业收获意向客户。",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15203405.html",
+      "publish_time": "2026-10-19",
+      "category": "AI 产业",
+      "summary": "广交会70年 | 机器人成“顶流”：不止看表演，采购商想要落地和海外仓 机器人成为本届广交会的“顶流”，已有企业收获意向客户 | 上午10点，广交会服务机器人专区外的队伍已经延伸到几米开外，门口的限流提示牌竖了起来 | 队伍里挤着来自世界各",
       "importance_score": 8
     },
     {
@@ -75,21 +84,12 @@
       "importance_score": 9
     },
     {
-      "title": "说真话就能拿10万？网易叭哥说重金求“真需求”，不卡专业学历",
+      "title": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/503861.html",
-      "publish_time": "2026-10-16",
+      "url": "https://www.qbitai.com/2026/10/504136.html",
+      "publish_time": "2026-10-18",
       "category": "AI 综合",
-      "summary": "网易首个AI原生语音Agent「网易叭哥说」上线 “用户荣誉联创计划”，投入 10 万元征集产品建议 网易有道发起用户共创悬赏 | 网易首个AI原生语音Agent「网易叭哥说」上线 “用户荣誉联创计划”，投入 10 万元征集产品建议，...",
-      "importance_score": 9
-    },
-    {
-      "title": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/503093.html",
-      "publish_time": "2026-10-13",
-      "category": "AI 综合",
-      "summary": "41亿元入股宇树科技后，梁文锋这回又把目光投向了一家成立没多久的机器人AI初创公司—— 据彭博社报道，DeepSeek计划领投其数千万美元种子轮融资",
+      "summary": "据VAST介绍，EdenLive首次实现了在实时生成的前提下，同时完成任意参考输入、任意画风生成和长时连续运行",
       "importance_score": 9
     }
   ]
