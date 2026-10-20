@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-20",
+  "update_time": "2026-10-20T03:02:47.446675",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "通研院孵化的团队，也盯上了RSI",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/504294.html",
+      "publish_time": "2026-10-19",
+      "category": "AI 综合",
+      "summary": "过去几年，大模型不断突破能力边界，越来越多企业开始通过API、知识库和Agent，将AI引入研发、投研、运营等核心业务",
+      "importance_score": 9
+    },
+    {
+      "title": "阿里云 7 个样板间，探索 AI 原生研发组织的实践",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/2uG3W14THqtLhb5Vou51",
+      "publish_time": "2026-10-19",
+      "category": "AI 技术",
+      "summary": "AI 正在重写软件研发流程，也把研发组织推到了变化的前沿 | 因此，“AI 原生组织”一词变得很热，但热度并不是我们此刻开口的理由 | 阿里云 CTO 产研线围绕业务北极星目标展开的实践已经取得了一些局部成果，也开始暴露出更难的问题：当 A",
+      "importance_score": 8
+    },
+    {
+      "title": "机器人成为本届广交会的“顶流”，已有企业收获意向客户。",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15203405.html",
+      "publish_time": "2026-10-20",
+      "category": "AI 产业",
+      "summary": "广交会70年 | 机器人成“顶流”：不止看表演，采购商想要落地和海外仓 机器人成为本届广交会的“顶流”，已有企业收获意向客户 | 上午10点，广交会服务机器人专区外的队伍已经延伸到几米开外，门口的限流提示牌竖了起来 | 队伍里挤着来自世界各",
+      "importance_score": 8
+    },
+    {
+      "title": "科技企业出海，为啥我推荐你去迪拜？",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/503893.html",
+      "publish_time": "2026-10-17",
+      "category": "AI 综合",
+      "summary": "林方舟 发自 凹非寺量子位 | 公众号QbitAI 全体都有 | 刚刚，迪拜商业论坛·中国在深圳落下帷幕，AI主题论坛上，那叫一个座无虚席～ 情况不难理解：AI现在是全世界的香饽饽，企业一方面得跟上国内市场卷的速度，另一方面全球市场的大蛋糕",
+      "importance_score": 9
+    },
+    {
+      "title": "全栈自研！国产高端互连芯片，稳了!",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/504225.html",
+      "publish_time": "2026-10-19",
+      "category": "AI 综合",
+      "summary": "一场发布会，整整12款量产芯片登场，外加三款高性能互连芯片新品和一整套核心IP",
+      "importance_score": 9
+    },
+    {
+      "title": "这个双十一，百灵新模型干起活来不烧心",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/503532.html",
+      "publish_time": "2026-10-15",
+      "category": "AI 综合",
+      "summary": "我朋友已经崩不住了，天天都在消息轰炸我： 有没有好用的AI打工神器求推荐",
+      "importance_score": 9
+    },
+    {
+      "title": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/504067.html",
+      "publish_time": "2026-10-17",
+      "category": "AI 综合",
+      "summary": "1-Flash-1017，还开放了自研搜索API 一水 鹭羽 发自 凹非寺量子位 | 公众号QbitAI 前两天DeepSeek“先崩后补偿”，就有人猜D老师这是要有新动作了",
+      "importance_score": 9
+    },
+    {
+      "title": "Claude半小时解开密码学悬案，学界集体走偏20年",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/503910.html",
+      "publish_time": "2026-10-17",
+      "category": "AI 综合",
+      "summary": "无他，AI这波解题潮，已经往前翻到了密码学界二十多年的旧账 | 刚刚，据Anthropic披露，Claude用不到半小时，查明了五条NIST标准椭圆曲线的种子生成方式 | 这串业界用了二十多年的数字，一度被写进密码学标准，但最初是怎么选出来",
+      "importance_score": 9
+    },
+    {
+      "title": "Claude新模型曝光！能跳出思维定势，修Bug治标又治本",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/504314.html",
+      "publish_time": "2026-10-20",
+      "category": "AI 综合",
+      "summary": "1 Terra… 梦晨 发自 凹非寺量子位 | 公众号QbitAI Claude新款被评价为“重大飞跃”，修复一个bug时能“治本”，识别背后更大的问题一并处理 | Gemini要发的是Argon升级款Carbon，员工内测反馈“能打Opu",
+      "importance_score": 9
+    },
+    {
+      "title": "2026物理AI与世界模型大会医疗健康世界模型分会场在南京举行",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/504266.html",
+      "publish_time": "2026-10-19",
+      "category": "AI 综合",
+      "summary": "2026年10月19日下午，医疗健康世界模型分会场在南京国际博览中心钟山厅举行 2026年10月19日下午，作为2026物理AI与世界模型大会的重要平行活动之一，医疗健康世界模型分会场在南京国际博览中心钟山厅举行 | 分会场以“预见疾病·推",
+      "importance_score": 9
+    }
+  ]
+}
