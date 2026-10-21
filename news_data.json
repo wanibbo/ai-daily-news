@@ -1,34 +1,7 @@
 {
-  "update_time": "2026-10-20T03:02:47.446293",
-  "total_items": 21,
+  "update_time": "2026-10-21T02:57:16.484185",
+  "total_items": 19,
   "top_items": [
-    {
-      "title": "通研院孵化的团队，也盯上了RSI",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/504294.html",
-      "publish_time": "2026-10-19",
-      "category": "AI 综合",
-      "summary": "过去几年，大模型不断突破能力边界，越来越多企业开始通过API、知识库和Agent，将AI引入研发、投研、运营等核心业务",
-      "importance_score": 9
-    },
-    {
-      "title": "阿里云 7 个样板间，探索 AI 原生研发组织的实践",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/2uG3W14THqtLhb5Vou51",
-      "publish_time": "2026-10-19",
-      "category": "AI 技术",
-      "summary": "AI 正在重写软件研发流程，也把研发组织推到了变化的前沿 | 因此，“AI 原生组织”一词变得很热，但热度并不是我们此刻开口的理由 | 阿里云 CTO 产研线围绕业务北极星目标展开的实践已经取得了一些局部成果，也开始暴露出更难的问题：当 A",
-      "importance_score": 8
-    },
-    {
-      "title": "机器人成为本届广交会的“顶流”，已有企业收获意向客户。",
-      "source": "界面新闻",
-      "url": "https://www.jiemian.com/article/15203405.html",
-      "publish_time": "2026-10-20",
-      "category": "AI 产业",
-      "summary": "广交会70年 | 机器人成“顶流”：不止看表演，采购商想要落地和海外仓 机器人成为本届广交会的“顶流”，已有企业收获意向客户 | 上午10点，广交会服务机器人专区外的队伍已经延伸到几米开外，门口的限流提示牌竖了起来 | 队伍里挤着来自世界各",
-      "importance_score": 8
-    },
     {
       "title": "科技企业出海，为啥我推荐你去迪拜？",
       "source": "量子位",
@@ -39,21 +12,39 @@
       "importance_score": 9
     },
     {
-      "title": "全栈自研！国产高端互连芯片，稳了!",
+      "title": "数据驱动的具身智能：迈向规模化之路｜QCon 上海",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/a8LKxyL9AC4PWhB2r0XX",
+      "publish_time": "2026-10-15",
+      "category": "AI 技术",
+      "summary": "高质量数据与持续学习闭环，是迈向规模化落地的关键 | 10 月 22～24 日，QCon 全球软件开发大会将在上海举行",
+      "importance_score": 8
+    },
+    {
+      "title": "知名私募禧悦投资押注AI遇挫？旗下“25倍基”近四个月回撤超七成",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15208896.html",
+      "publish_time": "2022-12-12",
+      "category": "AI 产业",
+      "summary": "旗下“25倍基”近四个月回撤超七成 近期，知名私募禧悦投资旗下产品“禧悦三石”净值上演“大跳水” | Wind数据显示，“禧悦三石”成立于2022年12月12日，采用主观股票多头策略，产品成立初期净值表现并不突出，至2024年9月25日累计",
+      "importance_score": 8
+    },
+    {
+      "title": "比亚迪成为2026年APEC会议官方合作伙伴",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/504225.html",
-      "publish_time": "2026-10-19",
+      "url": "https://www.qbitai.com/2026/10/504452.html",
+      "publish_time": "2026-10-20",
       "category": "AI 综合",
-      "summary": "一场发布会，整整12款量产芯片登场，外加三款高性能互连芯片新品和一整套核心IP",
+      "summary": "2025年比亚迪新能源汽车销量超460万辆，蝉联全球销冠，海外销量突破104万辆，同比增长145%；2026年1-9月累计销量超313万辆，海外累计销售超133万辆 | 8月13日，比亚迪秦MAX正式上市，推出EV与DM-i双动力版本",
       "importance_score": 9
     },
     {
-      "title": "这个双十一，百灵新模型干起活来不烧心",
+      "title": "理想宣布：电池自燃报废赔新车！自研6年后有底气了",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/503532.html",
-      "publish_time": "2026-10-15",
+      "url": "https://www.qbitai.com/2026/10/504551.html",
+      "publish_time": "2026-10-21",
       "category": "AI 综合",
-      "summary": "我朋友已经崩不住了，天天都在消息轰炸我： 有没有好用的AI打工神器求推荐",
+      "summary": "紧接着Power Day电动技术发布会上，理想正式发布连山电动技术体系，集中披露其在电池、电机、电控、碳化硅功率芯片以及超充网络方面的研发成果",
       "importance_score": 9
     },
     {
@@ -75,21 +66,30 @@
       "importance_score": 9
     },
     {
-      "title": "Claude新模型曝光！能跳出思维定势，修Bug治标又治本",
+      "title": "技术赋能全球化深耕 比亚迪携多品牌亮相2026巴黎车展",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/504314.html",
+      "url": "https://www.qbitai.com/2026/10/504435.html",
       "publish_time": "2026-10-20",
       "category": "AI 综合",
-      "summary": "1 Terra… 梦晨 发自 凹非寺量子位 | 公众号QbitAI Claude新款被评价为“重大飞跃”，修复一个bug时能“治本”，识别背后更大的问题一并处理 | Gemini要发的是Argon升级款Carbon，员工内测反馈“能打Opu",
+      "summary": "本届巴黎车展，比亚迪带来多款面向欧洲市场的战略新品与技术成果，实现纯电、超级混动、辅助智能驾驶、极速补能全维度技术落地，进一步完善在欧产品布局与技术生态 | 在本地化产品布局上，比亚迪持续立足欧洲用户需求实现定向研发、专属打造 | 全...",
       "importance_score": 9
     },
     {
-      "title": "2026物理AI与世界模型大会医疗健康世界模型分会场在南京举行",
+      "title": "RSI三块关键拼图，MemT 1.0从模型层补上「记忆」",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/504266.html",
-      "publish_time": "2026-10-19",
+      "url": "https://www.qbitai.com/2026/10/504456.html",
+      "publish_time": "2026-10-20",
       "category": "AI 综合",
-      "summary": "2026年10月19日下午，医疗健康世界模型分会场在南京国际博览中心钟山厅举行 2026年10月19日下午，作为2026物理AI与世界模型大会的重要平行活动之一，医疗健康世界模型分会场在南京国际博览中心钟山厅举行 | 分会场以“预见疾病·推",
+      "summary": "Hinton的RSI论文，22位署名作者里，坐着Bengio、OpenAI首席科学家Pachocki、Anthropic联创Jack Clark……几乎AI的半壁江山都在这儿 | 大家在将目光投向AI自我改进的同时，一个更值得追问的基础问题",
+      "importance_score": 9
+    },
+    {
+      "title": "飞书豆包工作AI先锋未来人才大赛：企业正在争抢会用AI做成事的人",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/504608.html",
+      "publish_time": "2026-10-21",
+      "category": "AI 综合",
+      "summary": "活动现场，飞书和豆包工作与数智教育发展国际大学联盟共同发布《AI时代人才标准全景观察》，汇集4300多支战队数据和108家企业人才观",
       "importance_score": 9
     }
   ]
