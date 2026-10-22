@@ -1,7 +1,34 @@
 {
-  "update_time": "2026-10-21T02:57:16.484185",
-  "total_items": 19,
+  "update_time": "2026-10-22T02:56:06.832487",
+  "total_items": 20,
   "top_items": [
+    {
+      "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/504653.html",
+      "publish_time": "2026-10-21",
+      "category": "AI 综合",
+      "summary": "在这场世界模型领域的学术与产业盛会上，清华系具身智能公司千诀科技，也在大会上正式发布了预测式世界模型Polibrain",
+      "importance_score": 9
+    },
+    {
+      "title": "推动 AI 规模化落地的三大经验：来自公共部门领导者的实践洞察 ｜ 技术趋势",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/GVcxHscrQqv9HXGRowJh",
+      "publish_time": "2026-10-21",
+      "category": "AI 技术",
+      "summary": "2026 年，智能体将在企业级应用中取得哪些实质性突破 | 在 Snowflake Summit 大会上，我们向公共部门领导者提出了一个问题：如何从市场推动 AI 应用的压力出发，最终实现与机构使命相匹配的规模化成效 | 这意味着，必...",
+      "importance_score": 8
+    },
+    {
+      "title": "黄仁勋定调下一代AI工厂",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15219989.html",
+      "publish_time": "2026-10-22",
+      "category": "AI 产业",
+      "summary": "AI工厂、Agent、人形机器人，黄仁勋在今年GTC柏林集中展示了英伟达的最新进展与应用方向 | 英伟达创始人兼CEO黄仁勋（Jensen Huang）在主题演讲中展示了新一代AI基础设施、企业智能体和机器人平台，并将大量篇幅留给了工...",
+      "importance_score": 8
+    },
     {
       "title": "科技企业出海，为啥我推荐你去迪拜？",
       "source": "量子位",
@@ -12,39 +39,12 @@
       "importance_score": 9
     },
     {
-      "title": "数据驱动的具身智能：迈向规模化之路｜QCon 上海",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/a8LKxyL9AC4PWhB2r0XX",
-      "publish_time": "2026-10-15",
-      "category": "AI 技术",
-      "summary": "高质量数据与持续学习闭环，是迈向规模化落地的关键 | 10 月 22～24 日，QCon 全球软件开发大会将在上海举行",
-      "importance_score": 8
-    },
-    {
-      "title": "知名私募禧悦投资押注AI遇挫？旗下“25倍基”近四个月回撤超七成",
-      "source": "界面新闻",
-      "url": "https://www.jiemian.com/article/15208896.html",
-      "publish_time": "2022-12-12",
-      "category": "AI 产业",
-      "summary": "旗下“25倍基”近四个月回撤超七成 近期，知名私募禧悦投资旗下产品“禧悦三石”净值上演“大跳水” | Wind数据显示，“禧悦三石”成立于2022年12月12日，采用主观股票多头策略，产品成立初期净值表现并不突出，至2024年9月25日累计",
-      "importance_score": 8
-    },
-    {
-      "title": "比亚迪成为2026年APEC会议官方合作伙伴",
+      "title": "实探宁德时代总部：“去宁化”是喊太大声了",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/504452.html",
-      "publish_time": "2026-10-20",
-      "category": "AI 综合",
-      "summary": "2025年比亚迪新能源汽车销量超460万辆，蝉联全球销冠，海外销量突破104万辆，同比增长145%；2026年1-9月累计销量超313万辆，海外累计销售超133万辆 | 8月13日，比亚迪秦MAX正式上市，推出EV与DM-i双动力版本",
-      "importance_score": 9
-    },
-    {
-      "title": "理想宣布：电池自燃报废赔新车！自研6年后有底气了",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/504551.html",
+      "url": "https://www.qbitai.com/2026/10/504618.html",
       "publish_time": "2026-10-21",
       "category": "AI 综合",
-      "summary": "紧接着Power Day电动技术发布会上，理想正式发布连山电动技术体系，集中披露其在电池、电机、电控、碳化硅功率芯片以及超充网络方面的研发成果",
+      "summary": "然而在这场风波中，上汽旗下智己却反其道而行之，宣布即将推出的LS8 NEO纯电，将全系搭载宁德时代电池",
       "importance_score": 9
     },
     {
@@ -54,24 +54,6 @@
       "publish_time": "2026-10-17",
       "category": "AI 综合",
       "summary": "1-Flash-1017，还开放了自研搜索API 一水 鹭羽 发自 凹非寺量子位 | 公众号QbitAI 前两天DeepSeek“先崩后补偿”，就有人猜D老师这是要有新动作了",
-      "importance_score": 9
-    },
-    {
-      "title": "Claude半小时解开密码学悬案，学界集体走偏20年",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/503910.html",
-      "publish_time": "2026-10-17",
-      "category": "AI 综合",
-      "summary": "无他，AI这波解题潮，已经往前翻到了密码学界二十多年的旧账 | 刚刚，据Anthropic披露，Claude用不到半小时，查明了五条NIST标准椭圆曲线的种子生成方式 | 这串业界用了二十多年的数字，一度被写进密码学标准，但最初是怎么选出来",
-      "importance_score": 9
-    },
-    {
-      "title": "技术赋能全球化深耕 比亚迪携多品牌亮相2026巴黎车展",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/504435.html",
-      "publish_time": "2026-10-20",
-      "category": "AI 综合",
-      "summary": "本届巴黎车展，比亚迪带来多款面向欧洲市场的战略新品与技术成果，实现纯电、超级混动、辅助智能驾驶、极速补能全维度技术落地，进一步完善在欧产品布局与技术生态 | 在本地化产品布局上，比亚迪持续立足欧洲用户需求实现定向研发、专属打造 | 全...",
       "importance_score": 9
     },
     {
@@ -90,6 +72,24 @@
       "publish_time": "2026-10-21",
       "category": "AI 综合",
       "summary": "活动现场，飞书和豆包工作与数智教育发展国际大学联盟共同发布《AI时代人才标准全景观察》，汇集4300多支战队数据和108家企业人才观",
+      "importance_score": 9
+    },
+    {
+      "title": "多智能体协同重构医疗AI！清华AIR孵化：医生AI分身“坐诊”医院",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/504734.html",
+      "publish_time": "2026-10-21",
+      "category": "AI 综合",
+      "summary": "张亚勤院士创办的清华AIR，最近又跑出来一家明星AI医疗企业—— 其研发的“紫荆AI医院”系统，已经在全国各地的医院陆续上线测试",
+      "importance_score": 9
+    },
+    {
+      "title": "量智齐飞！4个月9款车落地，轻舟城市NOA击穿10-20万体验天花板",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/504638.html",
+      "publish_time": "2026-10-21",
+      "category": "AI 综合",
+      "summary": "据介绍，轻舟智航是行业第一家实现单征程6M方案城市NOA量产上市的公司 | 对主机厂而言，它用更低算力、更低成本实现城市NOA体验，极大助力高阶辅助驾驶普惠到全车型，成为城市NOA规模化普及的关键推手",
       "importance_score": 9
     }
   ]
