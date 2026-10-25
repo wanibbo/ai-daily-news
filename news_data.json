@@ -1,5 +1,5 @@
 {
-  "update_time": "2026-10-24T02:56:36.910057",
+  "update_time": "2026-10-25T02:49:39.149536",
   "total_items": 22,
   "top_items": [
     {
@@ -12,13 +12,13 @@
       "importance_score": 9
     },
     {
-      "title": "AI把整个软件生态打成筛子，全栈开发者的至暗时刻",
+      "title": "四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/glAvFT7PWdZ53mbgPbgC",
-      "publish_time": "2026-10-22",
+      "url": "https://www.infoq.cn/article/9TSuUDxrUSGS26XTA2yB",
+      "publish_time": "2026-10-25",
       "category": "AI 技术",
-      "summary": "如果要给这魔幻的一周写个总结，那大概是：“全栈开发者的至暗时刻，AI 时代的赛博大逃杀 | ” 想象一下，你是一个普通的开发者，早上刚到工位，就会发现整个互联网基础设施都在轮流出事",
-      "importance_score": 8
+      "summary": "AI 编程工具正在大幅缩短开发者写代码的时间，但开源社区可能正在为这种效率提升付出另一种代价 | 在大型开源项目中，这一比例进一步上升至 31% | Linux 基金会这份研究由 LF Research 发布，获得 Red Hat 赞...",
+      "importance_score": 9
     },
     {
       "title": "科技企业出海，为啥我推荐你去迪拜？",
