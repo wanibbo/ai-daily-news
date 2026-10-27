@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-27",
+  "update_time": "2026-10-27T03:21:24.378767",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "A社联创演讲：AI奇点已来",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505521.html",
+      "publish_time": "2026-10-26",
+      "category": "AI 综合",
+      "summary": "Anthropic的联合创始人Jack Clark在IMF 2026的曼谷年会上抛出了这个震撼全场的判断 | 要知道这场拥有62年历史的佩尔·雅各布森讲座历来只属于各国财长、央行行长与顶尖经济学权威",
+      "importance_score": 9
+    },
+    {
+      "title": "四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/9TSuUDxrUSGS26XTA2yB",
+      "publish_time": "2026-10-25",
+      "category": "AI 技术",
+      "summary": "AI 编程工具正在大幅缩短开发者写代码的时间，但开源社区可能正在为这种效率提升付出另一种代价 | 在大型开源项目中，这一比例进一步上升至 31% | Linux 基金会这份研究由 LF Research 发布，获得 Red Hat 赞...",
+      "importance_score": 9
+    },
+    {
+      "title": "NeoLab第一个商业模式：转售GPU",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505478.html",
+      "publish_time": "2026-10-26",
+      "category": "AI 综合",
+      "summary": "Neolab，新兴AI实验室，当下最火的风投项目——指那些由明星研究者创办、先获得巨额融资，再投入模型研发的AI初创公司 | 网友也已经给Neolab们安排明白了，最好的情况是实现技术突破，成为下一个 OpenAI；其次是转型做企业垂...",
+      "importance_score": 9
+    },
+    {
+      "title": "OpenAI开始断网训练最强模型：“安全起见”",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505529.html",
+      "publish_time": "2026-10-26",
+      "category": "AI 综合",
+      "summary": "在持续数月均有突破安全边界的“越权”或“越狱”事件发生后，OpenAI终于要拔网线了",
+      "importance_score": 9
+    },
+    {
+      "title": "成立3个月便反超GPT-6 Astra！深圳黑马首次亮相",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505186.html",
+      "publish_time": "2026-10-26",
+      "category": "AI 综合",
+      "summary": "VLA-Arena为通用具身模型开源评测榜单，围绕安全性、抗干扰能力做系统化测评，支持跨模型对比，Paimon-0取得0",
+      "importance_score": 9
+    },
+    {
+      "title": "WorkBuddy进驻企微！终于不用我当文件传输助手了。。。",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505365.html",
+      "publish_time": "2026-10-26",
+      "category": "AI 综合",
+      "summary": "求求了，我是让AI来帮忙干活的，不是来给它做入职培训的 | 每次打开AI，准备把手里的活儿甩出去，我那叫一个积极",
+      "importance_score": 9
+    },
+    {
+      "title": "被OpenAIGemini共同选择的实时语音交互，凭什么是这家中国公司？",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505341.html",
+      "publish_time": "2026-10-26",
+      "category": "AI 综合",
+      "summary": "不是我说，AI现在确实代码写得快，研究做得飞起； 你话还没说完，它抢着就开口了；你情绪上来了，它还在一板一眼念答案；你想打断换个话题，它偏要把最后一句念完…… 说白了，AI“会说”这关早过了，但“会聊”，还差着一大截 | 要说会聊，TA得能",
+      "importance_score": 9
+    },
+    {
+      "title": "KV Cache砍掉99%，单卡吞吐飙6倍，港科CMU联手岩山科技开源新模型",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505407.html",
+      "publish_time": "2026-10-26",
+      "category": "AI 综合",
+      "summary": "谷歌今年的一篇论文，愣是把存储芯片巨头的股价都给整出动静了 | 论文里提到，KV Cache至少能压缩6倍 | 要知道，大模型推理越来越吃内存，KV Cache又是其中一笔不小的开销",
+      "importance_score": 9
+    },
+    {
+      "title": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505551.html",
+      "publish_time": "2026-10-27",
+      "category": "AI 综合",
+      "summary": "1%总投票权 梦晨 衡宇 发自 凹非寺量子位 | 公众号 QbitAI 史上最大IPO的帽子，要从马斯克的SpaceX头上被抢走了",
+      "importance_score": 9
+    },
+    {
+      "title": "AI时代，一个人能有多大能量？天禧AI × 观猹大会现场实测个人AI跨端协同新体验",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505539.html",
+      "publish_time": "2026-10-26",
+      "category": "AI 综合",
+      "summary": "10月23日至25日，以“见证超能发生”为主题的“天禧AI × 观猹大会”在杭州茶叶博览会会议会展中心启幕 | 10月23日至25日，以“见证超能发生”为主题的“天禧AI × 观猹大会”在杭州茶叶博览会会议会展中心启幕 | 在这场汇聚先锋开",
+      "importance_score": 9
+    }
+  ]
+}
