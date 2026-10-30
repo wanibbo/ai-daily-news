@@ -1,41 +1,68 @@
 {
-  "update_time": "2026-10-29T03:58:10.040859",
-  "total_items": 21,
+  "update_time": "2026-10-30T03:59:23.723938",
+  "total_items": 22,
   "top_items": [
     {
-      "title": "文远知行001号员工带队，景烁科技首轮融资数千万美元",
+      "title": "STEPX Neo 发布两周即迎首次升级，智能体能力持续释放",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/506281.html",
+      "url": "https://www.qbitai.com/2026/10/506554.html",
       "publish_time": "2026-10-29",
       "category": "AI 综合",
-      "summary": "10月29日，文远知行披露旗下子公司景烁科技首次融资进展 10月29日，文远知行（NASDAQ: WRD，HKEX: 0800）披露旗下子公司景烁科技首次融资进展，景烁科技目前已获嘉御资本、HKSTP香港科技园、天狼星资本等资方数千万美元的",
-      "importance_score": 9
+      "summary": "阶跃终端旗下大模型原生智能体手机 STEPX Neo 在发布两周后即迎来首次升级 10 月 29 日消息，阶跃终端旗下大模型原生智能体手机 STEPX Neo 在发布两周后即迎来首次升级，更新覆盖视频创作、生活服务、工作任务，以及底层体验优",
+      "importance_score": 10
     },
     {
-      "title": "四分之一PR是“AI垃圾”！Linux基金会发布新报告：AI写代码快了52%，开源维护者却更累了",
+      "title": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/9TSuUDxrUSGS26XTA2yB",
-      "publish_time": "2026-10-25",
+      "url": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW",
+      "publish_time": "2026-10-30",
       "category": "AI 技术",
-      "summary": "AI 编程工具正在大幅缩短开发者写代码的时间，但开源社区可能正在为这种效率提升付出另一种代价 | 在大型开源项目中，这一比例进一步上升至 31% | Linux 基金会这份研究由 LF Research 发布，获得 Red Hat 赞...",
+      "summary": "近日，前腾讯 AI Lab R4 部门合伙人、“王者绝悟”技术负责人叶德珩（Deheng Ye）在个人主页更新了职业信息，确认已加入字节跳动 Seed 团队，担任研究员，从事基础模型（Foundation Models）相关研究 | 叶德珩",
+      "importance_score": 8
+    },
+    {
+      "title": "Anthropic招股书公布后，国内大模型会因此被重估吗？",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15265086.html",
+      "publish_time": "2026-10-30",
+      "category": "AI 产业",
+      "summary": "Anthropic招股书公布后，国内大模型会因此被重估吗 | 市场短期看情绪，长期看技术，模型表现仍是重中之重 | Anthropic近日公开的招股书，为全球模型厂商及其投资人都提供了一组更具体的参照",
+      "importance_score": 8
+    },
+    {
+      "title": "敢和英伟达现场PK的国产GPU，我是服的",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/506376.html",
+      "publish_time": "2026-10-29",
+      "category": "AI 综合",
+      "summary": "一家国产芯片公司，竟敢把自家的GPU和英伟达H200，直接在现场真枪实弹地来了一把PK | 而且题目还不是自己出的，是随机挑了几个人、当场出题的那种 | 例如文生图，有人出的题目是“一只老虎把月亮踢飞”： 视频地址：https://mp",
       "importance_score": 9
     },
     {
-      "title": "24万开卖！理想重造i6，李想：目标全球畅销",
+      "title": "中国MaaS市场TOP2，商汤大装置再度蝉联",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/506246.html",
+      "url": "https://www.qbitai.com/2026/10/506550.html",
       "publish_time": "2026-10-29",
       "category": "AI 综合",
-      "summary": "理想今年最后一场发布会，自研电池芯片全部上车 量子位ROBO | 公众号 AI4ROBO 理想今年最后一场发布会，留给了2026款理想i6 | 上市一年，理想i6累计交付近19万辆，连续8个月跻身20万元以上纯电车型销量前三，已经成为理想旗",
+      "summary": "4%的市场份额，再次稳居第二位 近日，国际数据公司（IDC）发布2026上半年中国企业级MaaS市场最新格局分析报告",
       "importance_score": 9
     },
     {
-      "title": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
+      "title": "前排围观！MEET2027报名通道正式开启，首批重磅嘉宾已就位",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/505934.html",
-      "publish_time": "2026-10-29",
+      "url": "https://www.qbitai.com/2026/10/506609.html",
+      "publish_time": "2026-10-30",
       "category": "AI 综合",
-      "summary": "就在刚刚，扩散智能发布了全新的扩散语言模型—— Clover-35B-A3B-Preview",
+      "summary": "大会现场还将权威发布人工智能年度榜单与年度AI趋势报告，记录这一年的科技成果，也预判下一年的演进方向",
+      "importance_score": 9
+    },
+    {
+      "title": "买车送终身AI？智己LS8纯电版25万起！全系线控底盘宁德时代标配",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/506569.html",
+      "publish_time": "2026-10-30",
+      "category": "AI 综合",
+      "summary": "85米，还配备了三重安全冗余、全域线控矢量扭矩协同控制，甚至可以实现方向盘静默泊车",
       "importance_score": 9
     },
     {
@@ -48,15 +75,6 @@
       "importance_score": 9
     },
     {
-      "title": "小雨智造与国家钢结构质检中心共建实验室，乔忠良：具身智能新质生产力已成事实",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/506273.html",
-      "publish_time": "2026-10-29",
-      "category": "AI 综合",
-      "summary": "2026年10月27日，“工业具身智能焊接与检测技术联合实验室”正式揭牌成立 | 2026年10月27日，由中冶建筑研究总院有限公司国家钢结构质量检验检测中心与北京小雨智造科技有限公司共建的“工业具身智能焊接与检测技术联合实验室”正式揭牌成",
-      "importance_score": 9
-    },
-    {
       "title": "Physical RSI第一站！便利店打工“人”自己进化，物理AI飞轮启动了",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/10/505799.html",
@@ -66,30 +84,12 @@
       "importance_score": 9
     },
     {
-      "title": "KV Cache砍掉99%，单卡吞吐飙6倍，港科CMU联手岩山科技开源新模型",
+      "title": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/505407.html",
-      "publish_time": "2026-10-26",
+      "url": "https://www.qbitai.com/2026/10/506662.html",
+      "publish_time": "2026-10-30",
       "category": "AI 综合",
-      "summary": "谷歌今年的一篇论文，愣是把存储芯片巨头的股价都给整出动静了 | 论文里提到，KV Cache至少能压缩6倍 | 要知道，大模型推理越来越吃内存，KV Cache又是其中一笔不小的开销",
-      "importance_score": 9
-    },
-    {
-      "title": "刚刚，Gemini 4 Carbon全面超越Opus 5.5！首发Token半价",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/506227.html",
-      "publish_time": "2026-10-29",
-      "category": "AI 综合",
-      "summary": "梦晨 发自 凹非寺量子位 | 公众号 QbitAI Argon发布两周啊，谷歌火速掏出新旗舰Gemini 4 Carbon",
-      "importance_score": 9
-    },
-    {
-      "title": "工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/506098.html",
-      "publish_time": "2026-10-28",
-      "category": "AI 综合",
-      "summary": "近期，逐际动力更新了其开源工程底座FluxVLA Engine的第二版技术报告 | 相较9月发布的首版，V2进一步加入在线强化学习后训练实验，并扩展了仿真评测和真机部署的覆盖范围",
+      "summary": "近日，清华大学、无问芯穹与智元联合提出群体经验学习（Collective Experience Learning，CEL）新范式，并在96台真实机器人组成的集群中完成规模化验证 | CEL 让机器人可以不只依靠人类示范学习，还能借鉴群体中其",
       "importance_score": 9
     }
   ]
