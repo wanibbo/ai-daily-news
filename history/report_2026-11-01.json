@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-01",
+  "update_time": "2026-11-01T03:52:33.065561",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/506904.html",
+      "publish_time": "2026-10-31",
+      "category": "AI 综合",
+      "summary": "要知道，此前不少人还在等DeepSeek推出传闻中的「dsh dot」，结果这次先等来了一篇面向工程实践的架构思路探讨—— Super-agent：迈向更自主的Agent系统",
+      "importance_score": 10
+    },
+    {
+      "title": "当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/acC46slIVKJg1O0ac8w4",
+      "publish_time": "2026-10-31",
+      "category": "AI 技术",
+      "summary": "过去，人们与大模型的交互是一条相对简单的链路：输入 Prompt，模型生成 Response | 进入 Agent 时代，这条链路变成了“规划—推理—行动—反馈”的循环 | 一次用户请求，可能进一步调用网页、API、数据、工具、代码和其他系",
+      "importance_score": 8
+    },
+    {
+      "title": "OpenAI据称将新一轮融资目标下调100亿美元，拟以1.25万亿美元估值融资200亿美元",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15277030.html",
+      "publish_time": "2026-11-01",
+      "category": "AI 产业",
+      "summary": "10月31日，据报道，OpenAI已将最新一轮融资目标下调100亿美元，计划融资200亿美元，对应估值1",
+      "importance_score": 8
+    },
+    {
+      "title": "敢和英伟达现场PK的国产GPU，我是服的",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/506376.html",
+      "publish_time": "2026-10-29",
+      "category": "AI 综合",
+      "summary": "一家国产芯片公司，竟敢把自家的GPU和英伟达H200，直接在现场真枪实弹地来了一把PK | 而且题目还不是自己出的，是随机挑了几个人、当场出题的那种 | 例如文生图，有人出的题目是“一只老虎把月亮踢飞”： 视频地址：https://mp",
+      "importance_score": 9
+    },
+    {
+      "title": "榜一，拿来吧你！智元这波双模型杀穿多榜榜单",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/506819.html",
+      "publish_time": "2026-10-30",
+      "category": "AI 综合",
+      "summary": "今年的创新日上，智元联合创始人、总裁兼CTO彭志辉（稚晖君）发布了一个物理AI新单位“Worken”，用来衡量机器人的有效智能工时",
+      "importance_score": 9
+    },
+    {
+      "title": "你的8G iPad里有12G内存！库克走了但他的刀法追着我砍",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/506884.html",
+      "publish_time": "2026-10-31",
+      "category": "AI 综合",
+      "summary": "不是哥们，苹果这“精准刀法”，是不是有点太狠、太绝、太资本主义了 | 这几年AI大潮来了，苹果押注未来的准头，只能说不敢恭维",
+      "importance_score": 9
+    },
+    {
+      "title": "刚刚，Claude宣布取消5小时限制！首批Ultra用户已「解封」",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/506855.html",
+      "publish_time": "2026-10-31",
+      "category": "AI 综合",
+      "summary": "但这回，200美元档位的Ultra用户，还迎来了一项实打实的变化—— 根据官方说明，符合验证条件的Ultra用户，从今天起—— 就能在每周额度内连续使用Claude，终于不用再被5小时窗口卡脖子了",
+      "importance_score": 9
+    },
+    {
+      "title": "AI零帧起手写算子，反超DeepSeek人类手写巅峰：快了9.8%！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/506785.html",
+      "publish_time": "2026-10-30",
+      "category": "AI 综合",
+      "summary": "就在今早，ForgeKernel，一个无人参与的Agent在无需参考DeepSeek原始实现的情况下，就当着全网的面，把DeepSeek最新的核心算子写快了9 | FlashMLA是DeepSeek开源的注意力核心算子库，10月20日...",
+      "importance_score": 9
+    },
+    {
+      "title": "世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/506866.html",
+      "publish_time": "2026-10-31",
+      "category": "AI 综合",
+      "summary": "以智驾模型知名的Momenta，出现在了一家成立仅仅两年多的芯片公司首次公开亮相里 | 姐妹公司终于合体，最强智驾模型公司，如虎添翼 | 新芯航途XHEART，现在成了Momenta的硬通货伙伴",
+      "importance_score": 9
+    },
+    {
+      "title": "被OpenAIGemini共同选择的实时语音交互，凭什么是这家中国公司？",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505341.html",
+      "publish_time": "2026-10-26",
+      "category": "AI 综合",
+      "summary": "不是我说，AI现在确实代码写得快，研究做得飞起； 你话还没说完，它抢着就开口了；你情绪上来了，它还在一板一眼念答案；你想打断换个话题，它偏要把最后一句念完…… 说白了，AI“会说”这关早过了，但“会聊”，还差着一大截 | 要说会聊，TA得能",
+      "importance_score": 9
+    }
+  ]
+}
