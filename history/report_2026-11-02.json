@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-02",
+  "update_time": "2026-11-02T03:56:33.358416",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "Jev新成果，再次引爆开源",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/506922.html",
+      "publish_time": "2026-11-01",
+      "category": "AI 综合",
+      "summary": "刚刚，Jev的母公司TypeSafe AI联手Agent工具平台Treg，开源了一款比Clay便宜了85%的找人工具，狂揽6400 Star",
+      "importance_score": 9
+    },
+    {
+      "title": "当 AI 能读懂二进制，闭源软件还剩多少护城河？",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/8mCjWWFLdjDA2vb51QZs",
+      "publish_time": "2026-11-01",
+      "category": "AI 技术",
+      "summary": "Reverse Engineer Anything（REA）是一个开源项目，在 GitHub 上已获得超过 20 万个 Star | Ghidra 是美国国家安全局开发的一款开源工具，用于分析编译后的程序",
+      "importance_score": 8
+    },
+    {
+      "title": "A股午评：创业板指半日涨3.28%，全市场超4700只个股上涨，证券IT、短剧、AI语料等概念走强",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15281385.html",
+      "publish_time": "2026-11-02",
+      "category": "AI 产业",
+      "summary": "11月2日，A股三大指数早盘集体上涨，截至午间收盘，上证指数涨1",
+      "importance_score": 8
+    },
+    {
+      "title": "敢和英伟达现场PK的国产GPU，我是服的",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/506376.html",
+      "publish_time": "2026-10-29",
+      "category": "AI 综合",
+      "summary": "一家国产芯片公司，竟敢把自家的GPU和英伟达H200，直接在现场真枪实弹地来了一把PK | 而且题目还不是自己出的，是随机挑了几个人、当场出题的那种 | 例如文生图，有人出的题目是“一只老虎把月亮踢飞”： 视频地址：https://mp",
+      "importance_score": 9
+    },
+    {
+      "title": "三年前布局，今年爆火丨西湖大学成立新中心",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507076.html",
+      "publish_time": "2026-11-01",
+      "category": "AI 综合",
+      "summary": "而就在前几天，Google DeepMind发布Genie4，融合了世界模型和推理模型",
+      "importance_score": 9
+    },
+    {
+      "title": "榜一，拿来吧你！智元这波双模型杀穿多榜榜单",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/506819.html",
+      "publish_time": "2026-10-30",
+      "category": "AI 综合",
+      "summary": "今年的创新日上，智元联合创始人、总裁兼CTO彭志辉（稚晖君）发布了一个物理AI新单位“Worken”，用来衡量机器人的有效智能工时",
+      "importance_score": 9
+    },
+    {
+      "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507038.html",
+      "publish_time": "2026-11-01",
+      "category": "AI 综合",
+      "summary": "一个叫chasm的博主发现，Claude Code好像正在悄悄打击游戏克隆，不许用它来复刻其他游戏",
+      "importance_score": 9
+    },
+    {
+      "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507031.html",
+      "publish_time": "2026-11-01",
+      "category": "AI 综合",
+      "summary": "Jay发自 凹非寺 量子位|公众号QbitAI 「让AI像牛顿一样思考」，这件事，终于有望了 | 清华大学姚期智和袁洋老师领导的科研团队，搞出了一个重磅项目，叫「代数世界模型」（Algebraic World Model,AWM） | 如果",
+      "importance_score": 9
+    },
+    {
+      "title": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/506990.html",
+      "publish_time": "2026-11-01",
+      "category": "AI 综合",
+      "summary": "乔迟 发自 凹非寺 编辑｜李欢欢 量子位|公众号QbitAI 会打拳、能跳舞，对机器人来说，已经是旧闻，能叠衣服、做冰淇凌才是新亮点 | 如今，它们在零售仓卖饮料、冰淇凌店里卖甜筒，上班上得有模有样 | 但是一家老牌零售商却在这波热潮中狠狠",
+      "importance_score": 9
+    },
+    {
+      "title": "AI零帧起手写算子，反超DeepSeek人类手写巅峰：快了9.8%！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/506785.html",
+      "publish_time": "2026-10-30",
+      "category": "AI 综合",
+      "summary": "就在今早，ForgeKernel，一个无人参与的Agent在无需参考DeepSeek原始实现的情况下，就当着全网的面，把DeepSeek最新的核心算子写快了9 | FlashMLA是DeepSeek开源的注意力核心算子库，10月20日...",
+      "importance_score": 9
+    }
+  ]
+}
