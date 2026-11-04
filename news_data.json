@@ -1,14 +1,14 @@
 {
-  "update_time": "2026-11-03T04:58:07.952060",
-  "total_items": 20,
+  "update_time": "2026-11-04T04:29:15.733195",
+  "total_items": 25,
   "top_items": [
     {
-      "title": "央视严选「中国AI创业十骏」：唯一AI制药公司是清华系",
+      "title": "榜一，拿来吧你！智元这波双模型杀穿多榜榜单",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507150.html",
-      "publish_time": "2026-11-02",
+      "url": "https://www.qbitai.com/2026/10/506819.html",
+      "publish_time": "2026-10-30",
       "category": "AI 综合",
-      "summary": "AI江湖的名头换了一茬又一茬：AI四小龙、大模型六小虎…… 这一次，行业的下一批明星公司，轮到央视亲自大点兵 | 1200家参赛企业层层突围，中国AI创业十骏新鲜出炉 | 名单横跨机器人、智能制造、生命科学，唯独有一家AI制药公司上榜，今天",
+      "summary": "今年的创新日上，智元联合创始人、总裁兼CTO彭志辉（稚晖君）发布了一个物理AI新单位“Worken”，用来衡量机器人的有效智能工时",
       "importance_score": 9
     },
     {
@@ -21,21 +21,39 @@
       "importance_score": 8
     },
     {
-      "title": "榜一，拿来吧你！智元这波双模型杀穿多榜榜单",
+      "title": "李佳琦首次带货AI算力，半小时卖出2万亿Token",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15285896.html",
+      "publish_time": "2026-11-04",
+      "category": "AI 产业",
+      "summary": "作为钓鱼爱好者，李佳琦现场提出需求，通过简单对话生成并上线了一张支持多人访问的全球钓鱼地图",
+      "importance_score": 8
+    },
+    {
+      "title": "模型谁都买得到，拉开差距的是AI生产力系统",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/506819.html",
-      "publish_time": "2026-10-30",
+      "url": "https://www.qbitai.com/2026/11/507448.html",
+      "publish_time": "2026-11-03",
       "category": "AI 综合",
-      "summary": "今年的创新日上，智元联合创始人、总裁兼CTO彭志辉（稚晖君）发布了一个物理AI新单位“Worken”，用来衡量机器人的有效智能工时",
+      "summary": "大模型狂飙近三年，生成式 AI 正在集体撞上一道冰冷的商业现实之墙 | 一边是硅谷与各大实验室在 Benchmark 跑分榜上卷得不可开交——今天宣称参数翻倍，明天夸耀多模态指标封神；另一边，则是极度尴尬的商业化剪刀差：绝大多数 C 端 A",
       "importance_score": 9
     },
     {
-      "title": "A社紧急修改招股书！RSI我们快要控制不住了",
+      "title": "苹果被曝的新产品，中国央企8个月前已装进公共卫生间",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507382.html",
+      "url": "https://www.qbitai.com/2026/11/507410.html",
       "publish_time": "2026-11-03",
       "category": "AI 综合",
-      "summary": "但钱什么的咱们稍后再看，最让人头皮发麻的一句话，A社悄悄塞进了招股书的第29页里： 自家下一代模型，眼瞅着就要突破RSI（AI自进化）危险红线了",
+      "summary": "这不仅实现了隐私保护与安全预警的统一，也为视频监控开拓了全新范式",
+      "importance_score": 9
+    },
+    {
+      "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507507.html",
+      "publish_time": "2026-11-03",
+      "category": "AI 综合",
+      "summary": "而且野心不小，要让AI接管整座仓库，实现7×24小时自主运行，还能在真实业务中持续学习、自主进化 | 过去十多年，AMR让搬运、存储等大量标准化作业实现自动化，货物甚至能自己找到人",
       "importance_score": 9
     },
     {
@@ -48,30 +66,12 @@
       "importance_score": 9
     },
     {
-      "title": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义",
+      "title": "智己LS8纯电版背后：8年研发底盘，两大厂联合开发电池",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507367.html",
+      "url": "https://www.qbitai.com/2026/11/507473.html",
       "publish_time": "2026-11-03",
       "category": "AI 综合",
-      "summary": "克雷西 发自 凹非寺量子位 | 公众号QbitAI 人类用了两千年的模拟计算，开始被重新定义了 | 在一本专注于非传统计算的Nature旗下期刊里，一篇综述论文把「现代模拟计算」写进了标题，试图给这个方向立一个正式的定义 | 这件事由北京大",
-      "importance_score": 9
-    },
-    {
-      "title": "B站举办2026超级科学晚，脑机接口、人造太阳等前沿科技齐亮相",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507339.html",
-      "publish_time": "2026-11-03",
-      "category": "AI 综合",
-      "summary": "通过科研工作者的讲述、实验展示与互动体验，科学晚将前沿的科技议题进一步转化为公众能够直接理解的科学故事，打破严肃科学与大众之间的壁垒，把实验室里的科技成果变成了可视化的“科技秀”",
-      "importance_score": 9
-    },
-    {
-      "title": "从“能调用”到“敢托付”：仪电智算云 Token 工厂的三重可信",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507260.html",
-      "publish_time": "2026-11-02",
-      "category": "AI 综合",
-      "summary": "上海仪电与上海创智学院联合发布“飞轮转・万象生”仪电智算数链生态",
+      "summary": "最近在智己LS8 NEO纯电版发布会后的媒体群访中，谈起宁德时代电池为什么贵，高焕非常坦诚地回答了这个问题",
       "importance_score": 9
     },
     {
