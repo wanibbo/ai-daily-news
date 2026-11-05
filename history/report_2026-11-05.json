@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-05",
+  "update_time": "2026-11-05T04:45:16.872691",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507507.html",
+      "publish_time": "2026-11-03",
+      "category": "AI 综合",
+      "summary": "而且野心不小，要让AI接管整座仓库，实现7×24小时自主运行，还能在真实业务中持续学习、自主进化 | 过去十多年，AMR让搬运、存储等大量标准化作业实现自动化，货物甚至能自己找到人",
+      "importance_score": 9
+    },
+    {
+      "title": "当 Agent 成为数据库新用户，腾讯云如何解决“未知”的难题？",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/TeOb9MgqfeLOoNdxtMH2",
+      "publish_time": "2026-11-04",
+      "category": "AI 技术",
+      "summary": "如果说 2025 年是 Agent 元年，那么今年，无疑就是 Agent 的“爆发年” | 从写代码、做研究报告到处理日常业务，Agent 正在接手越来越多具体的工作",
+      "importance_score": 8
+    },
+    {
+      "title": "在便利店“打工”的机器人还要接受更多现实考验",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15291526.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 产业",
+      "summary": "此前，智元已经陆续发布数据、仿真、模型、本体与作业系统等技术成果 | 便利店成为验证这些成果的首个场景：和以往展示机器人完成单项任务的Demo不同，这场测试要持续24小时，机器人不仅要完成任务，还要面对客流变化、商品位置变动、任务冲突...",
+      "importance_score": 8
+    },
+    {
+      "title": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507277.html",
+      "publish_time": "2026-11-02",
+      "category": "AI 综合",
+      "summary": "8 Flash 而且限时免费还不是重点，关键是它完全可以搞定强如Gemini 4 Carbon都能翻车的网页啊 | 例如一个介绍相机的网站，是可以完整且fashion到这种程度的： 视频地址：https://mp",
+      "importance_score": 9
+    },
+    {
+      "title": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507647.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 综合",
+      "summary": "一套L4无人驾驶系统，如果要完成如此规模的真实路测，意味着什么",
+      "importance_score": 9
+    },
+    {
+      "title": "Linux内核被挖出948个漏洞！OpenAI花120万美元找到的",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507697.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 综合",
+      "summary": "Jay 发自 凹非寺量子位 | 公众号 QbitAI 刚刚，Linux内核，被GPT挖出了948个漏洞😭 | 要知道，这可不是什么犄角旮旯的小软件，这是Linux Kernel，是安卓、是全世界无数云服务器、是几乎所有超算背后共同的心脏 |",
+      "importance_score": 9
+    },
+    {
+      "title": "太初元碁入选2026年世界互联网大会领先科技奖收录成果集《科技之魅》",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507688.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 综合",
+      "summary": "11月2日，2026年世界互联网大会领先科技奖收录成果集《科技之魅》正式对外发布 | 11月2日，2026年世界互联网大会领先科技奖收录成果集《科技之魅》正式对外发布 | 经权威专家多轮严格评审，一批拥有突出科学价值、广阔落地前景的优...",
+      "importance_score": 9
+    },
+    {
+      "title": "MIT：GPT-6 Astra能直接修改Qwen权重，数学能力暴涨6倍",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507322.html",
+      "publish_time": "2026-11-03",
+      "category": "AI 综合",
+      "summary": "GPT-6 Astra能直接读取编辑小模型权重了 | MIT刚刚做了个实验，瞬间引爆大模型圈—— 0",
+      "importance_score": 9
+    },
+    {
+      "title": "被OpenAIGemini共同选择的实时语音交互，凭什么是这家中国公司？",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505341.html",
+      "publish_time": "2026-10-26",
+      "category": "AI 综合",
+      "summary": "不是我说，AI现在确实代码写得快，研究做得飞起； 你话还没说完，它抢着就开口了；你情绪上来了，它还在一板一眼念答案；你想打断换个话题，它偏要把最后一句念完…… 说白了，AI“会说”这关早过了，但“会聊”，还差着一大截 | 要说会聊，TA得能",
+      "importance_score": 9
+    },
+    {
+      "title": "基于本体+知识+Harness+Datat Agent的智能体完整落地链路！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507696.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 综合",
+      "summary": "Data + AI 技术实践巡展 · 上海站 本体 Ontology 如何让 Agent 获取确定性结果 | 办公型 Agent 如何设计 Harness | Data Agent 如何让取数更简单、更智能",
+      "importance_score": 9
+    }
+  ]
+}

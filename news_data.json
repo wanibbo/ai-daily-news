@@ -1,52 +1,7 @@
 {
-  "update_time": "2026-11-04T04:29:15.733195",
-  "total_items": 25,
+  "update_time": "2026-11-05T04:45:16.872049",
+  "total_items": 23,
   "top_items": [
-    {
-      "title": "榜一，拿来吧你！智元这波双模型杀穿多榜榜单",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/10/506819.html",
-      "publish_time": "2026-10-30",
-      "category": "AI 综合",
-      "summary": "今年的创新日上，智元联合创始人、总裁兼CTO彭志辉（稚晖君）发布了一个物理AI新单位“Worken”，用来衡量机器人的有效智能工时",
-      "importance_score": 9
-    },
-    {
-      "title": "AI+办公：Agent都有“工位”了，云电脑既让它接手业务、也管住权限 ｜ 阿里云智能集团研发副总裁 张献涛分享",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/Vryq1f3C0f5uZHOlmIp4",
-      "publish_time": "2026-11-02",
-      "category": "AI 技术",
-      "summary": "在1024 模力工场 · AI社区日主论坛上，阿里云智能集团研发副总裁、终端智能计算事业部负责人张献涛，以《云电脑的演进：从人的办公桌面到智能体的工位》为题，分享了云电脑在 Agent 时代的新角色：为智能体提供一个能持续运行、权限可控，并",
-      "importance_score": 8
-    },
-    {
-      "title": "李佳琦首次带货AI算力，半小时卖出2万亿Token",
-      "source": "界面新闻",
-      "url": "https://www.jiemian.com/article/15285896.html",
-      "publish_time": "2026-11-04",
-      "category": "AI 产业",
-      "summary": "作为钓鱼爱好者，李佳琦现场提出需求，通过简单对话生成并上线了一张支持多人访问的全球钓鱼地图",
-      "importance_score": 8
-    },
-    {
-      "title": "模型谁都买得到，拉开差距的是AI生产力系统",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507448.html",
-      "publish_time": "2026-11-03",
-      "category": "AI 综合",
-      "summary": "大模型狂飙近三年，生成式 AI 正在集体撞上一道冰冷的商业现实之墙 | 一边是硅谷与各大实验室在 Benchmark 跑分榜上卷得不可开交——今天宣称参数翻倍，明天夸耀多模态指标封神；另一边，则是极度尴尬的商业化剪刀差：绝大多数 C 端 A",
-      "importance_score": 9
-    },
-    {
-      "title": "苹果被曝的新产品，中国央企8个月前已装进公共卫生间",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507410.html",
-      "publish_time": "2026-11-03",
-      "category": "AI 综合",
-      "summary": "这不仅实现了隐私保护与安全预警的统一，也为视频监控开拓了全新范式",
-      "importance_score": 9
-    },
     {
       "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
       "source": "量子位",
@@ -55,6 +10,24 @@
       "category": "AI 综合",
       "summary": "而且野心不小，要让AI接管整座仓库，实现7×24小时自主运行，还能在真实业务中持续学习、自主进化 | 过去十多年，AMR让搬运、存储等大量标准化作业实现自动化，货物甚至能自己找到人",
       "importance_score": 9
+    },
+    {
+      "title": "当 Agent 成为数据库新用户，腾讯云如何解决“未知”的难题？",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/TeOb9MgqfeLOoNdxtMH2",
+      "publish_time": "2026-11-04",
+      "category": "AI 技术",
+      "summary": "如果说 2025 年是 Agent 元年，那么今年，无疑就是 Agent 的“爆发年” | 从写代码、做研究报告到处理日常业务，Agent 正在接手越来越多具体的工作",
+      "importance_score": 8
+    },
+    {
+      "title": "在便利店“打工”的机器人还要接受更多现实考验",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15291526.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 产业",
+      "summary": "此前，智元已经陆续发布数据、仿真、模型、本体与作业系统等技术成果 | 便利店成为验证这些成果的首个场景：和以往展示机器人完成单项任务的Demo不同，这场测试要持续24小时，机器人不仅要完成任务，还要面对客流变化、商品位置变动、任务冲突...",
+      "importance_score": 8
     },
     {
       "title": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！",
@@ -66,12 +39,30 @@
       "importance_score": 9
     },
     {
-      "title": "智己LS8纯电版背后：8年研发底盘，两大厂联合开发电池",
+      "title": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507473.html",
-      "publish_time": "2026-11-03",
+      "url": "https://www.qbitai.com/2026/11/507647.html",
+      "publish_time": "2026-11-05",
       "category": "AI 综合",
-      "summary": "最近在智己LS8 NEO纯电版发布会后的媒体群访中，谈起宁德时代电池为什么贵，高焕非常坦诚地回答了这个问题",
+      "summary": "一套L4无人驾驶系统，如果要完成如此规模的真实路测，意味着什么",
+      "importance_score": 9
+    },
+    {
+      "title": "Linux内核被挖出948个漏洞！OpenAI花120万美元找到的",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507697.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 综合",
+      "summary": "Jay 发自 凹非寺量子位 | 公众号 QbitAI 刚刚，Linux内核，被GPT挖出了948个漏洞😭 | 要知道，这可不是什么犄角旮旯的小软件，这是Linux Kernel，是安卓、是全世界无数云服务器、是几乎所有超算背后共同的心脏 |",
+      "importance_score": 9
+    },
+    {
+      "title": "太初元碁入选2026年世界互联网大会领先科技奖收录成果集《科技之魅》",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507688.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 综合",
+      "summary": "11月2日，2026年世界互联网大会领先科技奖收录成果集《科技之魅》正式对外发布 | 11月2日，2026年世界互联网大会领先科技奖收录成果集《科技之魅》正式对外发布 | 经权威专家多轮严格评审，一批拥有突出科学价值、广阔落地前景的优...",
       "importance_score": 9
     },
     {
@@ -90,6 +81,15 @@
       "publish_time": "2026-10-26",
       "category": "AI 综合",
       "summary": "不是我说，AI现在确实代码写得快，研究做得飞起； 你话还没说完，它抢着就开口了；你情绪上来了，它还在一板一眼念答案；你想打断换个话题，它偏要把最后一句念完…… 说白了，AI“会说”这关早过了，但“会聊”，还差着一大截 | 要说会聊，TA得能",
+      "importance_score": 9
+    },
+    {
+      "title": "基于本体+知识+Harness+Datat Agent的智能体完整落地链路！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507696.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 综合",
+      "summary": "Data + AI 技术实践巡展 · 上海站 本体 Ontology 如何让 Agent 获取确定性结果 | 办公型 Agent 如何设计 Harness | Data Agent 如何让取数更简单、更智能",
       "importance_score": 9
     }
   ]
