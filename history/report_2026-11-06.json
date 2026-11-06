@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-06",
+  "update_time": "2026-11-06T04:44:39.259263",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "腾讯 Hy4 调用激增已十倍扩容，Agent 能力开源模型第一",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507967.html",
+      "publish_time": "2026-11-06",
+      "category": "AI 综合",
+      "summary": "同时，凭借模型能力的持续跃升，Hy4 受到国际权威模型测试榜单的高度认可，在 Artificial Analysis 智能指数榜单上位列中国模型第二，Agent Arena 榜单居开源模型第一 | 混元 Hy4 在 WorkBuddy...",
+      "importance_score": 9
+    },
+    {
+      "title": "构建面向 Agentic 推理的下一代 LLM 推理引擎",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/YwAayF1ylWb7oN4P0lyC",
+      "publish_time": "2026-11-03",
+      "category": "AI 技术",
+      "summary": "在 Agent 推理负载快速增长的背景下，传统面向聊天场景的推理引擎正面临吞吐优化目标失效、缓存利用率不足、硬件适配滞后等一系列结构性挑战 | 本文整理自 TokenSpeed 独立贡献者尚旭春在AICon 2026 深圳站的分享《构建面向",
+      "importance_score": 8
+    },
+    {
+      "title": "拼多多让年轻人造草莓工厂，170天后“答案”熟了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507823.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 综合",
+      "summary": "凌晨12点多，吕兆晨又点开了手机里的监控画面 | 灯光、温度、湿度、水肥、二氧化碳，草莓生长需要的各种条件，在屏幕上的系统里都能找到对应按键和调节滑块",
+      "importance_score": 9
+    },
+    {
+      "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507507.html",
+      "publish_time": "2026-11-03",
+      "category": "AI 综合",
+      "summary": "而且野心不小，要让AI接管整座仓库，实现7×24小时自主运行，还能在真实业务中持续学习、自主进化 | 过去十多年，AMR让搬运、存储等大量标准化作业实现自动化，货物甚至能自己找到人",
+      "importance_score": 9
+    },
+    {
+      "title": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507647.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 综合",
+      "summary": "一套L4无人驾驶系统，如果要完成如此规模的真实路测，意味着什么",
+      "importance_score": 9
+    },
+    {
+      "title": "三条AI技术路线终将合流？智象创始人梅涛提出智能体化的世界模型",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507834.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 综合",
+      "summary": "程浅 发自 凹非寺量子位 | 公众号QbitAI 近日，2026 世界顶尖科学家论坛第二届国际工程智能大会举行 | 作为全球科学界极具影响力的年度盛会，本届大会汇聚了来自世界各地的顶尖科学家、院士与产业领军者，以 “工程智能” 为核心议题，",
+      "importance_score": 9
+    },
+    {
+      "title": "孩子的人生大事，你要怎样的AI？海亮科服把AI生涯规划带给更多家庭",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507919.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 综合",
+      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 进入11月，对于开始准备选科的新高一家庭来说，一轮纠结也跟着来了",
+      "importance_score": 9
+    },
+    {
+      "title": "被OpenAIGemini共同选择的实时语音交互，凭什么是这家中国公司？",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505341.html",
+      "publish_time": "2026-10-26",
+      "category": "AI 综合",
+      "summary": "不是我说，AI现在确实代码写得快，研究做得飞起； 你话还没说完，它抢着就开口了；你情绪上来了，它还在一板一眼念答案；你想打断换个话题，它偏要把最后一句念完…… 说白了，AI“会说”这关早过了，但“会聊”，还差着一大截 | 要说会聊，TA得能",
+      "importance_score": 9
+    },
+    {
+      "title": "AI短剧门槛降降降！实测即梦短剧工作室：剧本分镜预演一条龙，伙伴计划长期护航",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507972.html",
+      "publish_time": "2026-11-06",
+      "category": "AI 综合",
+      "summary": "15元 听雨 发自 凹非寺量子位 | 公众号QbitAI 有谁像我一样，最近追《The Accident》，真的有点上头啊",
+      "importance_score": 9
+    },
+    {
+      "title": "网易发力互动式讲题Agent：有道“欧拉讲题”上线，推翻行业“搜题生意”，开卷“讲题力”",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507822.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 综合",
+      "summary": "网易有道推出互动式数学讲题Agent「欧拉讲题」，已在应用市场上线 一道几何题，孩子看完答案还是不知道辅助线为什么这样画；一道函数题，解析看了好几遍，换个条件依然无从下手 | 近日，网易有道推出互动式数学讲题Agent「欧拉讲题」，已...",
+      "importance_score": 9
+    }
+  ]
+}
