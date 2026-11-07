@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-07",
+  "update_time": "2026-11-07T04:12:27.337738",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "AGENTS.MD，危险危险危险！！！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508244.html",
+      "publish_time": "2026-11-07",
+      "category": "AI 综合",
+      "summary": "ay发自 凹非寺量子位 | 公众号QbitAI AGENTS",
+      "importance_score": 9
+    },
+    {
+      "title": "智能体 Harness 的演进：从链、图到代码化",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/B7tsA5tjD08k2gd0OtXd",
+      "publish_time": "2026-11-06",
+      "category": "AI 技术",
+      "summary": "在过去几年里，基于大语言模型构建的智能体经历了翻天覆地的变化 | 最初只是用粘合代码拼凑起来的临时提示词，如今已逐渐演变为我们所说的智能体 Harness 框架，也叫结构化执行框架——它们围绕概率模型搭建起脚手架，让模型变得稳定、可观测，达",
+      "importance_score": 8
+    },
+    {
+      "title": "国际金融领袖峰会热议：AI泡沫、美国选情和科技股、投资中国",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15300984.html",
+      "publish_time": "2026-11-07",
+      "category": "AI 产业",
+      "summary": "国际金融领袖峰会热议：AI泡沫、美国选情和科技股、投资中国 “明年香港会超过伦敦，升至国际金融中心第二，仅次于纽约 | ” 一连两日的 “第五届国际金融领袖投资峰会”在香港四季酒店隆重举行，来自全球约280位顶级金融机构的董事长、CEO亲身",
+      "importance_score": 8
+    },
+    {
+      "title": "99.4%登顶全球第一！这个中国AI师承世界冠军",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508107.html",
+      "publish_time": "2026-11-06",
+      "category": "AI 综合",
+      "summary": "一举刷新「AI安全世界杯」CyberGym世界纪录 一水 发自 凹非寺量子位 | 公众号QbitAI 好家伙，硅谷那几家天天站在聚光灯下大谈AI安全，谁承想呢 | 如今刷新AI安全世界纪录的，是一个中国AI系统 | 就在被称为「AI安全世界",
+      "importance_score": 9
+    },
+    {
+      "title": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508196.html",
+      "publish_time": "2026-11-07",
+      "category": "AI 综合",
+      "summary": "听雨 发自 凹非寺量子位 | 公众号 QbitAI RSI这么火，它真的能让AI的进步速度快到无限吗 | 他举了个例子：一个人启动实验，凌晨2点实验结束，他要等到早上8点回到工位，才会查看结果 | 自动化系统可以省掉这段等待，及时决定下一轮",
+      "importance_score": 9
+    },
+    {
+      "title": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507647.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 综合",
+      "summary": "一套L4无人驾驶系统，如果要完成如此规模的真实路测，意味着什么",
+      "importance_score": 9
+    },
+    {
+      "title": "孩子的人生大事，你要怎样的AI？海亮科服把AI生涯规划带给更多家庭",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/507919.html",
+      "publish_time": "2026-11-05",
+      "category": "AI 综合",
+      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 进入11月，对于开始准备选科的新高一家庭来说，一轮纠结也跟着来了",
+      "importance_score": 9
+    },
+    {
+      "title": "被OpenAIGemini共同选择的实时语音交互，凭什么是这家中国公司？",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/10/505341.html",
+      "publish_time": "2026-10-26",
+      "category": "AI 综合",
+      "summary": "不是我说，AI现在确实代码写得快，研究做得飞起； 你话还没说完，它抢着就开口了；你情绪上来了，它还在一板一眼念答案；你想打断换个话题，它偏要把最后一句念完…… 说白了，AI“会说”这关早过了，但“会聊”，还差着一大截 | 要说会聊，TA得能",
+      "importance_score": 9
+    },
+    {
+      "title": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508184.html",
+      "publish_time": "2026-11-06",
+      "category": "AI 综合",
+      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI Anthropic的三个内部神秘模型，曝光了 | Model 2、Model 3、Model 4 | 真名还没公开，但训练时间和部分成绩已经出现了",
+      "importance_score": 9
+    },
+    {
+      "title": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508174.html",
+      "publish_time": "2026-11-06",
+      "category": "AI 综合",
+      "summary": "PPIO 沙箱，把“云电脑”做成开箱即用的 API 近期，「Personal Agent」是智能体领域最热门的话题之一 | 讨论热度多集中于产品侧，而背后支撑 Personal Agent 的关键却藏在“执行层” | 这些能「动手」的 Ag",
+      "importance_score": 9
+    }
+  ]
+}
