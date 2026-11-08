@@ -1,7 +1,43 @@
 {
-  "update_time": "2026-11-07T04:12:27.336938",
-  "total_items": 20,
+  "update_time": "2026-11-08T03:56:01.017671",
+  "total_items": 21,
   "top_items": [
+    {
+      "title": "OpenAI新融资到账110亿美元，不及原计划一半",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508344.html",
+      "publish_time": "2026-11-07",
+      "category": "AI 综合",
+      "summary": "据彭博社报道，OpenAI已经完成新一轮融资的首笔110亿美元交割，公司估值达到1 | 整轮融资规模最高可能达到200亿美元，剩余部分预计将在未来几周完成 | 一边联合生物技术公司Ligo，推出专门测试AI生物实验分析能力的新基准Bi...",
+      "importance_score": 9
+    },
+    {
+      "title": "构建面向 Agentic 推理的下一代 LLM 推理引擎",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/YwAayF1ylWb7oN4P0lyC",
+      "publish_time": "2026-11-03",
+      "category": "AI 技术",
+      "summary": "在 Agent 推理负载快速增长的背景下，传统面向聊天场景的推理引擎正面临吞吐优化目标失效、缓存利用率不足、硬件适配滞后等一系列结构性挑战 | 本文整理自 TokenSpeed 独立贡献者尚旭春在AICon 2026 深圳站的分享《构建面向",
+      "importance_score": 8
+    },
+    {
+      "title": "汽车零部件巨头开始争抢机器人客户 | 进博看未来",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15304869.html",
+      "publish_time": "2026-11-08",
+      "category": "AI 产业",
+      "summary": "安波福在本届进博会上展示了具身机器人感知与域控制单元计算解决方案",
+      "importance_score": 8
+    },
+    {
+      "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508449.html",
+      "publish_time": "2026-11-07",
+      "category": "AI 综合",
+      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 11月3日，官方状态页一天就记下了两起故障，其中一起影响Git操作 | 到了4日，合并请求等服务又出现异常，部分请求失败或延迟 | 代码改好了，想让同事看看能不能并进主项目，偏偏卡在了这一步",
+      "importance_score": 9
+    },
     {
       "title": "AGENTS.MD，危险危险危险！！！",
       "source": "量子位",
@@ -12,22 +48,13 @@
       "importance_score": 9
     },
     {
-      "title": "智能体 Harness 的演进：从链、图到代码化",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/B7tsA5tjD08k2gd0OtXd",
-      "publish_time": "2026-11-06",
-      "category": "AI 技术",
-      "summary": "在过去几年里，基于大语言模型构建的智能体经历了翻天覆地的变化 | 最初只是用粘合代码拼凑起来的临时提示词，如今已逐渐演变为我们所说的智能体 Harness 框架，也叫结构化执行框架——它们围绕概率模型搭建起脚手架，让模型变得稳定、可观测，达",
-      "importance_score": 8
-    },
-    {
-      "title": "国际金融领袖峰会热议：AI泡沫、美国选情和科技股、投资中国",
-      "source": "界面新闻",
-      "url": "https://www.jiemian.com/article/15300984.html",
+      "title": "为了去AI味，人类开始主动写烂文章了……",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508330.html",
       "publish_time": "2026-11-07",
-      "category": "AI 产业",
-      "summary": "国际金融领袖峰会热议：AI泡沫、美国选情和科技股、投资中国 “明年香港会超过伦敦，升至国际金融中心第二，仅次于纽约 | ” 一连两日的 “第五届国际金融领袖投资峰会”在香港四季酒店隆重举行，来自全球约280位顶级金融机构的董事长、CEO亲身",
-      "importance_score": 8
+      "category": "AI 综合",
+      "summary": "需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI……",
+      "importance_score": 9
     },
     {
       "title": "99.4%登顶全球第一！这个中国AI师承世界冠军",
@@ -36,15 +63,6 @@
       "publish_time": "2026-11-06",
       "category": "AI 综合",
       "summary": "一举刷新「AI安全世界杯」CyberGym世界纪录 一水 发自 凹非寺量子位 | 公众号QbitAI 好家伙，硅谷那几家天天站在聚光灯下大谈AI安全，谁承想呢 | 如今刷新AI安全世界纪录的，是一个中国AI系统 | 就在被称为「AI安全世界",
-      "importance_score": 9
-    },
-    {
-      "title": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508196.html",
-      "publish_time": "2026-11-07",
-      "category": "AI 综合",
-      "summary": "听雨 发自 凹非寺量子位 | 公众号 QbitAI RSI这么火，它真的能让AI的进步速度快到无限吗 | 他举了个例子：一个人启动实验，凌晨2点实验结束，他要等到早上8点回到工位，才会查看结果 | 自动化系统可以省掉这段等待，及时决定下一轮",
       "importance_score": 9
     },
     {
@@ -72,24 +90,6 @@
       "publish_time": "2026-10-26",
       "category": "AI 综合",
       "summary": "不是我说，AI现在确实代码写得快，研究做得飞起； 你话还没说完，它抢着就开口了；你情绪上来了，它还在一板一眼念答案；你想打断换个话题，它偏要把最后一句念完…… 说白了，AI“会说”这关早过了，但“会聊”，还差着一大截 | 要说会聊，TA得能",
-      "importance_score": 9
-    },
-    {
-      "title": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508184.html",
-      "publish_time": "2026-11-06",
-      "category": "AI 综合",
-      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI Anthropic的三个内部神秘模型，曝光了 | Model 2、Model 3、Model 4 | 真名还没公开，但训练时间和部分成绩已经出现了",
-      "importance_score": 9
-    },
-    {
-      "title": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508174.html",
-      "publish_time": "2026-11-06",
-      "category": "AI 综合",
-      "summary": "PPIO 沙箱，把“云电脑”做成开箱即用的 API 近期，「Personal Agent」是智能体领域最热门的话题之一 | 讨论热度多集中于产品侧，而背后支撑 Personal Agent 的关键却藏在“执行层” | 这些能「动手」的 Ag",
       "importance_score": 9
     }
   ]
