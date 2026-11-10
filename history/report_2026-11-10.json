@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-10",
+  "update_time": "2026-11-10T05:40:14.158376",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "百度文心首次披露RSI进展：ERNIE Evolve已用于最新模型研发，文心5.5 Flash 或将近期发布",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508746.html",
+      "publish_time": "2026-11-09",
+      "category": "AI 综合",
+      "summary": "目前，ERNIE Evolve 已应用于即将发布的文心 5",
+      "importance_score": 10
+    },
+    {
+      "title": "视频生成只是开始，AI 如何把内容做对？",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/GGILIuzW0RTGhoeuz9TD",
+      "publish_time": "2026-11-05",
+      "category": "AI 技术",
+      "summary": "过去做一条视频，通常要先学会使用剪辑软件，再选择模板、调整镜头，最后一点点完成包装 | 工具降低了创作门槛，却没有替用户回答一个更关键的问题：这条视频究竟要完成什么 | 10 月 22 日，在 QCon 上海 2026 主论坛上，小影科技创",
+      "importance_score": 8
+    },
+    {
+      "title": "A股午评：创业板指半日涨1.49%，AI语料、短剧、影视院线等概念走强",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15315334.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 产业",
+      "summary": "11月10日，A股三大指数早盘集体上涨，截至午间收盘，上证指数涨0",
+      "importance_score": 8
+    },
+    {
+      "title": "黄仁勋承认出轨发全员信道歉！英伟达启动紧急调查",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508498.html",
+      "publish_time": "2026-11-09",
+      "category": "AI 综合",
+      "summary": "目前，英伟达董事会也已经发布声明，表示将对此事展开调查",
+      "importance_score": 9
+    },
+    {
+      "title": "具身智能出海，物流先行",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508716.html",
+      "publish_time": "2026-11-09",
+      "category": "AI 综合",
+      "summary": "11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布向AI与具身智能企业开放全球仓网，打造AI与具身智能物流实景训练集群 | 发布会上，菜鸟推出面向AI算力和具身智能企业的科技出海三日达服务，将全球三日达的能力延伸至高科...",
+      "importance_score": 9
+    },
+    {
+      "title": "99.4%登顶全球第一！这个中国AI师承世界冠军",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508107.html",
+      "publish_time": "2026-11-06",
+      "category": "AI 综合",
+      "summary": "一举刷新「AI安全世界杯」CyberGym世界纪录 一水 发自 凹非寺量子位 | 公众号QbitAI 好家伙，硅谷那几家天天站在聚光灯下大谈AI安全，谁承想呢 | 如今刷新AI安全世界纪录的，是一个中国AI系统 | 就在被称为「AI安全世界",
+      "importance_score": 9
+    },
+    {
+      "title": "倒计时一周｜量子位2026人工智能年度榜单征集即将截止！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508745.html",
+      "publish_time": "2026-11-09",
+      "category": "AI 综合",
+      "summary": "2026年，人工智能走到了从技术验证到规模化落地的分水岭，技术不再只用参数衡量，而是看它能不能在真实场景里交付结果 | 当行业从“能想”迈入“能干”，谁在用技术解决真问题",
+      "importance_score": 9
+    },
+    {
+      "title": "千问办公2.0卷向Team Agent，我们用它跑了一遍编辑部日常",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508798.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 综合",
+      "summary": "0推出了行业首个支持多人与Agent协作的功能——「协作」，还上线了人机共创、自动任务、资料空间和三端互联等多项能力",
+      "importance_score": 9
+    },
+    {
+      "title": "中大本科生反AI逆向项目火了！让黑客Token账单原地暴涨300倍",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508787.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 综合",
+      "summary": "如果要评选2026年度最热开源项目，候选列表里自然少不了REA | 如果要评选2026年度最危险开源项目，候选列表里也少不了它",
+      "importance_score": 9
+    },
+    {
+      "title": "Fable 5.2深夜掀桌！从0造操作系统，性价比反超Opus 5.5",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508771.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 综合",
+      "summary": "梦晨 发自 凹非寺量子位 | 公众号 QbitAI 为冲刺IPO，A\\掀桌了：Claude Fable 5",
+      "importance_score": 9
+    }
+  ]
+}

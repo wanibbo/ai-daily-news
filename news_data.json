@@ -1,7 +1,34 @@
 {
-  "update_time": "2026-11-09T04:10:51.928932",
-  "total_items": 25,
+  "update_time": "2026-11-10T05:40:14.150459",
+  "total_items": 26,
   "top_items": [
+    {
+      "title": "百度文心首次披露RSI进展：ERNIE Evolve已用于最新模型研发，文心5.5 Flash 或将近期发布",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508746.html",
+      "publish_time": "2026-11-09",
+      "category": "AI 综合",
+      "summary": "目前，ERNIE Evolve 已应用于即将发布的文心 5",
+      "importance_score": 10
+    },
+    {
+      "title": "视频生成只是开始，AI 如何把内容做对？",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/GGILIuzW0RTGhoeuz9TD",
+      "publish_time": "2026-11-05",
+      "category": "AI 技术",
+      "summary": "过去做一条视频，通常要先学会使用剪辑软件，再选择模板、调整镜头，最后一点点完成包装 | 工具降低了创作门槛，却没有替用户回答一个更关键的问题：这条视频究竟要完成什么 | 10 月 22 日，在 QCon 上海 2026 主论坛上，小影科技创",
+      "importance_score": 8
+    },
+    {
+      "title": "A股午评：创业板指半日涨1.49%，AI语料、短剧、影视院线等概念走强",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15315334.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 产业",
+      "summary": "11月10日，A股三大指数早盘集体上涨，截至午间收盘，上证指数涨0",
+      "importance_score": 8
+    },
     {
       "title": "黄仁勋承认出轨发全员信道歉！英伟达启动紧急调查",
       "source": "量子位",
@@ -12,57 +39,12 @@
       "importance_score": 9
     },
     {
-      "title": "顶尖 AI 实验室正在成为“人才黑洞”！Claude Code 团队工程师离职后首次受访",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/Qs0pJ5M43c56hdozHiR0",
-      "publish_time": "2026-11-08",
-      "category": "AI 技术",
-      "summary": "他曾创办一家融资千万美元的游戏公司，但最终决定关闭公司、转向 AI 领域",
-      "importance_score": 8
-    },
-    {
-      "title": "汽车零部件巨头开始争抢机器人客户 | 进博看未来",
-      "source": "界面新闻",
-      "url": "https://www.jiemian.com/article/15304869.html",
-      "publish_time": "2026-11-09",
-      "category": "AI 产业",
-      "summary": "安波福在本届进博会上展示了具身机器人感知与域控制单元计算解决方案",
-      "importance_score": 8
-    },
-    {
-      "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+      "title": "具身智能出海，物流先行",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508449.html",
-      "publish_time": "2026-11-07",
-      "category": "AI 综合",
-      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 11月3日，官方状态页一天就记下了两起故障，其中一起影响Git操作 | 到了4日，合并请求等服务又出现异常，部分请求失败或延迟 | 代码改好了，想让同事看看能不能并进主项目，偏偏卡在了这一步",
-      "importance_score": 9
-    },
-    {
-      "title": "资本正在撤离“世界模型”",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508466.html",
-      "publish_time": "2026-11-08",
-      "category": "AI 综合",
-      "summary": "这种变化在量子位近期与多位一线投资人、世界模型公司投融资负责人的交流中感受得尤为明显",
-      "importance_score": 9
-    },
-    {
-      "title": "终端侧AI：从单点应用走向智能体体验",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508478.html",
-      "publish_time": "2026-11-08",
-      "category": "AI 综合",
-      "summary": "终端侧AI经过过去3至4年的发展，正在迎来一个比较重要的变化节点 | 从应用来看，终端侧AI并不是从大模型开始的",
-      "importance_score": 9
-    },
-    {
-      "title": "当AI在加速狂奔，什么反而应该“慢”下来？",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508586.html",
+      "url": "https://www.qbitai.com/2026/11/508716.html",
       "publish_time": "2026-11-09",
       "category": "AI 综合",
-      "summary": "2026 年，人工智能正在经历一次深刻的角色跨越：从过去几年的“对话交互”，全面走向“自主交付” | 过去，AI 停留在屏幕侧边栏的对话框里，你问它答，提供的是参考建议；而今天，智能体（Agent）开始走出对话框，真正嵌入日常工作流 | 作",
+      "summary": "11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布向AI与具身智能企业开放全球仓网，打造AI与具身智能物流实景训练集群 | 发布会上，菜鸟推出面向AI算力和具身智能企业的科技出海三日达服务，将全球三日达的能力延伸至高科...",
       "importance_score": 9
     },
     {
@@ -75,21 +57,39 @@
       "importance_score": 9
     },
     {
-      "title": "寻找最会讲故事的AI创作者，虎鲸文娱鲸锐AI创作大赛走进清华大学",
+      "title": "倒计时一周｜量子位2026人工智能年度榜单征集即将截止！",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508566.html",
+      "url": "https://www.qbitai.com/2026/11/508745.html",
       "publish_time": "2026-11-09",
       "category": "AI 综合",
-      "summary": "随着AI技术的快速发展，近两年他也成为华语电影界最积极拥抱AI的导演之一，并坚持以电影工业标准训练动作生成模型，其担任总监制的AI短剧作品《风水天师》累计播放量已经突破13亿",
+      "summary": "2026年，人工智能走到了从技术验证到规模化落地的分水岭，技术不再只用参数衡量，而是看它能不能在真实场景里交付结果 | 当行业从“能想”迈入“能干”，谁在用技术解决真问题",
       "importance_score": 9
     },
     {
-      "title": "孩子的人生大事，你要怎样的AI？海亮科服把AI生涯规划带给更多家庭",
+      "title": "千问办公2.0卷向Team Agent，我们用它跑了一遍编辑部日常",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/507919.html",
-      "publish_time": "2026-11-05",
+      "url": "https://www.qbitai.com/2026/11/508798.html",
+      "publish_time": "2026-11-10",
       "category": "AI 综合",
-      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 进入11月，对于开始准备选科的新高一家庭来说，一轮纠结也跟着来了",
+      "summary": "0推出了行业首个支持多人与Agent协作的功能——「协作」，还上线了人机共创、自动任务、资料空间和三端互联等多项能力",
+      "importance_score": 9
+    },
+    {
+      "title": "中大本科生反AI逆向项目火了！让黑客Token账单原地暴涨300倍",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508787.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 综合",
+      "summary": "如果要评选2026年度最热开源项目，候选列表里自然少不了REA | 如果要评选2026年度最危险开源项目，候选列表里也少不了它",
+      "importance_score": 9
+    },
+    {
+      "title": "Fable 5.2深夜掀桌！从0造操作系统，性价比反超Opus 5.5",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508771.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 综合",
+      "summary": "梦晨 发自 凹非寺量子位 | 公众号 QbitAI 为冲刺IPO，A\\掀桌了：Claude Fable 5",
       "importance_score": 9
     }
   ]
