@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-11",
+  "update_time": "2026-11-11T04:14:19.949290",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509032.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 综合",
+      "summary": "而且，据朱玉可透露，GR00T2的模型、数据、仿真环境和数据采集硬件也将陆续开源 | 发布会上，Jim Fan将其定位为一个反应够快、能够本地运行，同时既容易通过示范教会，也容易被推理模型引导的System 1（快系统）物理技能模型",
+      "importance_score": 10
+    },
+    {
+      "title": "视频生成只是开始，AI 如何把内容做对？",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/GGILIuzW0RTGhoeuz9TD",
+      "publish_time": "2026-11-05",
+      "category": "AI 技术",
+      "summary": "过去做一条视频，通常要先学会使用剪辑软件，再选择模板、调整镜头，最后一点点完成包装 | 工具降低了创作门槛，却没有替用户回答一个更关键的问题：这条视频究竟要完成什么 | 10 月 22 日，在 QCon 上海 2026 主论坛上，小影科技创",
+      "importance_score": 8
+    },
+    {
+      "title": "从送包裹到 “造场景”，菜鸟押注具身智能第二增长曲线",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15309830.html",
+      "publish_time": "2026-11-11",
+      "category": "AI 产业",
+      "summary": "从送包裹到 “造场景”，菜鸟押注具身智能第二增长曲线 顺丰、极兔、通达系等国内主流物流企业走出了差异化的出海路径 | 菜鸟日前在香港宣布向产业伙伴开放全球仓网，支持技术训练、实景验证与产业落地，并将打造“全球最大的AI与具身智能物流实景训练",
+      "importance_score": 8
+    },
+    {
+      "title": "黄仁勋承认出轨发全员信道歉！英伟达启动紧急调查",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508498.html",
+      "publish_time": "2026-11-09",
+      "category": "AI 综合",
+      "summary": "目前，英伟达董事会也已经发布声明，表示将对此事展开调查",
+      "importance_score": 9
+    },
+    {
+      "title": "具身智能出海，物流先行",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508716.html",
+      "publish_time": "2026-11-09",
+      "category": "AI 综合",
+      "summary": "11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布向AI与具身智能企业开放全球仓网，打造AI与具身智能物流实景训练集群 | 发布会上，菜鸟推出面向AI算力和具身智能企业的科技出海三日达服务，将全球三日达的能力延伸至高科...",
+      "importance_score": 9
+    },
+    {
+      "title": "从芯片到千比特整机，超导量子计算还有一场硬仗",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509017.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 综合",
+      "summary": "11月10日，这家成立于2026年的公司宣布完成近亿元天使轮融资，投资方包括深创投、浦东创投、德宁资本、湘江信成、深圳天使母基金等机构，多维资本担任独家财务顾问",
+      "importance_score": 9
+    },
+    {
+      "title": "99.4%登顶全球第一！这个中国AI师承世界冠军",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508107.html",
+      "publish_time": "2026-11-06",
+      "category": "AI 综合",
+      "summary": "一举刷新「AI安全世界杯」CyberGym世界纪录 一水 发自 凹非寺量子位 | 公众号QbitAI 好家伙，硅谷那几家天天站在聚光灯下大谈AI安全，谁承想呢 | 如今刷新AI安全世界纪录的，是一个中国AI系统 | 就在被称为「AI安全世界",
+      "importance_score": 9
+    },
+    {
+      "title": "千问办公2.0卷向Team Agent，我们用它跑了一遍编辑部日常",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508798.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 综合",
+      "summary": "0推出了行业首个支持多人与Agent协作的功能——「协作」，还上线了人机共创、自动任务、资料空间和三端互联等多项能力",
+      "importance_score": 9
+    },
+    {
+      "title": "100轮图像编辑这道「毙刷题」，新出的Seedream 5.5稳上来了！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508828.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 综合",
+      "summary": "说真的，即便强如新出的GPT-Image 2 | 6，遇到连续编辑100轮图像这种高压任务，也得大喊那句“名人名言”： 例如我们先给Image 2 | 6输入下面这张原始图片： 然后再把包含100轮任务的提示词丢进去，每一轮就是让手表里的时",
+      "importance_score": 9
+    },
+    {
+      "title": "无人拖拉机真正下地了！新疆大田深翻30+厘米，丘沃智能开物™系统首次完整曝光",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509052.html",
+      "publish_time": "2026-11-11",
+      "category": "AI 综合",
+      "summary": "在新疆，一块地动辄数千亩，一个垦区动辄数十万亩，有的兵团农场作业面积甚至以百万亩计 | 农时窗口只有短短几十天，真正稀缺的，从来不是土地，而是能在窗口期里连轴转的熟练机手 | 近日，在新疆芳草湖农场，一台拖拉机完成了一次不太寻常的深翻作业：",
+      "importance_score": 9
+    }
+  ]
+}

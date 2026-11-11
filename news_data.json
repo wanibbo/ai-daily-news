@@ -1,14 +1,14 @@
 {
-  "update_time": "2026-11-10T05:40:14.150459",
-  "total_items": 26,
+  "update_time": "2026-11-11T04:14:19.912307",
+  "total_items": 23,
   "top_items": [
     {
-      "title": "百度文心首次披露RSI进展：ERNIE Evolve已用于最新模型研发，文心5.5 Flash 或将近期发布",
+      "title": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508746.html",
-      "publish_time": "2026-11-09",
+      "url": "https://www.qbitai.com/2026/11/509032.html",
+      "publish_time": "2026-11-10",
       "category": "AI 综合",
-      "summary": "目前，ERNIE Evolve 已应用于即将发布的文心 5",
+      "summary": "而且，据朱玉可透露，GR00T2的模型、数据、仿真环境和数据采集硬件也将陆续开源 | 发布会上，Jim Fan将其定位为一个反应够快、能够本地运行，同时既容易通过示范教会，也容易被推理模型引导的System 1（快系统）物理技能模型",
       "importance_score": 10
     },
     {
@@ -21,12 +21,12 @@
       "importance_score": 8
     },
     {
-      "title": "A股午评：创业板指半日涨1.49%，AI语料、短剧、影视院线等概念走强",
+      "title": "从送包裹到 “造场景”，菜鸟押注具身智能第二增长曲线",
       "source": "界面新闻",
-      "url": "https://www.jiemian.com/article/15315334.html",
-      "publish_time": "2026-11-10",
+      "url": "https://www.jiemian.com/article/15309830.html",
+      "publish_time": "2026-11-11",
       "category": "AI 产业",
-      "summary": "11月10日，A股三大指数早盘集体上涨，截至午间收盘，上证指数涨0",
+      "summary": "从送包裹到 “造场景”，菜鸟押注具身智能第二增长曲线 顺丰、极兔、通达系等国内主流物流企业走出了差异化的出海路径 | 菜鸟日前在香港宣布向产业伙伴开放全球仓网，支持技术训练、实景验证与产业落地，并将打造“全球最大的AI与具身智能物流实景训练",
       "importance_score": 8
     },
     {
@@ -48,21 +48,21 @@
       "importance_score": 9
     },
     {
+      "title": "从芯片到千比特整机，超导量子计算还有一场硬仗",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509017.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 综合",
+      "summary": "11月10日，这家成立于2026年的公司宣布完成近亿元天使轮融资，投资方包括深创投、浦东创投、德宁资本、湘江信成、深圳天使母基金等机构，多维资本担任独家财务顾问",
+      "importance_score": 9
+    },
+    {
       "title": "99.4%登顶全球第一！这个中国AI师承世界冠军",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/11/508107.html",
       "publish_time": "2026-11-06",
       "category": "AI 综合",
       "summary": "一举刷新「AI安全世界杯」CyberGym世界纪录 一水 发自 凹非寺量子位 | 公众号QbitAI 好家伙，硅谷那几家天天站在聚光灯下大谈AI安全，谁承想呢 | 如今刷新AI安全世界纪录的，是一个中国AI系统 | 就在被称为「AI安全世界",
-      "importance_score": 9
-    },
-    {
-      "title": "倒计时一周｜量子位2026人工智能年度榜单征集即将截止！",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508745.html",
-      "publish_time": "2026-11-09",
-      "category": "AI 综合",
-      "summary": "2026年，人工智能走到了从技术验证到规模化落地的分水岭，技术不再只用参数衡量，而是看它能不能在真实场景里交付结果 | 当行业从“能想”迈入“能干”，谁在用技术解决真问题",
       "importance_score": 9
     },
     {
@@ -75,21 +75,21 @@
       "importance_score": 9
     },
     {
-      "title": "中大本科生反AI逆向项目火了！让黑客Token账单原地暴涨300倍",
+      "title": "100轮图像编辑这道「毙刷题」，新出的Seedream 5.5稳上来了！",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508787.html",
+      "url": "https://www.qbitai.com/2026/11/508828.html",
       "publish_time": "2026-11-10",
       "category": "AI 综合",
-      "summary": "如果要评选2026年度最热开源项目，候选列表里自然少不了REA | 如果要评选2026年度最危险开源项目，候选列表里也少不了它",
+      "summary": "说真的，即便强如新出的GPT-Image 2 | 6，遇到连续编辑100轮图像这种高压任务，也得大喊那句“名人名言”： 例如我们先给Image 2 | 6输入下面这张原始图片： 然后再把包含100轮任务的提示词丢进去，每一轮就是让手表里的时",
       "importance_score": 9
     },
     {
-      "title": "Fable 5.2深夜掀桌！从0造操作系统，性价比反超Opus 5.5",
+      "title": "无人拖拉机真正下地了！新疆大田深翻30+厘米，丘沃智能开物™系统首次完整曝光",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508771.html",
-      "publish_time": "2026-11-10",
+      "url": "https://www.qbitai.com/2026/11/509052.html",
+      "publish_time": "2026-11-11",
       "category": "AI 综合",
-      "summary": "梦晨 发自 凹非寺量子位 | 公众号 QbitAI 为冲刺IPO，A\\掀桌了：Claude Fable 5",
+      "summary": "在新疆，一块地动辄数千亩，一个垦区动辄数十万亩，有的兵团农场作业面积甚至以百万亩计 | 农时窗口只有短短几十天，真正稀缺的，从来不是土地，而是能在窗口期里连轴转的熟练机手 | 近日，在新疆芳草湖农场，一台拖拉机完成了一次不太寻常的深翻作业：",
       "importance_score": 9
     }
   ]
