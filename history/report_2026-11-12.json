@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-12",
+  "update_time": "2026-11-12T05:25:52.779340",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "具身智能出海，物流先行",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508716.html",
+      "publish_time": "2026-11-09",
+      "category": "AI 综合",
+      "summary": "11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布向AI与具身智能企业开放全球仓网，打造AI与具身智能物流实景训练集群 | 发布会上，菜鸟推出面向AI算力和具身智能企业的科技出海三日达服务，将全球三日达的能力延伸至高科...",
+      "importance_score": 9
+    },
+    {
+      "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/COuPKpA6rTf05C6JM10y",
+      "publish_time": "2026-11-12",
+      "category": "AI 技术",
+      "summary": "随着行业从聊天机器人向自主智能体演进，架构层面的瓶颈正在发生转移 | 难点不再仅仅是数据检索，而是决定智能体应该知道什么、何时应该知道、应该记住多久，以及应该遗忘什么 | 和人类一样，“知道”是一回事，“记住”是另一回事",
+      "importance_score": 8
+    },
+    {
+      "title": "A股开盘：三大指数集体低开，AI语料、短剧、有色·锌等概念走弱",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15323695.html",
+      "publish_time": "2026-11-12",
+      "category": "AI 产业",
+      "summary": "11月12日早间A股开盘，上证指数跌0.21%，深证成指跌0.25%，创业板指跌0.5%，北证50跌0.34%。林业、水产、精准医疗、eSIM、快手概念走强，AI语料、短剧、有色·锌、物理AI、影视概念走弱。",
+      "importance_score": 8
+    },
+    {
+      "title": "上海造、香港连，中国AI加速走向全球",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509214.html",
+      "publish_time": "2026-11-11",
+      "category": "AI 综合",
+      "summary": "过去两周，全球人工智能行业在资金层面接连释放信号：OpenAI将最新一轮募资目标由300亿美元下调至约200亿美元，估值由1 | 25万亿美元；Anthropic的芯片融资案中，其上市后可能先取得“非投资级”信用评级——低于市场此前预期……",
+      "importance_score": 9
+    },
+    {
+      "title": "卷起来了！11月11日，大模型厂商在天猫打5折",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509085.html",
+      "publish_time": "2026-11-11",
+      "category": "AI 综合",
+      "summary": "今年双11 Token火爆出圈，首次成为一个独立品类登上天猫，标志着大模型不再只活在发布会、API文档里，开始走进大众消费",
+      "importance_score": 9
+    },
+    {
+      "title": "纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509224.html",
+      "publish_time": "2026-11-11",
+      "category": "AI 综合",
+      "summary": "一水 发自 凹非寺量子位 | 公众号QbitAI 刚刚，百度发了个新模型，X上的网友们一看Demo直接坐不住了 | 都在喊「鹈鹕骑自行车」已经老套过时了，可这样婶儿的版本你见过吗",
+      "importance_score": 9
+    },
+    {
+      "title": "机器人接管酒店洗衣！双脑协同+RSI，顶级Astra驾驶员来了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509203.html",
+      "publish_time": "2026-11-11",
+      "category": "AI 综合",
+      "summary": "Jay发自 凹非寺 量子位|公众号QbitAI 从客房里收走你的脏衣服，自己穿过狭窄的走廊，智能避障 | 然后，精准识别并按下洗衣机、烘干机的启动键； 我知道，你可能觉得洗衣、烘干嘛，听着一点也不Fancy | 但你相信我，处理柔性物体、在",
+      "importance_score": 9
+    },
+    {
+      "title": "千问办公2.0卷向Team Agent，我们用它跑了一遍编辑部日常",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508798.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 综合",
+      "summary": "0推出了行业首个支持多人与Agent协作的功能——「协作」，还上线了人机共创、自动任务、资料空间和三端互联等多项能力",
+      "importance_score": 9
+    },
+    {
+      "title": "100轮图像编辑这道「毙刷题」，新出的Seedream 5.5稳上来了！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508828.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 综合",
+      "summary": "说真的，即便强如新出的GPT-Image 2 | 6，遇到连续编辑100轮图像这种高压任务，也得大喊那句“名人名言”： 例如我们先给Image 2 | 6输入下面这张原始图片： 然后再把包含100轮任务的提示词丢进去，每一轮就是让手表里的时",
+      "importance_score": 9
+    },
+    {
+      "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509146.html",
+      "publish_time": "2026-11-11",
+      "category": "AI 综合",
+      "summary": "真是活久见，今年双十一最有技术含量的事儿，居然不是研究怎么凑满减了 | 下了班刷直播准备买买买，没想到越刷越熟悉，AI啥时候混迹各大卖场了",
+      "importance_score": 9
+    }
+  ]
+}

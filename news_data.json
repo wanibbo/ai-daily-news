@@ -1,43 +1,7 @@
 {
-  "update_time": "2026-11-11T04:14:19.912307",
-  "total_items": 23,
+  "update_time": "2026-11-12T05:25:52.778875",
+  "total_items": 24,
   "top_items": [
-    {
-      "title": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/509032.html",
-      "publish_time": "2026-11-10",
-      "category": "AI 综合",
-      "summary": "而且，据朱玉可透露，GR00T2的模型、数据、仿真环境和数据采集硬件也将陆续开源 | 发布会上，Jim Fan将其定位为一个反应够快、能够本地运行，同时既容易通过示范教会，也容易被推理模型引导的System 1（快系统）物理技能模型",
-      "importance_score": 10
-    },
-    {
-      "title": "视频生成只是开始，AI 如何把内容做对？",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/GGILIuzW0RTGhoeuz9TD",
-      "publish_time": "2026-11-05",
-      "category": "AI 技术",
-      "summary": "过去做一条视频，通常要先学会使用剪辑软件，再选择模板、调整镜头，最后一点点完成包装 | 工具降低了创作门槛，却没有替用户回答一个更关键的问题：这条视频究竟要完成什么 | 10 月 22 日，在 QCon 上海 2026 主论坛上，小影科技创",
-      "importance_score": 8
-    },
-    {
-      "title": "从送包裹到 “造场景”，菜鸟押注具身智能第二增长曲线",
-      "source": "界面新闻",
-      "url": "https://www.jiemian.com/article/15309830.html",
-      "publish_time": "2026-11-11",
-      "category": "AI 产业",
-      "summary": "从送包裹到 “造场景”，菜鸟押注具身智能第二增长曲线 顺丰、极兔、通达系等国内主流物流企业走出了差异化的出海路径 | 菜鸟日前在香港宣布向产业伙伴开放全球仓网，支持技术训练、实景验证与产业落地，并将打造“全球最大的AI与具身智能物流实景训练",
-      "importance_score": 8
-    },
-    {
-      "title": "黄仁勋承认出轨发全员信道歉！英伟达启动紧急调查",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508498.html",
-      "publish_time": "2026-11-09",
-      "category": "AI 综合",
-      "summary": "目前，英伟达董事会也已经发布声明，表示将对此事展开调查",
-      "importance_score": 9
-    },
     {
       "title": "具身智能出海，物流先行",
       "source": "量子位",
@@ -48,21 +12,57 @@
       "importance_score": 9
     },
     {
-      "title": "从芯片到千比特整机，超导量子计算还有一场硬仗",
+      "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/COuPKpA6rTf05C6JM10y",
+      "publish_time": "2026-11-12",
+      "category": "AI 技术",
+      "summary": "随着行业从聊天机器人向自主智能体演进，架构层面的瓶颈正在发生转移 | 难点不再仅仅是数据检索，而是决定智能体应该知道什么、何时应该知道、应该记住多久，以及应该遗忘什么 | 和人类一样，“知道”是一回事，“记住”是另一回事",
+      "importance_score": 8
+    },
+    {
+      "title": "A股开盘：三大指数集体低开，AI语料、短剧、有色·锌等概念走弱",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15323695.html",
+      "publish_time": "2026-11-12",
+      "category": "AI 产业",
+      "summary": "11月12日早间A股开盘，上证指数跌0.21%，深证成指跌0.25%，创业板指跌0.5%，北证50跌0.34%。林业、水产、精准医疗、eSIM、快手概念走强，AI语料、短剧、有色·锌、物理AI、影视概念走弱。",
+      "importance_score": 8
+    },
+    {
+      "title": "上海造、香港连，中国AI加速走向全球",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/509017.html",
-      "publish_time": "2026-11-10",
+      "url": "https://www.qbitai.com/2026/11/509214.html",
+      "publish_time": "2026-11-11",
       "category": "AI 综合",
-      "summary": "11月10日，这家成立于2026年的公司宣布完成近亿元天使轮融资，投资方包括深创投、浦东创投、德宁资本、湘江信成、深圳天使母基金等机构，多维资本担任独家财务顾问",
+      "summary": "过去两周，全球人工智能行业在资金层面接连释放信号：OpenAI将最新一轮募资目标由300亿美元下调至约200亿美元，估值由1 | 25万亿美元；Anthropic的芯片融资案中，其上市后可能先取得“非投资级”信用评级——低于市场此前预期……",
       "importance_score": 9
     },
     {
-      "title": "99.4%登顶全球第一！这个中国AI师承世界冠军",
+      "title": "卷起来了！11月11日，大模型厂商在天猫打5折",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/508107.html",
-      "publish_time": "2026-11-06",
+      "url": "https://www.qbitai.com/2026/11/509085.html",
+      "publish_time": "2026-11-11",
       "category": "AI 综合",
-      "summary": "一举刷新「AI安全世界杯」CyberGym世界纪录 一水 发自 凹非寺量子位 | 公众号QbitAI 好家伙，硅谷那几家天天站在聚光灯下大谈AI安全，谁承想呢 | 如今刷新AI安全世界纪录的，是一个中国AI系统 | 就在被称为「AI安全世界",
+      "summary": "今年双11 Token火爆出圈，首次成为一个独立品类登上天猫，标志着大模型不再只活在发布会、API文档里，开始走进大众消费",
+      "importance_score": 9
+    },
+    {
+      "title": "纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509224.html",
+      "publish_time": "2026-11-11",
+      "category": "AI 综合",
+      "summary": "一水 发自 凹非寺量子位 | 公众号QbitAI 刚刚，百度发了个新模型，X上的网友们一看Demo直接坐不住了 | 都在喊「鹈鹕骑自行车」已经老套过时了，可这样婶儿的版本你见过吗",
+      "importance_score": 9
+    },
+    {
+      "title": "机器人接管酒店洗衣！双脑协同+RSI，顶级Astra驾驶员来了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509203.html",
+      "publish_time": "2026-11-11",
+      "category": "AI 综合",
+      "summary": "Jay发自 凹非寺 量子位|公众号QbitAI 从客房里收走你的脏衣服，自己穿过狭窄的走廊，智能避障 | 然后，精准识别并按下洗衣机、烘干机的启动键； 我知道，你可能觉得洗衣、烘干嘛，听着一点也不Fancy | 但你相信我，处理柔性物体、在",
       "importance_score": 9
     },
     {
@@ -84,12 +84,12 @@
       "importance_score": 9
     },
     {
-      "title": "无人拖拉机真正下地了！新疆大田深翻30+厘米，丘沃智能开物™系统首次完整曝光",
+      "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/509052.html",
+      "url": "https://www.qbitai.com/2026/11/509146.html",
       "publish_time": "2026-11-11",
       "category": "AI 综合",
-      "summary": "在新疆，一块地动辄数千亩，一个垦区动辄数十万亩，有的兵团农场作业面积甚至以百万亩计 | 农时窗口只有短短几十天，真正稀缺的，从来不是土地，而是能在窗口期里连轴转的熟练机手 | 近日，在新疆芳草湖农场，一台拖拉机完成了一次不太寻常的深翻作业：",
+      "summary": "真是活久见，今年双十一最有技术含量的事儿，居然不是研究怎么凑满减了 | 下了班刷直播准备买买买，没想到越刷越熟悉，AI啥时候混迹各大卖场了",
       "importance_score": 9
     }
   ]

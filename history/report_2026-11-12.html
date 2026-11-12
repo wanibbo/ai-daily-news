@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 日报简讯 - 2026-11-12</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+            padding: 10px;
+        }
+        .container { max-width: 1100px; margin: 0 auto; display: flex; gap: 16px; }
+        .main-content { flex: 1; }
+        .sidebar {
+            width: 220px;
+            flex-shrink: 0;
+        }
+        .header-card {
+            background: rgba(255,255,255,0.98);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        .header-title {
+            font-size: 26px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 6px;
+        }
+        .history-card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            position: sticky;
+            top: 10px;
+        }
+        .history-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #1e3a5f;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e0e7ff;
+        }
+        .history-link {
+            display: block;
+            padding: 8px 12px;
+            margin-bottom: 6px;
+            background: #f8fafc;
+            border-radius: 6px;
+            color: #2d5a87;
+            text-decoration: none;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .history-link:hover {
+            background: #e0e7ff;
+            transform: translateX(4px);
+        }
+        .news-item {
+            background: rgba(255,255,255,0.98);
+            border-radius: 10px;
+            padding: 14px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+            display: flex;
+            gap: 14px;
+        }
+        .news-number {
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            color: white;
+            width: 70px;
+            min-width: 70px;
+            height: 100%;
+            min-height: 120px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 36px;
+            flex-shrink: 0;
+        }
+        .news-content { flex: 1; }
+        .news-title-row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .news-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1e293b;
+            line-height: 1.4;
+            flex: 1;
+        }
+        .news-title a { color: #1e3a5f; text-decoration: none; }
+        .news-title a:hover { text-decoration: underline; }
+        .read-more {
+            color: #2d5a87;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+        .news-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+        .news-badge { padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+        .news-source { background: #e0e7ff; color: #3730a3; padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 500; }
+        .news-time { color: #94a3b8; font-size: 12px; margin-left: auto; }
+        .news-summary {
+            color: #475569;
+            line-height: 1.6;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 6px;
+            border-left: 3px solid #3a7ca5;
+            font-size: 14px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        @media (max-width: 900px) {
+            .container { flex-direction: column; }
+            .sidebar { width: 100%; }
+            .history-card { position: static; }
+        }
+        @media (max-width: 640px) {
+            body { padding: 6px; }
+            .header-card { padding: 16px; }
+            .header-title { font-size: 22px; }
+            .news-item { padding: 10px; gap: 10px; }
+            .news-number { width: 55px; min-width: 55px; min-height: 90px; font-size: 28px; }
+            .news-title { font-size: 15px; }
+            .news-title-row { flex-direction: column; }
+            .read-more { margin-top: 6px; }
+            .news-summary { font-size: 13px; }
+            .news-time { width: 100%; margin-top: 4px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="header-card">
+                <h1 class="header-title">🤖 AI 日报简讯</h1>
+                <p class="text-slate-600 text-sm">2026-11-12 05:25:52</p>
+            </div>
+            <div id="news-list">
+        <div class="news-item">
+            <div class="news-number">1</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/508716.html" target="_blank">具身智能出海，物流先行</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/508716.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-09</span>
+                </div>
+                <p class="news-summary">11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布向AI与具身智能企业开放全球仓网，打造AI与具身智能物流实景训练集群 | 发布会上，菜鸟推出面向AI算力和具身智能企业的科技出海三日达服务，将全球三日达的能力延伸至高科...</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">2</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/COuPKpA6rTf05C6JM10y" target="_blank">智能体 AI 架构中记忆、知识与上下文的系统化方案</a></h3>
+                    <a href="https://www.infoq.cn/article/COuPKpA6rTf05C6JM10y" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-11-12</span>
+                </div>
+                <p class="news-summary">随着行业从聊天机器人向自主智能体演进，架构层面的瓶颈正在发生转移 | 难点不再仅仅是数据检索，而是决定智能体应该知道什么、何时应该知道、应该记住多久，以及应该遗忘什么 | 和人类一样，“知道”是一回事，“记住”是另一回事</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">3</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.jiemian.com/article/15323695.html" target="_blank">A股开盘：三大指数集体低开，AI语料、短剧、有色·锌等概念走弱</a></h3>
+                    <a href="https://www.jiemian.com/article/15323695.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">界面新闻</span>
+                    <span class="news-time">📅 2026-11-12</span>
+                </div>
+                <p class="news-summary">11月12日早间A股开盘，上证指数跌0.21%，深证成指跌0.25%，创业板指跌0.5%，北证50跌0.34%。林业、水产、精准医疗、eSIM、快手概念走强，AI语料、短剧、有色·锌、物理AI、影视概念走弱。</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">4</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/509214.html" target="_blank">上海造、香港连，中国AI加速走向全球</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/509214.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-11</span>
+                </div>
+                <p class="news-summary">过去两周，全球人工智能行业在资金层面接连释放信号：OpenAI将最新一轮募资目标由300亿美元下调至约200亿美元，估值由1 | 25万亿美元；Anthropic的芯片融资案中，其上市后可能先取得“非投资级”信用评级——低于市场此前预期……</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">5</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/509085.html" target="_blank">卷起来了！11月11日，大模型厂商在天猫打5折</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/509085.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-11</span>
+                </div>
+                <p class="news-summary">今年双11 Token火爆出圈，首次成为一个独立品类登上天猫，标志着大模型不再只活在发布会、API文档里，开始走进大众消费</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">6</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/509224.html" target="_blank">纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/509224.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-11</span>
+                </div>
+                <p class="news-summary">一水 发自 凹非寺量子位 | 公众号QbitAI 刚刚，百度发了个新模型，X上的网友们一看Demo直接坐不住了 | 都在喊「鹈鹕骑自行车」已经老套过时了，可这样婶儿的版本你见过吗</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">7</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/509203.html" target="_blank">机器人接管酒店洗衣！双脑协同+RSI，顶级Astra驾驶员来了</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/509203.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-11</span>
+                </div>
+                <p class="news-summary">Jay发自 凹非寺 量子位|公众号QbitAI 从客房里收走你的脏衣服，自己穿过狭窄的走廊，智能避障 | 然后，精准识别并按下洗衣机、烘干机的启动键； 我知道，你可能觉得洗衣、烘干嘛，听着一点也不Fancy | 但你相信我，处理柔性物体、在</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">8</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/508798.html" target="_blank">千问办公2.0卷向Team Agent，我们用它跑了一遍编辑部日常</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/508798.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-10</span>
+                </div>
+                <p class="news-summary">0推出了行业首个支持多人与Agent协作的功能——「协作」，还上线了人机共创、自动任务、资料空间和三端互联等多项能力</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">9</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/508828.html" target="_blank">100轮图像编辑这道「毙刷题」，新出的Seedream 5.5稳上来了！</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/508828.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-10</span>
+                </div>
+                <p class="news-summary">说真的，即便强如新出的GPT-Image 2 | 6，遇到连续编辑100轮图像这种高压任务，也得大喊那句“名人名言”： 例如我们先给Image 2 | 6输入下面这张原始图片： 然后再把包含100轮任务的提示词丢进去，每一轮就是让手表里的时</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">10</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/509146.html" target="_blank">双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/509146.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-11</span>
+                </div>
+                <p class="news-summary">真是活久见，今年双十一最有技术含量的事儿，居然不是研究怎么凑满减了 | 下了班刷直播准备买买买，没想到越刷越熟悉，AI啥时候混迹各大卖场了</p>
+            </div>
+        </div>
+        </div>
+            <div class="text-center text-white/70 text-xs mt-8">
+                <p>数据来源于量子位、InfoQ、界面新闻、虎嗅网等主流媒体</p>
+                <p class="mt-1">更新：2026-11-12 05:25:52</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="history-card">
+                <h2 class="history-title">📁 历史日报</h2>
+                <div class="history-list">
+                    <a href="history/report_2026-11-12.html" class="history-link">📅 2026-11-12</a><a href="history/report_2026-11-11.html" class="history-link">📅 2026-11-11</a><a href="history/report_2026-11-10.html" class="history-link">📅 2026-11-10</a><a href="history/report_2026-11-09.html" class="history-link">📅 2026-11-09</a><a href="history/report_2026-11-08.html" class="history-link">📅 2026-11-08</a><a href="history/report_2026-11-07.html" class="history-link">📅 2026-11-07</a><a href="history/report_2026-11-06.html" class="history-link">📅 2026-11-06</a><a href="history/report_2026-11-05.html" class="history-link">📅 2026-11-05</a><a href="history/report_2026-11-04.html" class="history-link">📅 2026-11-04</a><a href="history/report_2026-11-03.html" class="history-link">📅 2026-11-03</a><a href="history/report_2026-11-02.html" class="history-link">📅 2026-11-02</a><a href="history/report_2026-11-01.html" class="history-link">📅 2026-11-01</a><a href="history/report_2026-10-31.html" class="history-link">📅 2026-10-31</a><a href="history/report_2026-10-30.html" class="history-link">📅 2026-10-30</a><a href="history/report_2026-10-29.html" class="history-link">📅 2026-10-29</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
