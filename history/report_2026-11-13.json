@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-13",
+  "update_time": "2026-11-13T04:41:08.542230",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "突发，马斯克裁掉了整个多模态团队",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509545.html",
+      "publish_time": "2026-11-13",
+      "category": "AI 综合",
+      "summary": "衡宇 发自 凹非寺量子位 | 公众号 QbitAI 硅谷这么大瓜，也没耽误马斯克又把麾下一个部门整窝端了 | 量子位获悉，老马近期裁撤了xAI的整个multimodal团队，团队约70人无一幸免 | 但几乎同时，xAI官方招聘立刻上新了“M",
+      "importance_score": 9
+    },
+    {
+      "title": "Docker 呼吁通过隔离与治理保障智能体安全",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/1pCuIRtm5HYwTyR4fIhA",
+      "publish_time": "2026-11-13",
+      "category": "AI 技术",
+      "summary": "Docker 发布了一篇指南，介绍当 AI 智能体在人工监督有限的情况下浏览网页、运行代码、调用工具时会产生的五大安全风险",
+      "importance_score": 8
+    },
+    {
+      "title": "具身智能出海，物流先行",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508716.html",
+      "publish_time": "2026-11-09",
+      "category": "AI 综合",
+      "summary": "11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布向AI与具身智能企业开放全球仓网，打造AI与具身智能物流实景训练集群 | 发布会上，菜鸟推出面向AI算力和具身智能企业的科技出海三日达服务，将全球三日达的能力延伸至高科...",
+      "importance_score": 9
+    },
+    {
+      "title": "从通用大模型到学习过程智能，AI如何真正进入课堂？",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509404.html",
+      "publish_time": "2026-11-12",
+      "category": "AI 综合",
+      "summary": "11 月 9 日晚，字节跳动原高级副总裁、今日头条及大力教育原CEO陈林以一篇《我为什么还要做教育 | 》正式公开再创业项目 “银河智学”，引发行业广泛关注：在大模型能力日趋通用的今天，重返教育深水区的陈林团队，究竟打算做出一款什么样的 A",
+      "importance_score": 9
+    },
+    {
+      "title": "大模型都能控机器人，Human Data还得怎么卷？",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509468.html",
+      "publish_time": "2026-11-13",
+      "category": "AI 综合",
+      "summary": "让触觉教视觉，原来Human Data还能这么玩 | 连AI都开始琢磨怎么自己教自己了，机器人却还在为学习人类动作狂补课",
+      "importance_score": 9
+    },
+    {
+      "title": "纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509224.html",
+      "publish_time": "2026-11-11",
+      "category": "AI 综合",
+      "summary": "一水 发自 凹非寺量子位 | 公众号QbitAI 刚刚，百度发了个新模型，X上的网友们一看Demo直接坐不住了 | 都在喊「鹈鹕骑自行车」已经老套过时了，可这样婶儿的版本你见过吗",
+      "importance_score": 9
+    },
+    {
+      "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509381.html",
+      "publish_time": "2026-11-12",
+      "category": "AI 综合",
+      "summary": "说实话，一开始，恐怕没人能想到，A社这场曾经史上最大IPO能惨烈到这个地步，以及达里奥·阿莫代伊的头能这么铁 | 就在刚刚，Claude母公司Anthropic的IPO路演正式开场，一扫此前退出、延期的传言 | 按计划，Anthropic拟",
+      "importance_score": 9
+    },
+    {
+      "title": "千问办公2.0卷向Team Agent，我们用它跑了一遍编辑部日常",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508798.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 综合",
+      "summary": "0推出了行业首个支持多人与Agent协作的功能——「协作」，还上线了人机共创、自动任务、资料空间和三端互联等多项能力",
+      "importance_score": 9
+    },
+    {
+      "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509440.html",
+      "publish_time": "2026-11-12",
+      "category": "AI 综合",
+      "summary": "继开源视频旗舰H3广受好评后，最新的图像模型——H3-Image，再次席卷全网",
+      "importance_score": 9
+    },
+    {
+      "title": "100轮图像编辑这道「毙刷题」，新出的Seedream 5.5稳上来了！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508828.html",
+      "publish_time": "2026-11-10",
+      "category": "AI 综合",
+      "summary": "说真的，即便强如新出的GPT-Image 2 | 6，遇到连续编辑100轮图像这种高压任务，也得大喊那句“名人名言”： 例如我们先给Image 2 | 6输入下面这张原始图片： 然后再把包含100轮任务的提示词丢进去，每一轮就是让手表里的时",
+      "importance_score": 9
+    }
+  ]
+}
