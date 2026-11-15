@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 日报简讯 - 2026-11-15</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+            padding: 10px;
+        }
+        .container { max-width: 1100px; margin: 0 auto; display: flex; gap: 16px; }
+        .main-content { flex: 1; }
+        .sidebar {
+            width: 220px;
+            flex-shrink: 0;
+        }
+        .header-card {
+            background: rgba(255,255,255,0.98);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        .header-title {
+            font-size: 26px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 6px;
+        }
+        .history-card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            position: sticky;
+            top: 10px;
+        }
+        .history-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #1e3a5f;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e0e7ff;
+        }
+        .history-link {
+            display: block;
+            padding: 8px 12px;
+            margin-bottom: 6px;
+            background: #f8fafc;
+            border-radius: 6px;
+            color: #2d5a87;
+            text-decoration: none;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .history-link:hover {
+            background: #e0e7ff;
+            transform: translateX(4px);
+        }
+        .news-item {
+            background: rgba(255,255,255,0.98);
+            border-radius: 10px;
+            padding: 14px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+            display: flex;
+            gap: 14px;
+        }
+        .news-number {
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            color: white;
+            width: 70px;
+            min-width: 70px;
+            height: 100%;
+            min-height: 120px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 36px;
+            flex-shrink: 0;
+        }
+        .news-content { flex: 1; }
+        .news-title-row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .news-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1e293b;
+            line-height: 1.4;
+            flex: 1;
+        }
+        .news-title a { color: #1e3a5f; text-decoration: none; }
+        .news-title a:hover { text-decoration: underline; }
+        .read-more {
+            color: #2d5a87;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+        .news-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+        .news-badge { padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+        .news-source { background: #e0e7ff; color: #3730a3; padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 500; }
+        .news-time { color: #94a3b8; font-size: 12px; margin-left: auto; }
+        .news-summary {
+            color: #475569;
+            line-height: 1.6;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 6px;
+            border-left: 3px solid #3a7ca5;
+            font-size: 14px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        @media (max-width: 900px) {
+            .container { flex-direction: column; }
+            .sidebar { width: 100%; }
+            .history-card { position: static; }
+        }
+        @media (max-width: 640px) {
+            body { padding: 6px; }
+            .header-card { padding: 16px; }
+            .header-title { font-size: 22px; }
+            .news-item { padding: 10px; gap: 10px; }
+            .news-number { width: 55px; min-width: 55px; min-height: 90px; font-size: 28px; }
+            .news-title { font-size: 15px; }
+            .news-title-row { flex-direction: column; }
+            .read-more { margin-top: 6px; }
+            .news-summary { font-size: 13px; }
+            .news-time { width: 100%; margin-top: 4px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="header-card">
+                <h1 class="header-title">🤖 AI 日报简讯</h1>
+                <p class="text-slate-600 text-sm">2026-11-15 04:25:29</p>
+            </div>
+            <div id="news-list">
+        <div class="news-item">
+            <div class="news-number">1</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/509995.html" target="_blank">黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/509995.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-13</span>
+                </div>
+                <p class="news-summary">刚刚，英伟达宣布黄仁勋已辞去公司总裁、首席执行官及董事职务，即刻生效 | 现任执行副总裁兼 CFO Colette Kress 出任临时 CEO，并继续兼任原有职务，直至正式继任者获任命 | 消息公布后，英伟达盘前股价直线跳水，一度跌至15</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">2</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo" target="_blank">智能互动 Agent 在快手商业场景的落地实践</a></h3>
+                    <a href="https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-11-13</span>
+                </div>
+                <p class="news-summary">随着大语言模型能力的持续演进，电商场景下的智能对话系统正从传统 FAQ 问答向具备规划、决策与工具调用能力的 Agent 架构迁移 | 本文整理自快手大模型应用算法专家邱慧在AICon 2026 深圳站的分享《智能互动 Agent 在快手商</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">3</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.jiemian.com/article/15330103.html" target="_blank">黄仁勋的突然离开，让英伟达33年来首次迎来换帅。多位科技界人士为他发声，华尔街也开始重新评估这家AI芯片巨头的未来。</a></h3>
+                    <a href="https://www.jiemian.com/article/15330103.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">界面新闻</span>
+                    <span class="news-time">📅 2026-11-15</span>
+                </div>
+                <p class="news-summary">151 |  33年黄仁勋时代落幕，英伟达将走向何方 | 黄仁勋的突然离开，让英伟达33年来首次迎来换帅</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">4</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/508716.html" target="_blank">具身智能出海，物流先行</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/508716.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-09</span>
+                </div>
+                <p class="news-summary">11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布向AI与具身智能企业开放全球仓网，打造AI与具身智能物流实景训练集群 | 发布会上，菜鸟推出面向AI算力和具身智能企业的科技出海三日达服务，将全球三日达的能力延伸至高科...</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">5</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/510003.html" target="_blank">突发！DeepSeek开放全家桶API</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/510003.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-14</span>
+                </div>
+                <p class="news-summary">DeepSeek还贴心亲自打了个样，直接开源了一套轻量级聊天前端Demo，支持导入DeepSeek历史对话</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">6</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/510094.html" target="_blank">绿电进Token出！联想重新定义词元工厂</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/510094.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-14</span>
+                </div>
+                <p class="news-summary">国家数据局数据显示，我国日均词元调用量从2024年初的1000亿增至2025年底的100万亿，2026年3月突破140万亿，两年增长千倍；中国信通院披露，到2026年6月，相关指标已突破500万亿</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">7</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/510150.html" target="_blank">程序员集体沉迷折纸飞机！最长滞空31.2秒</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/510150.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-14</span>
+                </div>
+                <p class="news-summary">刚刚，一个名叫Foldable Flight的网站突然在Hacker News登顶了，获得800多分、130多条评论 | 这个网站，非常简洁直白，真的就是来教你折纸飞机的 | 可以自己选择折叠难度，比如，最简单的就是这架“Mystic（神秘</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">8</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/509796.html" target="_blank">中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/509796.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-13</span>
+                </div>
+                <p class="news-summary">国产AI首次完成大规模肺癌实证，挑战「头号癌症杀手」取得重大突破： 围绕40例复杂肺癌病例，在完全统一的标准评估下，AI对医生，88比12</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">9</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/510297.html" target="_blank">英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/510297.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-14</span>
+                </div>
+                <p class="news-summary">0—— 一份要求恢复老黄职位的请愿正在进行中，家人们我已冲</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">10</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/510232.html" target="_blank">「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/510232.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-14</span>
+                </div>
+                <p class="news-summary">斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了 不ber，现在的基准测试都进化到酱婶了</p>
+            </div>
+        </div>
+        </div>
+            <div class="text-center text-white/70 text-xs mt-8">
+                <p>数据来源于量子位、InfoQ、界面新闻、虎嗅网等主流媒体</p>
+                <p class="mt-1">更新：2026-11-15 04:25:29</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="history-card">
+                <h2 class="history-title">📁 历史日报</h2>
+                <div class="history-list">
+                    <a href="history/report_2026-11-15.html" class="history-link">📅 2026-11-15</a><a href="history/report_2026-11-14.html" class="history-link">📅 2026-11-14</a><a href="history/report_2026-11-13.html" class="history-link">📅 2026-11-13</a><a href="history/report_2026-11-12.html" class="history-link">📅 2026-11-12</a><a href="history/report_2026-11-11.html" class="history-link">📅 2026-11-11</a><a href="history/report_2026-11-10.html" class="history-link">📅 2026-11-10</a><a href="history/report_2026-11-09.html" class="history-link">📅 2026-11-09</a><a href="history/report_2026-11-08.html" class="history-link">📅 2026-11-08</a><a href="history/report_2026-11-07.html" class="history-link">📅 2026-11-07</a><a href="history/report_2026-11-06.html" class="history-link">📅 2026-11-06</a><a href="history/report_2026-11-05.html" class="history-link">📅 2026-11-05</a><a href="history/report_2026-11-04.html" class="history-link">📅 2026-11-04</a><a href="history/report_2026-11-03.html" class="history-link">📅 2026-11-03</a><a href="history/report_2026-11-02.html" class="history-link">📅 2026-11-02</a><a href="history/report_2026-11-01.html" class="history-link">📅 2026-11-01</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
