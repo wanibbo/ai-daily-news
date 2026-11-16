@@ -1,14 +1,14 @@
 {
-  "update_time": "2026-11-15T04:25:29.530946",
-  "total_items": 22,
+  "update_time": "2026-11-16T04:23:04.514084",
+  "total_items": 24,
   "top_items": [
     {
-      "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
+      "title": "黄仁勋筹备重返英伟达",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/509995.html",
-      "publish_time": "2026-11-13",
+      "url": "https://www.qbitai.com/2026/11/510358.html",
+      "publish_time": "2026-11-16",
       "category": "AI 综合",
-      "summary": "刚刚，英伟达宣布黄仁勋已辞去公司总裁、首席执行官及董事职务，即刻生效 | 现任执行副总裁兼 CFO Colette Kress 出任临时 CEO，并继续兼任原有职务，直至正式继任者获任命 | 消息公布后，英伟达盘前股价直线跳水，一度跌至15",
+      "summary": "据《金融时报》消息，辞去CEO仅仅几天，黄仁勋已经开始组队讨论重返英伟达 | 一位黄仁勋的盟友透露，支持者正在召集硅谷科技高管，准备组建一个专门的协调团队，推动他重新执掌英伟达 | 另一边，马斯克、Epic Games CEO Tim Sw",
       "importance_score": 9
     },
     {
@@ -24,10 +24,19 @@
       "title": "黄仁勋的突然离开，让英伟达33年来首次迎来换帅。多位科技界人士为他发声，华尔街也开始重新评估这家AI芯片巨头的未来。",
       "source": "界面新闻",
       "url": "https://www.jiemian.com/article/15330103.html",
-      "publish_time": "2026-11-15",
+      "publish_time": "2026-11-16",
       "category": "AI 产业",
       "summary": "151 |  33年黄仁勋时代落幕，英伟达将走向何方 | 黄仁勋的突然离开，让英伟达33年来首次迎来换帅",
       "importance_score": 8
+    },
+    {
+      "title": "没搞过一天研发的他，50岁以华为董事的身份退休了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510404.html",
+      "publish_time": "2026-11-16",
+      "category": "AI 综合",
+      "summary": "程浅 发自 凹非寺量子位 | 公众号QbitAI 华为董事换人了 | 上位的何刚站在了聚光灯下，被他替代的彭博，相形之下……显得静悄悄",
+      "importance_score": 9
     },
     {
       "title": "具身智能出海，物流先行",
@@ -36,15 +45,6 @@
       "publish_time": "2026-11-09",
       "category": "AI 综合",
       "summary": "11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布向AI与具身智能企业开放全球仓网，打造AI与具身智能物流实景训练集群 | 发布会上，菜鸟推出面向AI算力和具身智能企业的科技出海三日达服务，将全球三日达的能力延伸至高科...",
-      "importance_score": 9
-    },
-    {
-      "title": "突发！DeepSeek开放全家桶API",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510003.html",
-      "publish_time": "2026-11-14",
-      "category": "AI 综合",
-      "summary": "DeepSeek还贴心亲自打了个样，直接开源了一套轻量级聊天前端Demo，支持导入DeepSeek历史对话",
       "importance_score": 9
     },
     {
@@ -57,12 +57,12 @@
       "importance_score": 9
     },
     {
-      "title": "程序员集体沉迷折纸飞机！最长滞空31.2秒",
+      "title": "今天截止！2026年度AI表彰，错过再等一年！",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510150.html",
-      "publish_time": "2026-11-14",
+      "url": "https://www.qbitai.com/2026/11/510382.html",
+      "publish_time": "2026-11-16",
       "category": "AI 综合",
-      "summary": "刚刚，一个名叫Foldable Flight的网站突然在Hacker News登顶了，获得800多分、130多条评论 | 这个网站，非常简洁直白，真的就是来教你折纸飞机的 | 可以自己选择折叠难度，比如，最简单的就是这架“Mystic（神秘",
+      "summary": "量子位「2026人工智能年度榜单」征集通道将于今日关闭 | 🔽扫描海报二维码立即报名，错过真的要再等一年🔽 将面向中国人工智能领域，评选出最具综合实力的企业，参选条件： 1、注册地在中国，或主营业务主要面向中国市场； 2、主营业务属于人工智",
       "importance_score": 9
     },
     {
@@ -75,21 +75,21 @@
       "importance_score": 9
     },
     {
-      "title": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510297.html",
-      "publish_time": "2026-11-14",
-      "category": "AI 综合",
-      "summary": "0—— 一份要求恢复老黄职位的请愿正在进行中，家人们我已冲",
-      "importance_score": 9
-    },
-    {
       "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/11/510232.html",
       "publish_time": "2026-11-14",
       "category": "AI 综合",
       "summary": "斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了 不ber，现在的基准测试都进化到酱婶了",
+      "importance_score": 9
+    },
+    {
+      "title": "提速2.48倍且画质不掉线，AI视频“降本增效”有了新解法",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510369.html",
+      "publish_time": "2026-11-16",
+      "category": "AI 综合",
+      "summary": "针对这一需求，是石科技正式发布新品「多模态模型服务」，将优化重点放在视频生成推理加速、缓存与显存管理、多模态Token压缩，以及素材理解与生成链路衔接上",
       "importance_score": 9
     }
   ]

@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-16",
+  "update_time": "2026-11-16T04:23:04.514454",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "黄仁勋筹备重返英伟达",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510358.html",
+      "publish_time": "2026-11-16",
+      "category": "AI 综合",
+      "summary": "据《金融时报》消息，辞去CEO仅仅几天，黄仁勋已经开始组队讨论重返英伟达 | 一位黄仁勋的盟友透露，支持者正在召集硅谷科技高管，准备组建一个专门的协调团队，推动他重新执掌英伟达 | 另一边，马斯克、Epic Games CEO Tim Sw",
+      "importance_score": 9
+    },
+    {
+      "title": "智能互动 Agent 在快手商业场景的落地实践",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo",
+      "publish_time": "2026-11-13",
+      "category": "AI 技术",
+      "summary": "随着大语言模型能力的持续演进，电商场景下的智能对话系统正从传统 FAQ 问答向具备规划、决策与工具调用能力的 Agent 架构迁移 | 本文整理自快手大模型应用算法专家邱慧在AICon 2026 深圳站的分享《智能互动 Agent 在快手商",
+      "importance_score": 8
+    },
+    {
+      "title": "黄仁勋的突然离开，让英伟达33年来首次迎来换帅。多位科技界人士为他发声，华尔街也开始重新评估这家AI芯片巨头的未来。",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15330103.html",
+      "publish_time": "2026-11-16",
+      "category": "AI 产业",
+      "summary": "151 |  33年黄仁勋时代落幕，英伟达将走向何方 | 黄仁勋的突然离开，让英伟达33年来首次迎来换帅",
+      "importance_score": 8
+    },
+    {
+      "title": "没搞过一天研发的他，50岁以华为董事的身份退休了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510404.html",
+      "publish_time": "2026-11-16",
+      "category": "AI 综合",
+      "summary": "程浅 发自 凹非寺量子位 | 公众号QbitAI 华为董事换人了 | 上位的何刚站在了聚光灯下，被他替代的彭博，相形之下……显得静悄悄",
+      "importance_score": 9
+    },
+    {
+      "title": "具身智能出海，物流先行",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508716.html",
+      "publish_time": "2026-11-09",
+      "category": "AI 综合",
+      "summary": "11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布向AI与具身智能企业开放全球仓网，打造AI与具身智能物流实景训练集群 | 发布会上，菜鸟推出面向AI算力和具身智能企业的科技出海三日达服务，将全球三日达的能力延伸至高科...",
+      "importance_score": 9
+    },
+    {
+      "title": "绿电进Token出！联想重新定义词元工厂",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510094.html",
+      "publish_time": "2026-11-14",
+      "category": "AI 综合",
+      "summary": "国家数据局数据显示，我国日均词元调用量从2024年初的1000亿增至2025年底的100万亿，2026年3月突破140万亿，两年增长千倍；中国信通院披露，到2026年6月，相关指标已突破500万亿",
+      "importance_score": 9
+    },
+    {
+      "title": "今天截止！2026年度AI表彰，错过再等一年！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510382.html",
+      "publish_time": "2026-11-16",
+      "category": "AI 综合",
+      "summary": "量子位「2026人工智能年度榜单」征集通道将于今日关闭 | 🔽扫描海报二维码立即报名，错过真的要再等一年🔽 将面向中国人工智能领域，评选出最具综合实力的企业，参选条件： 1、注册地在中国，或主营业务主要面向中国市场； 2、主营业务属于人工智",
+      "importance_score": 9
+    },
+    {
+      "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/509796.html",
+      "publish_time": "2026-11-13",
+      "category": "AI 综合",
+      "summary": "国产AI首次完成大规模肺癌实证，挑战「头号癌症杀手」取得重大突破： 围绕40例复杂肺癌病例，在完全统一的标准评估下，AI对医生，88比12",
+      "importance_score": 9
+    },
+    {
+      "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510232.html",
+      "publish_time": "2026-11-14",
+      "category": "AI 综合",
+      "summary": "斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了 不ber，现在的基准测试都进化到酱婶了",
+      "importance_score": 9
+    },
+    {
+      "title": "提速2.48倍且画质不掉线，AI视频“降本增效”有了新解法",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510369.html",
+      "publish_time": "2026-11-16",
+      "category": "AI 综合",
+      "summary": "针对这一需求，是石科技正式发布新品「多模态模型服务」，将优化重点放在视频生成推理加速、缓存与显存管理、多模态Token压缩，以及素材理解与生成链路衔接上",
+      "importance_score": 9
+    }
+  ]
+}
