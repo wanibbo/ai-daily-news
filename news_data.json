@@ -1,41 +1,41 @@
 {
-  "update_time": "2026-11-16T04:23:04.514084",
-  "total_items": 24,
+  "update_time": "2026-11-17T06:07:38.467670",
+  "total_items": 20,
   "top_items": [
-    {
-      "title": "黄仁勋筹备重返英伟达",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510358.html",
-      "publish_time": "2026-11-16",
-      "category": "AI 综合",
-      "summary": "据《金融时报》消息，辞去CEO仅仅几天，黄仁勋已经开始组队讨论重返英伟达 | 一位黄仁勋的盟友透露，支持者正在召集硅谷科技高管，准备组建一个专门的协调团队，推动他重新执掌英伟达 | 另一边，马斯克、Epic Games CEO Tim Sw",
-      "importance_score": 9
-    },
-    {
-      "title": "智能互动 Agent 在快手商业场景的落地实践",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo",
-      "publish_time": "2026-11-13",
-      "category": "AI 技术",
-      "summary": "随着大语言模型能力的持续演进，电商场景下的智能对话系统正从传统 FAQ 问答向具备规划、决策与工具调用能力的 Agent 架构迁移 | 本文整理自快手大模型应用算法专家邱慧在AICon 2026 深圳站的分享《智能互动 Agent 在快手商",
-      "importance_score": 8
-    },
-    {
-      "title": "黄仁勋的突然离开，让英伟达33年来首次迎来换帅。多位科技界人士为他发声，华尔街也开始重新评估这家AI芯片巨头的未来。",
-      "source": "界面新闻",
-      "url": "https://www.jiemian.com/article/15330103.html",
-      "publish_time": "2026-11-16",
-      "category": "AI 产业",
-      "summary": "151 |  33年黄仁勋时代落幕，英伟达将走向何方 | 黄仁勋的突然离开，让英伟达33年来首次迎来换帅",
-      "importance_score": 8
-    },
     {
       "title": "没搞过一天研发的他，50岁以华为董事的身份退休了",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510404.html",
+      "url": "https://www.qbitai.com/2026/11/510496.html",
       "publish_time": "2026-11-16",
       "category": "AI 综合",
-      "summary": "程浅 发自 凹非寺量子位 | 公众号QbitAI 华为董事换人了 | 上位的何刚站在了聚光灯下，被他替代的彭博，相形之下……显得静悄悄",
+      "summary": "程浅 发自 凹非寺量子位 | 公众号QbitAI 华为董事换人了 | 上位的何刚站在了聚光灯下，被他替代的彭博，相形之下……显得静悄悄 | 作为华为董事、全球采购认证管理部总裁，彭博这个人确实存在感一直不太强",
+      "importance_score": 9
+    },
+    {
+      "title": "马斯克喊话“真男人自己管理内存”，三十年系统老将警告：Rust 也拦不住 AI 制造复杂性",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/FWqT2oGIEl9zlyJ7HXZF",
+      "publish_time": "2026-11-16",
+      "category": "AI 技术",
+      "summary": "11 月 10 日，面对网友“为什么用 C/C++ 重写，之前用的是 Rust 吗”的追问，Elon Musk 用这句话回应了 xAI 的技术选择 | 四年前，他还公开表示自己是 Rust 的拥趸，认为 Discord 的实践证明了它的扩展",
+      "importance_score": 8
+    },
+    {
+      "title": "涉及贸易、人工智能等领域，APEC“中国年”系列会议和活动取得丰硕成果",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15340129.html",
+      "publish_time": "2026-11-17",
+      "category": "AI 产业",
+      "summary": "在财金领域，陈旭表示，各方围绕全球和区域宏观经济金融形势以及相关重点议题进行深入交流，进一步加强了宏观经济政策协调，在支持民生发展的财政政策、数字基础设施融资、普惠金融等方面开展了更有力的多边合作",
+      "importance_score": 8
+    },
+    {
+      "title": "奥特曼共情黄仁勋，“英雄也有缺陷”，但支持他重返英伟达CEO嘛…",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510592.html",
+      "publish_time": "2026-11-17",
+      "category": "AI 综合",
+      "summary": "黄仁勋离职风波持续发酵，奥特曼终于公开表态了 | 当地时间11月16日，在Semafor举办的硅谷峰会上，OpenAI CEO山姆·奥特曼首次公开谈及黄仁勋离职风波 | 奥特曼甚至在场还毫不掩饰对黄仁勋的欣赏：“黄仁勋一直是我心目中的英雄",
       "importance_score": 9
     },
     {
@@ -57,24 +57,6 @@
       "importance_score": 9
     },
     {
-      "title": "今天截止！2026年度AI表彰，错过再等一年！",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510382.html",
-      "publish_time": "2026-11-16",
-      "category": "AI 综合",
-      "summary": "量子位「2026人工智能年度榜单」征集通道将于今日关闭 | 🔽扫描海报二维码立即报名，错过真的要再等一年🔽 将面向中国人工智能领域，评选出最具综合实力的企业，参选条件： 1、注册地在中国，或主营业务主要面向中国市场； 2、主营业务属于人工智",
-      "importance_score": 9
-    },
-    {
-      "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/509796.html",
-      "publish_time": "2026-11-13",
-      "category": "AI 综合",
-      "summary": "国产AI首次完成大规模肺癌实证，挑战「头号癌症杀手」取得重大突破： 围绕40例复杂肺癌病例，在完全统一的标准评估下，AI对医生，88比12",
-      "importance_score": 9
-    },
-    {
       "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
       "source": "量子位",
       "url": "https://www.qbitai.com/2026/11/510232.html",
@@ -84,12 +66,30 @@
       "importance_score": 9
     },
     {
-      "title": "提速2.48倍且画质不掉线，AI视频“降本增效”有了新解法",
+      "title": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510369.html",
+      "url": "https://www.qbitai.com/2026/11/510542.html",
       "publish_time": "2026-11-16",
       "category": "AI 综合",
-      "summary": "针对这一需求，是石科技正式发布新品「多模态模型服务」，将优化重点放在视频生成推理加速、缓存与显存管理、多模态Token压缩，以及素材理解与生成链路衔接上",
+      "summary": "郑随兵强调，“机器人完成一个动作或展示一个Demo并不难，难的是能不能把这个动作以天、以月、以年为单位长期做好",
+      "importance_score": 9
+    },
+    {
+      "title": "SuperLink2026开启创投行业超级链接时刻，12月北京见",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510493.html",
+      "publish_time": "2026-11-16",
+      "category": "AI 综合",
+      "summary": "2026年12月2-3日，清科控股、投资界主办的SuperLink2026将在北京启幕，汇聚创投各方，设置多场垂直专场与特色活动，探讨行业趋势、挖掘投资机会 | 2026年，中国股权投资市场正在经历深刻的结构性演进 | 一级市场投资逻辑持续",
+      "importance_score": 9
+    },
+    {
+      "title": "真勇啊！00后团队参加具身挑战赛，仅48小时竟敢从零手搓数据，还夺冠了！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510610.html",
+      "publish_time": "2026-11-17",
+      "category": "AI 综合",
+      "summary": "这一幕，便发生在一场具身大模型挑战赛决赛现场—— 有个参赛团队在主办方已经提供高质量数据集的情况下，因为够自信，队长竟选择从零手搓新数据…… 然后，最终得分82分，一举斩获比赛第一，拿下8万元大奖 | 这场决赛共计48个小时，15支入围的队",
       "importance_score": 9
     }
   ]
