@@ -1,15 +1,15 @@
 {
-  "update_time": "2026-11-17T06:07:38.467670",
-  "total_items": 20,
+  "update_time": "2026-11-18T05:35:51.576772",
+  "total_items": 21,
   "top_items": [
     {
-      "title": "没搞过一天研发的他，50岁以华为董事的身份退休了",
+      "title": "英伟达AMD首次联手押注！Genesis完成A轮融资，估值超230亿",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510496.html",
-      "publish_time": "2026-11-16",
+      "url": "https://www.qbitai.com/2026/11/510821.html",
+      "publish_time": "2026-11-18",
       "category": "AI 综合",
-      "summary": "程浅 发自 凹非寺量子位 | 公众号QbitAI 华为董事换人了 | 上位的何刚站在了聚光灯下，被他替代的彭博，相形之下……显得静悄悄 | 作为华为董事、全球采购认证管理部总裁，彭博这个人确实存在感一直不太强",
-      "importance_score": 9
+      "summary": "在具身智能融资普遍遇冷的当下，这笔融资，无疑显得尤为突出 | 在正式创办公司前，其团队就已凭借开源物理仿真项目，在学术与工程界积累了极高的人气",
+      "importance_score": 10
     },
     {
       "title": "马斯克喊话“真男人自己管理内存”，三十年系统老将警告：Rust 也拦不住 AI 制造复杂性",
@@ -21,21 +21,39 @@
       "importance_score": 8
     },
     {
-      "title": "涉及贸易、人工智能等领域，APEC“中国年”系列会议和活动取得丰硕成果",
+      "title": "网传“监管要求基金公司上报全部产品AI敞口”，证监会：不属实",
       "source": "界面新闻",
-      "url": "https://www.jiemian.com/article/15340129.html",
-      "publish_time": "2026-11-17",
+      "url": "https://www.jiemian.com/article/15345495.html",
+      "publish_time": "2026-11-18",
       "category": "AI 产业",
-      "summary": "在财金领域，陈旭表示，各方围绕全球和区域宏观经济金融形势以及相关重点议题进行深入交流，进一步加强了宏观经济政策协调，在支持民生发展的财政政策、数字基础设施融资、普惠金融等方面开展了更有力的多边合作",
+      "summary": "中国证监会新闻发言人答记者问，具体内容如下 | 问：近日，发现互联网上传播“监管要求基金公司上报全部产品AI敞口”相关信息，请问这一情况是否属实",
       "importance_score": 8
     },
     {
-      "title": "奥特曼共情黄仁勋，“英雄也有缺陷”，但支持他重返英伟达CEO嘛…",
+      "title": "黄仁勋不再沉默：我愿重掌英伟达！董事会：不考虑",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510592.html",
-      "publish_time": "2026-11-17",
+      "url": "https://www.qbitai.com/2026/11/510726.html",
+      "publish_time": "2026-11-18",
       "category": "AI 综合",
-      "summary": "黄仁勋离职风波持续发酵，奥特曼终于公开表态了 | 当地时间11月16日，在Semafor举办的硅谷峰会上，OpenAI CEO山姆·奥特曼首次公开谈及黄仁勋离职风波 | 奥特曼甚至在场还毫不掩饰对黄仁勋的欣赏：“黄仁勋一直是我心目中的英雄",
+      "summary": "离开自己一手创办、执掌33年的英伟达仅仅5天，黄仁勋首次公开发声，明确表示： 只要董事会愿意，他就愿意重新担任英伟达CEO | 因为就在5个小时后，英伟达公布了老黄离职后的首份财报 | 单季营收1158亿美元，同比增长103%；净利润653",
+      "importance_score": 9
+    },
+    {
+      "title": "没搞过一天研发的他，50岁以华为董事的身份退休了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510496.html",
+      "publish_time": "2026-11-16",
+      "category": "AI 综合",
+      "summary": "程浅 发自 凹非寺量子位 | 公众号QbitAI 华为董事换人了 | 上位的何刚站在了聚光灯下，被他替代的彭博，相形之下……显得静悄悄 | 作为华为董事、全球采购认证管理部总裁，彭博这个人确实存在感一直不太强",
+      "importance_score": 9
+    },
+    {
+      "title": "思维链一作Jason Wei离职！怎么去Meta待一年都跑路",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510811.html",
+      "publish_time": "2026-11-18",
+      "category": "AI 综合",
+      "summary": "入职Meta刚满一年出头，竟然直接提桶跑路了 | henry发自 凹非寺量子位 | 公众号QbitAI 亏贼 | 小扎去年掷出上亿美金天价年包，好不容易从OpenAI撬来的“思维链”作者Jason Wei—— 入职Meta刚满一年出头，竟然",
       "importance_score": 9
     },
     {
@@ -57,39 +75,21 @@
       "importance_score": 9
     },
     {
-      "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+      "title": "潜伏小红书48h：AI时代，顶尖技术人才都在聊什么？",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510232.html",
-      "publish_time": "2026-11-14",
+      "url": "https://www.qbitai.com/2026/11/510737.html",
+      "publish_time": "2026-11-18",
       "category": "AI 综合",
-      "summary": "斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了 不ber，现在的基准测试都进化到酱婶了",
+      "summary": "小红书校招沙龙，一群技术高手认真对待年轻人的野心 「校招生如果有自己的想法，能申请人力和算力资源吗 | 」「AI越来越能写代码，我们进去以后主要做什么",
       "importance_score": 9
     },
     {
-      "title": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准",
+      "title": "GPT-6.2 Astra和Sol王炸双发！3D又危了",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510542.html",
-      "publish_time": "2026-11-16",
+      "url": "https://www.qbitai.com/2026/11/510707.html",
+      "publish_time": "2026-11-18",
       "category": "AI 综合",
-      "summary": "郑随兵强调，“机器人完成一个动作或展示一个Demo并不难，难的是能不能把这个动作以天、以月、以年为单位长期做好",
-      "importance_score": 9
-    },
-    {
-      "title": "SuperLink2026开启创投行业超级链接时刻，12月北京见",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510493.html",
-      "publish_time": "2026-11-16",
-      "category": "AI 综合",
-      "summary": "2026年12月2-3日，清科控股、投资界主办的SuperLink2026将在北京启幕，汇聚创投各方，设置多场垂直专场与特色活动，探讨行业趋势、挖掘投资机会 | 2026年，中国股权投资市场正在经历深刻的结构性演进 | 一级市场投资逻辑持续",
-      "importance_score": 9
-    },
-    {
-      "title": "真勇啊！00后团队参加具身挑战赛，仅48小时竟敢从零手搓数据，还夺冠了！",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/510610.html",
-      "publish_time": "2026-11-17",
-      "category": "AI 综合",
-      "summary": "这一幕，便发生在一场具身大模型挑战赛决赛现场—— 有个参赛团队在主办方已经提供高质量数据集的情况下，因为够自信，队长竟选择从零手搓新数据…… 然后，最终得分82分，一举斩获比赛第一，拿下8万元大奖 | 这场决赛共计48个小时，15支入围的队",
+      "summary": "GPT-6.2 Astra和GPT-6.2 Sol，这次一起等来了！！！（欢呼.jpg） 不得不说，Astra各方面性能，这回一起卷起来了—— 来看这个， Astra化身网页设计师，从布局到配图一手包办，还能为不同网站量身打造专属视觉风格：",
       "importance_score": 9
     }
   ]

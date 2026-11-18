@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-18",
+  "update_time": "2026-11-18T05:35:51.577343",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "英伟达AMD首次联手押注！Genesis完成A轮融资，估值超230亿",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510821.html",
+      "publish_time": "2026-11-18",
+      "category": "AI 综合",
+      "summary": "在具身智能融资普遍遇冷的当下，这笔融资，无疑显得尤为突出 | 在正式创办公司前，其团队就已凭借开源物理仿真项目，在学术与工程界积累了极高的人气",
+      "importance_score": 10
+    },
+    {
+      "title": "马斯克喊话“真男人自己管理内存”，三十年系统老将警告：Rust 也拦不住 AI 制造复杂性",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/FWqT2oGIEl9zlyJ7HXZF",
+      "publish_time": "2026-11-16",
+      "category": "AI 技术",
+      "summary": "11 月 10 日，面对网友“为什么用 C/C++ 重写，之前用的是 Rust 吗”的追问，Elon Musk 用这句话回应了 xAI 的技术选择 | 四年前，他还公开表示自己是 Rust 的拥趸，认为 Discord 的实践证明了它的扩展",
+      "importance_score": 8
+    },
+    {
+      "title": "网传“监管要求基金公司上报全部产品AI敞口”，证监会：不属实",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15345495.html",
+      "publish_time": "2026-11-18",
+      "category": "AI 产业",
+      "summary": "中国证监会新闻发言人答记者问，具体内容如下 | 问：近日，发现互联网上传播“监管要求基金公司上报全部产品AI敞口”相关信息，请问这一情况是否属实",
+      "importance_score": 8
+    },
+    {
+      "title": "黄仁勋不再沉默：我愿重掌英伟达！董事会：不考虑",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510726.html",
+      "publish_time": "2026-11-18",
+      "category": "AI 综合",
+      "summary": "离开自己一手创办、执掌33年的英伟达仅仅5天，黄仁勋首次公开发声，明确表示： 只要董事会愿意，他就愿意重新担任英伟达CEO | 因为就在5个小时后，英伟达公布了老黄离职后的首份财报 | 单季营收1158亿美元，同比增长103%；净利润653",
+      "importance_score": 9
+    },
+    {
+      "title": "没搞过一天研发的他，50岁以华为董事的身份退休了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510496.html",
+      "publish_time": "2026-11-16",
+      "category": "AI 综合",
+      "summary": "程浅 发自 凹非寺量子位 | 公众号QbitAI 华为董事换人了 | 上位的何刚站在了聚光灯下，被他替代的彭博，相形之下……显得静悄悄 | 作为华为董事、全球采购认证管理部总裁，彭博这个人确实存在感一直不太强",
+      "importance_score": 9
+    },
+    {
+      "title": "思维链一作Jason Wei离职！怎么去Meta待一年都跑路",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510811.html",
+      "publish_time": "2026-11-18",
+      "category": "AI 综合",
+      "summary": "入职Meta刚满一年出头，竟然直接提桶跑路了 | henry发自 凹非寺量子位 | 公众号QbitAI 亏贼 | 小扎去年掷出上亿美金天价年包，好不容易从OpenAI撬来的“思维链”作者Jason Wei—— 入职Meta刚满一年出头，竟然",
+      "importance_score": 9
+    },
+    {
+      "title": "具身智能出海，物流先行",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508716.html",
+      "publish_time": "2026-11-09",
+      "category": "AI 综合",
+      "summary": "11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布向AI与具身智能企业开放全球仓网，打造AI与具身智能物流实景训练集群 | 发布会上，菜鸟推出面向AI算力和具身智能企业的科技出海三日达服务，将全球三日达的能力延伸至高科...",
+      "importance_score": 9
+    },
+    {
+      "title": "绿电进Token出！联想重新定义词元工厂",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510094.html",
+      "publish_time": "2026-11-14",
+      "category": "AI 综合",
+      "summary": "国家数据局数据显示，我国日均词元调用量从2024年初的1000亿增至2025年底的100万亿，2026年3月突破140万亿，两年增长千倍；中国信通院披露，到2026年6月，相关指标已突破500万亿",
+      "importance_score": 9
+    },
+    {
+      "title": "潜伏小红书48h：AI时代，顶尖技术人才都在聊什么？",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510737.html",
+      "publish_time": "2026-11-18",
+      "category": "AI 综合",
+      "summary": "小红书校招沙龙，一群技术高手认真对待年轻人的野心 「校招生如果有自己的想法，能申请人力和算力资源吗 | 」「AI越来越能写代码，我们进去以后主要做什么",
+      "importance_score": 9
+    },
+    {
+      "title": "GPT-6.2 Astra和Sol王炸双发！3D又危了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510707.html",
+      "publish_time": "2026-11-18",
+      "category": "AI 综合",
+      "summary": "GPT-6.2 Astra和GPT-6.2 Sol，这次一起等来了！！！（欢呼.jpg） 不得不说，Astra各方面性能，这回一起卷起来了—— 来看这个， Astra化身网页设计师，从布局到配图一手包办，还能为不同网站量身打造专属视觉风格：",
+      "importance_score": 9
+    }
+  ]
+}
