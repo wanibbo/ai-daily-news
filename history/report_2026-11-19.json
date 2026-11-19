@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-19",
+  "update_time": "2026-11-19T05:33:52.390781",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "没搞过一天研发的他，50岁以华为董事的身份退休了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510496.html",
+      "publish_time": "2026-11-16",
+      "category": "AI 综合",
+      "summary": "程浅 发自 凹非寺量子位 | 公众号QbitAI 华为董事换人了 | 上位的何刚站在了聚光灯下，被他替代的彭博，相形之下……显得静悄悄 | 作为华为董事、全球采购认证管理部总裁，彭博这个人确实存在感一直不太强",
+      "importance_score": 9
+    },
+    {
+      "title": "马斯克喊话“真男人自己管理内存”，三十年系统老将警告：Rust 也拦不住 AI 制造复杂性",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/FWqT2oGIEl9zlyJ7HXZF",
+      "publish_time": "2026-11-16",
+      "category": "AI 技术",
+      "summary": "11 月 10 日，面对网友“为什么用 C/C++ 重写，之前用的是 Rust 吗”的追问，Elon Musk 用这句话回应了 xAI 的技术选择 | 四年前，他还公开表示自己是 Rust 的拥趸，认为 Discord 的实践证明了它的扩展",
+      "importance_score": 8
+    },
+    {
+      "title": "具身智能出海，物流先行",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/508716.html",
+      "publish_time": "2026-11-09",
+      "category": "AI 综合",
+      "summary": "11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布向AI与具身智能企业开放全球仓网，打造AI与具身智能物流实景训练集群 | 发布会上，菜鸟推出面向AI算力和具身智能企业的科技出海三日达服务，将全球三日达的能力延伸至高科...",
+      "importance_score": 9
+    },
+    {
+      "title": "绿电进Token出！联想重新定义词元工厂",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510094.html",
+      "publish_time": "2026-11-14",
+      "category": "AI 综合",
+      "summary": "国家数据局数据显示，我国日均词元调用量从2024年初的1000亿增至2025年底的100万亿，2026年3月突破140万亿，两年增长千倍；中国信通院披露，到2026年6月，相关指标已突破500万亿",
+      "importance_score": 9
+    },
+    {
+      "title": "AI基建大潮方兴未艾，联想集团最佳财季诞生！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511088.html",
+      "publish_time": "2026-11-19",
+      "category": "AI 综合",
+      "summary": "本季度，联想集团在快速扩大业务规模的同时，营收与利润结构实现里程碑式重塑",
+      "importance_score": 9
+    },
+    {
+      "title": "范式下场做基模了！国产算力全链路训练，双模型同步亮相",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511071.html",
+      "publish_time": "2026-11-19",
+      "category": "AI 综合",
+      "summary": "大家熟悉的那个AI虎将：范式智能（原第四范式），首次把自研模型端到了台前 | 而且，一出手就是双联发：Phai-A1，Phai-M1 | 更关键的是，模型全链路都是在华为昇腾卡上训练出来的",
+      "importance_score": 9
+    },
+    {
+      "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510232.html",
+      "publish_time": "2026-11-14",
+      "category": "AI 综合",
+      "summary": "斯坦福、哈佛、康奈尔……十余家顶尖团队齐坐一桌了 不ber，现在的基准测试都进化到酱婶了",
+      "importance_score": 9
+    },
+    {
+      "title": "Gemini新模型Neon箭在弦上，网友：遍历元素周期表？",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510922.html",
+      "publish_time": "2026-11-18",
+      "category": "AI 综合",
+      "summary": "我真没想到，有天我竟会嫌Google模型发的太多了…… 最新消息，有开发者发现，Gemini网页应用代码中又出现了一个新模型标识：gemini-4-neon 刚一曝光，大家又开始吐槽了，这也毫无顺序啊 | 怎么Hydrogen发完之后就直接",
+      "importance_score": 9
+    },
+    {
+      "title": "初中毕业烘焙师，1 人搓出单集千万播放科幻剧，中国AI长片杀疯了！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510947.html",
+      "publish_time": "2026-11-19",
+      "category": "AI 综合",
+      "summary": "初中毕业、前烘焙师、跨界自学、单枪匹马……做出了单集千万播放的科幻剧 | 创作者灵玉导的这部《代号：悟空》，把悟空放进了未来的上海",
+      "importance_score": 9
+    },
+    {
+      "title": "真勇啊！00后团队参加具身挑战赛，仅48小时竟敢从零手搓数据，还夺冠了！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/510610.html",
+      "publish_time": "2026-11-17",
+      "category": "AI 综合",
+      "summary": "这一幕，便发生在一场具身大模型挑战赛决赛现场—— 有个参赛团队在主办方已经提供高质量数据集的情况下，因为够自信，队长竟选择从零手搓新数据…… 然后，最终得分82分，一举斩获比赛第一，拿下8万元大奖 | 这场决赛共计48个小时，15支入围的队",
+      "importance_score": 9
+    }
+  ]
+}
