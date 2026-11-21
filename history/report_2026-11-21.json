@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-21",
+  "update_time": "2026-11-21T05:15:08.546365",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "马斯克喊话“真男人自己管理内存”，三十年系统老将警告：Rust 也拦不住 AI 制造复杂性",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/FWqT2oGIEl9zlyJ7HXZF",
+      "publish_time": "2026-11-16",
+      "category": "AI 技术",
+      "summary": "11 月 10 日，面对网友“为什么用 C/C++ 重写，之前用的是 Rust 吗”的追问，Elon Musk 用这句话回应了 xAI 的技术选择 | 四年前，他还公开表示自己是 Rust 的拥趸，认为 Discord 的实践证明了它的扩展",
+      "importance_score": 8
+    },
+    {
+      "title": "智能体 AI 架构：当前挑战与未来机遇",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX",
+      "publish_time": "2026-11-21",
+      "category": "AI 技术",
+      "summary": "但即使它们很复杂，人们仍然可以用确定性的方式对它们进行推理，这有助于定义和界定功能范围、实现、测试变更和运维系统，哪怕遇到基础设施或应用层面的故障",
+      "importance_score": 8
+    },
+    {
+      "title": "AI 漫剧不缺作品，缺什么？｜QLab直播",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/27xI2tBkStO5qz52VBPw",
+      "publish_time": "2026-11-20",
+      "category": "AI 技术",
+      "summary": "19 万部 AI 剧及漫剧，但能达到回本所需播放量的，只有约 1",
+      "importance_score": 8
+    },
+    {
+      "title": "从 SDLC 到 ADLC：宝洁的 AI 原生组织实验",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/prRYMYmhOvSY9EaMz8Oc",
+      "publish_time": "2026-11-17",
+      "category": "AI 技术",
+      "summary": "一家穿越周期有着百年历史的消费品企业如此拥抱 AI，比仅仅谈论上线了多少个 AI 工具更值得我们思考 | 在极客时间 9 周年「AI 落地见真章」访谈中，宝洁大中华区 CTO 童熙谈到了研发团队正在做的一项探索：他们尝试让 Agent...",
+      "importance_score": 8
+    },
+    {
+      "title": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc",
+      "publish_time": "2026-11-21",
+      "category": "AI 技术",
+      "summary": "Trail 会把最重要的信息置顶展示，以评估分数的形式呈现，每次代码推送都会更新分数",
+      "importance_score": 8
+    },
+    {
+      "title": "杀入Agent主场之后：两年内部分替代自回归，扩散智能的底气从何而来？| 专访",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/rtBT5s1opGGazFgQi0YS",
+      "publish_time": "2026-11-19",
+      "category": "AI 技术",
+      "summary": "前不久，扩散智能（DiffuSpace）开源了 Clover-35B-A3B-Preview（下文简称 Clover），总参数量 350 亿，激活参数约 30 亿 | 11 月 19 日，团队正式发布技术报告，并同步开放 SFT 代码...",
+      "importance_score": 8
+    },
+    {
+      "title": "Grab 通过安全策略应对 AI 生成代码变更激增，提升移动端 App 稳定性",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/AH8deOIGb5hMHRPIKfrf",
+      "publish_time": "2026-11-20",
+      "category": "AI 技术",
+      "summary": "为应对这些挑战，他们实现了一套分层防御策略，在整个开发与发布生命周期中对崩溃问题进行预防、检测和隔离 | 每周都有大量来自众多产品团队的合并请求，不少功能通过功能灰度开关发布，且这些开关的启用与版本发布相互独立 | 它所带来的成本还会...",
+      "importance_score": 8
+    },
+    {
+      "title": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ",
+      "publish_time": "2026-11-21",
+      "category": "AI 技术",
+      "summary": "当 Agent 真正进入企业流程，哪些工作可以交给 AI | AI 正在从回答问题的辅助工具，走向理解目标、调用系统、完成任务的工作承担者",
+      "importance_score": 8
+    },
+    {
+      "title": "“美国大豆包”又发新模型，Neon 接入 Antigravity 后编程解题率升至三倍多",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/tDxNggErsJNeb53ZkYeF",
+      "publish_time": "2026-11-20",
+      "category": "AI 技术",
+      "summary": "Carbon 向开发者开放才八天，Google 又发布了一款 Gemini 4 模型 | 继 Argon、Carbon 和 Hydrogen 之后，Neon 是 Google DeepMind 在约七周内发布的第四款模型",
+      "importance_score": 8
+    },
+    {
+      "title": "“AI生成的代码必须开源！”开发者吵翻了，被开源代码喂大的Anthropic怕是第一个不同意",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/m5arrx8021zHVI0ybFtI",
+      "publish_time": "2026-11-17",
+      "category": "AI 技术",
+      "summary": "11 月 15 日，开源开发者 Jakub T | Jankiewicz 公开呼吁将 AI 生成的代码全部开源，或者直接放入公共领域 | 他认为，AI 模型从开源社区几十年积累的代码和技术知识中受益，企业却可以利用这些模型生成闭源软件...",
+      "importance_score": 8
+    }
+  ]
+}

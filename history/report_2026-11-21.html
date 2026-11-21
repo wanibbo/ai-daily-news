@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 日报简讯 - 2026-11-21</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+            padding: 10px;
+        }
+        .container { max-width: 1100px; margin: 0 auto; display: flex; gap: 16px; }
+        .main-content { flex: 1; }
+        .sidebar {
+            width: 220px;
+            flex-shrink: 0;
+        }
+        .header-card {
+            background: rgba(255,255,255,0.98);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        .header-title {
+            font-size: 26px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 6px;
+        }
+        .history-card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            position: sticky;
+            top: 10px;
+        }
+        .history-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #1e3a5f;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e0e7ff;
+        }
+        .history-link {
+            display: block;
+            padding: 8px 12px;
+            margin-bottom: 6px;
+            background: #f8fafc;
+            border-radius: 6px;
+            color: #2d5a87;
+            text-decoration: none;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .history-link:hover {
+            background: #e0e7ff;
+            transform: translateX(4px);
+        }
+        .news-item {
+            background: rgba(255,255,255,0.98);
+            border-radius: 10px;
+            padding: 14px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+            display: flex;
+            gap: 14px;
+        }
+        .news-number {
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            color: white;
+            width: 70px;
+            min-width: 70px;
+            height: 100%;
+            min-height: 120px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 36px;
+            flex-shrink: 0;
+        }
+        .news-content { flex: 1; }
+        .news-title-row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .news-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1e293b;
+            line-height: 1.4;
+            flex: 1;
+        }
+        .news-title a { color: #1e3a5f; text-decoration: none; }
+        .news-title a:hover { text-decoration: underline; }
+        .read-more {
+            color: #2d5a87;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+        .news-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+        .news-badge { padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+        .news-source { background: #e0e7ff; color: #3730a3; padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 500; }
+        .news-time { color: #94a3b8; font-size: 12px; margin-left: auto; }
+        .news-summary {
+            color: #475569;
+            line-height: 1.6;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 6px;
+            border-left: 3px solid #3a7ca5;
+            font-size: 14px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        @media (max-width: 900px) {
+            .container { flex-direction: column; }
+            .sidebar { width: 100%; }
+            .history-card { position: static; }
+        }
+        @media (max-width: 640px) {
+            body { padding: 6px; }
+            .header-card { padding: 16px; }
+            .header-title { font-size: 22px; }
+            .news-item { padding: 10px; gap: 10px; }
+            .news-number { width: 55px; min-width: 55px; min-height: 90px; font-size: 28px; }
+            .news-title { font-size: 15px; }
+            .news-title-row { flex-direction: column; }
+            .read-more { margin-top: 6px; }
+            .news-summary { font-size: 13px; }
+            .news-time { width: 100%; margin-top: 4px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="header-card">
+                <h1 class="header-title">🤖 AI 日报简讯</h1>
+                <p class="text-slate-600 text-sm">2026-11-21 05:15:08</p>
+            </div>
+            <div id="news-list">
+        <div class="news-item">
+            <div class="news-number">1</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/FWqT2oGIEl9zlyJ7HXZF" target="_blank">马斯克喊话“真男人自己管理内存”，三十年系统老将警告：Rust 也拦不住 AI 制造复杂性</a></h3>
+                    <a href="https://www.infoq.cn/article/FWqT2oGIEl9zlyJ7HXZF" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-11-16</span>
+                </div>
+                <p class="news-summary">11 月 10 日，面对网友“为什么用 C/C++ 重写，之前用的是 Rust 吗”的追问，Elon Musk 用这句话回应了 xAI 的技术选择 | 四年前，他还公开表示自己是 Rust 的拥趸，认为 Discord 的实践证明了它的扩展</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">2</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX" target="_blank">智能体 AI 架构：当前挑战与未来机遇</a></h3>
+                    <a href="https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-11-21</span>
+                </div>
+                <p class="news-summary">但即使它们很复杂，人们仍然可以用确定性的方式对它们进行推理，这有助于定义和界定功能范围、实现、测试变更和运维系统，哪怕遇到基础设施或应用层面的故障</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">3</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/27xI2tBkStO5qz52VBPw" target="_blank">AI 漫剧不缺作品，缺什么？｜QLab直播</a></h3>
+                    <a href="https://www.infoq.cn/article/27xI2tBkStO5qz52VBPw" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-11-20</span>
+                </div>
+                <p class="news-summary">19 万部 AI 剧及漫剧，但能达到回本所需播放量的，只有约 1</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">4</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/prRYMYmhOvSY9EaMz8Oc" target="_blank">从 SDLC 到 ADLC：宝洁的 AI 原生组织实验</a></h3>
+                    <a href="https://www.infoq.cn/article/prRYMYmhOvSY9EaMz8Oc" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-11-17</span>
+                </div>
+                <p class="news-summary">一家穿越周期有着百年历史的消费品企业如此拥抱 AI，比仅仅谈论上线了多少个 AI 工具更值得我们思考 | 在极客时间 9 周年「AI 落地见真章」访谈中，宝洁大中华区 CTO 童熙谈到了研发团队正在做的一项探索：他们尝试让 Agent...</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">5</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc" target="_blank">Entire Git Forge：面向编码智能体重构 Git 协作方式</a></h3>
+                    <a href="https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-11-21</span>
+                </div>
+                <p class="news-summary">Trail 会把最重要的信息置顶展示，以评估分数的形式呈现，每次代码推送都会更新分数</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">6</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/rtBT5s1opGGazFgQi0YS" target="_blank">杀入Agent主场之后：两年内部分替代自回归，扩散智能的底气从何而来？| 专访</a></h3>
+                    <a href="https://www.infoq.cn/article/rtBT5s1opGGazFgQi0YS" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-11-19</span>
+                </div>
+                <p class="news-summary">前不久，扩散智能（DiffuSpace）开源了 Clover-35B-A3B-Preview（下文简称 Clover），总参数量 350 亿，激活参数约 30 亿 | 11 月 19 日，团队正式发布技术报告，并同步开放 SFT 代码...</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">7</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/AH8deOIGb5hMHRPIKfrf" target="_blank">Grab 通过安全策略应对 AI 生成代码变更激增，提升移动端 App 稳定性</a></h3>
+                    <a href="https://www.infoq.cn/article/AH8deOIGb5hMHRPIKfrf" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-11-20</span>
+                </div>
+                <p class="news-summary">为应对这些挑战，他们实现了一套分层防御策略，在整个开发与发布生命周期中对崩溃问题进行预防、检测和隔离 | 每周都有大量来自众多产品团队的合并请求，不少功能通过功能灰度开关发布，且这些开关的启用与版本发布相互独立 | 它所带来的成本还会...</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">8</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ" target="_blank">TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京</a></h3>
+                    <a href="https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-11-21</span>
+                </div>
+                <p class="news-summary">当 Agent 真正进入企业流程，哪些工作可以交给 AI | AI 正在从回答问题的辅助工具，走向理解目标、调用系统、完成任务的工作承担者</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">9</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/tDxNggErsJNeb53ZkYeF" target="_blank">“美国大豆包”又发新模型，Neon 接入 Antigravity 后编程解题率升至三倍多</a></h3>
+                    <a href="https://www.infoq.cn/article/tDxNggErsJNeb53ZkYeF" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-11-20</span>
+                </div>
+                <p class="news-summary">Carbon 向开发者开放才八天，Google 又发布了一款 Gemini 4 模型 | 继 Argon、Carbon 和 Hydrogen 之后，Neon 是 Google DeepMind 在约七周内发布的第四款模型</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">10</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/m5arrx8021zHVI0ybFtI" target="_blank">“AI生成的代码必须开源！”开发者吵翻了，被开源代码喂大的Anthropic怕是第一个不同意</a></h3>
+                    <a href="https://www.infoq.cn/article/m5arrx8021zHVI0ybFtI" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-11-17</span>
+                </div>
+                <p class="news-summary">11 月 15 日，开源开发者 Jakub T | Jankiewicz 公开呼吁将 AI 生成的代码全部开源，或者直接放入公共领域 | 他认为，AI 模型从开源社区几十年积累的代码和技术知识中受益，企业却可以利用这些模型生成闭源软件...</p>
+            </div>
+        </div>
+        </div>
+            <div class="text-center text-white/70 text-xs mt-8">
+                <p>数据来源于量子位、InfoQ、界面新闻、虎嗅网等主流媒体</p>
+                <p class="mt-1">更新：2026-11-21 05:15:08</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="history-card">
+                <h2 class="history-title">📁 历史日报</h2>
+                <div class="history-list">
+                    <a href="history/report_2026-11-21.html" class="history-link">📅 2026-11-21</a><a href="history/report_2026-11-20.html" class="history-link">📅 2026-11-20</a><a href="history/report_2026-11-19.html" class="history-link">📅 2026-11-19</a><a href="history/report_2026-11-18.html" class="history-link">📅 2026-11-18</a><a href="history/report_2026-11-17.html" class="history-link">📅 2026-11-17</a><a href="history/report_2026-11-16.html" class="history-link">📅 2026-11-16</a><a href="history/report_2026-11-15.html" class="history-link">📅 2026-11-15</a><a href="history/report_2026-11-14.html" class="history-link">📅 2026-11-14</a><a href="history/report_2026-11-13.html" class="history-link">📅 2026-11-13</a><a href="history/report_2026-11-12.html" class="history-link">📅 2026-11-12</a><a href="history/report_2026-11-11.html" class="history-link">📅 2026-11-11</a><a href="history/report_2026-11-10.html" class="history-link">📅 2026-11-10</a><a href="history/report_2026-11-09.html" class="history-link">📅 2026-11-09</a><a href="history/report_2026-11-08.html" class="history-link">📅 2026-11-08</a><a href="history/report_2026-11-07.html" class="history-link">📅 2026-11-07</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
