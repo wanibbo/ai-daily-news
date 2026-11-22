@@ -1,7 +1,16 @@
 {
-  "update_time": "2026-11-21T05:15:08.545779",
-  "total_items": 12,
+  "update_time": "2026-11-22T04:40:56.893141",
+  "total_items": 23,
   "top_items": [
+    {
+      "title": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511841.html",
+      "publish_time": "2026-11-21",
+      "category": "AI 综合",
+      "summary": "等到有人请AI助手发布购票提醒，它很可能还按旧日期通知 | 针对这一问题，腾讯元宝与伦敦国王学院NLP团队联合推出GroupAssistBench",
+      "importance_score": 9
+    },
     {
       "title": "马斯克喊话“真男人自己管理内存”，三十年系统老将警告：Rust 也拦不住 AI 制造复杂性",
       "source": "InfoQ",
@@ -12,85 +21,76 @@
       "importance_score": 8
     },
     {
-      "title": "智能体 AI 架构：当前挑战与未来机遇",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX",
+      "title": "中国计算，走出新的登峰之路",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511849.html",
       "publish_time": "2026-11-21",
-      "category": "AI 技术",
-      "summary": "但即使它们很复杂，人们仍然可以用确定性的方式对它们进行推理，这有助于定义和界定功能范围、实现、测试变更和运维系统，哪怕遇到基础设施或应用层面的故障",
-      "importance_score": 8
+      "category": "AI 综合",
+      "summary": "暂无详细内容，请点击阅读原文查看。",
+      "importance_score": 9
     },
     {
-      "title": "AI 漫剧不缺作品，缺什么？｜QLab直播",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/27xI2tBkStO5qz52VBPw",
-      "publish_time": "2026-11-20",
-      "category": "AI 技术",
-      "summary": "19 万部 AI 剧及漫剧，但能达到回本所需播放量的，只有约 1",
-      "importance_score": 8
-    },
-    {
-      "title": "从 SDLC 到 ADLC：宝洁的 AI 原生组织实验",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/prRYMYmhOvSY9EaMz8Oc",
-      "publish_time": "2026-11-17",
-      "category": "AI 技术",
-      "summary": "一家穿越周期有着百年历史的消费品企业如此拥抱 AI，比仅仅谈论上线了多少个 AI 工具更值得我们思考 | 在极客时间 9 周年「AI 落地见真章」访谈中，宝洁大中华区 CTO 童熙谈到了研发团队正在做的一项探索：他们尝试让 Agent...",
-      "importance_score": 8
-    },
-    {
-      "title": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc",
+      "title": "AI给乐队现场搓MV，这是黑客松还是音乐节啊",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511855.html",
       "publish_time": "2026-11-21",
-      "category": "AI 技术",
-      "summary": "Trail 会把最重要的信息置顶展示，以评估分数的形式呈现，每次代码推送都会更新分数",
-      "importance_score": 8
+      "category": "AI 综合",
+      "summary": "AI创作者现场给乐队做MV，3小时极限出片，当晚直接登上乐队演奏大屏",
+      "importance_score": 9
     },
     {
-      "title": "杀入Agent主场之后：两年内部分替代自回归，扩散智能的底气从何而来？| 专访",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/rtBT5s1opGGazFgQi0YS",
-      "publish_time": "2026-11-19",
-      "category": "AI 技术",
-      "summary": "前不久，扩散智能（DiffuSpace）开源了 Clover-35B-A3B-Preview（下文简称 Clover），总参数量 350 亿，激活参数约 30 亿 | 11 月 19 日，团队正式发布技术报告，并同步开放 SFT 代码...",
-      "importance_score": 8
-    },
-    {
-      "title": "Grab 通过安全策略应对 AI 生成代码变更激增，提升移动端 App 稳定性",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/AH8deOIGb5hMHRPIKfrf",
-      "publish_time": "2026-11-20",
-      "category": "AI 技术",
-      "summary": "为应对这些挑战，他们实现了一套分层防御策略，在整个开发与发布生命周期中对崩溃问题进行预防、检测和隔离 | 每周都有大量来自众多产品团队的合并请求，不少功能通过功能灰度开关发布，且这些开关的启用与版本发布相互独立 | 它所带来的成本还会...",
-      "importance_score": 8
-    },
-    {
-      "title": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ",
+      "title": "全网疯传！Grok一姐教你如何月提交3000个PR",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511830.html",
       "publish_time": "2026-11-21",
-      "category": "AI 技术",
-      "summary": "当 Agent 真正进入企业流程，哪些工作可以交给 AI | AI 正在从回答问题的辅助工具，走向理解目标、调用系统、完成任务的工作承担者",
-      "importance_score": 8
+      "category": "AI 综合",
+      "summary": "SpaceXSI首席工程师土豆姐（Lauren Tan），带着这个狂得没边的演讲标题登上了AI Engineer CODE大会，于是演讲内容全网疯传 | 土豆此前在Cursor工作，目前从事GrokBot开发，被称为「全网最会用Grok B",
+      "importance_score": 9
     },
     {
-      "title": "“美国大豆包”又发新模型，Neon 接入 Antigravity 后编程解题率升至三倍多",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/tDxNggErsJNeb53ZkYeF",
+      "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511757.html",
+      "publish_time": "2026-11-21",
+      "category": "AI 综合",
+      "summary": "今天凌晨，姚顺雨和腾讯混元团队来到Reddit社区，围绕刚发布的Hy4和Hy4 flash做了一场AMA | 参与名单上只列了Reddit账号，至于哪个马甲是姚顺雨，我们还没对上号…… 这场AMA的主角，是混元本月接连发布的两款模型 ...",
+      "importance_score": 9
+    },
+    {
+      "title": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511727.html",
+      "publish_time": "2026-11-21",
+      "category": "AI 综合",
+      "summary": "Alpöge还在文档里表示，研究到了最后阶段，Claude已经远远跑在了自己前面，连他本人都表示自己“在尚未掌握证明周边大量数学知识的情况下，就已经向外界展示了完整论证”",
+      "importance_score": 9
+    },
+    {
+      "title": "给万卡国产芯装个“超级外挂”！清华团队要造最强国产Token工厂",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511679.html",
       "publish_time": "2026-11-20",
-      "category": "AI 技术",
-      "summary": "Carbon 向开发者开放才八天，Google 又发布了一款 Gemini 4 模型 | 继 Argon、Carbon 和 Hydrogen 之后，Neon 是 Google DeepMind 在约七周内发布的第四款模型",
-      "importance_score": 8
+      "category": "AI 综合",
+      "summary": "Agent应用深入千行百业，模型能力不断突破，AI对算力的需求正在以前所未有的速度扩张",
+      "importance_score": 9
     },
     {
-      "title": "“AI生成的代码必须开源！”开发者吵翻了，被开源代码喂大的Anthropic怕是第一个不同意",
-      "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/m5arrx8021zHVI0ybFtI",
-      "publish_time": "2026-11-17",
-      "category": "AI 技术",
-      "summary": "11 月 15 日，开源开发者 Jakub T | Jankiewicz 公开呼吁将 AI 生成的代码全部开源，或者直接放入公共领域 | 他认为，AI 模型从开源社区几十年积累的代码和技术知识中受益，企业却可以利用这些模型生成闭源软件...",
-      "importance_score": 8
+      "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511791.html",
+      "publish_time": "2026-11-21",
+      "category": "AI 综合",
+      "summary": "这位新晋决策高手，就是MachinePulse AI刚刚开源的Karpo Decision 31B",
+      "importance_score": 9
+    },
+    {
+      "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511582.html",
+      "publish_time": "2026-11-20",
+      "category": "AI 综合",
+      "summary": "一水 发自 凹非寺量子位 | 公众号QbitAI 过去做一套企业软件，开发可能要花90块，给每家客户适配只要10块 | 软件做一次、卖给很多家，前面那90块就能被一点点摊薄",
+      "importance_score": 9
     }
   ]
 }
