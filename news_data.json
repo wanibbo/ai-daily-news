@@ -1,14 +1,14 @@
 {
-  "update_time": "2026-11-22T04:40:56.893141",
-  "total_items": 23,
+  "update_time": "2026-11-23T05:17:50.935489",
+  "total_items": 24,
   "top_items": [
     {
-      "title": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准",
+      "title": "豆姐威武！豆包工作上新21个专业工作台，AI直接替你上班",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/511841.html",
-      "publish_time": "2026-11-21",
+      "url": "https://www.qbitai.com/2026/11/511933.html",
+      "publish_time": "2026-11-23",
       "category": "AI 综合",
-      "summary": "等到有人请AI助手发布购票提醒，它很可能还按旧日期通知 | 针对这一问题，腾讯元宝与伦敦国王学院NLP团队联合推出GroupAssistBench",
+      "summary": "豆包工作把这套能力开放了出来，最近上线的新功能「工作台」，一口气铺开21个专业场景 | 豆包工作上线三个月，DAU突破800万，企业客户ARR突破20亿元",
       "importance_score": 9
     },
     {
@@ -21,30 +21,21 @@
       "importance_score": 8
     },
     {
-      "title": "中国计算，走出新的登峰之路",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/511849.html",
-      "publish_time": "2026-11-21",
-      "category": "AI 综合",
-      "summary": "暂无详细内容，请点击阅读原文查看。",
-      "importance_score": 9
+      "title": "A股午评：创业板指探底回升半日涨1.22%，物理AI、CPO、贵金属等概念走强",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15360972.html",
+      "publish_time": "2026-11-23",
+      "category": "AI 产业",
+      "summary": "11月23日，A股三大指数早盘涨跌不一，截至午间收盘，上证指数跌0",
+      "importance_score": 8
     },
     {
-      "title": "AI给乐队现场搓MV，这是黑客松还是音乐节啊",
+      "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/511855.html",
-      "publish_time": "2026-11-21",
+      "url": "https://www.qbitai.com/2026/11/511921.html",
+      "publish_time": "2026-11-23",
       "category": "AI 综合",
-      "summary": "AI创作者现场给乐队做MV，3小时极限出片，当晚直接登上乐队演奏大屏",
-      "importance_score": 9
-    },
-    {
-      "title": "全网疯传！Grok一姐教你如何月提交3000个PR",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/511830.html",
-      "publish_time": "2026-11-21",
-      "category": "AI 综合",
-      "summary": "SpaceXSI首席工程师土豆姐（Lauren Tan），带着这个狂得没边的演讲标题登上了AI Engineer CODE大会，于是演讲内容全网疯传 | 土豆此前在Cursor工作，目前从事GrokBot开发，被称为「全网最会用Grok B",
+      "summary": "今天凌晨，姚顺雨和腾讯混元团队来到Reddit社区，围绕刚发布的Hy4和Hy4 flash做了一场AMA | 参与名单上只列了Reddit账号，至于哪个马甲是姚顺雨，我们还没对上号…… 这场AMA的主角，是混元本月接连发布的两款模型 ...",
       "importance_score": 9
     },
     {
@@ -54,6 +45,15 @@
       "publish_time": "2026-11-21",
       "category": "AI 综合",
       "summary": "今天凌晨，姚顺雨和腾讯混元团队来到Reddit社区，围绕刚发布的Hy4和Hy4 flash做了一场AMA | 参与名单上只列了Reddit账号，至于哪个马甲是姚顺雨，我们还没对上号…… 这场AMA的主角，是混元本月接连发布的两款模型 ...",
+      "importance_score": 9
+    },
+    {
+      "title": "Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511904.html",
+      "publish_time": "2026-11-22",
+      "category": "AI 综合",
+      "summary": "不用打胰岛素，糖尿病可以靠体内葡萄糖发电刺激神经来控制了 | Nature最新研究，新加坡国立大学、南京邮电大学造出了一款植入装置，成功让糖尿病大鼠恢复了正常血糖 | 实验结果来看，二型糖尿病大鼠在植入装置仅仅两周后，血糖就降到了接近健康大",
       "importance_score": 9
     },
     {
@@ -75,21 +75,21 @@
       "importance_score": 9
     },
     {
-      "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "title": "算力周期更迭，数据复合增长：为何存储经济性对中国规模化 AI 至关重要",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/511791.html",
-      "publish_time": "2026-11-21",
+      "url": "https://www.qbitai.com/2026/11/511989.html",
+      "publish_time": "2026-11-23",
       "category": "AI 综合",
-      "summary": "这位新晋决策高手，就是MachinePulse AI刚刚开源的Karpo Decision 31B",
+      "summary": "AI 的未来将依赖能够在数据全生命周期中平衡性能、可靠性与经济性的存储架构 | 作者：Tim Rausch，西部数据产品工程高级副总裁 随着 AI 应用加速落地，围绕基础设施的讨论仍大多聚焦于算力 | 尽管对于训练日益复杂的模型及AI大规模",
       "importance_score": 9
     },
     {
-      "title": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
+      "title": "蚂蚁阿福同款大模型宣布开源，全球医生一台电脑就能解锁专业医疗 AI 能力",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/511582.html",
-      "publish_time": "2026-11-20",
+      "url": "https://www.qbitai.com/2026/11/511998.html",
+      "publish_time": "2026-11-23",
       "category": "AI 综合",
-      "summary": "一水 发自 凹非寺量子位 | 公众号QbitAI 过去做一套企业软件，开发可能要花90块，给每家客户适配只要10块 | 软件做一次、卖给很多家，前面那90块就能被一点点摊薄",
+      "summary": "阿福App宣布新一轮升级，解锁越来越多健康服务新本领 11月23日，百灵医疗健康大模型家族集中发布，覆盖医疗专业推理、多模态理解、疾病风险预测、安全防护和实时智能体等多个方向 | 这是蚂蚁阿福首次系统展示其在医疗健康AI领域的系列技术...",
       "importance_score": 9
     }
   ]

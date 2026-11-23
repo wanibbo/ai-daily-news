@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-23",
+  "update_time": "2026-11-23T05:17:50.935986",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "豆姐威武！豆包工作上新21个专业工作台，AI直接替你上班",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511933.html",
+      "publish_time": "2026-11-23",
+      "category": "AI 综合",
+      "summary": "豆包工作把这套能力开放了出来，最近上线的新功能「工作台」，一口气铺开21个专业场景 | 豆包工作上线三个月，DAU突破800万，企业客户ARR突破20亿元",
+      "importance_score": 9
+    },
+    {
+      "title": "马斯克喊话“真男人自己管理内存”，三十年系统老将警告：Rust 也拦不住 AI 制造复杂性",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/FWqT2oGIEl9zlyJ7HXZF",
+      "publish_time": "2026-11-16",
+      "category": "AI 技术",
+      "summary": "11 月 10 日，面对网友“为什么用 C/C++ 重写，之前用的是 Rust 吗”的追问，Elon Musk 用这句话回应了 xAI 的技术选择 | 四年前，他还公开表示自己是 Rust 的拥趸，认为 Discord 的实践证明了它的扩展",
+      "importance_score": 8
+    },
+    {
+      "title": "A股午评：创业板指探底回升半日涨1.22%，物理AI、CPO、贵金属等概念走强",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15360972.html",
+      "publish_time": "2026-11-23",
+      "category": "AI 产业",
+      "summary": "11月23日，A股三大指数早盘涨跌不一，截至午间收盘，上证指数跌0",
+      "importance_score": 8
+    },
+    {
+      "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511921.html",
+      "publish_time": "2026-11-23",
+      "category": "AI 综合",
+      "summary": "今天凌晨，姚顺雨和腾讯混元团队来到Reddit社区，围绕刚发布的Hy4和Hy4 flash做了一场AMA | 参与名单上只列了Reddit账号，至于哪个马甲是姚顺雨，我们还没对上号…… 这场AMA的主角，是混元本月接连发布的两款模型 ...",
+      "importance_score": 9
+    },
+    {
+      "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511757.html",
+      "publish_time": "2026-11-21",
+      "category": "AI 综合",
+      "summary": "今天凌晨，姚顺雨和腾讯混元团队来到Reddit社区，围绕刚发布的Hy4和Hy4 flash做了一场AMA | 参与名单上只列了Reddit账号，至于哪个马甲是姚顺雨，我们还没对上号…… 这场AMA的主角，是混元本月接连发布的两款模型 ...",
+      "importance_score": 9
+    },
+    {
+      "title": "Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511904.html",
+      "publish_time": "2026-11-22",
+      "category": "AI 综合",
+      "summary": "不用打胰岛素，糖尿病可以靠体内葡萄糖发电刺激神经来控制了 | Nature最新研究，新加坡国立大学、南京邮电大学造出了一款植入装置，成功让糖尿病大鼠恢复了正常血糖 | 实验结果来看，二型糖尿病大鼠在植入装置仅仅两周后，血糖就降到了接近健康大",
+      "importance_score": 9
+    },
+    {
+      "title": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511727.html",
+      "publish_time": "2026-11-21",
+      "category": "AI 综合",
+      "summary": "Alpöge还在文档里表示，研究到了最后阶段，Claude已经远远跑在了自己前面，连他本人都表示自己“在尚未掌握证明周边大量数学知识的情况下，就已经向外界展示了完整论证”",
+      "importance_score": 9
+    },
+    {
+      "title": "给万卡国产芯装个“超级外挂”！清华团队要造最强国产Token工厂",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511679.html",
+      "publish_time": "2026-11-20",
+      "category": "AI 综合",
+      "summary": "Agent应用深入千行百业，模型能力不断突破，AI对算力的需求正在以前所未有的速度扩张",
+      "importance_score": 9
+    },
+    {
+      "title": "算力周期更迭，数据复合增长：为何存储经济性对中国规模化 AI 至关重要",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511989.html",
+      "publish_time": "2026-11-23",
+      "category": "AI 综合",
+      "summary": "AI 的未来将依赖能够在数据全生命周期中平衡性能、可靠性与经济性的存储架构 | 作者：Tim Rausch，西部数据产品工程高级副总裁 随着 AI 应用加速落地，围绕基础设施的讨论仍大多聚焦于算力 | 尽管对于训练日益复杂的模型及AI大规模",
+      "importance_score": 9
+    },
+    {
+      "title": "蚂蚁阿福同款大模型宣布开源，全球医生一台电脑就能解锁专业医疗 AI 能力",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511998.html",
+      "publish_time": "2026-11-23",
+      "category": "AI 综合",
+      "summary": "阿福App宣布新一轮升级，解锁越来越多健康服务新本领 11月23日，百灵医疗健康大模型家族集中发布，覆盖医疗专业推理、多模态理解、疾病风险预测、安全防护和实时智能体等多个方向 | 这是蚂蚁阿福首次系统展示其在医疗健康AI领域的系列技术...",
+      "importance_score": 9
+    }
+  ]
+}
