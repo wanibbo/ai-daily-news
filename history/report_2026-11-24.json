@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-24",
+  "update_time": "2026-11-24T07:58:49.945197",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "Google Cloud 出海峰会报名开启",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512370.html",
+      "publish_time": "2026-11-24",
+      "category": "AI 综合",
+      "summary": "2027 Google Cloud 出海峰会将于 1 月 14 日在北京中关村国际创新中心举行 Hello 各位小伙伴～2027 Google Cloud 出海峰会（Google Cloud Summit）将于 1 月 14 日在北京中关村",
+      "importance_score": 9
+    },
+    {
+      "title": "马斯克喊话“真男人自己管理内存”，三十年系统老将警告：Rust 也拦不住 AI 制造复杂性",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/FWqT2oGIEl9zlyJ7HXZF",
+      "publish_time": "2026-11-16",
+      "category": "AI 技术",
+      "summary": "11 月 10 日，面对网友“为什么用 C/C++ 重写，之前用的是 Rust 吗”的追问，Elon Musk 用这句话回应了 xAI 的技术选择 | 四年前，他还公开表示自己是 Rust 的拥趸，认为 Discord 的实践证明了它的扩展",
+      "importance_score": 8
+    },
+    {
+      "title": "黄仁勋回归，但全球算力链条重估仍在继续",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15367055.html",
+      "publish_time": "2026-11-24",
+      "category": "AI 产业",
+      "summary": "作为“AI央行”，英伟达通过股权投资、长期采购承诺和担保，慷慨解囊帮助下游客户筹钱建机房、购买设备 | 当地时间11月23日，英伟达宣布，董事会一致投票决定，恢复黄仁勋（Jensen Huang）公司总裁、首席执行官及董事职务，即刻生效 |",
+      "importance_score": 8
+    },
+    {
+      "title": "巴新总理见证，仰望U8交付巴布亚新几内亚市场",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512343.html",
+      "publish_time": "2026-11-24",
+      "category": "AI 综合",
+      "summary": "32年来，比亚迪始终坚持自主研发，将技术积累转化为产品实力，实现了从技术突破到高端品牌建设的持续探索",
+      "importance_score": 9
+    },
+    {
+      "title": "八年研发，首搭方程豹钛9，全球首个折叠方向盘量产上车",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512348.html",
+      "publish_time": "2026-11-24",
+      "category": "AI 综合",
+      "summary": "早在2016年，业内就提出过折叠方向盘概念，但受机械连接限制，一直难以实现量产 | 2019年上海车展，比亚迪在E-SEED GT概念车上展示了可隐藏式方向盘，收进仪表台后，主驾前方完全腾空；2026年，这一构想在钛9上量产交付，前后八年",
+      "importance_score": 9
+    },
+    {
+      "title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512017.html",
+      "publish_time": "2026-11-23",
+      "category": "AI 综合",
+      "summary": "表格已经给大家整理好了，欢迎自取～ 还都是医疗深度推理、实时多模态交互以及疾病风险预测等硬核方向，精准踩中健康AI落地需求",
+      "importance_score": 9
+    },
+    {
+      "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511921.html",
+      "publish_time": "2026-11-23",
+      "category": "AI 综合",
+      "summary": "今天凌晨，姚顺雨和腾讯混元团队来到Reddit社区，围绕刚发布的Hy4和Hy4 flash做了一场AMA | 参与名单上只列了Reddit账号，至于哪个马甲是姚顺雨，我们还没对上号…… 这场AMA的主角，是混元本月接连发布的两款模型 ...",
+      "importance_score": 9
+    },
+    {
+      "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511757.html",
+      "publish_time": "2026-11-21",
+      "category": "AI 综合",
+      "summary": "今天凌晨，姚顺雨和腾讯混元团队来到Reddit社区，围绕刚发布的Hy4和Hy4 flash做了一场AMA | 参与名单上只列了Reddit账号，至于哪个马甲是姚顺雨，我们还没对上号…… 这场AMA的主角，是混元本月接连发布的两款模型 ...",
+      "importance_score": 9
+    },
+    {
+      "title": "报名从速｜来MEET2027！听AI前沿实践者交出“判断”",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512329.html",
+      "publish_time": "2026-11-24",
+      "category": "AI 综合",
+      "summary": "2026年，AI领域最显著的变化发生在交付现场：模型开始接手任务，机器人离开舞台走进产线，智能体被嵌进组织的日常流程 | 这些事分散在不同行业与场景里，我们却从中看到了同一条线索 | 12月9日，量子位主办的MEET2027智能未来大会将在",
+      "importance_score": 9
+    },
+    {
+      "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512362.html",
+      "publish_time": "2026-11-24",
+      "category": "AI 综合",
+      "summary": "端侧老炮辛米尔，打通物理AI规模化落地之路 衡宇 发自 凹非寺量子位 | 公众号 QbitAI 同样一组芯片、同样一批模型，只是改变系统组织计算任务的方式，AI的有效任务吞吐量还能提升多少 | 一家长期深耕端侧AI基础设施的中国科技公司实测",
+      "importance_score": 9
+    }
+  ]
+}
