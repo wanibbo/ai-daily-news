@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-25",
+  "update_time": "2026-11-25T06:36:18.040398",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "Claude Opus 5.6灰测效果来了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512478.html",
+      "publish_time": "2026-11-25",
+      "category": "AI 综合",
+      "summary": "henry发自 凹非寺量子位 | 公众号QbitAI 为了不让股票破发，A社压箱底的东西真是一个一个往外掏啊 | 前脚刚抛出“解决黎曼猜想”的重磅炸弹，后脚就有网友爆料，自己在Claude Code里已经被悄悄灰度到了Opus 5",
+      "importance_score": 9
+    },
+    {
+      "title": "AI 漫剧不缺作品，缺什么？｜QLab直播",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/27xI2tBkStO5qz52VBPw",
+      "publish_time": "2026-11-20",
+      "category": "AI 技术",
+      "summary": "19 万部 AI 剧及漫剧，但能达到回本所需播放量的，只有约 1",
+      "importance_score": 8
+    },
+    {
+      "title": "Anthropic破发背后：追高者亏近三成，H轮投资仍有浮盈",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15371467.html",
+      "publish_time": "2026-11-25",
+      "category": "AI 产业",
+      "summary": "Anthropic破发背后：追高者亏近三成，H轮投资仍有浮盈 对于早期入局的一级投资人而言，Anthropic现在应该还是带给了他们漂亮的账面回报 | 作为几近公认当前最强的大模型，Claude背后的开发商Anthropic，在上市第四个交",
+      "importance_score": 8
+    },
+    {
+      "title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512017.html",
+      "publish_time": "2026-11-23",
+      "category": "AI 综合",
+      "summary": "表格已经给大家整理好了，欢迎自取～ 还都是医疗深度推理、实时多模态交互以及疾病风险预测等硬核方向，精准踩中健康AI落地需求",
+      "importance_score": 9
+    },
+    {
+      "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/511921.html",
+      "publish_time": "2026-11-23",
+      "category": "AI 综合",
+      "summary": "今天凌晨，姚顺雨和腾讯混元团队来到Reddit社区，围绕刚发布的Hy4和Hy4 flash做了一场AMA | 参与名单上只列了Reddit账号，至于哪个马甲是姚顺雨，我们还没对上号…… 这场AMA的主角，是混元本月接连发布的两款模型 ...",
+      "importance_score": 9
+    },
+    {
+      "title": "叙事时代丨第20届中国投资年会·有限合伙人峰会在沪成功举办",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512387.html",
+      "publish_time": "2026-11-24",
+      "category": "AI 综合",
+      "summary": "探讨未来产业布局与结构性新周期下的资产配置机遇 | 11月19日至20日，由投中信息和投中网主办的第20届中国投资年会·有限合伙人峰会在上海成功举行 | 作为中国创投领域极具影响力的年度盛会之一，本届峰会汇聚行业领军人物与核心投资力量，以“",
+      "importance_score": 9
+    },
+    {
+      "title": "智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512423.html",
+      "publish_time": "2026-11-24",
+      "category": "AI 综合",
+      "summary": "就在刚刚，智谱首次采用Loop Transformer架构的新模型——GLM-5 | 来，我们直接来看最近爆火的代码手搓视频，GLM-5",
+      "importance_score": 9
+    },
+    {
+      "title": "蚂蚁开源医疗健康预测模型，根据睡眠数据可预测未来六年150种疾病风险",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512451.html",
+      "publish_time": "2026-11-24",
+      "category": "AI 综合",
+      "summary": "11 月 24 日，蚂蚁百灵宣布开源医疗健康预测模型 LingSante Pulse，可通过理解人体日常产生的生理信号，预测未来六年内150种疾病表型的发生风险 | 模型基于超过15万小时、多场景生理序列数据预训练，能够从不同生理信号...",
+      "importance_score": 9
+    },
+    {
+      "title": "最新议程与嘉宾阵容公布！2027中国AIoT产业年会，11月27日深圳见",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512411.html",
+      "publish_time": "2026-11-24",
+      "category": "AI 综合",
+      "summary": "2026年11月27日，2027中国AIoT产业年会暨创新私董会将在深圳柏悦酒店举行 当AI真正进入物理世界，AIoT下一步将走向哪里 | 大模型进入终端，Agent开始调用设备、执行任务，物联网企业积累多年的连接、设备与场景能力，正在迎来",
+      "importance_score": 9
+    },
+    {
+      "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512362.html",
+      "publish_time": "2026-11-24",
+      "category": "AI 综合",
+      "summary": "端侧老炮辛米尔，打通物理AI规模化落地之路 衡宇 发自 凹非寺量子位 | 公众号 QbitAI 同样一组芯片、同样一批模型，只是改变系统组织计算任务的方式，AI的有效任务吞吐量还能提升多少 | 一家长期深耕端侧AI基础设施的中国科技公司实测",
+      "importance_score": 9
+    }
+  ]
+}

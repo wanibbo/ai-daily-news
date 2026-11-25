@@ -1,51 +1,33 @@
 {
-  "update_time": "2026-11-24T07:58:49.944842",
+  "update_time": "2026-11-25T06:36:17.983165",
   "total_items": 25,
   "top_items": [
     {
-      "title": "Google Cloud 出海峰会报名开启",
+      "title": "Claude Opus 5.6灰测效果来了",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512370.html",
-      "publish_time": "2026-11-24",
+      "url": "https://www.qbitai.com/2026/11/512478.html",
+      "publish_time": "2026-11-25",
       "category": "AI 综合",
-      "summary": "2027 Google Cloud 出海峰会将于 1 月 14 日在北京中关村国际创新中心举行 Hello 各位小伙伴～2027 Google Cloud 出海峰会（Google Cloud Summit）将于 1 月 14 日在北京中关村",
+      "summary": "henry发自 凹非寺量子位 | 公众号QbitAI 为了不让股票破发，A社压箱底的东西真是一个一个往外掏啊 | 前脚刚抛出“解决黎曼猜想”的重磅炸弹，后脚就有网友爆料，自己在Claude Code里已经被悄悄灰度到了Opus 5",
       "importance_score": 9
     },
     {
-      "title": "马斯克喊话“真男人自己管理内存”，三十年系统老将警告：Rust 也拦不住 AI 制造复杂性",
+      "title": "AI 漫剧不缺作品，缺什么？｜QLab直播",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/FWqT2oGIEl9zlyJ7HXZF",
-      "publish_time": "2026-11-16",
+      "url": "https://www.infoq.cn/article/27xI2tBkStO5qz52VBPw",
+      "publish_time": "2026-11-20",
       "category": "AI 技术",
-      "summary": "11 月 10 日，面对网友“为什么用 C/C++ 重写，之前用的是 Rust 吗”的追问，Elon Musk 用这句话回应了 xAI 的技术选择 | 四年前，他还公开表示自己是 Rust 的拥趸，认为 Discord 的实践证明了它的扩展",
+      "summary": "19 万部 AI 剧及漫剧，但能达到回本所需播放量的，只有约 1",
       "importance_score": 8
     },
     {
-      "title": "黄仁勋回归，但全球算力链条重估仍在继续",
+      "title": "Anthropic破发背后：追高者亏近三成，H轮投资仍有浮盈",
       "source": "界面新闻",
-      "url": "https://www.jiemian.com/article/15367055.html",
-      "publish_time": "2026-11-24",
+      "url": "https://www.jiemian.com/article/15371467.html",
+      "publish_time": "2026-11-25",
       "category": "AI 产业",
-      "summary": "作为“AI央行”，英伟达通过股权投资、长期采购承诺和担保，慷慨解囊帮助下游客户筹钱建机房、购买设备 | 当地时间11月23日，英伟达宣布，董事会一致投票决定，恢复黄仁勋（Jensen Huang）公司总裁、首席执行官及董事职务，即刻生效 |",
+      "summary": "Anthropic破发背后：追高者亏近三成，H轮投资仍有浮盈 对于早期入局的一级投资人而言，Anthropic现在应该还是带给了他们漂亮的账面回报 | 作为几近公认当前最强的大模型，Claude背后的开发商Anthropic，在上市第四个交",
       "importance_score": 8
-    },
-    {
-      "title": "巴新总理见证，仰望U8交付巴布亚新几内亚市场",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512343.html",
-      "publish_time": "2026-11-24",
-      "category": "AI 综合",
-      "summary": "32年来，比亚迪始终坚持自主研发，将技术积累转化为产品实力，实现了从技术突破到高端品牌建设的持续探索",
-      "importance_score": 9
-    },
-    {
-      "title": "八年研发，首搭方程豹钛9，全球首个折叠方向盘量产上车",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512348.html",
-      "publish_time": "2026-11-24",
-      "category": "AI 综合",
-      "summary": "早在2016年，业内就提出过折叠方向盘概念，但受机械连接限制，一直难以实现量产 | 2019年上海车展，比亚迪在E-SEED GT概念车上展示了可隐藏式方向盘，收进仪表台后，主驾前方完全腾空；2026年，这一构想在钛9上量产交付，前后八年",
-      "importance_score": 9
     },
     {
       "title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
@@ -66,21 +48,39 @@
       "importance_score": 9
     },
     {
-      "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "title": "叙事时代丨第20届中国投资年会·有限合伙人峰会在沪成功举办",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/511757.html",
-      "publish_time": "2026-11-21",
+      "url": "https://www.qbitai.com/2026/11/512387.html",
+      "publish_time": "2026-11-24",
       "category": "AI 综合",
-      "summary": "今天凌晨，姚顺雨和腾讯混元团队来到Reddit社区，围绕刚发布的Hy4和Hy4 flash做了一场AMA | 参与名单上只列了Reddit账号，至于哪个马甲是姚顺雨，我们还没对上号…… 这场AMA的主角，是混元本月接连发布的两款模型 ...",
+      "summary": "探讨未来产业布局与结构性新周期下的资产配置机遇 | 11月19日至20日，由投中信息和投中网主办的第20届中国投资年会·有限合伙人峰会在上海成功举行 | 作为中国创投领域极具影响力的年度盛会之一，本届峰会汇聚行业领军人物与核心投资力量，以“",
       "importance_score": 9
     },
     {
-      "title": "报名从速｜来MEET2027！听AI前沿实践者交出“判断”",
+      "title": "智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512329.html",
+      "url": "https://www.qbitai.com/2026/11/512423.html",
       "publish_time": "2026-11-24",
       "category": "AI 综合",
-      "summary": "2026年，AI领域最显著的变化发生在交付现场：模型开始接手任务，机器人离开舞台走进产线，智能体被嵌进组织的日常流程 | 这些事分散在不同行业与场景里，我们却从中看到了同一条线索 | 12月9日，量子位主办的MEET2027智能未来大会将在",
+      "summary": "就在刚刚，智谱首次采用Loop Transformer架构的新模型——GLM-5 | 来，我们直接来看最近爆火的代码手搓视频，GLM-5",
+      "importance_score": 9
+    },
+    {
+      "title": "蚂蚁开源医疗健康预测模型，根据睡眠数据可预测未来六年150种疾病风险",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512451.html",
+      "publish_time": "2026-11-24",
+      "category": "AI 综合",
+      "summary": "11 月 24 日，蚂蚁百灵宣布开源医疗健康预测模型 LingSante Pulse，可通过理解人体日常产生的生理信号，预测未来六年内150种疾病表型的发生风险 | 模型基于超过15万小时、多场景生理序列数据预训练，能够从不同生理信号...",
+      "importance_score": 9
+    },
+    {
+      "title": "最新议程与嘉宾阵容公布！2027中国AIoT产业年会，11月27日深圳见",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512411.html",
+      "publish_time": "2026-11-24",
+      "category": "AI 综合",
+      "summary": "2026年11月27日，2027中国AIoT产业年会暨创新私董会将在深圳柏悦酒店举行 当AI真正进入物理世界，AIoT下一步将走向哪里 | 大模型进入终端，Agent开始调用设备、执行任务，物联网企业积累多年的连接、设备与场景能力，正在迎来",
       "importance_score": 9
     },
     {
