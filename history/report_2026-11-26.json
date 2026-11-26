@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-26",
+  "update_time": "2026-11-26T06:27:57.218504",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "华人计算机视觉泰斗二次创业！离开苹果下场，专注下一代空间与物理AI",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512498.html",
+      "publish_time": "2026-11-25",
+      "category": "AI 综合",
+      "summary": "”作为视觉几何的世界级奠基者，看到今年9月发布的GPT-6-Astra所展现出的空间理解和三维重建能力，研究三维视觉近40年的权龙很难无动于衷",
+      "importance_score": 9
+    },
+    {
+      "title": "前苹果空间智能首席科学家权龙再创业，成立 Envision AI 研发空间物理基础模型",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/3rQ4aRqts2zywSBmeJvb",
+      "publish_time": "2026-11-26",
+      "category": "AI 技术",
+      "summary": "据公司披露，目前团队已与海内外多家头部科技企业达成商业及战略合作，并实现收入",
+      "importance_score": 8
+    },
+    {
+      "title": "造出能卖的机器人，比造车难20倍。",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15374402.html",
+      "publish_time": "2026-11-26",
+      "category": "AI 产业",
+      "summary": "对话何小鹏：颠覆汽车公司的可能是机器人公司 在一段猫步视频引发全网“是机器人还是真人”的争论一年后，小鹏把人形机器人IRON的量产与商业计划摆上了台面 | 11月25日，在广州举行的小鹏AI科技日上，小鹏汽车董事长、CEO何小鹏称，新一代I",
+      "importance_score": 8
+    },
+    {
+      "title": "沈向洋刚讲了好多AI非共识啊",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512840.html",
+      "publish_time": "2026-11-26",
+      "category": "AI 综合",
+      "summary": "IDEA研究院创院理事长、美国国家工程院外籍院士沈向洋说，近一年来，AI在数学、编程和视频生成领域的突破，给他带来了巨大的冲击",
+      "importance_score": 9
+    },
+    {
+      "title": "我以为这是摄影作品，你告诉我这是最新的国产AI？！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512748.html",
+      "publish_time": "2026-11-26",
+      "category": "AI 综合",
+      "summary": "而这些惊艳的图片，正是出自商汤科技今天最新开源的SenseNova U1",
+      "importance_score": 9
+    },
+    {
+      "title": "刚刚，黎曼猜想证明代码暴砍了99.5%！只剩7.6万行",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512819.html",
+      "publish_time": "2026-11-26",
+      "category": "AI 综合",
+      "summary": "Jay 发自 凹非寺量子位 | 公众号 QbitAI 刚刚，轰动全网的1740万行黎曼猜想证明，迎来了一波史诗级大瘦身 | 原版证明那175,188个文件，在AWS高配机器上得跑足足21个小时才能编译完； 而现在的新版本，只需要一台12核、",
+      "importance_score": 9
+    },
+    {
+      "title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512017.html",
+      "publish_time": "2026-11-23",
+      "category": "AI 综合",
+      "summary": "表格已经给大家整理好了，欢迎自取～ 还都是医疗深度推理、实时多模态交互以及疾病风险预测等硬核方向，精准踩中健康AI落地需求",
+      "importance_score": 9
+    },
+    {
+      "title": "AI影视高地正在北影海淀一带崛起，「一人制片厂」基建搭好了",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512828.html",
+      "publish_time": "2026-11-26",
+      "category": "AI 综合",
+      "summary": "据国家广电数据，2026年前10个月，全国已上线近55万部微短剧，是2025年全年的近17倍，且其中超过94%都是AI剧",
+      "importance_score": 9
+    },
+    {
+      "title": "智谱刚刚发了GLM-5.4，全新架构的那种！网友直呼：超过预期",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512423.html",
+      "publish_time": "2026-11-24",
+      "category": "AI 综合",
+      "summary": "就在刚刚，智谱首次采用Loop Transformer架构的新模型——GLM-5 | 来，我们直接来看最近爆火的代码手搓视频，GLM-5",
+      "importance_score": 9
+    },
+    {
+      "title": "任少卿带着世界模型3.0来了！蔚来智驾训练提效5倍，座舱也用上强化学习",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512897.html",
+      "publish_time": "2026-11-26",
+      "category": "AI 综合",
+      "summary": "且今年8月对外宣布了具身智能创业消息的任少卿，此次依然担纲蔚来智驾技术的发布",
+      "importance_score": 9
+    }
+  ]
+}

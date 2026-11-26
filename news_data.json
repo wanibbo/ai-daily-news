@@ -1,33 +1,60 @@
 {
-  "update_time": "2026-11-25T06:36:17.983165",
+  "update_time": "2026-11-26T06:27:57.218136",
   "total_items": 25,
   "top_items": [
     {
-      "title": "Claude Opus 5.6灰测效果来了",
+      "title": "华人计算机视觉泰斗二次创业！离开苹果下场，专注下一代空间与物理AI",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512478.html",
+      "url": "https://www.qbitai.com/2026/11/512498.html",
       "publish_time": "2026-11-25",
       "category": "AI 综合",
-      "summary": "henry发自 凹非寺量子位 | 公众号QbitAI 为了不让股票破发，A社压箱底的东西真是一个一个往外掏啊 | 前脚刚抛出“解决黎曼猜想”的重磅炸弹，后脚就有网友爆料，自己在Claude Code里已经被悄悄灰度到了Opus 5",
+      "summary": "”作为视觉几何的世界级奠基者，看到今年9月发布的GPT-6-Astra所展现出的空间理解和三维重建能力，研究三维视觉近40年的权龙很难无动于衷",
       "importance_score": 9
     },
     {
-      "title": "AI 漫剧不缺作品，缺什么？｜QLab直播",
+      "title": "前苹果空间智能首席科学家权龙再创业，成立 Envision AI 研发空间物理基础模型",
       "source": "InfoQ",
-      "url": "https://www.infoq.cn/article/27xI2tBkStO5qz52VBPw",
-      "publish_time": "2026-11-20",
+      "url": "https://www.infoq.cn/article/3rQ4aRqts2zywSBmeJvb",
+      "publish_time": "2026-11-26",
       "category": "AI 技术",
-      "summary": "19 万部 AI 剧及漫剧，但能达到回本所需播放量的，只有约 1",
+      "summary": "据公司披露，目前团队已与海内外多家头部科技企业达成商业及战略合作，并实现收入",
       "importance_score": 8
     },
     {
-      "title": "Anthropic破发背后：追高者亏近三成，H轮投资仍有浮盈",
+      "title": "造出能卖的机器人，比造车难20倍。",
       "source": "界面新闻",
-      "url": "https://www.jiemian.com/article/15371467.html",
-      "publish_time": "2026-11-25",
+      "url": "https://www.jiemian.com/article/15374402.html",
+      "publish_time": "2026-11-26",
       "category": "AI 产业",
-      "summary": "Anthropic破发背后：追高者亏近三成，H轮投资仍有浮盈 对于早期入局的一级投资人而言，Anthropic现在应该还是带给了他们漂亮的账面回报 | 作为几近公认当前最强的大模型，Claude背后的开发商Anthropic，在上市第四个交",
+      "summary": "对话何小鹏：颠覆汽车公司的可能是机器人公司 在一段猫步视频引发全网“是机器人还是真人”的争论一年后，小鹏把人形机器人IRON的量产与商业计划摆上了台面 | 11月25日，在广州举行的小鹏AI科技日上，小鹏汽车董事长、CEO何小鹏称，新一代I",
       "importance_score": 8
+    },
+    {
+      "title": "沈向洋刚讲了好多AI非共识啊",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512840.html",
+      "publish_time": "2026-11-26",
+      "category": "AI 综合",
+      "summary": "IDEA研究院创院理事长、美国国家工程院外籍院士沈向洋说，近一年来，AI在数学、编程和视频生成领域的突破，给他带来了巨大的冲击",
+      "importance_score": 9
+    },
+    {
+      "title": "我以为这是摄影作品，你告诉我这是最新的国产AI？！",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512748.html",
+      "publish_time": "2026-11-26",
+      "category": "AI 综合",
+      "summary": "而这些惊艳的图片，正是出自商汤科技今天最新开源的SenseNova U1",
+      "importance_score": 9
+    },
+    {
+      "title": "刚刚，黎曼猜想证明代码暴砍了99.5%！只剩7.6万行",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512819.html",
+      "publish_time": "2026-11-26",
+      "category": "AI 综合",
+      "summary": "Jay 发自 凹非寺量子位 | 公众号 QbitAI 刚刚，轰动全网的1740万行黎曼猜想证明，迎来了一波史诗级大瘦身 | 原版证明那175,188个文件，在AWS高配机器上得跑足足21个小时才能编译完； 而现在的新版本，只需要一台12核、",
+      "importance_score": 9
     },
     {
       "title": "蚂蚁医疗健康AI五连发！开源、本地部署、望闻问切全安排上了",
@@ -39,21 +66,12 @@
       "importance_score": 9
     },
     {
-      "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "title": "AI影视高地正在北影海淀一带崛起，「一人制片厂」基建搭好了",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/511921.html",
-      "publish_time": "2026-11-23",
+      "url": "https://www.qbitai.com/2026/11/512828.html",
+      "publish_time": "2026-11-26",
       "category": "AI 综合",
-      "summary": "今天凌晨，姚顺雨和腾讯混元团队来到Reddit社区，围绕刚发布的Hy4和Hy4 flash做了一场AMA | 参与名单上只列了Reddit账号，至于哪个马甲是姚顺雨，我们还没对上号…… 这场AMA的主角，是混元本月接连发布的两款模型 ...",
-      "importance_score": 9
-    },
-    {
-      "title": "叙事时代丨第20届中国投资年会·有限合伙人峰会在沪成功举办",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512387.html",
-      "publish_time": "2026-11-24",
-      "category": "AI 综合",
-      "summary": "探讨未来产业布局与结构性新周期下的资产配置机遇 | 11月19日至20日，由投中信息和投中网主办的第20届中国投资年会·有限合伙人峰会在上海成功举行 | 作为中国创投领域极具影响力的年度盛会之一，本届峰会汇聚行业领军人物与核心投资力量，以“",
+      "summary": "据国家广电数据，2026年前10个月，全国已上线近55万部微短剧，是2025年全年的近17倍，且其中超过94%都是AI剧",
       "importance_score": 9
     },
     {
@@ -66,30 +84,12 @@
       "importance_score": 9
     },
     {
-      "title": "蚂蚁开源医疗健康预测模型，根据睡眠数据可预测未来六年150种疾病风险",
+      "title": "任少卿带着世界模型3.0来了！蔚来智驾训练提效5倍，座舱也用上强化学习",
       "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512451.html",
-      "publish_time": "2026-11-24",
+      "url": "https://www.qbitai.com/2026/11/512897.html",
+      "publish_time": "2026-11-26",
       "category": "AI 综合",
-      "summary": "11 月 24 日，蚂蚁百灵宣布开源医疗健康预测模型 LingSante Pulse，可通过理解人体日常产生的生理信号，预测未来六年内150种疾病表型的发生风险 | 模型基于超过15万小时、多场景生理序列数据预训练，能够从不同生理信号...",
-      "importance_score": 9
-    },
-    {
-      "title": "最新议程与嘉宾阵容公布！2027中国AIoT产业年会，11月27日深圳见",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512411.html",
-      "publish_time": "2026-11-24",
-      "category": "AI 综合",
-      "summary": "2026年11月27日，2027中国AIoT产业年会暨创新私董会将在深圳柏悦酒店举行 当AI真正进入物理世界，AIoT下一步将走向哪里 | 大模型进入终端，Agent开始调用设备、执行任务，物联网企业积累多年的连接、设备与场景能力，正在迎来",
-      "importance_score": 9
-    },
-    {
-      "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
-      "source": "量子位",
-      "url": "https://www.qbitai.com/2026/11/512362.html",
-      "publish_time": "2026-11-24",
-      "category": "AI 综合",
-      "summary": "端侧老炮辛米尔，打通物理AI规模化落地之路 衡宇 发自 凹非寺量子位 | 公众号 QbitAI 同样一组芯片、同样一批模型，只是改变系统组织计算任务的方式，AI的有效任务吞吐量还能提升多少 | 一家长期深耕端侧AI基础设施的中国科技公司实测",
+      "summary": "且今年8月对外宣布了具身智能创业消息的任少卿，此次依然担纲蔚来智驾技术的发布",
       "importance_score": 9
     }
   ]
