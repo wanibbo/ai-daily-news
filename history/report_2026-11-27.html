@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 日报简讯 - 2026-11-27</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 100%);
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+            padding: 10px;
+        }
+        .container { max-width: 1100px; margin: 0 auto; display: flex; gap: 16px; }
+        .main-content { flex: 1; }
+        .sidebar {
+            width: 220px;
+            flex-shrink: 0;
+        }
+        .header-card {
+            background: rgba(255,255,255,0.98);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        .header-title {
+            font-size: 26px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 6px;
+        }
+        .history-card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            position: sticky;
+            top: 10px;
+        }
+        .history-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #1e3a5f;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e0e7ff;
+        }
+        .history-link {
+            display: block;
+            padding: 8px 12px;
+            margin-bottom: 6px;
+            background: #f8fafc;
+            border-radius: 6px;
+            color: #2d5a87;
+            text-decoration: none;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .history-link:hover {
+            background: #e0e7ff;
+            transform: translateX(4px);
+        }
+        .news-item {
+            background: rgba(255,255,255,0.98);
+            border-radius: 10px;
+            padding: 14px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+            display: flex;
+            gap: 14px;
+        }
+        .news-number {
+            background: linear-gradient(135deg, #1e3a5f, #2d5a87);
+            color: white;
+            width: 70px;
+            min-width: 70px;
+            height: 100%;
+            min-height: 120px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 36px;
+            flex-shrink: 0;
+        }
+        .news-content { flex: 1; }
+        .news-title-row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .news-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1e293b;
+            line-height: 1.4;
+            flex: 1;
+        }
+        .news-title a { color: #1e3a5f; text-decoration: none; }
+        .news-title a:hover { text-decoration: underline; }
+        .read-more {
+            color: #2d5a87;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+        .news-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+            flex-wrap: wrap;
+        }
+        .news-badge { padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 600; }
+        .news-source { background: #e0e7ff; color: #3730a3; padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 500; }
+        .news-time { color: #94a3b8; font-size: 12px; margin-left: auto; }
+        .news-summary {
+            color: #475569;
+            line-height: 1.6;
+            padding: 10px;
+            background: #f8fafc;
+            border-radius: 6px;
+            border-left: 3px solid #3a7ca5;
+            font-size: 14px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        @media (max-width: 900px) {
+            .container { flex-direction: column; }
+            .sidebar { width: 100%; }
+            .history-card { position: static; }
+        }
+        @media (max-width: 640px) {
+            body { padding: 6px; }
+            .header-card { padding: 16px; }
+            .header-title { font-size: 22px; }
+            .news-item { padding: 10px; gap: 10px; }
+            .news-number { width: 55px; min-width: 55px; min-height: 90px; font-size: 28px; }
+            .news-title { font-size: 15px; }
+            .news-title-row { flex-direction: column; }
+            .read-more { margin-top: 6px; }
+            .news-summary { font-size: 13px; }
+            .news-time { width: 100%; margin-top: 4px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="header-card">
+                <h1 class="header-title">🤖 AI 日报简讯</h1>
+                <p class="text-slate-600 text-sm">2026-11-27 06:17:49</p>
+            </div>
+            <div id="news-list">
+        <div class="news-item">
+            <div class="news-number">1</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/513075.html" target="_blank">陶哲轩下场验证黎曼猜想！“AI批量吐证明就像发电厂排核废料”</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/513075.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-27</span>
+                </div>
+                <p class="news-summary">听雨 发自 凹非寺量子位 | 公众号QbitAI 就在黎曼猜想证明公布前几天，陶哲轩在哈佛一场活动上发布了对AI数学的最新表态—— AI公司为了测模型，批量生成难以消化的数学证明，就像发电厂产生了「核废料」 | 但别误会，他不是完全反对AI</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">2</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.infoq.cn/article/6i2DoIJiaTcKyR0UyurQ" target="_blank">“我比黄仁勋更早看到英伟达的未来”！AI 教父回击黄仁勋，直言大规模失业是 AI 巨头赚钱的副作用</a></h3>
+                    <a href="https://www.infoq.cn/article/6i2DoIJiaTcKyR0UyurQ" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">InfoQ</span>
+                    <span class="news-time">📅 2026-11-25</span>
+                </div>
+                <p class="news-summary">“他说我的预测全错了，但早在 2009 年，我就告诉上千名机器学习研究人员，想做神经网络，就必须购买英伟达的芯片 | ” 在最新一场公开对谈中，诺贝尔物理学奖得主、“AI 教父” Geoffrey Hinton（辛顿）罕见地正面回击了黄仁勋</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">3</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.jiemian.com/article/15378205.html" target="_blank">机器人的商场生意，到底谁在挣钱？</a></h3>
+                    <a href="https://www.jiemian.com/article/15378205.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 8</span>
+                    <span class="news-source">界面新闻</span>
+                    <span class="news-time">📅 2026-11-26</span>
+                </div>
+                <p class="news-summary">从3C到新能源汽车，如今机器人门店也开始进商场，但在个人购买需求有限的当下，第三方经销商还在通过租赁和企业项目寻找收入 | 机器人品牌和经销商陆续把门店开进商场，但要复制新能源汽车的线下零售生意，眼下并不容易 | 界面新闻记者近日探访上海几</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">4</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/513194.html" target="_blank">钛动科技 × 腾讯云达成战略合作，用AI打开企业全球增长新空间</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/513194.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-27</span>
+                </div>
+                <p class="news-summary">此次与腾讯云深化战略合作，我们希望双方携手推动AI促进业务增长形成规模化效应，让更多企业在全球市场实现持续增长</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">5</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/513155.html" target="_blank">腾讯混元发布 Hy3D 3.6：高模表面更整洁、结构更清晰、刻画更细腻</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/513155.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-27</span>
+                </div>
+                <p class="news-summary">3D生成的竞争重点正在从“能看”转向“能用” 11月27日，腾讯混元发布最新一代3D大模型Hy3D 3 | 6已经上线腾讯云Token Hub，对外提供API服务</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">6</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/513125.html" target="_blank">具身公司抱团回应：通用大模型跨维打击？没那么简单</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/513125.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-27</span>
+                </div>
+                <p class="news-summary">一方面，资本降温，融资环境迅速变冷，行业洗牌期可能即将到来</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">7</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/512916.html" target="_blank">顶尖商用级AI视频每秒只要5毛！中国开源新势力拿下全球第一</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/512916.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-26</span>
+                </div>
+                <p class="news-summary">衡宇 发自 凹非寺量子位 | 公众号 QbitAI 现在，花一杯奶茶钱，能生成什么质量的AI视频 | 下面这条1080p的视频，生成价格是15元人民币 | 这是一条单次生成出来的30秒原片，不是后期剪辑的哦～ 在权威评测机构Artifici</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">8</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/512981.html" target="_blank">AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/512981.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-26</span>
+                </div>
+                <p class="news-summary">结果展开思考过程一看，好嘛，原来它自觉调用了VAST的开源模型TripoSR</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">9</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/513034.html" target="_blank">OpenAI两次拆掉机器人团队：只靠大模型，为什么撑不起物理AI？</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/513034.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-25</span>
+                </div>
+                <p class="news-summary">在既有智算底座之上，按物理AI负载结构做扩展 克雷西 发自 凹非寺量子位 | 公众号QbitAI OpenAI的机器人团队，又一次说拆就拆了 | 11月13日，机器人学习顶会CoRL在美国奥斯汀开幕 | 其中的208号展位已被OpenAI提</p>
+            </div>
+        </div>
+        
+        <div class="news-item">
+            <div class="news-number">10</div>
+            <div class="news-content">
+                <div class="news-title-row">
+                    <h3 class="news-title"><a href="https://www.qbitai.com/2026/11/513211.html" target="_blank">蚂蚁灵波发布LingBot-Map 2.0，模型自己修正“空间记忆”，把地图画更准</a></h3>
+                    <a href="https://www.qbitai.com/2026/11/513211.html" target="_blank" class="read-more">阅读原文 →</a>
+                </div>
+                <div class="news-meta">
+                    <span class="news-badge bg-red-100 text-red-700">🔥 9</span>
+                    <span class="news-source">量子位</span>
+                    <span class="news-time">📅 2026-11-27</span>
+                </div>
+                <p class="news-summary">11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2 | 0 11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2 | 0，并开源带空间记忆的导航模型 LingBot-Navi，...</p>
+            </div>
+        </div>
+        </div>
+            <div class="text-center text-white/70 text-xs mt-8">
+                <p>数据来源于量子位、InfoQ、界面新闻、虎嗅网等主流媒体</p>
+                <p class="mt-1">更新：2026-11-27 06:17:49</p>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="history-card">
+                <h2 class="history-title">📁 历史日报</h2>
+                <div class="history-list">
+                    <a href="history/report_2026-11-27.html" class="history-link">📅 2026-11-27</a><a href="history/report_2026-11-26.html" class="history-link">📅 2026-11-26</a><a href="history/report_2026-11-25.html" class="history-link">📅 2026-11-25</a><a href="history/report_2026-11-24.html" class="history-link">📅 2026-11-24</a><a href="history/report_2026-11-23.html" class="history-link">📅 2026-11-23</a><a href="history/report_2026-11-22.html" class="history-link">📅 2026-11-22</a><a href="history/report_2026-11-21.html" class="history-link">📅 2026-11-21</a><a href="history/report_2026-11-20.html" class="history-link">📅 2026-11-20</a><a href="history/report_2026-11-19.html" class="history-link">📅 2026-11-19</a><a href="history/report_2026-11-18.html" class="history-link">📅 2026-11-18</a><a href="history/report_2026-11-17.html" class="history-link">📅 2026-11-17</a><a href="history/report_2026-11-16.html" class="history-link">📅 2026-11-16</a><a href="history/report_2026-11-15.html" class="history-link">📅 2026-11-15</a><a href="history/report_2026-11-14.html" class="history-link">📅 2026-11-14</a><a href="history/report_2026-11-13.html" class="history-link">📅 2026-11-13</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

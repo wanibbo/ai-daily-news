@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-27",
+  "update_time": "2026-11-27T06:17:49.025739",
+  "total_items": 10,
+  "top_items": [
+    {
+      "title": "陶哲轩下场验证黎曼猜想！“AI批量吐证明就像发电厂排核废料”",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/513075.html",
+      "publish_time": "2026-11-27",
+      "category": "AI 综合",
+      "summary": "听雨 发自 凹非寺量子位 | 公众号QbitAI 就在黎曼猜想证明公布前几天，陶哲轩在哈佛一场活动上发布了对AI数学的最新表态—— AI公司为了测模型，批量生成难以消化的数学证明，就像发电厂产生了「核废料」 | 但别误会，他不是完全反对AI",
+      "importance_score": 9
+    },
+    {
+      "title": "“我比黄仁勋更早看到英伟达的未来”！AI 教父回击黄仁勋，直言大规模失业是 AI 巨头赚钱的副作用",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/6i2DoIJiaTcKyR0UyurQ",
+      "publish_time": "2026-11-25",
+      "category": "AI 技术",
+      "summary": "“他说我的预测全错了，但早在 2009 年，我就告诉上千名机器学习研究人员，想做神经网络，就必须购买英伟达的芯片 | ” 在最新一场公开对谈中，诺贝尔物理学奖得主、“AI 教父” Geoffrey Hinton（辛顿）罕见地正面回击了黄仁勋",
+      "importance_score": 8
+    },
+    {
+      "title": "机器人的商场生意，到底谁在挣钱？",
+      "source": "界面新闻",
+      "url": "https://www.jiemian.com/article/15378205.html",
+      "publish_time": "2026-11-26",
+      "category": "AI 产业",
+      "summary": "从3C到新能源汽车，如今机器人门店也开始进商场，但在个人购买需求有限的当下，第三方经销商还在通过租赁和企业项目寻找收入 | 机器人品牌和经销商陆续把门店开进商场，但要复制新能源汽车的线下零售生意，眼下并不容易 | 界面新闻记者近日探访上海几",
+      "importance_score": 8
+    },
+    {
+      "title": "钛动科技 × 腾讯云达成战略合作，用AI打开企业全球增长新空间",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/513194.html",
+      "publish_time": "2026-11-27",
+      "category": "AI 综合",
+      "summary": "此次与腾讯云深化战略合作，我们希望双方携手推动AI促进业务增长形成规模化效应，让更多企业在全球市场实现持续增长",
+      "importance_score": 9
+    },
+    {
+      "title": "腾讯混元发布 Hy3D 3.6：高模表面更整洁、结构更清晰、刻画更细腻",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/513155.html",
+      "publish_time": "2026-11-27",
+      "category": "AI 综合",
+      "summary": "3D生成的竞争重点正在从“能看”转向“能用” 11月27日，腾讯混元发布最新一代3D大模型Hy3D 3 | 6已经上线腾讯云Token Hub，对外提供API服务",
+      "importance_score": 9
+    },
+    {
+      "title": "具身公司抱团回应：通用大模型跨维打击？没那么简单",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/513125.html",
+      "publish_time": "2026-11-27",
+      "category": "AI 综合",
+      "summary": "一方面，资本降温，融资环境迅速变冷，行业洗牌期可能即将到来",
+      "importance_score": 9
+    },
+    {
+      "title": "顶尖商用级AI视频每秒只要5毛！中国开源新势力拿下全球第一",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512916.html",
+      "publish_time": "2026-11-26",
+      "category": "AI 综合",
+      "summary": "衡宇 发自 凹非寺量子位 | 公众号 QbitAI 现在，花一杯奶茶钱，能生成什么质量的AI视频 | 下面这条1080p的视频，生成价格是15元人民币 | 这是一条单次生成出来的30秒原片，不是后期剪辑的哦～ 在权威评测机构Artifici",
+      "importance_score": 9
+    },
+    {
+      "title": "AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/512981.html",
+      "publish_time": "2026-11-26",
+      "category": "AI 综合",
+      "summary": "结果展开思考过程一看，好嘛，原来它自觉调用了VAST的开源模型TripoSR",
+      "importance_score": 9
+    },
+    {
+      "title": "OpenAI两次拆掉机器人团队：只靠大模型，为什么撑不起物理AI？",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/513034.html",
+      "publish_time": "2026-11-25",
+      "category": "AI 综合",
+      "summary": "在既有智算底座之上，按物理AI负载结构做扩展 克雷西 发自 凹非寺量子位 | 公众号QbitAI OpenAI的机器人团队，又一次说拆就拆了 | 11月13日，机器人学习顶会CoRL在美国奥斯汀开幕 | 其中的208号展位已被OpenAI提",
+      "importance_score": 9
+    },
+    {
+      "title": "蚂蚁灵波发布LingBot-Map 2.0，模型自己修正“空间记忆”，把地图画更准",
+      "source": "量子位",
+      "url": "https://www.qbitai.com/2026/11/513211.html",
+      "publish_time": "2026-11-27",
+      "category": "AI 综合",
+      "summary": "11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2 | 0 11 月 27 日，蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2 | 0，并开源带空间记忆的导航模型 LingBot-Navi，...",
+      "importance_score": 9
+    }
+  ]
+}
